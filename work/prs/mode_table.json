@@ -1,0 +1,335 @@
+{
+ "A3-DTF-1390": {
+  "file": "D:\\Code\\kkf\\v1.1.2\\rip-studio\\3rdLib\\mtripSDK\\dist\\bin\\A3-DTF-1390.prs",
+  "size": 140586,
+  "records": [
+   {
+    "index": 0,
+    "lut_start": 49296,
+    "lut_csv": "reference\\profiles\\luts\\A3-DTF-1390_rec0_linearization.csv",
+    "paths": [
+     {
+      "off": 65860,
+      "s": "SRGB IEC61966-2.1.icc"
+     },
+     {
+      "off": 66120,
+      "s": "CoatedFOGRA39.icc"
+     },
+     {
+      "off": 66380,
+      "s": "commnew.mcm"
+     },
+     {
+      "off": 66640,
+      "s": "v1440x1400-A3-DTF-1390.icm"
+     },
+     {
+      "off": 66988,
+      "s": "SRGB IEC61966-2.1.icc"
+     },
+     {
+      "off": 67248,
+      "s": "CoatedFOGRA39.icc"
+     },
+     {
+      "off": 67508,
+      "s": "commnew.mcm"
+     },
+     {
+      "off": 67768,
+      "s": "v1440x1400-A3-DTF-1390.icm"
+     }
+    ],
+    "blob_est": null
+   },
+   {
+    "index": 1,
+    "lut_start": 85528,
+    "lut_csv": "reference\\profiles\\luts\\A3-DTF-1390_rec1_linearization.csv",
+    "paths": [
+     {
+      "off": 102208,
+      "s": "SRGB IEC61966-2.1.icc"
+     },
+     {
+      "off": 102468,
+      "s": "CoatedFOGRA39.icc"
+     },
+     {
+      "off": 102728,
+      "s": "commnew.mcm"
+     },
+     {
+      "off": 102988,
+      "s": "v1440x720-A3-DTF-1390.icm"
+     },
+     {
+      "off": 103336,
+      "s": "SRGB IEC61966-2.1.icc"
+     },
+     {
+      "off": 103596,
+      "s": "CoatedFOGRA39.icc"
+     },
+     {
+      "off": 103856,
+      "s": "commnew.mcm"
+     },
+     {
+      "off": 104116,
+      "s": "v1440x720-A3-DTF-1390.icm"
+     }
+    ],
+    "blob_est": 17500
+   },
+   {
+    "index": 2,
+    "lut_start": 121676,
+    "lut_csv": "reference\\profiles\\luts\\A3-DTF-1390_rec2_linearization.csv",
+    "paths": [
+     {
+      "off": 138356,
+      "s": "SRGB IEC61966-2.1.icc"
+     },
+     {
+      "off": 138616,
+      "s": "CoatedFOGRA39.icc"
+     },
+     {
+      "off": 138876,
+      "s": "commnew.mcm"
+     },
+     {
+      "off": 139136,
+      "s": "v2880x1400-A3-DTF-1390.icm"
+     },
+     {
+      "off": 139484,
+      "s": "SRGB IEC61966-2.1.icc"
+     },
+     {
+      "off": 139744,
+      "s": "CoatedFOGRA39.icc"
+     },
+     {
+      "off": 140004,
+      "s": "commnew.mcm"
+     },
+     {
+      "off": 140264,
+      "s": "v2880x1400-A3-DTF-1390.icm"
+     }
+    ],
+    "blob_est": 17300
+   }
+  ]
+ },
+ "H13 XP600": {
+  "file": "D:\\Code\\kkf\\v1.1.2\\rip-studio\\bin\\bin\\H13 XP600.prs",
+  "size": 157762,
+  "records": [
+   {
+    "index": 0,
+    "lut_start": 30363,
+    "lut_csv": "reference\\profiles\\luts\\H13 XP600_rec0_linearization.csv",
+    "paths": [
+     {
+      "off": 46927,
+      "s": "SRGB IEC61966-2.1.icc"
+     },
+     {
+      "off": 47187,
+      "s": "US Web Coated (SWOP) v2.icc"
+     },
+     {
+      "off": 47447,
+      "s": "commnew.mcm"
+     },
+     {
+      "off": 47707,
+      "s": "v720x720-dtf.icm"
+     },
+     {
+      "off": 48055,
+      "s": "SRGB IEC61966-2.1.icc"
+     },
+     {
+      "off": 48315,
+      "s": "US Web Coated (SWOP) v2.icc"
+     },
+     {
+      "off": 48575,
+      "s": "commnew.mcm"
+     },
+     {
+      "off": 48835,
+      "s": "v720x720-dtf.icm"
+     }
+    ],
+    "blob_est": null
+   },
+   {
+    "index": 1,
+    "lut_start": 66415,
+    "lut_csv": "reference\\profiles\\luts\\H13 XP600_rec1_linearization.csv",
+    "paths": [
+     {
+      "off": 82979,
+      "s": "SRGB IEC61966-2.1.icc"
+     },
+     {
+      "off": 83239,
+      "s": "US Web Coated (SWOP) v2.icc"
+     },
+     {
+      "off": 83499,
+      "s": "commnew.mcm"
+     },
+     {
+      "off": 83759,
+      "s": "v720x1080-dtf.icm"
+     },
+     {
+      "off": 84107,
+      "s": "SRGB IEC61966-2.1.icc"
+     },
+     {
+      "off": 84367,
+      "s": "US Web Coated (SWOP) v2.icc"
+     },
+     {
+      "off": 84627,
+      "s": "commnew.mcm"
+     },
+     {
+      "off": 84887,
+      "s": "v720x1080-dtf.icm"
+     }
+    ],
+    "blob_est": 17320
+   },
+   {
+    "index": 2,
+    "lut_start": 102467,
+    "lut_csv": "reference\\profiles\\luts\\H13 XP600_rec2_linearization.csv",
+    "paths": [
+     {
+      "off": 119031,
+      "s": "SRGB IEC61966-2.1.icc"
+     },
+     {
+      "off": 119291,
+      "s": "US Web Coated (SWOP) v2.icc"
+     },
+     {
+      "off": 119551,
+      "s": "commnew.mcm"
+     },
+     {
+      "off": 119811,
+      "s": "v720x1440-dtf.icm"
+     },
+     {
+      "off": 120159,
+      "s": "SRGB IEC61966-2.1.icc"
+     },
+     {
+      "off": 120419,
+      "s": "US Web Coated (SWOP) v2.icc"
+     },
+     {
+      "off": 120679,
+      "s": "commnew.mcm"
+     },
+     {
+      "off": 120939,
+      "s": "v720x1440-dtf.icm"
+     }
+    ],
+    "blob_est": 17320
+   },
+   {
+    "index": 3,
+    "lut_start": 138519,
+    "lut_csv": "reference\\profiles\\luts\\H13 XP600_rec3_linearization.csv",
+    "paths": [
+     {
+      "off": 155083,
+      "s": "SRGB IEC61966-2.1.icc"
+     },
+     {
+      "off": 155343,
+      "s": "US Web Coated (SWOP) v2.icc"
+     },
+     {
+      "off": 155603,
+      "s": "commnew.mcm"
+     },
+     {
+      "off": 155863,
+      "s": "v720x2160-dtf.icm"
+     },
+     {
+      "off": 156211,
+      "s": "SRGB IEC61966-2.1.icc"
+     },
+     {
+      "off": 156471,
+      "s": "US Web Coated (SWOP) v2.icc"
+     },
+     {
+      "off": 156731,
+      "s": "commnew.mcm"
+     },
+     {
+      "off": 156991,
+      "s": "v720x2160-dtf.icm"
+     }
+    ],
+    "blob_est": 17320
+   }
+  ]
+ },
+ "mode_icc_map": {
+  "A3-DTF-1390": {
+   "5": {
+    "destCmykPath": "v1440x720-A3-DTF-1390.icm",
+    "srcCmykPath": "CoatedFOGRA39.icc",
+    "srcRgbPath": "SRGB IEC61966-2.1.icc"
+   },
+   "7": {
+    "destCmykPath": "v1440x1400-A3-DTF-1390.icm",
+    "srcCmykPath": "CoatedFOGRA39.icc",
+    "srcRgbPath": "SRGB IEC61966-2.1.icc"
+   },
+   "9": {
+    "destCmykPath": "v2880x1400-A3-DTF-1390.icm",
+    "srcCmykPath": "CoatedFOGRA39.icc",
+    "srcRgbPath": "SRGB IEC61966-2.1.icc"
+   }
+  },
+  "H13 XP600": {
+   "0": {
+    "destCmykPath": "v720x720-dtf.icm",
+    "srcCmykPath": "US Web Coated (SWOP) v2.icc",
+    "srcRgbPath": "SRGB IEC61966-2.1.icc"
+   },
+   "1": {
+    "destCmykPath": "v720x1080-dtf.icm",
+    "srcCmykPath": "US Web Coated (SWOP) v2.icc",
+    "srcRgbPath": "SRGB IEC61966-2.1.icc"
+   },
+   "2": {
+    "destCmykPath": "v720x1440-dtf.icm",
+    "srcCmykPath": "US Web Coated (SWOP) v2.icc",
+    "srcRgbPath": "SRGB IEC61966-2.1.icc"
+   },
+   "3": {
+    "destCmykPath": "v720x2160-dtf.icm",
+    "srcCmykPath": "US Web Coated (SWOP) v2.icc",
+    "srcRgbPath": "SRGB IEC61966-2.1.icc"
+   }
+  }
+ }
+}

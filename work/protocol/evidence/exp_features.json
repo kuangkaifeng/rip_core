@@ -1,0 +1,5855 @@
+[
+  {
+    "stem": "exp_a3dtf1390_alpha_rt0_tw0",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_alpha_rt0_tw0.prn",
+    "mode": 2,
+    "params": {
+      "modeId": 2,
+      "rotate": 0,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "inkIE": [
+        {
+          "mode": "invaginate",
+          "index": 4,
+          "dots": [
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      ],
+      "inputColorEditor": [
+        {
+          "mode": "full",
+          "invert": false,
+          "inkName": "W1"
+        }
+      ],
+      "color": {
+        "readTransparency": false,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 134505,
+      "sha256": "5dde29477c77a3affc58bbcf5761ea95784295ee2da93975bc205e9de8e0d120",
+      "sha256_norm": "e415bfe1a1624e5e8b10d1c856952a21993cc5e8e6887dd52ef88b5e1e49cd91",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 600,
+        "height": 45
+      },
+      "ESC_c": {
+        "a": -555,
+        "b": 1155
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 16,
+      "advances": [
+        79
+      ],
+      "advance_sum": 1185,
+      "colors": {
+        "0x00": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 875520,
+          "coverage": 0.0
+        },
+        "0x04": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 875520,
+          "coverage": 0.0
+        },
+        "0x11": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179712,
+          "total_px": 875520,
+          "coverage": 0.205263
+        },
+        "0x12": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179707,
+          "total_px": 875520,
+          "coverage": 0.205257
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.074
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_alpha_rt0_tw1",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_alpha_rt0_tw1.prn",
+    "mode": 2,
+    "params": {
+      "modeId": 2,
+      "rotate": 0,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "inkIE": [
+        {
+          "mode": "invaginate",
+          "index": 4,
+          "dots": [
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      ],
+      "inputColorEditor": [
+        {
+          "mode": "full",
+          "invert": false,
+          "inkName": "W1"
+        }
+      ],
+      "color": {
+        "readTransparency": false,
+        "transparencyToWhite": true
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 134505,
+      "sha256": "5dde29477c77a3affc58bbcf5761ea95784295ee2da93975bc205e9de8e0d120",
+      "sha256_norm": "e415bfe1a1624e5e8b10d1c856952a21993cc5e8e6887dd52ef88b5e1e49cd91",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 600,
+        "height": 45
+      },
+      "ESC_c": {
+        "a": -555,
+        "b": 1155
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 16,
+      "advances": [
+        79
+      ],
+      "advance_sum": 1185,
+      "colors": {
+        "0x00": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 875520,
+          "coverage": 0.0
+        },
+        "0x04": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 875520,
+          "coverage": 0.0
+        },
+        "0x11": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179712,
+          "total_px": 875520,
+          "coverage": 0.205263
+        },
+        "0x12": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179707,
+          "total_px": 875520,
+          "coverage": 0.205257
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.057
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_alpha_rt1_tw0",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_alpha_rt1_tw0.prn",
+    "mode": 2,
+    "params": {
+      "modeId": 2,
+      "rotate": 0,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "inkIE": [
+        {
+          "mode": "invaginate",
+          "index": 4,
+          "dots": [
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      ],
+      "inputColorEditor": [
+        {
+          "mode": "full",
+          "invert": false,
+          "inkName": "W1"
+        }
+      ],
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 134505,
+      "sha256": "5dde29477c77a3affc58bbcf5761ea95784295ee2da93975bc205e9de8e0d120",
+      "sha256_norm": "e415bfe1a1624e5e8b10d1c856952a21993cc5e8e6887dd52ef88b5e1e49cd91",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 600,
+        "height": 45
+      },
+      "ESC_c": {
+        "a": -555,
+        "b": 1155
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 16,
+      "advances": [
+        79
+      ],
+      "advance_sum": 1185,
+      "colors": {
+        "0x00": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 875520,
+          "coverage": 0.0
+        },
+        "0x04": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 875520,
+          "coverage": 0.0
+        },
+        "0x11": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179712,
+          "total_px": 875520,
+          "coverage": 0.205263
+        },
+        "0x12": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179707,
+          "total_px": 875520,
+          "coverage": 0.205257
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.049
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_alpha_rt1_tw1",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_alpha_rt1_tw1.prn",
+    "mode": 2,
+    "params": {
+      "modeId": 2,
+      "rotate": 0,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "inkIE": [
+        {
+          "mode": "invaginate",
+          "index": 4,
+          "dots": [
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      ],
+      "inputColorEditor": [
+        {
+          "mode": "full",
+          "invert": false,
+          "inkName": "W1"
+        }
+      ],
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": true
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 134505,
+      "sha256": "5dde29477c77a3affc58bbcf5761ea95784295ee2da93975bc205e9de8e0d120",
+      "sha256_norm": "e415bfe1a1624e5e8b10d1c856952a21993cc5e8e6887dd52ef88b5e1e49cd91",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 600,
+        "height": 45
+      },
+      "ESC_c": {
+        "a": -555,
+        "b": 1155
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 16,
+      "advances": [
+        79
+      ],
+      "advance_sum": 1185,
+      "colors": {
+        "0x00": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 875520,
+          "coverage": 0.0
+        },
+        "0x04": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 875520,
+          "coverage": 0.0
+        },
+        "0x11": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179712,
+          "total_px": 875520,
+          "coverage": 0.205263
+        },
+        "0x12": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179707,
+          "total_px": 875520,
+          "coverage": 0.205257
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.051
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_doctype_auto",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_doctype_auto.prn",
+    "mode": 2,
+    "params": {
+      "modeId": 2,
+      "rotate": 0,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 244131,
+      "sha256": "c27a7bc9251bd67fb810e0de1f0484891cdd292a1b921fc70a6b36277bcc7887",
+      "sha256_norm": "3899621b6740b974120f327816dda6a3a6dc9eaa0db3da5fa6de467adfedeeb3",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 600,
+        "height": 45
+      },
+      "ESC_c": {
+        "a": -555,
+        "b": 1155
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 16,
+      "advances": [
+        79
+      ],
+      "advance_sum": 1185,
+      "colors": {
+        "0x00": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241911,
+          "total_px": 875520,
+          "coverage": 0.276306
+        },
+        "0x04": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 89997,
+          "total_px": 875520,
+          "coverage": 0.102793
+        },
+        "0x11": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241732,
+          "total_px": 875520,
+          "coverage": 0.276101
+        },
+        "0x12": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179995,
+          "total_px": 875520,
+          "coverage": 0.205586
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.047
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_dpi300img_no_view",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_dpi300img_no_view.prn",
+    "mode": 2,
+    "params": {
+      "modeId": 2,
+      "rotate": 0,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 48265,
+      "sha256": "3c3adbc20c94f6ee66f95fd4de197a38bb0fac540efbe30d4d2439d0c9d530ec",
+      "sha256_norm": "f9761354cc06ed0482b32d40e904f405abfe458308cb33106735322c1c2a7977",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 240,
+        "height": 4294966981
+      },
+      "ESC_c": {
+        "a": -555,
+        "b": 795
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 12,
+      "advances": [
+        79
+      ],
+      "advance_sum": 869,
+      "colors": {
+        "0x00": {
+          "records": 12,
+          "n": [
+            64
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 38689,
+          "total_px": 276480,
+          "coverage": 0.139934
+        },
+        "0x04": {
+          "records": 12,
+          "n": [
+            64
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 16825,
+          "total_px": 276480,
+          "coverage": 0.060854
+        },
+        "0x11": {
+          "records": 12,
+          "n": [
+            64
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 38680,
+          "total_px": 276480,
+          "coverage": 0.139902
+        },
+        "0x12": {
+          "records": 12,
+          "n": [
+            64
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 32037,
+          "total_px": 276480,
+          "coverage": 0.115875
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.021
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_dpi300img_view120",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_dpi300img_view120.prn",
+    "mode": 2,
+    "params": {
+      "modeId": 2,
+      "rotate": 0,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 48265,
+      "sha256": "3c3adbc20c94f6ee66f95fd4de197a38bb0fac540efbe30d4d2439d0c9d530ec",
+      "sha256_norm": "f9761354cc06ed0482b32d40e904f405abfe458308cb33106735322c1c2a7977",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 240,
+        "height": 4294966981
+      },
+      "ESC_c": {
+        "a": -555,
+        "b": 795
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 12,
+      "advances": [
+        79
+      ],
+      "advance_sum": 869,
+      "colors": {
+        "0x00": {
+          "records": 12,
+          "n": [
+            64
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 38689,
+          "total_px": 276480,
+          "coverage": 0.139934
+        },
+        "0x04": {
+          "records": 12,
+          "n": [
+            64
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 16825,
+          "total_px": 276480,
+          "coverage": 0.060854
+        },
+        "0x11": {
+          "records": 12,
+          "n": [
+            64
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 38680,
+          "total_px": 276480,
+          "coverage": 0.139902
+        },
+        "0x12": {
+          "records": 12,
+          "n": [
+            64
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 32037,
+          "total_px": 276480,
+          "coverage": 0.115875
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.019
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_dpi72img_no_view",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_dpi72img_no_view.prn",
+    "mode": 2,
+    "params": {
+      "modeId": 2,
+      "rotate": 0,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 651059,
+      "sha256": "7a9931b66ab3c0d8ebae42b2c7a6ed36599751863e8fee3fdd83f95f5df9c159",
+      "sha256_norm": "a66f00de21024992301b320ceff679023c5a486c0fdccedd36a7fbc0c0bc7190",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 1000,
+        "height": 445
+      },
+      "ESC_c": {
+        "a": -555,
+        "b": 1555
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 21,
+      "advances": [
+        79
+      ],
+      "advance_sum": 1580,
+      "colors": {
+        "0x00": {
+          "records": 21,
+          "n": [
+            256
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 671951,
+          "total_px": 1935360,
+          "coverage": 0.347197
+        },
+        "0x04": {
+          "records": 21,
+          "n": [
+            256
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 260107,
+          "total_px": 1935360,
+          "coverage": 0.134397
+        },
+        "0x11": {
+          "records": 21,
+          "n": [
+            256
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 671461,
+          "total_px": 1935360,
+          "coverage": 0.346944
+        },
+        "0x12": {
+          "records": 21,
+          "n": [
+            256
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 513482,
+          "total_px": 1935360,
+          "coverage": 0.265316
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.03
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_dpi72img_view120",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_dpi72img_view120.prn",
+    "mode": 2,
+    "params": {
+      "modeId": 2,
+      "rotate": 0,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 651059,
+      "sha256": "7a9931b66ab3c0d8ebae42b2c7a6ed36599751863e8fee3fdd83f95f5df9c159",
+      "sha256_norm": "a66f00de21024992301b320ceff679023c5a486c0fdccedd36a7fbc0c0bc7190",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 1000,
+        "height": 445
+      },
+      "ESC_c": {
+        "a": -555,
+        "b": 1555
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 21,
+      "advances": [
+        79
+      ],
+      "advance_sum": 1580,
+      "colors": {
+        "0x00": {
+          "records": 21,
+          "n": [
+            256
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 671951,
+          "total_px": 1935360,
+          "coverage": 0.347197
+        },
+        "0x04": {
+          "records": 21,
+          "n": [
+            256
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 260107,
+          "total_px": 1935360,
+          "coverage": 0.134397
+        },
+        "0x11": {
+          "records": 21,
+          "n": [
+            256
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 671461,
+          "total_px": 1935360,
+          "coverage": 0.346944
+        },
+        "0x12": {
+          "records": 21,
+          "n": [
+            256
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 513482,
+          "total_px": 1935360,
+          "coverage": 0.265316
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.028
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_dpi72img_view72",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_dpi72img_view72.prn",
+    "mode": 2,
+    "params": {
+      "modeId": 2,
+      "rotate": 0,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "view": {
+        "xdpi": 72,
+        "ydpi": 72
+      },
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 651059,
+      "sha256": "7a9931b66ab3c0d8ebae42b2c7a6ed36599751863e8fee3fdd83f95f5df9c159",
+      "sha256_norm": "a66f00de21024992301b320ceff679023c5a486c0fdccedd36a7fbc0c0bc7190",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 1000,
+        "height": 445
+      },
+      "ESC_c": {
+        "a": -555,
+        "b": 1555
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 21,
+      "advances": [
+        79
+      ],
+      "advance_sum": 1580,
+      "colors": {
+        "0x00": {
+          "records": 21,
+          "n": [
+            256
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 671951,
+          "total_px": 1935360,
+          "coverage": 0.347197
+        },
+        "0x04": {
+          "records": 21,
+          "n": [
+            256
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 260107,
+          "total_px": 1935360,
+          "coverage": 0.134397
+        },
+        "0x11": {
+          "records": 21,
+          "n": [
+            256
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 671461,
+          "total_px": 1935360,
+          "coverage": 0.346944
+        },
+        "0x12": {
+          "records": 21,
+          "n": [
+            256
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 513482,
+          "total_px": 1935360,
+          "coverage": 0.265316
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.04
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_dpi_300",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_dpi_300.prn",
+    "mode": 2,
+    "params": {
+      "modeId": 2,
+      "rotate": 0,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "dpi": {
+        "xdpi": 300,
+        "ydpi": 300
+      },
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 0
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_ice_cmykw1w2",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_ice_cmykw1w2.prn",
+    "mode": 2,
+    "params": {
+      "modeId": 2,
+      "rotate": 0,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "inputColorEditor": [
+        {
+          "mode": "full",
+          "invert": false,
+          "inkName": "CMYKW1W2"
+        }
+      ],
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 244131,
+      "sha256": "b0f924f84c8e9bd5de87bd49eca4b021b0a77b87190e56e92b705c5d2ca1d3a7",
+      "sha256_norm": "3899621b6740b974120f327816dda6a3a6dc9eaa0db3da5fa6de467adfedeeb3",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 600,
+        "height": 45
+      },
+      "ESC_c": {
+        "a": -555,
+        "b": 1155
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 16,
+      "advances": [
+        79
+      ],
+      "advance_sum": 1185,
+      "colors": {
+        "0x00": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241911,
+          "total_px": 875520,
+          "coverage": 0.276306
+        },
+        "0x04": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 89997,
+          "total_px": 875520,
+          "coverage": 0.102793
+        },
+        "0x11": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241732,
+          "total_px": 875520,
+          "coverage": 0.276101
+        },
+        "0x12": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179995,
+          "total_px": 875520,
+          "coverage": 0.205586
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.273
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_ice_color",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_ice_color.prn",
+    "mode": 2,
+    "params": {
+      "modeId": 2,
+      "rotate": 0,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "inputColorEditor": [
+        {
+          "mode": "color",
+          "invert": false,
+          "inkName": "W1"
+        }
+      ],
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 244131,
+      "sha256": "a4dcb4de1a10872d68bf41b78e902c155042faafe7f1f8e0dadfcbb077c3e8f4",
+      "sha256_norm": "3899621b6740b974120f327816dda6a3a6dc9eaa0db3da5fa6de467adfedeeb3",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 600,
+        "height": 45
+      },
+      "ESC_c": {
+        "a": -555,
+        "b": 1155
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 16,
+      "advances": [
+        79
+      ],
+      "advance_sum": 1185,
+      "colors": {
+        "0x00": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241911,
+          "total_px": 875520,
+          "coverage": 0.276306
+        },
+        "0x04": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 89997,
+          "total_px": 875520,
+          "coverage": 0.102793
+        },
+        "0x11": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241732,
+          "total_px": 875520,
+          "coverage": 0.276101
+        },
+        "0x12": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179995,
+          "total_px": 875520,
+          "coverage": 0.205586
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.051
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_ice_full_invert",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_ice_full_invert.prn",
+    "mode": 2,
+    "params": {
+      "modeId": 2,
+      "rotate": 0,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "inputColorEditor": [
+        {
+          "mode": "full",
+          "invert": true,
+          "inkName": "W1"
+        }
+      ],
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 244131,
+      "sha256": "b0f924f84c8e9bd5de87bd49eca4b021b0a77b87190e56e92b705c5d2ca1d3a7",
+      "sha256_norm": "3899621b6740b974120f327816dda6a3a6dc9eaa0db3da5fa6de467adfedeeb3",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 600,
+        "height": 45
+      },
+      "ESC_c": {
+        "a": -555,
+        "b": 1155
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 16,
+      "advances": [
+        79
+      ],
+      "advance_sum": 1185,
+      "colors": {
+        "0x00": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241911,
+          "total_px": 875520,
+          "coverage": 0.276306
+        },
+        "0x04": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 89997,
+          "total_px": 875520,
+          "coverage": 0.102793
+        },
+        "0x11": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241732,
+          "total_px": 875520,
+          "coverage": 0.276101
+        },
+        "0x12": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179995,
+          "total_px": 875520,
+          "coverage": 0.205586
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.05
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_ice_smooth",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_ice_smooth.prn",
+    "mode": 2,
+    "params": {
+      "modeId": 2,
+      "rotate": 0,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "inputColorEditor": [
+        {
+          "mode": "smooth",
+          "invert": false,
+          "inkName": "W1"
+        }
+      ],
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 244131,
+      "sha256": "a4dcb4de1a10872d68bf41b78e902c155042faafe7f1f8e0dadfcbb077c3e8f4",
+      "sha256_norm": "3899621b6740b974120f327816dda6a3a6dc9eaa0db3da5fa6de467adfedeeb3",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 600,
+        "height": 45
+      },
+      "ESC_c": {
+        "a": -555,
+        "b": 1155
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 16,
+      "advances": [
+        79
+      ],
+      "advance_sum": 1185,
+      "colors": {
+        "0x00": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241911,
+          "total_px": 875520,
+          "coverage": 0.276306
+        },
+        "0x04": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 89997,
+          "total_px": 875520,
+          "coverage": 0.102793
+        },
+        "0x11": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241732,
+          "total_px": 875520,
+          "coverage": 0.276101
+        },
+        "0x12": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179995,
+          "total_px": 875520,
+          "coverage": 0.205586
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.051
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_ice_smoothNeg",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_ice_smoothNeg.prn",
+    "mode": 2,
+    "params": {
+      "modeId": 2,
+      "rotate": 0,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "inputColorEditor": [
+        {
+          "mode": "smoothNeg",
+          "invert": false,
+          "inkName": "W1"
+        }
+      ],
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 244131,
+      "sha256": "b0f924f84c8e9bd5de87bd49eca4b021b0a77b87190e56e92b705c5d2ca1d3a7",
+      "sha256_norm": "3899621b6740b974120f327816dda6a3a6dc9eaa0db3da5fa6de467adfedeeb3",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 600,
+        "height": 45
+      },
+      "ESC_c": {
+        "a": -555,
+        "b": 1155
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 16,
+      "advances": [
+        79
+      ],
+      "advance_sum": 1185,
+      "colors": {
+        "0x00": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241911,
+          "total_px": 875520,
+          "coverage": 0.276306
+        },
+        "0x04": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 89997,
+          "total_px": 875520,
+          "coverage": 0.102793
+        },
+        "0x11": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241732,
+          "total_px": 875520,
+          "coverage": 0.276101
+        },
+        "0x12": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179995,
+          "total_px": 875520,
+          "coverage": 0.205586
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.049
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_ice_white",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_ice_white.prn",
+    "mode": 2,
+    "params": {
+      "modeId": 2,
+      "rotate": 0,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "inputColorEditor": [
+        {
+          "mode": "white",
+          "invert": false,
+          "inkName": "W1"
+        }
+      ],
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 244131,
+      "sha256": "b0f924f84c8e9bd5de87bd49eca4b021b0a77b87190e56e92b705c5d2ca1d3a7",
+      "sha256_norm": "3899621b6740b974120f327816dda6a3a6dc9eaa0db3da5fa6de467adfedeeb3",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 600,
+        "height": 45
+      },
+      "ESC_c": {
+        "a": -555,
+        "b": 1155
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 16,
+      "advances": [
+        79
+      ],
+      "advance_sum": 1185,
+      "colors": {
+        "0x00": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241911,
+          "total_px": 875520,
+          "coverage": 0.276306
+        },
+        "0x04": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 89997,
+          "total_px": 875520,
+          "coverage": 0.102793
+        },
+        "0x11": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241732,
+          "total_px": 875520,
+          "coverage": 0.276101
+        },
+        "0x12": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179995,
+          "total_px": 875520,
+          "coverage": 0.205586
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.051
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_ice_whiteNeg",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_ice_whiteNeg.prn",
+    "mode": 2,
+    "params": {
+      "modeId": 2,
+      "rotate": 0,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "inputColorEditor": [
+        {
+          "mode": "whiteNeg",
+          "invert": false,
+          "inkName": "W1"
+        }
+      ],
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 244131,
+      "sha256": "b0f924f84c8e9bd5de87bd49eca4b021b0a77b87190e56e92b705c5d2ca1d3a7",
+      "sha256_norm": "3899621b6740b974120f327816dda6a3a6dc9eaa0db3da5fa6de467adfedeeb3",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 600,
+        "height": 45
+      },
+      "ESC_c": {
+        "a": -555,
+        "b": 1155
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 16,
+      "advances": [
+        79
+      ],
+      "advance_sum": 1185,
+      "colors": {
+        "0x00": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241911,
+          "total_px": 875520,
+          "coverage": 0.276306
+        },
+        "0x04": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 89997,
+          "total_px": 875520,
+          "coverage": 0.102793
+        },
+        "0x11": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241732,
+          "total_px": 875520,
+          "coverage": 0.276101
+        },
+        "0x12": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179995,
+          "total_px": 875520,
+          "coverage": 0.205586
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.05
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_m2_golden",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_m2_golden.prn",
+    "mode": 2,
+    "params": {
+      "modeId": 2,
+      "rotate": 0,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "inkIE": [
+        {
+          "mode": "invaginate",
+          "index": 4,
+          "dots": [
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      ],
+      "inputColorEditor": [
+        {
+          "mode": "full",
+          "invert": false,
+          "inkName": "W1"
+        }
+      ],
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 244131,
+      "sha256": "5445b6fb2a87fc7c4a5812e5705d7d9f6c9414c26dea9a5974cbf71bac93d365",
+      "sha256_norm": "3899621b6740b974120f327816dda6a3a6dc9eaa0db3da5fa6de467adfedeeb3",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 600,
+        "height": 45
+      },
+      "ESC_c": {
+        "a": -555,
+        "b": 1155
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 16,
+      "advances": [
+        79
+      ],
+      "advance_sum": 1185,
+      "colors": {
+        "0x00": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241911,
+          "total_px": 875520,
+          "coverage": 0.276306
+        },
+        "0x04": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 89997,
+          "total_px": 875520,
+          "coverage": 0.102793
+        },
+        "0x11": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241732,
+          "total_px": 875520,
+          "coverage": 0.276101
+        },
+        "0x12": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179995,
+          "total_px": 875520,
+          "coverage": 0.205586
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.268
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_m2_golden_inkIE_exp10",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_m2_golden_inkIE_exp10.prn",
+    "mode": 2,
+    "params": {
+      "modeId": 2,
+      "rotate": 0,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "inkIE": [
+        {
+          "mode": "expand",
+          "index": 4,
+          "dots": [
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      ],
+      "inputColorEditor": [
+        {
+          "mode": "full",
+          "invert": false,
+          "inkName": "W1"
+        }
+      ],
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 244131,
+      "sha256": "5445b6fb2a87fc7c4a5812e5705d7d9f6c9414c26dea9a5974cbf71bac93d365",
+      "sha256_norm": "3899621b6740b974120f327816dda6a3a6dc9eaa0db3da5fa6de467adfedeeb3",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 600,
+        "height": 45
+      },
+      "ESC_c": {
+        "a": -555,
+        "b": 1155
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 16,
+      "advances": [
+        79
+      ],
+      "advance_sum": 1185,
+      "colors": {
+        "0x00": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241911,
+          "total_px": 875520,
+          "coverage": 0.276306
+        },
+        "0x04": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 89997,
+          "total_px": 875520,
+          "coverage": 0.102793
+        },
+        "0x11": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241732,
+          "total_px": 875520,
+          "coverage": 0.276101
+        },
+        "0x12": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179995,
+          "total_px": 875520,
+          "coverage": 0.205586
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.065
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_m2_golden_inkIE_inv10",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_m2_golden_inkIE_inv10.prn",
+    "mode": 2,
+    "params": {
+      "modeId": 2,
+      "rotate": 0,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "inkIE": [
+        {
+          "mode": "invaginate",
+          "index": 4,
+          "dots": [
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      ],
+      "inputColorEditor": [
+        {
+          "mode": "full",
+          "invert": false,
+          "inkName": "W1"
+        }
+      ],
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 244131,
+      "sha256": "5445b6fb2a87fc7c4a5812e5705d7d9f6c9414c26dea9a5974cbf71bac93d365",
+      "sha256_norm": "3899621b6740b974120f327816dda6a3a6dc9eaa0db3da5fa6de467adfedeeb3",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 600,
+        "height": 45
+      },
+      "ESC_c": {
+        "a": -555,
+        "b": 1155
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 16,
+      "advances": [
+        79
+      ],
+      "advance_sum": 1185,
+      "colors": {
+        "0x00": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241911,
+          "total_px": 875520,
+          "coverage": 0.276306
+        },
+        "0x04": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 89997,
+          "total_px": 875520,
+          "coverage": 0.102793
+        },
+        "0x11": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241732,
+          "total_px": 875520,
+          "coverage": 0.276101
+        },
+        "0x12": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179995,
+          "total_px": 875520,
+          "coverage": 0.205586
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.063
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_m2_mirror_h_bool",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_m2_mirror_h_bool.prn",
+    "mode": 2,
+    "params": {
+      "modeId": 2,
+      "rotate": 0,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "mirror": [
+        true,
+        false
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 242378,
+      "sha256": "bf885f93eefa380d85bfd1f2d851c8f4e2e2148b0036385832e08ae9b003e8e5",
+      "sha256_norm": "d966ba4d4fdd3ac63d26b80e378d76153daf6cfd6cbd2191ba794000ac7eab99",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 600,
+        "height": 45
+      },
+      "ESC_c": {
+        "a": -555,
+        "b": 1155
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 16,
+      "advances": [
+        79
+      ],
+      "advance_sum": 1185,
+      "colors": {
+        "0x00": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241883,
+          "total_px": 875520,
+          "coverage": 0.276274
+        },
+        "0x04": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 90000,
+          "total_px": 875520,
+          "coverage": 0.102796
+        },
+        "0x11": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241704,
+          "total_px": 875520,
+          "coverage": 0.276069
+        },
+        "0x12": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179997,
+          "total_px": 875520,
+          "coverage": 0.205589
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 1.23
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_m2_mirror_hv_bool",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_m2_mirror_hv_bool.prn",
+    "mode": 2,
+    "params": {
+      "modeId": 2,
+      "rotate": 0,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "mirror": [
+        true,
+        true
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 242602,
+      "sha256": "9b98021bc362ad85794263cfce6cde01fb1d1a6ed3c0ff41bb9ddd6f3a343b16",
+      "sha256_norm": "26db6c227bc40fac065f466655e1aa7cc2ed3342d6dfaae31a97156c9de15602",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 600,
+        "height": 45
+      },
+      "ESC_c": {
+        "a": -555,
+        "b": 1155
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 16,
+      "advances": [
+        79
+      ],
+      "advance_sum": 1185,
+      "colors": {
+        "0x00": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241884,
+          "total_px": 875520,
+          "coverage": 0.276275
+        },
+        "0x04": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 89998,
+          "total_px": 875520,
+          "coverage": 0.102794
+        },
+        "0x11": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241714,
+          "total_px": 875520,
+          "coverage": 0.276081
+        },
+        "0x12": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179997,
+          "total_px": 875520,
+          "coverage": 0.205589
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.024
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_m2_mirror_v_bool",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_m2_mirror_v_bool.prn",
+    "mode": 2,
+    "params": {
+      "modeId": 2,
+      "rotate": 0,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "mirror": [
+        false,
+        true
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 244126,
+      "sha256": "ee4700f871aa354feecd2d33a26059a75543cf7dd9020fceb4240603404aaa5e",
+      "sha256_norm": "194758a810cd27b98dd0e75dafcb5dd4904e6f6100c0837e1f1988a477c93b47",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 600,
+        "height": 45
+      },
+      "ESC_c": {
+        "a": -555,
+        "b": 1155
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 16,
+      "advances": [
+        79
+      ],
+      "advance_sum": 1185,
+      "colors": {
+        "0x00": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241871,
+          "total_px": 875520,
+          "coverage": 0.27626
+        },
+        "0x04": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 89999,
+          "total_px": 875520,
+          "coverage": 0.102795
+        },
+        "0x11": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241726,
+          "total_px": 875520,
+          "coverage": 0.276094
+        },
+        "0x12": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179995,
+          "total_px": 875520,
+          "coverage": 0.205586
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.049
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_m3_golden",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_m3_golden.prn",
+    "mode": 3,
+    "params": {
+      "modeId": 3,
+      "rotate": 0,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "inkIE": [
+        {
+          "mode": "invaginate",
+          "index": 4,
+          "dots": [
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      ],
+      "inputColorEditor": [
+        {
+          "mode": "full",
+          "invert": false,
+          "inkName": "W1"
+        }
+      ],
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 296214,
+      "sha256": "0af09bcc6c21a4b1efba7655ec798cb648a3ea4c4b5b28135fedbe9e95763d53",
+      "sha256_norm": "31d583404376b7bd57ea7fb90e90fdbd71774dafd80501a1ed38aca033ec6f3f",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 600,
+        "height": 13
+      },
+      "ESC_c": {
+        "a": -587,
+        "b": 1187
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 33,
+      "advances": [
+        39
+      ],
+      "advance_sum": 1248,
+      "colors": {
+        "0x00": {
+          "records": 33,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 89997,
+          "total_px": 1805760,
+          "coverage": 0.049839
+        },
+        "0x01": {
+          "records": 33,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179995,
+          "total_px": 1805760,
+          "coverage": 0.099678
+        },
+        "0x02": {
+          "records": 33,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241911,
+          "total_px": 1805760,
+          "coverage": 0.133966
+        },
+        "0x04": {
+          "records": 33,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241732,
+          "total_px": 1805760,
+          "coverage": 0.133867
+        },
+        "0x11": {
+          "records": 33,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 1805760,
+          "coverage": 0.0
+        },
+        "0x12": {
+          "records": 33,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 1156,
+          "total_px": 1805760,
+          "coverage": 0.00064
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 1.129
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_m3_golden_inkIE_W2_inv10",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_m3_golden_inkIE_W2_inv10.prn",
+    "mode": 3,
+    "params": {
+      "modeId": 3,
+      "rotate": 0,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "inkIE": [
+        {
+          "mode": "invaginate",
+          "index": 5,
+          "dots": [
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      ],
+      "inputColorEditor": [
+        {
+          "mode": "full",
+          "invert": false,
+          "inkName": "W1"
+        }
+      ],
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 320348,
+      "sha256": "8c84813f12a6db42060b22768b6c7f030cc5373639e9a90e4728c13b2d4aa2ea",
+      "sha256_norm": "53095dca4ebc3cba6728e657a5215f8789ea3e81996df9299bcddf4b48eb50c4",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 600,
+        "height": 13
+      },
+      "ESC_c": {
+        "a": -587,
+        "b": 1187
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 33,
+      "advances": [
+        39
+      ],
+      "advance_sum": 1248,
+      "colors": {
+        "0x00": {
+          "records": 33,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 89997,
+          "total_px": 1805760,
+          "coverage": 0.049839
+        },
+        "0x01": {
+          "records": 33,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179995,
+          "total_px": 1805760,
+          "coverage": 0.099678
+        },
+        "0x02": {
+          "records": 33,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241911,
+          "total_px": 1805760,
+          "coverage": 0.133966
+        },
+        "0x04": {
+          "records": 33,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241732,
+          "total_px": 1805760,
+          "coverage": 0.133867
+        },
+        "0x11": {
+          "records": 33,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 1805760,
+          "coverage": 0.0
+        },
+        "0x12": {
+          "records": 33,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 359994,
+          "total_px": 1805760,
+          "coverage": 0.199359
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.061
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_m3_golden_inkIE_exp10",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_m3_golden_inkIE_exp10.prn",
+    "mode": 3,
+    "params": {
+      "modeId": 3,
+      "rotate": 0,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "inkIE": [
+        {
+          "mode": "expand",
+          "index": 4,
+          "dots": [
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      ],
+      "inputColorEditor": [
+        {
+          "mode": "full",
+          "invert": false,
+          "inkName": "W1"
+        }
+      ],
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 320348,
+      "sha256": "8c84813f12a6db42060b22768b6c7f030cc5373639e9a90e4728c13b2d4aa2ea",
+      "sha256_norm": "53095dca4ebc3cba6728e657a5215f8789ea3e81996df9299bcddf4b48eb50c4",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 600,
+        "height": 13
+      },
+      "ESC_c": {
+        "a": -587,
+        "b": 1187
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 33,
+      "advances": [
+        39
+      ],
+      "advance_sum": 1248,
+      "colors": {
+        "0x00": {
+          "records": 33,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 89997,
+          "total_px": 1805760,
+          "coverage": 0.049839
+        },
+        "0x01": {
+          "records": 33,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179995,
+          "total_px": 1805760,
+          "coverage": 0.099678
+        },
+        "0x02": {
+          "records": 33,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241911,
+          "total_px": 1805760,
+          "coverage": 0.133966
+        },
+        "0x04": {
+          "records": 33,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241732,
+          "total_px": 1805760,
+          "coverage": 0.133867
+        },
+        "0x11": {
+          "records": 33,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 1805760,
+          "coverage": 0.0
+        },
+        "0x12": {
+          "records": 33,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 359994,
+          "total_px": 1805760,
+          "coverage": 0.199359
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.077
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_m3_golden_inkIE_inv5",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_m3_golden_inkIE_inv5.prn",
+    "mode": 3,
+    "params": {
+      "modeId": 3,
+      "rotate": 0,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "inkIE": [
+        {
+          "mode": "invaginate",
+          "index": 4,
+          "dots": [
+            5,
+            5,
+            5,
+            5
+          ]
+        }
+      ],
+      "inputColorEditor": [
+        {
+          "mode": "full",
+          "invert": false,
+          "inkName": "W1"
+        }
+      ],
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 304151,
+      "sha256": "2297363e4d3764b0742c9e9f0976caea5beeab575ea6918cfa8d82f16459c2b3",
+      "sha256_norm": "78118e7b025407d9921e7929f0326bfcaf0fc26da9cebecca9a09032ac5d493e",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 600,
+        "height": 13
+      },
+      "ESC_c": {
+        "a": -587,
+        "b": 1187
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 33,
+      "advances": [
+        39
+      ],
+      "advance_sum": 1248,
+      "colors": {
+        "0x00": {
+          "records": 33,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 89997,
+          "total_px": 1805760,
+          "coverage": 0.049839
+        },
+        "0x01": {
+          "records": 33,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179995,
+          "total_px": 1805760,
+          "coverage": 0.099678
+        },
+        "0x02": {
+          "records": 33,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241911,
+          "total_px": 1805760,
+          "coverage": 0.133966
+        },
+        "0x04": {
+          "records": 33,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241732,
+          "total_px": 1805760,
+          "coverage": 0.133867
+        },
+        "0x11": {
+          "records": 33,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 1805760,
+          "coverage": 0.0
+        },
+        "0x12": {
+          "records": 33,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 99854,
+          "total_px": 1805760,
+          "coverage": 0.055297
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.075
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_margin_5_10_15_20",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_margin_5_10_15_20.prn",
+    "mode": 2,
+    "params": {
+      "modeId": 2,
+      "rotate": 0,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        5,
+        10,
+        15,
+        20
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 256737,
+      "sha256": "3772045a4529fa5059685eb465dfb07a219c0bf34e1c1e1272baafbece53b26b",
+      "sha256_norm": "c0e86006c5f99f0b65e931ccd228da4c74c84863a14b4519e11e34faa5983bca",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 1167,
+        "height": 895
+      },
+      "ESC_c": {
+        "a": -555,
+        "b": 2005
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 16,
+      "advances": [
+        79
+      ],
+      "advance_sum": 1185,
+      "colors": {
+        "0x00": {
+          "records": 16,
+          "n": [
+            296
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241911,
+          "total_px": 1704960,
+          "coverage": 0.141887
+        },
+        "0x04": {
+          "records": 16,
+          "n": [
+            296
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 89997,
+          "total_px": 1704960,
+          "coverage": 0.052785
+        },
+        "0x11": {
+          "records": 16,
+          "n": [
+            296
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241732,
+          "total_px": 1704960,
+          "coverage": 0.141782
+        },
+        "0x12": {
+          "records": 16,
+          "n": [
+            296
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179995,
+          "total_px": 1704960,
+          "coverage": 0.105571
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.029
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_mirror_h",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_mirror_h.prn",
+    "mode": 2,
+    "params": {
+      "modeId": 2,
+      "rotate": 0,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "mirror": [
+        1,
+        0
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 244131,
+      "sha256": "d11647e1e9e5a33ae39efb40ed3a64ace00c593bd3d0cada605520d127d50c13",
+      "sha256_norm": "3899621b6740b974120f327816dda6a3a6dc9eaa0db3da5fa6de467adfedeeb3",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 600,
+        "height": 45
+      },
+      "ESC_c": {
+        "a": -555,
+        "b": 1155
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 16,
+      "advances": [
+        79
+      ],
+      "advance_sum": 1185,
+      "colors": {
+        "0x00": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241911,
+          "total_px": 875520,
+          "coverage": 0.276306
+        },
+        "0x04": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 89997,
+          "total_px": 875520,
+          "coverage": 0.102793
+        },
+        "0x11": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241732,
+          "total_px": 875520,
+          "coverage": 0.276101
+        },
+        "0x12": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179995,
+          "total_px": 875520,
+          "coverage": 0.205586
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.029
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_mirror_hv",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_mirror_hv.prn",
+    "mode": 2,
+    "params": {
+      "modeId": 2,
+      "rotate": 0,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "mirror": [
+        1,
+        1
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 244131,
+      "sha256": "d11647e1e9e5a33ae39efb40ed3a64ace00c593bd3d0cada605520d127d50c13",
+      "sha256_norm": "3899621b6740b974120f327816dda6a3a6dc9eaa0db3da5fa6de467adfedeeb3",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 600,
+        "height": 45
+      },
+      "ESC_c": {
+        "a": -555,
+        "b": 1155
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 16,
+      "advances": [
+        79
+      ],
+      "advance_sum": 1185,
+      "colors": {
+        "0x00": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241911,
+          "total_px": 875520,
+          "coverage": 0.276306
+        },
+        "0x04": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 89997,
+          "total_px": 875520,
+          "coverage": 0.102793
+        },
+        "0x11": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241732,
+          "total_px": 875520,
+          "coverage": 0.276101
+        },
+        "0x12": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179995,
+          "total_px": 875520,
+          "coverage": 0.205586
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.026
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_mirror_v",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_mirror_v.prn",
+    "mode": 2,
+    "params": {
+      "modeId": 2,
+      "rotate": 0,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "mirror": [
+        0,
+        1
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 244131,
+      "sha256": "d11647e1e9e5a33ae39efb40ed3a64ace00c593bd3d0cada605520d127d50c13",
+      "sha256_norm": "3899621b6740b974120f327816dda6a3a6dc9eaa0db3da5fa6de467adfedeeb3",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 600,
+        "height": 45
+      },
+      "ESC_c": {
+        "a": -555,
+        "b": 1155
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 16,
+      "advances": [
+        79
+      ],
+      "advance_sum": 1185,
+      "colors": {
+        "0x00": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241911,
+          "total_px": 875520,
+          "coverage": 0.276306
+        },
+        "0x04": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 89997,
+          "total_px": 875520,
+          "coverage": 0.102793
+        },
+        "0x11": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241732,
+          "total_px": 875520,
+          "coverage": 0.276101
+        },
+        "0x12": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179995,
+          "total_px": 875520,
+          "coverage": 0.205586
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.025
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_no_range_no_color_no_view",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_no_range_no_color_no_view.prn",
+    "mode": 2,
+    "params": {
+      "modeId": 2,
+      "rotate": 0,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "features": {
+      "size": 244131,
+      "sha256": "c27a7bc9251bd67fb810e0de1f0484891cdd292a1b921fc70a6b36277bcc7887",
+      "sha256_norm": "3899621b6740b974120f327816dda6a3a6dc9eaa0db3da5fa6de467adfedeeb3",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 600,
+        "height": 45
+      },
+      "ESC_c": {
+        "a": -555,
+        "b": 1155
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 16,
+      "advances": [
+        79
+      ],
+      "advance_sum": 1185,
+      "colors": {
+        "0x00": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241911,
+          "total_px": 875520,
+          "coverage": 0.276306
+        },
+        "0x04": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 89997,
+          "total_px": 875520,
+          "coverage": 0.102793
+        },
+        "0x11": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241732,
+          "total_px": 875520,
+          "coverage": 0.276101
+        },
+        "0x12": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179995,
+          "total_px": 875520,
+          "coverage": 0.205586
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.024
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_rot180",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_rot180.prn",
+    "mode": 2,
+    "params": {
+      "modeId": 2,
+      "rotate": 180,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 242602,
+      "sha256": "c717f34bcc5bf342c865f606d38c9d3c9176de7b13faf77ff4776a73cd1d4562",
+      "sha256_norm": "26db6c227bc40fac065f466655e1aa7cc2ed3342d6dfaae31a97156c9de15602",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 600,
+        "height": 45
+      },
+      "ESC_c": {
+        "a": -555,
+        "b": 1155
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 16,
+      "advances": [
+        79
+      ],
+      "advance_sum": 1185,
+      "colors": {
+        "0x00": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241884,
+          "total_px": 875520,
+          "coverage": 0.276275
+        },
+        "0x04": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 89998,
+          "total_px": 875520,
+          "coverage": 0.102794
+        },
+        "0x11": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241714,
+          "total_px": 875520,
+          "coverage": 0.276081
+        },
+        "0x12": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179997,
+          "total_px": 875520,
+          "coverage": 0.205589
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.044
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_rot270",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_rot270.prn",
+    "mode": 2,
+    "params": {
+      "modeId": 2,
+      "rotate": 270,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 242090,
+      "sha256": "8f5e5d19716285b32579a5ea3eaf4b8b2d1b6a2e73b6743d50c8a24233f639f4",
+      "sha256_norm": "10cf1f1e31c252a633a34c38449780d25e0f7e6be0de7dc234492db1c60b1034",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 600,
+        "height": 45
+      },
+      "ESC_c": {
+        "a": -555,
+        "b": 1155
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 16,
+      "advances": [
+        79
+      ],
+      "advance_sum": 1185,
+      "colors": {
+        "0x00": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241871,
+          "total_px": 875520,
+          "coverage": 0.27626
+        },
+        "0x04": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 90000,
+          "total_px": 875520,
+          "coverage": 0.102796
+        },
+        "0x11": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241704,
+          "total_px": 875520,
+          "coverage": 0.276069
+        },
+        "0x12": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179995,
+          "total_px": 875520,
+          "coverage": 0.205586
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.027
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_rot90",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_rot90.prn",
+    "mode": 2,
+    "params": {
+      "modeId": 2,
+      "rotate": 90,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 243696,
+      "sha256": "861c473661715ac6211b5175130180aa7ed11f7719aea419d52c975f3e6d0a93",
+      "sha256_norm": "8eef94ff0d7fb12f6f4d964aaff58f70035cff7c36f424af5fb700ad7f88e437",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 600,
+        "height": 45
+      },
+      "ESC_c": {
+        "a": -555,
+        "b": 1155
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 16,
+      "advances": [
+        79
+      ],
+      "advance_sum": 1185,
+      "colors": {
+        "0x00": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241883,
+          "total_px": 875520,
+          "coverage": 0.276274
+        },
+        "0x04": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 89999,
+          "total_px": 875520,
+          "coverage": 0.102795
+        },
+        "0x11": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241726,
+          "total_px": 875520,
+          "coverage": 0.276094
+        },
+        "0x12": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179997,
+          "total_px": 875520,
+          "coverage": 0.205589
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.038
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_scale200",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_scale200.prn",
+    "mode": 2,
+    "params": {
+      "modeId": 2,
+      "rotate": 0,
+      "scale": [
+        200,
+        200
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 934342,
+      "sha256": "c0941246a8ee975fc455e6963791acab1c86c801a8cd29959a4d9963834abc0b",
+      "sha256_norm": "419114113dcfda18511a9b6fea05b7df496d00352d01534e88f471952fcf961d",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 1200,
+        "height": 645
+      },
+      "ESC_c": {
+        "a": -555,
+        "b": 1755
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 24,
+      "advances": [
+        79
+      ],
+      "advance_sum": 1817,
+      "colors": {
+        "0x00": {
+          "records": 24,
+          "n": [
+            304
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 967563,
+          "total_px": 2626560,
+          "coverage": 0.368377
+        },
+        "0x04": {
+          "records": 24,
+          "n": [
+            304
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 372125,
+          "total_px": 2626560,
+          "coverage": 0.141678
+        },
+        "0x11": {
+          "records": 24,
+          "n": [
+            304
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 966876,
+          "total_px": 2626560,
+          "coverage": 0.368115
+        },
+        "0x12": {
+          "records": 24,
+          "n": [
+            304
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 736175,
+          "total_px": 2626560,
+          "coverage": 0.280281
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.037
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_scale50",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_scale50.prn",
+    "mode": 2,
+    "params": {
+      "modeId": 2,
+      "rotate": 0,
+      "scale": [
+        50,
+        50
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 69859,
+      "sha256": "172ba505a6694680324bb4ed6a10cb8d2930bc25c24f2560ca73e40a0f569d68",
+      "sha256_norm": "b68b7e674fc5091102a7a6d7c85e22cc5e47017ad70fae955be78be6f271252e",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 300,
+        "height": 4294967041
+      },
+      "ESC_c": {
+        "a": -555,
+        "b": 855
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 12,
+      "advances": [
+        79
+      ],
+      "advance_sum": 869,
+      "colors": {
+        "0x00": {
+          "records": 12,
+          "n": [
+            80
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 60479,
+          "total_px": 345600,
+          "coverage": 0.174997
+        },
+        "0x04": {
+          "records": 12,
+          "n": [
+            80
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 25528,
+          "total_px": 345600,
+          "coverage": 0.073866
+        },
+        "0x11": {
+          "records": 12,
+          "n": [
+            80
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 60443,
+          "total_px": 345600,
+          "coverage": 0.174893
+        },
+        "0x12": {
+          "records": 12,
+          "n": [
+            80
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 49047,
+          "total_px": 345600,
+          "coverage": 0.141918
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.024
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_scale_100x50",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_scale_100x50.prn",
+    "mode": 2,
+    "params": {
+      "modeId": 2,
+      "rotate": 0,
+      "scale": [
+        100,
+        50
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 128228,
+      "sha256": "550ca3d6607b7db8c9a95de52de3e98ae7fae0098c86b7093a7f75c71888d022",
+      "sha256_norm": "e39e25cd8dd0a5782e28809e19c3a282de96cd523aa063f881ec7461f37a4fdf",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 600,
+        "height": 4294967041
+      },
+      "ESC_c": {
+        "a": -555,
+        "b": 855
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 12,
+      "advances": [
+        79
+      ],
+      "advance_sum": 869,
+      "colors": {
+        "0x00": {
+          "records": 12,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 120951,
+          "total_px": 656640,
+          "coverage": 0.184197
+        },
+        "0x04": {
+          "records": 12,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 45000,
+          "total_px": 656640,
+          "coverage": 0.068531
+        },
+        "0x11": {
+          "records": 12,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 120868,
+          "total_px": 656640,
+          "coverage": 0.18407
+        },
+        "0x12": {
+          "records": 12,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 89998,
+          "total_px": 656640,
+          "coverage": 0.137058
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.044
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_scale_50x100",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_scale_50x100.prn",
+    "mode": 2,
+    "params": {
+      "modeId": 2,
+      "rotate": 0,
+      "scale": [
+        50,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 133004,
+      "sha256": "84f305ad29b3b7004ff8aaf8fbcc92f0305ef106e4d43828e566f958452a3391",
+      "sha256_norm": "754f39794c14ab3b65293e070095a30fc91a69ba8ffd73f5d4de33a6bbb592c2",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 300,
+        "height": 45
+      },
+      "ESC_c": {
+        "a": -555,
+        "b": 1155
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 16,
+      "advances": [
+        79
+      ],
+      "advance_sum": 1185,
+      "colors": {
+        "0x00": {
+          "records": 16,
+          "n": [
+            80
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 120966,
+          "total_px": 460800,
+          "coverage": 0.262513
+        },
+        "0x04": {
+          "records": 16,
+          "n": [
+            80
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 51061,
+          "total_px": 460800,
+          "coverage": 0.110809
+        },
+        "0x11": {
+          "records": 16,
+          "n": [
+            80
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 120871,
+          "total_px": 460800,
+          "coverage": 0.262307
+        },
+        "0x12": {
+          "records": 16,
+          "n": [
+            80
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 98093,
+          "total_px": 460800,
+          "coverage": 0.212875
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.033
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_view_300",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_view_300.prn",
+    "mode": 2,
+    "params": {
+      "modeId": 2,
+      "rotate": 0,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "view": {
+        "xdpi": 300,
+        "ydpi": 300
+      },
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 244131,
+      "sha256": "d11647e1e9e5a33ae39efb40ed3a64ace00c593bd3d0cada605520d127d50c13",
+      "sha256_norm": "3899621b6740b974120f327816dda6a3a6dc9eaa0db3da5fa6de467adfedeeb3",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 600,
+        "height": 45
+      },
+      "ESC_c": {
+        "a": -555,
+        "b": 1155
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 16,
+      "advances": [
+        79
+      ],
+      "advance_sum": 1185,
+      "colors": {
+        "0x00": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241911,
+          "total_px": 875520,
+          "coverage": 0.276306
+        },
+        "0x04": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 89997,
+          "total_px": 875520,
+          "coverage": 0.102793
+        },
+        "0x11": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241732,
+          "total_px": 875520,
+          "coverage": 0.276101
+        },
+        "0x12": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179995,
+          "total_px": 875520,
+          "coverage": 0.205586
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.024
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_view_600",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_view_600.prn",
+    "mode": 2,
+    "params": {
+      "modeId": 2,
+      "rotate": 0,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "view": {
+        "xdpi": 600,
+        "ydpi": 600
+      },
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 244131,
+      "sha256": "d11647e1e9e5a33ae39efb40ed3a64ace00c593bd3d0cada605520d127d50c13",
+      "sha256_norm": "3899621b6740b974120f327816dda6a3a6dc9eaa0db3da5fa6de467adfedeeb3",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 600,
+        "height": 45
+      },
+      "ESC_c": {
+        "a": -555,
+        "b": 1155
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 16,
+      "advances": [
+        79
+      ],
+      "advance_sum": 1185,
+      "colors": {
+        "0x00": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241911,
+          "total_px": 875520,
+          "coverage": 0.276306
+        },
+        "0x04": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 89997,
+          "total_px": 875520,
+          "coverage": 0.102793
+        },
+        "0x11": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241732,
+          "total_px": 875520,
+          "coverage": 0.276101
+        },
+        "0x12": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179995,
+          "total_px": 875520,
+          "coverage": 0.205586
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.022
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_whiteInk_color_more",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_whiteInk_color_more.prn",
+    "mode": 2,
+    "params": {
+      "modeId": 2,
+      "rotate": 0,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "whiteInk": [
+        {
+          "mode": "color",
+          "density": "more"
+        }
+      ],
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 274268,
+      "sha256": "3238227d77205ade2bcf84f6ce035de6faf7f1357acbaf36a7bf17d45f9485a1",
+      "sha256_norm": "aa252251f9a1f2ff4e05d4e59017967dca7f25860593a4e33a9a03983cb9edc9",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 600,
+        "height": 45
+      },
+      "ESC_c": {
+        "a": -555,
+        "b": 1155
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 16,
+      "advances": [
+        79
+      ],
+      "advance_sum": 1185,
+      "colors": {
+        "0x00": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179995,
+          "total_px": 875520,
+          "coverage": 0.205586
+        },
+        "0x02": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 89997,
+          "total_px": 875520,
+          "coverage": 0.102793
+        },
+        "0x04": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241911,
+          "total_px": 875520,
+          "coverage": 0.276306
+        },
+        "0x11": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 360000,
+          "total_px": 875520,
+          "coverage": 0.411184
+        },
+        "0x12": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241732,
+          "total_px": 875520,
+          "coverage": 0.276101
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.043
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_whiteInk_full_normal",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_whiteInk_full_normal.prn",
+    "mode": 2,
+    "params": {
+      "modeId": 2,
+      "rotate": 0,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "whiteInk": [
+        {
+          "mode": "full",
+          "density": "normal"
+        }
+      ],
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 274262,
+      "sha256": "05878503c68c4049e87c5dc9e03cae111bf456a1320095e896868c77b48a5c1d",
+      "sha256_norm": "4706144b4683ff9b6d0f7f822cab8434be0273dca09a98113d3c78854e75ec79",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 600,
+        "height": 45
+      },
+      "ESC_c": {
+        "a": -555,
+        "b": 1155
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 16,
+      "advances": [
+        79
+      ],
+      "advance_sum": 1185,
+      "colors": {
+        "0x00": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179995,
+          "total_px": 875520,
+          "coverage": 0.205586
+        },
+        "0x02": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 89997,
+          "total_px": 875520,
+          "coverage": 0.102793
+        },
+        "0x04": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241911,
+          "total_px": 875520,
+          "coverage": 0.276306
+        },
+        "0x11": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 360000,
+          "total_px": 875520,
+          "coverage": 0.411184
+        },
+        "0x12": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241732,
+          "total_px": 875520,
+          "coverage": 0.276101
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.023
+    }
+  },
+  {
+    "stem": "exp_a3dtf1390_whiteInk_sep_ownset90",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_a3dtf1390_whiteInk_sep_ownset90.prn",
+    "mode": 2,
+    "params": {
+      "modeId": 2,
+      "rotate": 0,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "whiteInk": [
+        {
+          "mode": "seperate",
+          "density": "ownset",
+          "densityValue": 90
+        }
+      ],
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 250195,
+      "sha256": "2b23eb6c650bb68aee88f062b931722dd04822c33e7e88aeac0ae025303c0328",
+      "sha256_norm": "0951f75bbea227e0968c816ff6441832b1daa9383d37a77b72fd3c4971818d21",
+      "format": "esc/p2",
+      "ESC_D": {
+        "r": 1440,
+        "v": 16,
+        "h": 2
+      },
+      "ESC_S": {
+        "width": 600,
+        "height": 45
+      },
+      "ESC_c": {
+        "a": -555,
+        "b": 1155
+      },
+      "ESC_m": {
+        "v": 65
+      },
+      "ESC_e": {
+        "dot": 33,
+        "raw": "00 21"
+      },
+      "blocks": 16,
+      "advances": [
+        79
+      ],
+      "advance_sum": 1185,
+      "colors": {
+        "0x00": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179995,
+          "total_px": 875520,
+          "coverage": 0.205586
+        },
+        "0x02": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 89997,
+          "total_px": 875520,
+          "coverage": 0.102793
+        },
+        "0x04": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241911,
+          "total_px": 875520,
+          "coverage": 0.276306
+        },
+        "0x11": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 875520,
+          "coverage": 0.0
+        },
+        "0x12": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241732,
+          "total_px": 875520,
+          "coverage": 0.276101
+        }
+      }
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.026
+    }
+  },
+  {
+    "stem": "exp_h13xp600_h13_golden",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_h13xp600_h13_golden.prn",
+    "mode": 0,
+    "params": {
+      "modeId": 0,
+      "rotate": 0,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "inkIE": [
+        {
+          "mode": "invaginate",
+          "index": 4,
+          "dots": [
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      ],
+      "inputColorEditor": [
+        {
+          "mode": "full",
+          "invert": false,
+          "inkName": "W1"
+        }
+      ],
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 456048,
+      "sha256": "88435c195fd6b10c5b521d7d8afb6a1aed1db9bdbb217beece0f7b8bee9f7af1",
+      "sha256_norm": "88435c195fd6b10c5b521d7d8afb6a1aed1db9bdbb217beece0f7b8bee9f7af1",
+      "format": "hssf-0x5555"
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.087
+    }
+  },
+  {
+    "stem": "exp_h13xp600_h13_golden_inkIE_inv10",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_h13xp600_h13_golden_inkIE_inv10.prn",
+    "mode": 0,
+    "params": {
+      "modeId": 0,
+      "rotate": 0,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "inkIE": [
+        {
+          "mode": "invaginate",
+          "index": 4,
+          "dots": [
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      ],
+      "inputColorEditor": [
+        {
+          "mode": "full",
+          "invert": false,
+          "inkName": "W1"
+        }
+      ],
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 456048,
+      "sha256": "88435c195fd6b10c5b521d7d8afb6a1aed1db9bdbb217beece0f7b8bee9f7af1",
+      "sha256_norm": "88435c195fd6b10c5b521d7d8afb6a1aed1db9bdbb217beece0f7b8bee9f7af1",
+      "format": "hssf-0x5555"
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.056
+    }
+  },
+  {
+    "stem": "exp_h13xp600_h13_rot180",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_h13xp600_h13_rot180.prn",
+    "mode": 0,
+    "params": {
+      "modeId": 0,
+      "rotate": 180,
+      "scale": [
+        100,
+        100
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 456048,
+      "sha256": "ca1417ef19d8b15bd8fa9ab42dae30d010c4da3f65c79d56563190a2253e04e6",
+      "sha256_norm": "ca1417ef19d8b15bd8fa9ab42dae30d010c4da3f65c79d56563190a2253e04e6",
+      "format": "hssf-0x5555"
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 1.631
+    }
+  },
+  {
+    "stem": "exp_h13xp600_h13_scale50",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\exp_h13xp600_h13_scale50.prn",
+    "mode": 0,
+    "params": {
+      "modeId": 0,
+      "rotate": 0,
+      "scale": [
+        50,
+        50
+      ],
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "view": {
+        "xdpi": 120,
+        "ydpi": 120
+      },
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      },
+      "range": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "features": {
+      "size": 120048,
+      "sha256": "ca7fb5c4556b84175c24fd4494525712622dcdb9e14616912e87a8cac68d1c50",
+      "sha256_norm": "ca7fb5c4556b84175c24fd4494525712622dcdb9e14616912e87a8cac68d1c50",
+      "format": "hssf-0x5555"
+    },
+    "response": {
+      "result": 0,
+      "_elapsed_s": 0.016
+    }
+  }
+]

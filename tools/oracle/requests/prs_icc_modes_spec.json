@@ -1,0 +1,29 @@
+{
+  "note": "prs-analyst request: A3 colorCorrection=true modes (5/7/9) on flat color blocks to validate ICC/screening chain; template=base; prs=./A3-DTF-1390.prs (mtripNet CWD=mtripSDK/dist/bin)",
+  "jobs": [
+    {"stem": "a3dtf1390_flat_c_100_m5", "image": "reference/inputs/flat_c_100.png", "machine": "a3dtf1390", "mode": 5},
+    {"stem": "a3dtf1390_flat_m_100_m5", "image": "reference/inputs/flat_m_100.png", "machine": "a3dtf1390", "mode": 5},
+    {"stem": "a3dtf1390_flat_y_100_m5", "image": "reference/inputs/flat_y_100.png", "machine": "a3dtf1390", "mode": 5},
+    {"stem": "a3dtf1390_flat_k_100_m5", "image": "reference/inputs/flat_k_100.png", "machine": "a3dtf1390", "mode": 5},
+    {"stem": "a3dtf1390_flat_r_100_m5", "image": "reference/inputs/flat_r_100.png", "machine": "a3dtf1390", "mode": 5},
+    {"stem": "a3dtf1390_flat_g_100_m5", "image": "reference/inputs/flat_g_100.png", "machine": "a3dtf1390", "mode": 5},
+    {"stem": "a3dtf1390_flat_b_100_m5", "image": "reference/inputs/flat_b_100.png", "machine": "a3dtf1390", "mode": 5},
+    {"stem": "a3dtf1390_grad_h_100_m5", "image": "reference/inputs/grad_h_100.png", "machine": "a3dtf1390", "mode": 5},
+    {"stem": "a3dtf1390_flat_c_100_m7", "image": "reference/inputs/flat_c_100.png", "machine": "a3dtf1390", "mode": 7},
+    {"stem": "a3dtf1390_flat_m_100_m7", "image": "reference/inputs/flat_m_100.png", "machine": "a3dtf1390", "mode": 7},
+    {"stem": "a3dtf1390_flat_y_100_m7", "image": "reference/inputs/flat_y_100.png", "machine": "a3dtf1390", "mode": 7},
+    {"stem": "a3dtf1390_flat_k_100_m7", "image": "reference/inputs/flat_k_100.png", "machine": "a3dtf1390", "mode": 7},
+    {"stem": "a3dtf1390_flat_r_100_m7", "image": "reference/inputs/flat_r_100.png", "machine": "a3dtf1390", "mode": 7},
+    {"stem": "a3dtf1390_flat_g_100_m7", "image": "reference/inputs/flat_g_100.png", "machine": "a3dtf1390", "mode": 7},
+    {"stem": "a3dtf1390_flat_b_100_m7", "image": "reference/inputs/flat_b_100.png", "machine": "a3dtf1390", "mode": 7},
+    {"stem": "a3dtf1390_grad_h_100_m7", "image": "reference/inputs/grad_h_100.png", "machine": "a3dtf1390", "mode": 7},
+    {"stem": "a3dtf1390_flat_c_100_m9", "image": "reference/inputs/flat_c_100.png", "machine": "a3dtf1390", "mode": 9},
+    {"stem": "a3dtf1390_flat_m_100_m9", "image": "reference/inputs/flat_m_100.png", "machine": "a3dtf1390", "mode": 9},
+    {"stem": "a3dtf1390_flat_y_100_m9", "image": "reference/inputs/flat_y_100.png", "machine": "a3dtf1390", "mode": 9},
+    {"stem": "a3dtf1390_flat_k_100_m9", "image": "reference/inputs/flat_k_100.png", "machine": "a3dtf1390", "mode": 9},
+    {"stem": "a3dtf1390_flat_r_100_m9", "image": "reference/inputs/flat_r_100.png", "machine": "a3dtf1390", "mode": 9},
+    {"stem": "a3dtf1390_flat_g_100_m9", "image": "reference/inputs/flat_g_100.png", "machine": "a3dtf1390", "mode": 9},
+    {"stem": "a3dtf1390_flat_b_100_m9", "image": "reference/inputs/flat_b_100.png", "machine": "a3dtf1390", "mode": 9},
+    {"stem": "a3dtf1390_grad_h_100_m9", "image": "reference/inputs/grad_h_100.png", "machine": "a3dtf1390", "mode": 9}
+  ]
+}

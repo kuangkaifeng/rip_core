@@ -1,0 +1,1325 @@
+[
+  {
+    "stem": "exp_a3_white_matrix_legacy_full_rt1_tw0",
+    "mode": 2,
+    "image": "alpha_checker_100",
+    "variant": "base",
+    "extra": {
+      "whiteInk": [
+        {
+          "mode": "full",
+          "density": "normal"
+        }
+      ]
+    },
+    "result": 0,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_a3_white_matrix_legacy_full_rt1_tw0.prn",
+    "features": {
+      "size": 164636,
+      "sha256": "e588d48a337f55b1169d7f030db43276a7249f15c9026812a4d58f41b7dd72d7",
+      "sha256_norm": "adfd2bd383beff32cde6e898902bef47a9888ef71915103818d4dc2922a5a904",
+      "format": "esc/p2",
+      "epl": {
+        "ESC_D": {
+          "r": 1440,
+          "v": 16,
+          "h": 2
+        },
+        "ESC_S": {
+          "width": 600,
+          "height": 45
+        },
+        "ESC_c": {
+          "a": -555,
+          "b": 1155
+        },
+        "ESC_m": {
+          "v": 65
+        },
+        "ESC_e": {
+          "dot": 33,
+          "raw": "00 21"
+        },
+        "ESC_K": {
+          "v": 2
+        }
+      },
+      "blocks": 16,
+      "records": 80,
+      "advances": [
+        79
+      ],
+      "advance_sum": 1185,
+      "xpos": [
+        0
+      ],
+      "colors": {
+        "0x00": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179707,
+          "total_px": 875520,
+          "coverage": 0.205257
+        },
+        "0x02": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 875520,
+          "coverage": 0.0
+        },
+        "0x04": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 875520,
+          "coverage": 0.0
+        },
+        "0x11": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 360000,
+          "total_px": 875520,
+          "coverage": 0.411184
+        },
+        "0x12": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179712,
+          "total_px": 875520,
+          "coverage": 0.205263
+        }
+      }
+    }
+  },
+  {
+    "stem": "exp_a3_white_matrix_legacy_color_rt1_tw0",
+    "mode": 2,
+    "image": "alpha_checker_100",
+    "variant": "base",
+    "extra": {
+      "whiteInk": [
+        {
+          "mode": "color",
+          "density": "normal"
+        }
+      ]
+    },
+    "result": 0,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_a3_white_matrix_legacy_color_rt1_tw0.prn",
+    "features": {
+      "size": 158846,
+      "sha256": "ce02b829b0d0bb9aaeb936f64c45b817e0c2ac9dbc902b19a82fded899aa4a36",
+      "sha256_norm": "2fedf0ceb4d1042eb09c07c96e8da7a1850b1d2231450a6860f2244b53572444",
+      "format": "esc/p2",
+      "epl": {
+        "ESC_D": {
+          "r": 1440,
+          "v": 16,
+          "h": 2
+        },
+        "ESC_S": {
+          "width": 600,
+          "height": 45
+        },
+        "ESC_c": {
+          "a": -555,
+          "b": 1155
+        },
+        "ESC_m": {
+          "v": 65
+        },
+        "ESC_e": {
+          "dot": 33,
+          "raw": "00 21"
+        },
+        "ESC_K": {
+          "v": 2
+        }
+      },
+      "blocks": 16,
+      "records": 80,
+      "advances": [
+        79
+      ],
+      "advance_sum": 1185,
+      "xpos": [
+        0
+      ],
+      "colors": {
+        "0x00": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179707,
+          "total_px": 875520,
+          "coverage": 0.205257
+        },
+        "0x02": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 875520,
+          "coverage": 0.0
+        },
+        "0x04": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 875520,
+          "coverage": 0.0
+        },
+        "0x11": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179712,
+          "total_px": 875520,
+          "coverage": 0.205263
+        },
+        "0x12": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179712,
+          "total_px": 875520,
+          "coverage": 0.205263
+        }
+      }
+    }
+  },
+  {
+    "stem": "exp_a3_white_matrix_legacy_seperate_rt1_tw0",
+    "mode": 2,
+    "image": "alpha_checker_100",
+    "variant": "base",
+    "extra": {
+      "whiteInk": [
+        {
+          "mode": "seperate",
+          "density": "normal"
+        }
+      ]
+    },
+    "result": 0,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_a3_white_matrix_legacy_seperate_rt1_tw0.prn",
+    "features": {
+      "size": 158936,
+      "sha256": "b63e24f3dad49df9fa3b0a2b3927737f6e20e72a75918d927e9c5e40870aa8e3",
+      "sha256_norm": "dfd78646efd426ad402575ea3d6114560aa58b3ae5a1f5aa775b4e8361654f38",
+      "format": "esc/p2",
+      "epl": {
+        "ESC_D": {
+          "r": 1440,
+          "v": 16,
+          "h": 2
+        },
+        "ESC_S": {
+          "width": 600,
+          "height": 45
+        },
+        "ESC_c": {
+          "a": -555,
+          "b": 1155
+        },
+        "ESC_m": {
+          "v": 65
+        },
+        "ESC_e": {
+          "dot": 33,
+          "raw": "00 21"
+        },
+        "ESC_K": {
+          "v": 2
+        }
+      },
+      "blocks": 16,
+      "records": 80,
+      "advances": [
+        79
+      ],
+      "advance_sum": 1185,
+      "xpos": [
+        0
+      ],
+      "colors": {
+        "0x00": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179707,
+          "total_px": 875520,
+          "coverage": 0.205257
+        },
+        "0x02": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 875520,
+          "coverage": 0.0
+        },
+        "0x04": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 875520,
+          "coverage": 0.0
+        },
+        "0x11": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 180288,
+          "total_px": 875520,
+          "coverage": 0.205921
+        },
+        "0x12": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179712,
+          "total_px": 875520,
+          "coverage": 0.205263
+        }
+      }
+    }
+  },
+  {
+    "stem": "exp_a3_white_matrix_legacy_full_rt1_tw1",
+    "mode": 2,
+    "image": "alpha_checker_100",
+    "variant": "base",
+    "extra": {
+      "whiteInk": [
+        {
+          "mode": "full",
+          "density": "normal"
+        }
+      ]
+    },
+    "result": 0,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_a3_white_matrix_legacy_full_rt1_tw1.prn",
+    "features": {
+      "size": 164636,
+      "sha256": "7b848bb7662b3dec60ca7f7e9e00272600660801ef65cfe527ce23f018bd0fef",
+      "sha256_norm": "adfd2bd383beff32cde6e898902bef47a9888ef71915103818d4dc2922a5a904",
+      "format": "esc/p2",
+      "epl": {
+        "ESC_D": {
+          "r": 1440,
+          "v": 16,
+          "h": 2
+        },
+        "ESC_S": {
+          "width": 600,
+          "height": 45
+        },
+        "ESC_c": {
+          "a": -555,
+          "b": 1155
+        },
+        "ESC_m": {
+          "v": 65
+        },
+        "ESC_e": {
+          "dot": 33,
+          "raw": "00 21"
+        },
+        "ESC_K": {
+          "v": 2
+        }
+      },
+      "blocks": 16,
+      "records": 80,
+      "advances": [
+        79
+      ],
+      "advance_sum": 1185,
+      "xpos": [
+        0
+      ],
+      "colors": {
+        "0x00": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179707,
+          "total_px": 875520,
+          "coverage": 0.205257
+        },
+        "0x02": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 875520,
+          "coverage": 0.0
+        },
+        "0x04": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 875520,
+          "coverage": 0.0
+        },
+        "0x11": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 360000,
+          "total_px": 875520,
+          "coverage": 0.411184
+        },
+        "0x12": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179712,
+          "total_px": 875520,
+          "coverage": 0.205263
+        }
+      }
+    }
+  },
+  {
+    "stem": "exp_a3_white_matrix_legacy_color_rt1_tw1",
+    "mode": 2,
+    "image": "alpha_checker_100",
+    "variant": "base",
+    "extra": {
+      "whiteInk": [
+        {
+          "mode": "color",
+          "density": "normal"
+        }
+      ]
+    },
+    "result": 0,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_a3_white_matrix_legacy_color_rt1_tw1.prn",
+    "features": {
+      "size": 158846,
+      "sha256": "65e7d578422fefa09663cffab9bb518f2d460c18ba5201d2c6bc9b64f69460e3",
+      "sha256_norm": "2fedf0ceb4d1042eb09c07c96e8da7a1850b1d2231450a6860f2244b53572444",
+      "format": "esc/p2",
+      "epl": {
+        "ESC_D": {
+          "r": 1440,
+          "v": 16,
+          "h": 2
+        },
+        "ESC_S": {
+          "width": 600,
+          "height": 45
+        },
+        "ESC_c": {
+          "a": -555,
+          "b": 1155
+        },
+        "ESC_m": {
+          "v": 65
+        },
+        "ESC_e": {
+          "dot": 33,
+          "raw": "00 21"
+        },
+        "ESC_K": {
+          "v": 2
+        }
+      },
+      "blocks": 16,
+      "records": 80,
+      "advances": [
+        79
+      ],
+      "advance_sum": 1185,
+      "xpos": [
+        0
+      ],
+      "colors": {
+        "0x00": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179707,
+          "total_px": 875520,
+          "coverage": 0.205257
+        },
+        "0x02": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 875520,
+          "coverage": 0.0
+        },
+        "0x04": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 875520,
+          "coverage": 0.0
+        },
+        "0x11": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179712,
+          "total_px": 875520,
+          "coverage": 0.205263
+        },
+        "0x12": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179712,
+          "total_px": 875520,
+          "coverage": 0.205263
+        }
+      }
+    }
+  },
+  {
+    "stem": "exp_a3_white_matrix_legacy_seperate_rt1_tw1",
+    "mode": 2,
+    "image": "alpha_checker_100",
+    "variant": "base",
+    "extra": {
+      "whiteInk": [
+        {
+          "mode": "seperate",
+          "density": "normal"
+        }
+      ]
+    },
+    "result": 0,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_a3_white_matrix_legacy_seperate_rt1_tw1.prn",
+    "features": {
+      "size": 158936,
+      "sha256": "b08fd389be5c3c60ffbff8b0fc35d9aba304bb0f9ccd2373cb940569dd1f16c0",
+      "sha256_norm": "dfd78646efd426ad402575ea3d6114560aa58b3ae5a1f5aa775b4e8361654f38",
+      "format": "esc/p2",
+      "epl": {
+        "ESC_D": {
+          "r": 1440,
+          "v": 16,
+          "h": 2
+        },
+        "ESC_S": {
+          "width": 600,
+          "height": 45
+        },
+        "ESC_c": {
+          "a": -555,
+          "b": 1155
+        },
+        "ESC_m": {
+          "v": 65
+        },
+        "ESC_e": {
+          "dot": 33,
+          "raw": "00 21"
+        },
+        "ESC_K": {
+          "v": 2
+        }
+      },
+      "blocks": 16,
+      "records": 80,
+      "advances": [
+        79
+      ],
+      "advance_sum": 1185,
+      "xpos": [
+        0
+      ],
+      "colors": {
+        "0x00": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179707,
+          "total_px": 875520,
+          "coverage": 0.205257
+        },
+        "0x02": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 875520,
+          "coverage": 0.0
+        },
+        "0x04": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 875520,
+          "coverage": 0.0
+        },
+        "0x11": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 180288,
+          "total_px": 875520,
+          "coverage": 0.205921
+        },
+        "0x12": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179712,
+          "total_px": 875520,
+          "coverage": 0.205263
+        }
+      }
+    }
+  },
+  {
+    "stem": "exp_a3_white_matrix_ice_m1_alpha_rt1_tw0",
+    "mode": 1,
+    "image": "alpha_checker_100",
+    "variant": "base",
+    "extra": null,
+    "result": 0,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_a3_white_matrix_ice_m1_alpha_rt1_tw0.prn",
+    "features": {
+      "size": 126231,
+      "sha256": "99bfbe06bd79819a9b60f9c32a6a52802e1e77977a82da1e033101281813ddff",
+      "sha256_norm": "bcc5bffcb57c3db5dfcff8e00a8e304d9558d38d507a0836b6e6abff3d138f16",
+      "format": "esc/p2",
+      "epl": {
+        "ESC_D": {
+          "r": 1440,
+          "v": 16,
+          "h": 2
+        },
+        "ESC_S": {
+          "width": 300,
+          "height": 23
+        },
+        "ESC_c": {
+          "a": -277,
+          "b": 577
+        },
+        "ESC_m": {
+          "v": 65
+        },
+        "ESC_e": {
+          "dot": 33,
+          "raw": "00 21"
+        },
+        "ESC_K": {
+          "v": 2
+        }
+      },
+      "blocks": 18,
+      "records": 108,
+      "advances": [
+        35
+      ],
+      "advance_sum": 595,
+      "xpos": [
+        0
+      ],
+      "colors": {
+        "0x00": {
+          "records": 18,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 984960,
+          "coverage": 0.0
+        },
+        "0x01": {
+          "records": 18,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 89855,
+          "total_px": 984960,
+          "coverage": 0.091227
+        },
+        "0x02": {
+          "records": 18,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 984960,
+          "coverage": 0.0
+        },
+        "0x04": {
+          "records": 18,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 89856,
+          "total_px": 984960,
+          "coverage": 0.091228
+        },
+        "0x11": {
+          "records": 18,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 984960,
+          "coverage": 0.0
+        },
+        "0x12": {
+          "records": 18,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179997,
+          "total_px": 984960,
+          "coverage": 0.182745
+        }
+      }
+    }
+  },
+  {
+    "stem": "exp_a3_white_matrix_ice_m3_alpha_rt1_tw0",
+    "mode": 3,
+    "image": "alpha_checker_100",
+    "variant": "base",
+    "extra": null,
+    "result": 0,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_a3_white_matrix_ice_m3_alpha_rt1_tw0.prn",
+    "features": {
+      "size": 210250,
+      "sha256": "d8cbebb975a2f264f42a68053647b087a5c8a441c25ead63112506f1b82b55c4",
+      "sha256_norm": "64b8ac09b94370c60a28e12a6485d29e05f63af9dbd2496345b1bd579f256e05",
+      "format": "esc/p2",
+      "epl": {
+        "ESC_D": {
+          "r": 1440,
+          "v": 16,
+          "h": 2
+        },
+        "ESC_S": {
+          "width": 600,
+          "height": 13
+        },
+        "ESC_c": {
+          "a": -587,
+          "b": 1187
+        },
+        "ESC_m": {
+          "v": 65
+        },
+        "ESC_e": {
+          "dot": 33,
+          "raw": "00 21"
+        },
+        "ESC_K": {
+          "v": 2
+        }
+      },
+      "blocks": 33,
+      "records": 198,
+      "advances": [
+        39
+      ],
+      "advance_sum": 1248,
+      "xpos": [
+        0
+      ],
+      "colors": {
+        "0x00": {
+          "records": 33,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 1805760,
+          "coverage": 0.0
+        },
+        "0x01": {
+          "records": 33,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179707,
+          "total_px": 1805760,
+          "coverage": 0.099519
+        },
+        "0x02": {
+          "records": 33,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 1805760,
+          "coverage": 0.0
+        },
+        "0x04": {
+          "records": 33,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179712,
+          "total_px": 1805760,
+          "coverage": 0.099522
+        },
+        "0x11": {
+          "records": 33,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 1805760,
+          "coverage": 0.0
+        },
+        "0x12": {
+          "records": 33,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 359994,
+          "total_px": 1805760,
+          "coverage": 0.199359
+        }
+      }
+    }
+  },
+  {
+    "stem": "exp_a3_white_matrix_ice_m1_cmykquad_rt1_tw0",
+    "mode": 1,
+    "image": "cmyk_quad_100",
+    "variant": "base",
+    "extra": null,
+    "result": 0,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_a3_white_matrix_ice_m1_cmykquad_rt1_tw0.prn",
+    "features": {
+      "size": 190671,
+      "sha256": "6ea2618515a56cf4d4c96c7c44348dceb3d9fb5642044f659fa542ea26b4d1c2",
+      "sha256_norm": "e9c877b2981ef43588f8cbc58e8fad5dfb57254ca9587e742984af366233d4aa",
+      "format": "esc/p2",
+      "epl": {
+        "ESC_D": {
+          "r": 1440,
+          "v": 16,
+          "h": 2
+        },
+        "ESC_S": {
+          "width": 300,
+          "height": 23
+        },
+        "ESC_c": {
+          "a": -277,
+          "b": 577
+        },
+        "ESC_m": {
+          "v": 65
+        },
+        "ESC_e": {
+          "dot": 33,
+          "raw": "00 21"
+        },
+        "ESC_K": {
+          "v": 2
+        }
+      },
+      "blocks": 18,
+      "records": 108,
+      "advances": [
+        35
+      ],
+      "advance_sum": 595,
+      "xpos": [
+        0
+      ],
+      "colors": {
+        "0x00": {
+          "records": 18,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 45000,
+          "total_px": 984960,
+          "coverage": 0.045687
+        },
+        "0x01": {
+          "records": 18,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 89998,
+          "total_px": 984960,
+          "coverage": 0.091372
+        },
+        "0x02": {
+          "records": 18,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 120951,
+          "total_px": 984960,
+          "coverage": 0.122798
+        },
+        "0x04": {
+          "records": 18,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 120868,
+          "total_px": 984960,
+          "coverage": 0.122714
+        },
+        "0x11": {
+          "records": 18,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 984960,
+          "coverage": 0.0
+        },
+        "0x12": {
+          "records": 18,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179997,
+          "total_px": 984960,
+          "coverage": 0.182745
+        }
+      }
+    }
+  },
+  {
+    "stem": "exp_a3_white_matrix_ice_m3_cmykquad_rt1_tw0",
+    "mode": 3,
+    "image": "cmyk_quad_100",
+    "variant": "base",
+    "extra": null,
+    "result": 0,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_a3_white_matrix_ice_m3_cmykquad_rt1_tw0.prn",
+    "features": {
+      "size": 320348,
+      "sha256": "b8acd8d023bbe1da06436b1279a7b8a2990cbdeb4eae770f15a23063484db64a",
+      "sha256_norm": "53095dca4ebc3cba6728e657a5215f8789ea3e81996df9299bcddf4b48eb50c4",
+      "format": "esc/p2",
+      "epl": {
+        "ESC_D": {
+          "r": 1440,
+          "v": 16,
+          "h": 2
+        },
+        "ESC_S": {
+          "width": 600,
+          "height": 13
+        },
+        "ESC_c": {
+          "a": -587,
+          "b": 1187
+        },
+        "ESC_m": {
+          "v": 65
+        },
+        "ESC_e": {
+          "dot": 33,
+          "raw": "00 21"
+        },
+        "ESC_K": {
+          "v": 2
+        }
+      },
+      "blocks": 33,
+      "records": 198,
+      "advances": [
+        39
+      ],
+      "advance_sum": 1248,
+      "xpos": [
+        0
+      ],
+      "colors": {
+        "0x00": {
+          "records": 33,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 89997,
+          "total_px": 1805760,
+          "coverage": 0.049839
+        },
+        "0x01": {
+          "records": 33,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179995,
+          "total_px": 1805760,
+          "coverage": 0.099678
+        },
+        "0x02": {
+          "records": 33,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241911,
+          "total_px": 1805760,
+          "coverage": 0.133966
+        },
+        "0x04": {
+          "records": 33,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 241732,
+          "total_px": 1805760,
+          "coverage": 0.133867
+        },
+        "0x11": {
+          "records": 33,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 1805760,
+          "coverage": 0.0
+        },
+        "0x12": {
+          "records": 33,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 359994,
+          "total_px": 1805760,
+          "coverage": 0.199359
+        }
+      }
+    }
+  },
+  {
+    "stem": "exp_a3_white_matrix_ice_m3_alpha_rt1_tw1",
+    "mode": 3,
+    "image": "alpha_checker_100",
+    "variant": "base",
+    "extra": null,
+    "result": 0,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_a3_white_matrix_ice_m3_alpha_rt1_tw1.prn",
+    "features": {
+      "size": 210250,
+      "sha256": "62ae3864e8285bc9979f89ef7baa48a63fb8c01b1a0b42a835b8cf2db7057ea6",
+      "sha256_norm": "64b8ac09b94370c60a28e12a6485d29e05f63af9dbd2496345b1bd579f256e05",
+      "format": "esc/p2",
+      "epl": {
+        "ESC_D": {
+          "r": 1440,
+          "v": 16,
+          "h": 2
+        },
+        "ESC_S": {
+          "width": 600,
+          "height": 13
+        },
+        "ESC_c": {
+          "a": -587,
+          "b": 1187
+        },
+        "ESC_m": {
+          "v": 65
+        },
+        "ESC_e": {
+          "dot": 33,
+          "raw": "00 21"
+        },
+        "ESC_K": {
+          "v": 2
+        }
+      },
+      "blocks": 33,
+      "records": 198,
+      "advances": [
+        39
+      ],
+      "advance_sum": 1248,
+      "xpos": [
+        0
+      ],
+      "colors": {
+        "0x00": {
+          "records": 33,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 1805760,
+          "coverage": 0.0
+        },
+        "0x01": {
+          "records": 33,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179707,
+          "total_px": 1805760,
+          "coverage": 0.099519
+        },
+        "0x02": {
+          "records": 33,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 1805760,
+          "coverage": 0.0
+        },
+        "0x04": {
+          "records": 33,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179712,
+          "total_px": 1805760,
+          "coverage": 0.099522
+        },
+        "0x11": {
+          "records": 33,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 1805760,
+          "coverage": 0.0
+        },
+        "0x12": {
+          "records": 33,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 359994,
+          "total_px": 1805760,
+          "coverage": 0.199359
+        }
+      }
+    }
+  }
+]

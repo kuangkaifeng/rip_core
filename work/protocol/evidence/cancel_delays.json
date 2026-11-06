@@ -1,0 +1,30 @@
+[
+  {
+    "delay": 0.9,
+    "cancel": {
+      "body": "{ \"result\": 0 }",
+      "elapsed_s": 0.131
+    },
+    "job": {
+      "result": 1,
+      "error": "用户取消",
+      "_elapsed_s": 1.026
+    },
+    "prn_exists": false,
+    "prn_size": null
+  },
+  {
+    "delay": 1.2,
+    "cancel": {
+      "body": "{ \"result\": 0 }",
+      "elapsed_s": 0.02
+    },
+    "job": {
+      "result": 1,
+      "error": "用户取消",
+      "_elapsed_s": 1.224
+    },
+    "prn_exists": false,
+    "prn_size": null
+  }
+]

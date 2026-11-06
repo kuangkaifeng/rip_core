@@ -1,0 +1,78 @@
+{
+  "color_before": {
+    "cache": false,
+    "cacheNum": 0,
+    "embeddedICC": true,
+    "readTransparency": true,
+    "result": 0,
+    "transparencyToWhite": false,
+    "_elapsed_s": 0.014
+  },
+  "set_cache_off": {
+    "cacheNum": 0,
+    "result": 0,
+    "_elapsed_s": 0.016
+  },
+  "color_after": {
+    "cache": false,
+    "cacheNum": 0,
+    "embeddedICC": true,
+    "readTransparency": true,
+    "result": 0,
+    "transparencyToWhite": false,
+    "_elapsed_s": 0.002
+  },
+  "errorString_off": {
+    "result": 0,
+    "_elapsed_s": 0.003
+  },
+  "err_when_off": {
+    "result": 6,
+    "_elapsed_s": 0.002
+  },
+  "errorString_on": {
+    "result": 0,
+    "_elapsed_s": 0.025
+  },
+  "err_when_on": {
+    "result": 6,
+    "error": "打开输入文件失败",
+    "_elapsed_s": 0.003
+  },
+  "buffer": {
+    "bitsReverseOrder": false,
+    "output": true,
+    "result": 0,
+    "_elapsed_s": 0.027
+  },
+  "opt": {
+    "halftone": 32,
+    "halftoneBufferMaxLines": 256,
+    "halftoneBufferMaxSize": 268435456,
+    "halftoneCache": true,
+    "interpretation": true,
+    "localCacheDir": "",
+    "multiImageBlockMaxLines": 1024,
+    "multiImageBlockMaxSize": 67108864,
+    "multiImageBlockThreads": 1,
+    "result": 0,
+    "threadBufferMaxLines": 1024,
+    "threadBufferMaxSize": 268435456,
+    "useImageLocalCache": false,
+    "_elapsed_s": 0.003
+  },
+  "color_restore": {
+    "cacheNum": 0,
+    "result": 0,
+    "_elapsed_s": 0.003
+  },
+  "color_after_restore": {
+    "cache": false,
+    "cacheNum": 0,
+    "embeddedICC": true,
+    "readTransparency": true,
+    "result": 0,
+    "transparencyToWhite": false,
+    "_elapsed_s": 0.025
+  }
+}

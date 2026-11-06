@@ -1,0 +1,40 @@
+{
+ "command": "rip",
+ "doc": {
+  "name": "D:/work/RIP核心分析/reference/inputs/probe_scan_gray000_64.png"
+ },
+ "prs": "D:/work/RIP核心分析/reference/prs/A3-DTF-1390.prs",
+ "modeId": 2,
+ "range": [
+  [
+   1,
+   1
+  ]
+ ],
+ "output": {
+  "mode": "file",
+  "file": {
+   "name": "D:/work/RIP核心分析/work/shared/e2e/ours_probe_scan_gray000_a3dtf1390_m2.prn",
+   "mode": 438
+  }
+ },
+ "rotate": 0,
+ "scale": [
+  100,
+  100
+ ],
+ "margin": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "view": {
+  "xdpi": 120,
+  "ydpi": 120
+ },
+ "color": {
+  "readTransparency": true,
+  "transparencyToWhite": false
+ }
+}

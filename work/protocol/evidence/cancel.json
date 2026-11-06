@@ -1,0 +1,36 @@
+[
+  {
+    "tag": "cancel_trial1",
+    "id": 1001,
+    "cancel_after_s": 0.5,
+    "cancel_response": {
+      "body": "{ \"result\": 0 }",
+      "elapsed_s": 0.311
+    },
+    "job_response": {
+      "result": 16777220,
+      "error": "图像变换失败, 可能是参数配置有误",
+      "_elapsed_s": 0.799
+    },
+    "job_elapsed_s": 0.799,
+    "prn_exists": false,
+    "prn_size": null
+  },
+  {
+    "tag": "cancel_trial2",
+    "id": 1002,
+    "cancel_after_s": 0.5,
+    "cancel_response": {
+      "body": "{ \"result\": 0 }",
+      "elapsed_s": 0.279
+    },
+    "job_response": {
+      "result": 16777220,
+      "error": "图像变换失败, 可能是参数配置有误",
+      "_elapsed_s": 0.777
+    },
+    "job_elapsed_s": 0.777,
+    "prn_exists": false,
+    "prn_size": null
+  }
+]

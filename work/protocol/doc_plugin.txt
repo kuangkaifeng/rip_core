@@ -1,0 +1,326 @@
+
+# 蒙泰RIP插件开发文档
+
+version 2.55.0, 2026.6.2 by 姚诚成
+
+## 1. 支持的插件类型
+
+输出插件
+
+输入插件
+
+作业进度插件
+
+图像输入插件
+
+按行处理插件
+
+### 1.1 输出插件
+
+输出插件通过一个自定义的动态库，捕获rip数据的输出。
+
+插件动态库必须暴露具名函数GetMainTopOutputPlugin, 用于得到MainTopOutputPlugin的实现.
+
+<<<PRE 0>>>
+typedef struct _MaintopOutputPlugin {
+  unsigned int                  Version;
+  OutputPluginReturnCode        (PluginCallType *Start)(const char *param, void **handle);
+  OutputPluginReturnCode        (PluginCallType *Write)(void *handle, const void *data, size_t size);
+  void                          (PluginCallType *End)(void *handle, bool succeed);
+  void                          (PluginCallType *Cancel)(void *handle);
+} MainTopOutputPlugin;
+const MainTopOutputPlugin* PluginCallType GetMainTopOutputPlugin();
+
+<<<END PRE>>>
+
+其中PluginCalllType在Windows x86下定义为stdcall, 其它情况下使用默认的cdecl.
+
+Version 当前只支持0x01000000
+
+Start 开始输出
+
+Write 发送数据
+
+End 结束输出
+
+Cancel 取消发送，可能会在另外的线程中发送此消息，且Write有可能正在执行。应该设置标记后理解返回，不应该处理很复杂的操作.
+
+示例plugin/output实现了一个简单的plugin. Windows 下使用Visual c++, Linux 下使用g++进行编译。
+
+构建系统可以使用两种模式:
+
+使用GNU Makefile, Windows下推荐使用MSYS2.  编译如下图:
+
+使用CMake, Windows下如下图： 然后通过生成的outputExample.sln进行构建.
+
+### 1.2 输入插件
+
+输出插件通过一个自定义的动态库，向ripserver传入需要rip数据.
+
+插件动态库必须暴露具名函数GetMainTopInputPlugin, 用于得到插件version1或version2(ripserver v2.7.0始)的接口结构指针.
+
+和version1相比, version2剔除了可能产生混乱的Cancel函数, 并简化了部分函数定义, 额外提供了图像数据块的随机访问形式, 以支持镜像、旋转等图像变换功能.
+
+version1的接口定义为：
+
+<<<PRE 1>>>
+#pragma pack(8)
+typedef struct _MaintopInputPlugin {
+  unsigned int                  Version;
+  InputPluginReturnCode         (PluginCallType *Start)(const char *param, void **handle);
+  InputPluginReturnCode         (PluginCallType *Load)(void *handle, InputPluginRipInfo *info);
+  InputPluginReturnCode         (PluginCallType *Begin)(void *handle, size_t *lineBytes, int *planes);
+  InputPluginReturnCode         (PluginCallType *ReadBlock)(void *handle, void *buffer, size_t bufsz, InputPluginRect *rc);
+  void                          (PluginCallType *End)(void *handle, bool succeed);
+  void                          (PluginCallType *Cancel)(void *handle);
+} MainTopInputPlugin;
+const MainTopInputPlugin* PluginCallType GetMainTopInputPlugin();
+
+<<<END PRE>>>
+
+Version 其中bits[24, 31]为主版本号, bits[12, 23]为次版本号, bits[0, 11]为修订号. 使用插件v1时, 主版本号应定义为1, 即从Version & 0xff000000 == 0x01000000.
+
+Start 开始输出. 通常执行rip前, 客户端的准备工作, 如内存分配、数据初始化等.
+
+Load 加载rip信息. 向ripserver提供rip所需的图像参数InputPluginRipInfo信息
+
+Begin 开始rip. 可以向ripserver传入特殊的线数据字节数和通道数.
+
+ReadBlock 读取块数据. 图像数据实际获取函数, 其中参数buffer为ripserver接收块数据的缓存地址指针, bufsz为缓存大小, rc为获取的块数据范围, 如{ 0, 0, 15, 7 }
+
+End 结束输出
+
+Cancel 取消发送，可能会在另外的线程中发送此消息，且Write有可能正在执行。应该设置标记后理解返回，不应该处理很复杂的操作.
+
+version2的接口定义为：
+
+<<<PRE 2>>>
+#pragma pack(8)
+typedef struct _MaintopInputPlugin2 {
+  unsigned int                  Version;
+  InputPluginReturnCode         (PluginCallType *Start)(const char *param, void **handle);
+  InputPluginReturnCode         (PluginCallType *Load)(void *handle, InputPluginRipInfo *info);
+  InputPluginReturnCode         (PluginCallType *AccessMode)(void *handle, InputPluginAccessMode *mode);
+  InputPluginReturnCode         (PluginCallType *BeginRead)(void *handle, InputPluginBeginReadParam *p);
+  InputPluginReturnCode         (PluginCallType *ReadBlock)(void *handle, InputPluginReadBlockParam *p);
+  void                          (PluginCallType *End)(void *handle);
+} MainTopInputPlugin2;
+const MainTopInputPlugin* PluginCallType GetMainTopInputPlugin();
+
+<<<END PRE>>>
+
+为保持和version1的一致性, GetMainTopInputPlugin()的接口函数返回值依旧声明为const MainTopInputPlugin *类型, 在实际实现中应定义为const MainTopInputPlugin2 *
+
+Version 其中bits[24, 31]为主版本号, bits[12, 23]为次版本号, bits[0, 11]为修订号. 使用插件v1时, 主版本号应定义为1, 即从Version & 0xff000000 == 0x02000000.
+
+Start 开始输出. 通常执行rip前, 客户端的准备工作, 如内存分配、数据初始化等.
+
+Load 加载rip信息. 向ripserver提供rip所需的图像参数InputPluginRipInfo信息
+
+AccessMode 获取访问模式. 向ripserver提供插件的数据访问模式信息, 包括随机访问和顺序, 其中如果不随机访问, 会屏蔽镜像、旋转等图像变换功能. 具体值定义参考input_plugin.h中InputPluginAccessMode枚举定义.
+
+BeginRead 开始读取. 配置实际需要读取的范围, 并返回rip时所需要的相关信息. 具体参考input_plugin.h中InputPluginBeginReadParam相关定义
+
+ReadBlock 读取数据块. 向ripserver提交图像数据块及数据范围. 具体参考input_plugin.h中InputPluginReadBlockParam相关定义
+
+End 结束输出.
+
+ripserver的典型回调次序为Start - Load - AccessMode - BeginRead - ReadBlock - ReadBlock ... - ReadBlock - End
+
+InputPluginBeginReadParam结构定义为
+
+<<<PRE 3>>>
+typedef struct _InputPluginBeginReadParam {
+  InputPluginRect       rc;                     //[in]ReadBlock时需要读取的范围
+  size_t                lineBytes;              //[out]行字节数, 返回0时根据配置计算
+  int                   planes;                 //[out]颜色面数, 返回0时根据配置计算
+} InputPluginBeginReadParam;
+
+<<<END PRE>>>
+
+rc 需要读取的范围. InputPluginRect参考input_plugin.h中的定义.
+
+lineBytes 用于返回实际读取时的行字节数.
+
+planes 用于返回通道数.
+
+InputPluginReadBlockParam结构定义为
+
+<<<PRE 4>>>
+typedef struct _InputPluginReadBlockParam {
+  void                  *buffer;                //[in]行数据的写入缓存地址
+  size_t                bufSz;                  //[in]缓存大小
+  InputPluginRect       rc;                     //[out]实际读取的范围
+} InputPluginReadBlockParam;
+
+<<<END PRE>>>
+
+buffer ripserver传入的数据缓存地址.
+
+bufSz buffer的大小.
+
+rc 用于返回实际读取的图像数据范围.InputPluginRect参考input_plugin.h中的定义.
+
+InputPluginRipInfo结构定义为
+
+<<<PRE 5>>>
+typedef struct _InputPluginRipInfo {
+  unsigned long long    width;                  //pixels
+  unsigned long long    height;                 //pixels
+  InputPluginColorType  colorType;              //颜色类型
+  unsigned int          bits;                   //通道位数.
+  unsigned int          countSpotColorName;     //包含专色时有效.
+  char                  spot[IP_MAX_SPOT_CHANNEL][IP_MAX_SPOT_NAME_LEN]; //专色
+  double                xdpi;                   //默认72.0
+  double                ydpi;                   //默认72.0
+  InputPluginRGB        pal[IP_PAL_COLOR_SIZE]; //调色板数据.
+  const void            *icc;                   //icc
+  size_t                iccSize;                //icc字节数.
+} InputPluginRipInfo;
+
+<<<END PRE>>>
+
+其中颜色类型InputPluginColorType参见sdk/plugin/input/input_plugin.h中的定义.
+
+如果在该结构中提供了icc数据, 该部分数据内存需客户端进行维护, 并保持在rip过程中持续有效.
+
+示例plugin/input实现了一些简单的plugin. Windows 下使用Visual c++, Linux 下使用g++进行编译。
+
+构建系统可以使用两种模式:
+
+使用GNU Makefile, Windows下推荐使用MSYS2.  编译如下图:
+
+使用CMake, Windows下如下图： 然后通过生成的inputExample.sln进行构建.
+
+### 1.3 作业进度插件
+
+作业进度插件通过一个自定义的动态库，监听rip作业进度通知. 其实现方式和编译方法类似输出插件
+
+插件动态库必须暴露具名函数GetMainTopJobProgressPlugin, 用于得到MainTopJobProgressPlugin的实现.
+
+<<<PRE 6>>>
+typedef struct _MainTopJobProgressPlugin {
+  unsigned int  Version;
+  void (PluginCallType *Progress)(const MainTopJobProgress *p);
+} MainTopJobProgressPlugin;
+const MainTopJobProgressPlugin* PluginCallType GetMainTopJobProgressPlugin();
+
+<<<END PRE>>>
+
+Version 当前只支持0x01000000
+
+Progress 进度通知, 实现上进度通知来源于单独的通知线程. 所有的通知消息共用此线程进行处理, 所以实现上不应该执行复杂操作，更不能阻塞, 尽量发送消息后很快返回.
+
+支持多插件, 进行多目的通知. 但是同一个插件动态库只支持一个通知实例。需要多份通知时, 需要指定多个不同的输出插件.
+
+### 1.4图像输入插件
+
+作业进度插件通过一个自定义的动态库，提供图像原始数据. 其实现方式和编译方法类似输出插件
+
+插件动态库必须暴露具名函数GetMainTopImagePlugin, 用于得到MainTopImagePlugin的实现.
+
+<<<PRE 7>>>
+typedef struct _MaintopImagePlugin {
+  unsigned int                  Version;
+  unsigned int                  (PluginCallType *Start)(const char *param, void **handle);
+  const MaintopPluginImageHeader* (PluginCallType *StartPage)(void *handle, unsigned int pageIndex);
+  const void*                   (PluginCallType *Read)(void *handle, unsigned int y);
+  void                          (PluginCallType *EndPage)(void *handle, bool success);
+  void                          (PluginCallType *End)(void *handle, bool success);
+} MainTopImagePlugin;
+
+<<<END PRE>>>
+
+Version 当前只支持0x01000000
+
+Start 开始读取数据
+
+StartPage 开始读取一页
+
+Read 读取数据
+
+EndPage 结束读取一页
+
+End 结束读取数据
+
+### 1.5按行处理插件
+
+按行处理插件通过一个自定义的动态库，在挂网后、输出前对每页行数据进行处理.
+
+插件动态库必须暴露具名函数GetMainTopLinePlugin, 用于得到MainTopLinePlugin的实现.
+
+<<<PRE 8>>>
+typedef struct _MainTopLinePlugin {
+  unsigned int                  Version;
+  LinePluginReturnCode          (PluginCallType *Start)(const char *param, void **handle);
+  LinePluginReturnCode          (PluginCallType *StartPage)(void *handle,
+                                                            int bits,
+                                                            int planes,
+                                                            unsigned long long width,
+                                                            unsigned long long height);
+  LinePluginReturnCode          (PluginCallType *Lines)(void *handle,
+                                                        void *data,
+                                                        size_t lines);
+  void                          (PluginCallType *EndPage)(void *handle, bool succeed);
+  void                          (PluginCallType *End)(void *handle, bool succeed);
+  void                          (PluginCallType *Cancel)(void *handle);
+} MainTopLinePlugin;
+const MainTopLinePlugin* PluginCallType GetMainTopLinePlugin();
+
+<<<END PRE>>>
+
+Version 当前只支持0x01000000
+
+Start 开始处理. 参数param来自rip命令中的linePlugin.param, utf-8编码, 可以缺失.
+
+StartPage 开始处理一页, 提供当前页的bits、planes、width、height信息.
+
+Lines 处理多行数据. data为可读可写缓冲区, 可以原地修改.
+
+EndPage 当前页处理结束.
+
+End 作业处理结束.
+
+Cancel 取消处理. 可能在另外线程执行，且Lines可能正在执行，建议仅设置标记后快速返回.
+
+注册方式和使用方式如下:
+
+通过config命令注册插件: type=regPlugin, pluginType=4, lib=动态库路径.
+
+在rip命令中指定linePlugin参数: id使用注册返回的插件id, param为传给Start的字符串参数.
+
+示例代码路径: sdk/plugin/line
+
+## 2.历史
+
+##### 2.52.0, 2026-05-21
+
+提供按行处理插件
+
+##### 2.7.0, 2023-04-27
+
+提供输入插件version2
+
+##### 2.4.1, 2023-04-06
+
+剔除与"作业进度插件"重复功能的progressPlug进度回调插件
+
+##### 2.3.0, 2022-11-24
+
+支持进度回调插件
+
+##### 2.2.0, 2022-11-02
+
+支持输入插件
+
+##### 1.12.0, 2023-07-14
+
+支持图像输入插件
+
+##### 1.8.0, 2023-03-13
+
+支持作业进度插件
+
+##### 1.0.0, 2022-09-01
+
+支持输出插件

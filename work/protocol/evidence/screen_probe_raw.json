@@ -1,0 +1,875 @@
+[
+  {
+    "stem": "probe_screen_cmyk_ramp16_160_a3dtf1390_m2",
+    "case": "cmyk_ramp16_160",
+    "image": "cmyk_ramp16_160.tif",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "extra": null,
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.037,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_cmyk_ramp16_160_a3dtf1390_m2.prn",
+    "size": 238884
+  },
+  {
+    "stem": "probe_screen_cmyk_ramp16_160_a3dtf1390_m0",
+    "case": "cmyk_ramp16_160",
+    "image": "cmyk_ramp16_160.tif",
+    "machine": "a3dtf1390",
+    "mode": 0,
+    "extra": null,
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.265,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_cmyk_ramp16_160_a3dtf1390_m0.prn",
+    "size": 135024
+  },
+  {
+    "stem": "probe_screen_cmyk_ramp16_160_h13xp600_m0",
+    "case": "cmyk_ramp16_160",
+    "image": "cmyk_ramp16_160.tif",
+    "machine": "h13xp600",
+    "mode": 0,
+    "extra": null,
+    "result": 0,
+    "error": null,
+    "elapsed_s": 1.655,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_cmyk_ramp16_160_h13xp600_m0.prn",
+    "size": 1152048
+  },
+  {
+    "stem": "probe_screen_cmyk_patch20_100_a3dtf1390_m2",
+    "case": "cmyk_patch20_100",
+    "image": "cmyk_patch20_100.tif",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "extra": null,
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.027,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_cmyk_patch20_100_a3dtf1390_m2.prn",
+    "size": 91952
+  },
+  {
+    "stem": "probe_screen_cmyk_patch20_100_a3dtf1390_m0",
+    "case": "cmyk_patch20_100",
+    "image": "cmyk_patch20_100.tif",
+    "machine": "a3dtf1390",
+    "mode": 0,
+    "extra": null,
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.023,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_cmyk_patch20_100_a3dtf1390_m0.prn",
+    "size": 52840
+  },
+  {
+    "stem": "probe_screen_cmyk_patch20_100_h13xp600_m0",
+    "case": "cmyk_patch20_100",
+    "image": "cmyk_patch20_100.tif",
+    "machine": "h13xp600",
+    "mode": 0,
+    "extra": null,
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.036,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_cmyk_patch20_100_h13xp600_m0.prn",
+    "size": 456048
+  },
+  {
+    "stem": "probe_screen_cmyk_white_100_a3dtf1390_m2",
+    "case": "cmyk_white_100",
+    "image": "cmyk_white_100.tif",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "extra": null,
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.025,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_cmyk_white_100_a3dtf1390_m2.prn",
+    "size": 264
+  },
+  {
+    "stem": "probe_screen_cmyk_white_100_a3dtf1390_m0",
+    "case": "cmyk_white_100",
+    "image": "cmyk_white_100.tif",
+    "machine": "a3dtf1390",
+    "mode": 0,
+    "extra": null,
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.022,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_cmyk_white_100_a3dtf1390_m0.prn",
+    "size": 264
+  },
+  {
+    "stem": "probe_screen_cmyk_white_100_h13xp600_m0",
+    "case": "cmyk_white_100",
+    "image": "cmyk_white_100.tif",
+    "machine": "h13xp600",
+    "mode": 0,
+    "extra": null,
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.037,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_cmyk_white_100_h13xp600_m0.prn",
+    "size": 456048
+  },
+  {
+    "stem": "probe_screen_cmyk_full_100_a3dtf1390_m2",
+    "case": "cmyk_full_100",
+    "image": "cmyk_full_100.tif",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "extra": null,
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.037,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_cmyk_full_100_a3dtf1390_m2.prn",
+    "size": 48576
+  },
+  {
+    "stem": "probe_screen_cmyk_full_100_a3dtf1390_m0",
+    "case": "cmyk_full_100",
+    "image": "cmyk_full_100.tif",
+    "machine": "a3dtf1390",
+    "mode": 0,
+    "extra": null,
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.025,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_cmyk_full_100_a3dtf1390_m0.prn",
+    "size": 36680
+  },
+  {
+    "stem": "probe_screen_cmyk_full_100_h13xp600_m0",
+    "case": "cmyk_full_100",
+    "image": "cmyk_full_100.tif",
+    "machine": "h13xp600",
+    "mode": 0,
+    "extra": null,
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.02,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_cmyk_full_100_h13xp600_m0.prn",
+    "size": 456048
+  },
+  {
+    "stem": "probe_screen_cmyk_full4_100_a3dtf1390_m2",
+    "case": "cmyk_full4_100",
+    "image": "cmyk_full4_100.tif",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "extra": null,
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.029,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_cmyk_full4_100_a3dtf1390_m2.prn",
+    "size": 120754
+  },
+  {
+    "stem": "probe_screen_cmyk_full4_100_a3dtf1390_m0",
+    "case": "cmyk_full4_100",
+    "image": "cmyk_full4_100.tif",
+    "machine": "a3dtf1390",
+    "mode": 0,
+    "extra": null,
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.022,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_cmyk_full4_100_a3dtf1390_m0.prn",
+    "size": 104410
+  },
+  {
+    "stem": "probe_screen_cmyk_full4_100_h13xp600_m0",
+    "case": "cmyk_full4_100",
+    "image": "cmyk_full4_100.tif",
+    "machine": "h13xp600",
+    "mode": 0,
+    "extra": null,
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.021,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_cmyk_full4_100_h13xp600_m0.prn",
+    "size": 456048
+  },
+  {
+    "stem": "probe_screen_probe_C0_a3dtf1390_m2",
+    "case": "probe_C0",
+    "image": "cmyk_probe_C0_64.tif",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "extra": {
+      "mtcount": true
+    },
+    "result": 1,
+    "error": "用户取消",
+    "elapsed_s": 0.029,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_probe_C0_a3dtf1390_m2.prn",
+    "size": 0
+  },
+  {
+    "stem": "probe_screen_probe_C0_a3dtf1390_m0",
+    "case": "probe_C0",
+    "image": "cmyk_probe_C0_64.tif",
+    "machine": "a3dtf1390",
+    "mode": 0,
+    "extra": {
+      "mtcount": true
+    },
+    "result": 1,
+    "error": "用户取消",
+    "elapsed_s": 0.024,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_probe_C0_a3dtf1390_m0.prn",
+    "size": 0
+  },
+  {
+    "stem": "probe_screen_probe_C64_a3dtf1390_m2",
+    "case": "probe_C64",
+    "image": "cmyk_probe_C64_64.tif",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "extra": {
+      "mtcount": true
+    },
+    "result": 1,
+    "error": "用户取消",
+    "elapsed_s": 0.04,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_probe_C64_a3dtf1390_m2.prn",
+    "size": 0
+  },
+  {
+    "stem": "probe_screen_probe_C64_a3dtf1390_m0",
+    "case": "probe_C64",
+    "image": "cmyk_probe_C64_64.tif",
+    "machine": "a3dtf1390",
+    "mode": 0,
+    "extra": {
+      "mtcount": true
+    },
+    "result": 1,
+    "error": "用户取消",
+    "elapsed_s": 0.025,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_probe_C64_a3dtf1390_m0.prn",
+    "size": 0
+  },
+  {
+    "stem": "probe_screen_probe_C128_a3dtf1390_m2",
+    "case": "probe_C128",
+    "image": "cmyk_probe_C128_64.tif",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "extra": {
+      "mtcount": true
+    },
+    "result": 1,
+    "error": "用户取消",
+    "elapsed_s": 0.019,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_probe_C128_a3dtf1390_m2.prn",
+    "size": 0
+  },
+  {
+    "stem": "probe_screen_probe_C128_a3dtf1390_m0",
+    "case": "probe_C128",
+    "image": "cmyk_probe_C128_64.tif",
+    "machine": "a3dtf1390",
+    "mode": 0,
+    "extra": {
+      "mtcount": true
+    },
+    "result": 1,
+    "error": "用户取消",
+    "elapsed_s": 0.04,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_probe_C128_a3dtf1390_m0.prn",
+    "size": 0
+  },
+  {
+    "stem": "probe_screen_probe_C192_a3dtf1390_m2",
+    "case": "probe_C192",
+    "image": "cmyk_probe_C192_64.tif",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "extra": {
+      "mtcount": true
+    },
+    "result": 1,
+    "error": "用户取消",
+    "elapsed_s": 0.028,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_probe_C192_a3dtf1390_m2.prn",
+    "size": 0
+  },
+  {
+    "stem": "probe_screen_probe_C192_a3dtf1390_m0",
+    "case": "probe_C192",
+    "image": "cmyk_probe_C192_64.tif",
+    "machine": "a3dtf1390",
+    "mode": 0,
+    "extra": {
+      "mtcount": true
+    },
+    "result": 1,
+    "error": "用户取消",
+    "elapsed_s": 0.022,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_probe_C192_a3dtf1390_m0.prn",
+    "size": 0
+  },
+  {
+    "stem": "probe_screen_probe_C255_a3dtf1390_m2",
+    "case": "probe_C255",
+    "image": "cmyk_probe_C255_64.tif",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "extra": {
+      "mtcount": true
+    },
+    "result": 1,
+    "error": "用户取消",
+    "elapsed_s": 0.029,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_probe_C255_a3dtf1390_m2.prn",
+    "size": 0
+  },
+  {
+    "stem": "probe_screen_probe_C255_a3dtf1390_m0",
+    "case": "probe_C255",
+    "image": "cmyk_probe_C255_64.tif",
+    "machine": "a3dtf1390",
+    "mode": 0,
+    "extra": {
+      "mtcount": true
+    },
+    "result": 1,
+    "error": "用户取消",
+    "elapsed_s": 0.037,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_probe_C255_a3dtf1390_m0.prn",
+    "size": 0
+  },
+  {
+    "stem": "probe_screen_probe_M0_a3dtf1390_m2",
+    "case": "probe_M0",
+    "image": "cmyk_probe_M0_64.tif",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "extra": {
+      "mtcount": true
+    },
+    "result": 1,
+    "error": "用户取消",
+    "elapsed_s": 0.028,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_probe_M0_a3dtf1390_m2.prn",
+    "size": 0
+  },
+  {
+    "stem": "probe_screen_probe_M0_a3dtf1390_m0",
+    "case": "probe_M0",
+    "image": "cmyk_probe_M0_64.tif",
+    "machine": "a3dtf1390",
+    "mode": 0,
+    "extra": {
+      "mtcount": true
+    },
+    "result": 1,
+    "error": "用户取消",
+    "elapsed_s": 0.02,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_probe_M0_a3dtf1390_m0.prn",
+    "size": 0
+  },
+  {
+    "stem": "probe_screen_probe_M64_a3dtf1390_m2",
+    "case": "probe_M64",
+    "image": "cmyk_probe_M64_64.tif",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "extra": {
+      "mtcount": true
+    },
+    "result": 1,
+    "error": "用户取消",
+    "elapsed_s": 0.03,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_probe_M64_a3dtf1390_m2.prn",
+    "size": 0
+  },
+  {
+    "stem": "probe_screen_probe_M64_a3dtf1390_m0",
+    "case": "probe_M64",
+    "image": "cmyk_probe_M64_64.tif",
+    "machine": "a3dtf1390",
+    "mode": 0,
+    "extra": {
+      "mtcount": true
+    },
+    "result": 1,
+    "error": "用户取消",
+    "elapsed_s": 0.02,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_probe_M64_a3dtf1390_m0.prn",
+    "size": 0
+  },
+  {
+    "stem": "probe_screen_probe_M128_a3dtf1390_m2",
+    "case": "probe_M128",
+    "image": "cmyk_probe_M128_64.tif",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "extra": {
+      "mtcount": true
+    },
+    "result": 1,
+    "error": "用户取消",
+    "elapsed_s": 0.028,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_probe_M128_a3dtf1390_m2.prn",
+    "size": 0
+  },
+  {
+    "stem": "probe_screen_probe_M128_a3dtf1390_m0",
+    "case": "probe_M128",
+    "image": "cmyk_probe_M128_64.tif",
+    "machine": "a3dtf1390",
+    "mode": 0,
+    "extra": {
+      "mtcount": true
+    },
+    "result": 1,
+    "error": "用户取消",
+    "elapsed_s": 0.021,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_probe_M128_a3dtf1390_m0.prn",
+    "size": 0
+  },
+  {
+    "stem": "probe_screen_probe_M192_a3dtf1390_m2",
+    "case": "probe_M192",
+    "image": "cmyk_probe_M192_64.tif",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "extra": {
+      "mtcount": true
+    },
+    "result": 1,
+    "error": "用户取消",
+    "elapsed_s": 0.029,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_probe_M192_a3dtf1390_m2.prn",
+    "size": 0
+  },
+  {
+    "stem": "probe_screen_probe_M192_a3dtf1390_m0",
+    "case": "probe_M192",
+    "image": "cmyk_probe_M192_64.tif",
+    "machine": "a3dtf1390",
+    "mode": 0,
+    "extra": {
+      "mtcount": true
+    },
+    "result": 1,
+    "error": "用户取消",
+    "elapsed_s": 0.021,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_probe_M192_a3dtf1390_m0.prn",
+    "size": 0
+  },
+  {
+    "stem": "probe_screen_probe_M255_a3dtf1390_m2",
+    "case": "probe_M255",
+    "image": "cmyk_probe_M255_64.tif",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "extra": {
+      "mtcount": true
+    },
+    "result": 1,
+    "error": "用户取消",
+    "elapsed_s": 0.029,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_probe_M255_a3dtf1390_m2.prn",
+    "size": 0
+  },
+  {
+    "stem": "probe_screen_probe_M255_a3dtf1390_m0",
+    "case": "probe_M255",
+    "image": "cmyk_probe_M255_64.tif",
+    "machine": "a3dtf1390",
+    "mode": 0,
+    "extra": {
+      "mtcount": true
+    },
+    "result": 1,
+    "error": "用户取消",
+    "elapsed_s": 0.042,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_probe_M255_a3dtf1390_m0.prn",
+    "size": 0
+  },
+  {
+    "stem": "probe_screen_probe_Y0_a3dtf1390_m2",
+    "case": "probe_Y0",
+    "image": "cmyk_probe_Y0_64.tif",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "extra": {
+      "mtcount": true
+    },
+    "result": 1,
+    "error": "用户取消",
+    "elapsed_s": 0.027,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_probe_Y0_a3dtf1390_m2.prn",
+    "size": 0
+  },
+  {
+    "stem": "probe_screen_probe_Y0_a3dtf1390_m0",
+    "case": "probe_Y0",
+    "image": "cmyk_probe_Y0_64.tif",
+    "machine": "a3dtf1390",
+    "mode": 0,
+    "extra": {
+      "mtcount": true
+    },
+    "result": 1,
+    "error": "用户取消",
+    "elapsed_s": 0.023,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_probe_Y0_a3dtf1390_m0.prn",
+    "size": 0
+  },
+  {
+    "stem": "probe_screen_probe_Y64_a3dtf1390_m2",
+    "case": "probe_Y64",
+    "image": "cmyk_probe_Y64_64.tif",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "extra": {
+      "mtcount": true
+    },
+    "result": 1,
+    "error": "用户取消",
+    "elapsed_s": 0.026,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_probe_Y64_a3dtf1390_m2.prn",
+    "size": 0
+  },
+  {
+    "stem": "probe_screen_probe_Y64_a3dtf1390_m0",
+    "case": "probe_Y64",
+    "image": "cmyk_probe_Y64_64.tif",
+    "machine": "a3dtf1390",
+    "mode": 0,
+    "extra": {
+      "mtcount": true
+    },
+    "result": 1,
+    "error": "用户取消",
+    "elapsed_s": 0.043,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_probe_Y64_a3dtf1390_m0.prn",
+    "size": 0
+  },
+  {
+    "stem": "probe_screen_probe_Y128_a3dtf1390_m2",
+    "case": "probe_Y128",
+    "image": "cmyk_probe_Y128_64.tif",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "extra": {
+      "mtcount": true
+    },
+    "result": 1,
+    "error": "用户取消",
+    "elapsed_s": 0.036,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_probe_Y128_a3dtf1390_m2.prn",
+    "size": 0
+  },
+  {
+    "stem": "probe_screen_probe_Y128_a3dtf1390_m0",
+    "case": "probe_Y128",
+    "image": "cmyk_probe_Y128_64.tif",
+    "machine": "a3dtf1390",
+    "mode": 0,
+    "extra": {
+      "mtcount": true
+    },
+    "result": 1,
+    "error": "用户取消",
+    "elapsed_s": 0.022,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_probe_Y128_a3dtf1390_m0.prn",
+    "size": 0
+  },
+  {
+    "stem": "probe_screen_probe_Y192_a3dtf1390_m2",
+    "case": "probe_Y192",
+    "image": "cmyk_probe_Y192_64.tif",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "extra": {
+      "mtcount": true
+    },
+    "result": 1,
+    "error": "用户取消",
+    "elapsed_s": 0.029,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_probe_Y192_a3dtf1390_m2.prn",
+    "size": 0
+  },
+  {
+    "stem": "probe_screen_probe_Y192_a3dtf1390_m0",
+    "case": "probe_Y192",
+    "image": "cmyk_probe_Y192_64.tif",
+    "machine": "a3dtf1390",
+    "mode": 0,
+    "extra": {
+      "mtcount": true
+    },
+    "result": 1,
+    "error": "用户取消",
+    "elapsed_s": 0.022,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_probe_Y192_a3dtf1390_m0.prn",
+    "size": 0
+  },
+  {
+    "stem": "probe_screen_probe_Y255_a3dtf1390_m2",
+    "case": "probe_Y255",
+    "image": "cmyk_probe_Y255_64.tif",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "extra": {
+      "mtcount": true
+    },
+    "result": 1,
+    "error": "用户取消",
+    "elapsed_s": 0.026,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_probe_Y255_a3dtf1390_m2.prn",
+    "size": 0
+  },
+  {
+    "stem": "probe_screen_probe_Y255_a3dtf1390_m0",
+    "case": "probe_Y255",
+    "image": "cmyk_probe_Y255_64.tif",
+    "machine": "a3dtf1390",
+    "mode": 0,
+    "extra": {
+      "mtcount": true
+    },
+    "result": 1,
+    "error": "用户取消",
+    "elapsed_s": 0.042,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_probe_Y255_a3dtf1390_m0.prn",
+    "size": 0
+  },
+  {
+    "stem": "probe_screen_probe_K0_a3dtf1390_m2",
+    "case": "probe_K0",
+    "image": "cmyk_probe_K0_64.tif",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "extra": {
+      "mtcount": true
+    },
+    "result": 1,
+    "error": "用户取消",
+    "elapsed_s": 0.027,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_probe_K0_a3dtf1390_m2.prn",
+    "size": 0
+  },
+  {
+    "stem": "probe_screen_probe_K0_a3dtf1390_m0",
+    "case": "probe_K0",
+    "image": "cmyk_probe_K0_64.tif",
+    "machine": "a3dtf1390",
+    "mode": 0,
+    "extra": {
+      "mtcount": true
+    },
+    "result": 1,
+    "error": "用户取消",
+    "elapsed_s": 0.019,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_probe_K0_a3dtf1390_m0.prn",
+    "size": 0
+  },
+  {
+    "stem": "probe_screen_probe_K64_a3dtf1390_m2",
+    "case": "probe_K64",
+    "image": "cmyk_probe_K64_64.tif",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "extra": {
+      "mtcount": true
+    },
+    "result": 1,
+    "error": "用户取消",
+    "elapsed_s": 0.026,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_probe_K64_a3dtf1390_m2.prn",
+    "size": 0
+  },
+  {
+    "stem": "probe_screen_probe_K64_a3dtf1390_m0",
+    "case": "probe_K64",
+    "image": "cmyk_probe_K64_64.tif",
+    "machine": "a3dtf1390",
+    "mode": 0,
+    "extra": {
+      "mtcount": true
+    },
+    "result": 1,
+    "error": "用户取消",
+    "elapsed_s": 0.02,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_probe_K64_a3dtf1390_m0.prn",
+    "size": 0
+  },
+  {
+    "stem": "probe_screen_probe_K128_a3dtf1390_m2",
+    "case": "probe_K128",
+    "image": "cmyk_probe_K128_64.tif",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "extra": {
+      "mtcount": true
+    },
+    "result": 1,
+    "error": "用户取消",
+    "elapsed_s": 0.049,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_probe_K128_a3dtf1390_m2.prn",
+    "size": 0
+  },
+  {
+    "stem": "probe_screen_probe_K128_a3dtf1390_m0",
+    "case": "probe_K128",
+    "image": "cmyk_probe_K128_64.tif",
+    "machine": "a3dtf1390",
+    "mode": 0,
+    "extra": {
+      "mtcount": true
+    },
+    "result": 1,
+    "error": "用户取消",
+    "elapsed_s": 0.02,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_probe_K128_a3dtf1390_m0.prn",
+    "size": 0
+  },
+  {
+    "stem": "probe_screen_probe_K192_a3dtf1390_m2",
+    "case": "probe_K192",
+    "image": "cmyk_probe_K192_64.tif",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "extra": {
+      "mtcount": true
+    },
+    "result": 1,
+    "error": "用户取消",
+    "elapsed_s": 0.038,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_probe_K192_a3dtf1390_m2.prn",
+    "size": 0
+  },
+  {
+    "stem": "probe_screen_probe_K192_a3dtf1390_m0",
+    "case": "probe_K192",
+    "image": "cmyk_probe_K192_64.tif",
+    "machine": "a3dtf1390",
+    "mode": 0,
+    "extra": {
+      "mtcount": true
+    },
+    "result": 1,
+    "error": "用户取消",
+    "elapsed_s": 0.021,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_probe_K192_a3dtf1390_m0.prn",
+    "size": 0
+  },
+  {
+    "stem": "probe_screen_probe_K255_a3dtf1390_m2",
+    "case": "probe_K255",
+    "image": "cmyk_probe_K255_64.tif",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "extra": {
+      "mtcount": true
+    },
+    "result": 1,
+    "error": "用户取消",
+    "elapsed_s": 0.03,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_probe_K255_a3dtf1390_m2.prn",
+    "size": 0
+  },
+  {
+    "stem": "probe_screen_probe_K255_a3dtf1390_m0",
+    "case": "probe_K255",
+    "image": "cmyk_probe_K255_64.tif",
+    "machine": "a3dtf1390",
+    "mode": 0,
+    "extra": {
+      "mtcount": true
+    },
+    "result": 1,
+    "error": "用户取消",
+    "elapsed_s": 0.02,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_probe_K255_a3dtf1390_m0.prn",
+    "size": 0
+  },
+  {
+    "stem": "probe_screen_rgb_gray16_160_a3dtf1390_m2",
+    "case": "rgb_gray16_160",
+    "image": "rgb_gray16_160.png",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "extra": null,
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.26,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_rgb_gray16_160_a3dtf1390_m2.prn",
+    "size": 796602
+  },
+  {
+    "stem": "probe_screen_rgb_gray16_160_a3dtf1390_m0",
+    "case": "rgb_gray16_160",
+    "image": "rgb_gray16_160.png",
+    "machine": "a3dtf1390",
+    "mode": 0,
+    "extra": null,
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.023,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_rgb_gray16_160_a3dtf1390_m0.prn",
+    "size": 448635
+  },
+  {
+    "stem": "probe_screen_rgb_gray16_160_h13xp600_m0",
+    "case": "rgb_gray16_160",
+    "image": "rgb_gray16_160.png",
+    "machine": "h13xp600",
+    "mode": 0,
+    "extra": null,
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.052,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_rgb_gray16_160_h13xp600_m0.prn",
+    "size": 1152048
+  },
+  {
+    "stem": "probe_screen_rgb_ramps16_160_a3dtf1390_m2",
+    "case": "rgb_ramps16_160",
+    "image": "rgb_ramps16_160.png",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "extra": null,
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.035,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_rgb_ramps16_160_a3dtf1390_m2.prn",
+    "size": 674316
+  },
+  {
+    "stem": "probe_screen_rgb_ramps16_160_a3dtf1390_m0",
+    "case": "rgb_ramps16_160",
+    "image": "rgb_ramps16_160.png",
+    "machine": "a3dtf1390",
+    "mode": 0,
+    "extra": null,
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.023,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_rgb_ramps16_160_a3dtf1390_m0.prn",
+    "size": 398492
+  },
+  {
+    "stem": "probe_screen_rgb_ramps16_160_h13xp600_m0",
+    "case": "rgb_ramps16_160",
+    "image": "rgb_ramps16_160.png",
+    "machine": "h13xp600",
+    "mode": 0,
+    "extra": null,
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.022,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/probe_screen_rgb_ramps16_160_h13xp600_m0.prn",
+    "size": 1152048
+  }
+]

@@ -1,0 +1,614 @@
+[
+ {
+  "block": 0,
+  "color": "0x04",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b000_c04_n160_m90.bin",
+  "nonzero_bytes": 355
+ },
+ {
+  "block": 0,
+  "color": "0x00",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b000_c00_n160_m90.bin",
+  "nonzero_bytes": 353
+ },
+ {
+  "block": 0,
+  "color": "0x12",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b000_c12_n160_m90.bin",
+  "nonzero_bytes": 195
+ },
+ {
+  "block": 0,
+  "color": "0x11",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b000_c11_n160_m90.bin",
+  "nonzero_bytes": 194
+ },
+ {
+  "block": 1,
+  "color": "0x04",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b001_c04_n160_m90.bin",
+  "nonzero_bytes": 255
+ },
+ {
+  "block": 1,
+  "color": "0x00",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b001_c00_n160_m90.bin",
+  "nonzero_bytes": 253
+ },
+ {
+  "block": 1,
+  "color": "0x12",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b001_c12_n160_m90.bin",
+  "nonzero_bytes": 255
+ },
+ {
+  "block": 1,
+  "color": "0x11",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b001_c11_n160_m90.bin",
+  "nonzero_bytes": 254
+ },
+ {
+  "block": 2,
+  "color": "0x04",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b002_c04_n160_m90.bin",
+  "nonzero_bytes": 315
+ },
+ {
+  "block": 2,
+  "color": "0x00",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b002_c00_n160_m90.bin",
+  "nonzero_bytes": 313
+ },
+ {
+  "block": 2,
+  "color": "0x12",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b002_c12_n160_m90.bin",
+  "nonzero_bytes": 315
+ },
+ {
+  "block": 2,
+  "color": "0x11",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b002_c11_n160_m90.bin",
+  "nonzero_bytes": 314
+ },
+ {
+  "block": 3,
+  "color": "0x04",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b003_c04_n160_m90.bin",
+  "nonzero_bytes": 375
+ },
+ {
+  "block": 3,
+  "color": "0x00",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b003_c00_n160_m90.bin",
+  "nonzero_bytes": 373
+ },
+ {
+  "block": 3,
+  "color": "0x12",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b003_c12_n160_m90.bin",
+  "nonzero_bytes": 529
+ },
+ {
+  "block": 3,
+  "color": "0x11",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b003_c11_n160_m90.bin",
+  "nonzero_bytes": 528
+ },
+ {
+  "block": 4,
+  "color": "0x04",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b004_c04_n160_m90.bin",
+  "nonzero_bytes": 435
+ },
+ {
+  "block": 4,
+  "color": "0x00",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b004_c00_n160_m90.bin",
+  "nonzero_bytes": 433
+ },
+ {
+  "block": 4,
+  "color": "0x12",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b004_c12_n160_m90.bin",
+  "nonzero_bytes": 589
+ },
+ {
+  "block": 4,
+  "color": "0x11",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b004_c11_n160_m90.bin",
+  "nonzero_bytes": 588
+ },
+ {
+  "block": 5,
+  "color": "0x04",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b005_c04_n160_m90.bin",
+  "nonzero_bytes": 495
+ },
+ {
+  "block": 5,
+  "color": "0x00",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b005_c00_n160_m90.bin",
+  "nonzero_bytes": 493
+ },
+ {
+  "block": 5,
+  "color": "0x12",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b005_c12_n160_m90.bin",
+  "nonzero_bytes": 489
+ },
+ {
+  "block": 5,
+  "color": "0x11",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b005_c11_n160_m90.bin",
+  "nonzero_bytes": 488
+ },
+ {
+  "block": 6,
+  "color": "0x04",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b006_c04_n160_m90.bin",
+  "nonzero_bytes": 555
+ },
+ {
+  "block": 6,
+  "color": "0x00",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b006_c00_n160_m90.bin",
+  "nonzero_bytes": 553
+ },
+ {
+  "block": 6,
+  "color": "0x12",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b006_c12_n160_m90.bin",
+  "nonzero_bytes": 549
+ },
+ {
+  "block": 6,
+  "color": "0x11",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b006_c11_n160_m90.bin",
+  "nonzero_bytes": 548
+ },
+ {
+  "block": 7,
+  "color": "0x04",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b007_c04_n160_m90.bin",
+  "nonzero_bytes": 769
+ },
+ {
+  "block": 7,
+  "color": "0x00",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b007_c00_n160_m90.bin",
+  "nonzero_bytes": 767
+ },
+ {
+  "block": 7,
+  "color": "0x12",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b007_c12_n160_m90.bin",
+  "nonzero_bytes": 609
+ },
+ {
+  "block": 7,
+  "color": "0x11",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b007_c11_n160_m90.bin",
+  "nonzero_bytes": 608
+ },
+ {
+  "block": 8,
+  "color": "0x04",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b008_c04_n160_m90.bin",
+  "nonzero_bytes": 871
+ },
+ {
+  "block": 8,
+  "color": "0x00",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b008_c00_n160_m90.bin",
+  "nonzero_bytes": 874
+ },
+ {
+  "block": 8,
+  "color": "0x12",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b008_c12_n160_m90.bin",
+  "nonzero_bytes": 772
+ },
+ {
+  "block": 8,
+  "color": "0x11",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b008_c11_n160_m90.bin",
+  "nonzero_bytes": 777
+ },
+ {
+  "block": 9,
+  "color": "0x04",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b009_c04_n160_m90.bin",
+  "nonzero_bytes": 729
+ },
+ {
+  "block": 9,
+  "color": "0x00",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b009_c00_n160_m90.bin",
+  "nonzero_bytes": 730
+ },
+ {
+  "block": 9,
+  "color": "0x12",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b009_c12_n160_m90.bin",
+  "nonzero_bytes": 575
+ },
+ {
+  "block": 9,
+  "color": "0x11",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b009_c11_n160_m90.bin",
+  "nonzero_bytes": 578
+ },
+ {
+  "block": 10,
+  "color": "0x04",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b010_c04_n160_m90.bin",
+  "nonzero_bytes": 669
+ },
+ {
+  "block": 10,
+  "color": "0x00",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b010_c00_n160_m90.bin",
+  "nonzero_bytes": 670
+ },
+ {
+  "block": 10,
+  "color": "0x12",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b010_c12_n160_m90.bin",
+  "nonzero_bytes": 515
+ },
+ {
+  "block": 10,
+  "color": "0x11",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b010_c11_n160_m90.bin",
+  "nonzero_bytes": 518
+ },
+ {
+  "block": 11,
+  "color": "0x04",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b011_c04_n160_m90.bin",
+  "nonzero_bytes": 455
+ },
+ {
+  "block": 11,
+  "color": "0x00",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b011_c00_n160_m90.bin",
+  "nonzero_bytes": 456
+ },
+ {
+  "block": 11,
+  "color": "0x12",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b011_c12_n160_m90.bin",
+  "nonzero_bytes": 455
+ },
+ {
+  "block": 11,
+  "color": "0x11",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b011_c11_n160_m90.bin",
+  "nonzero_bytes": 458
+ },
+ {
+  "block": 12,
+  "color": "0x04",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b012_c04_n160_m90.bin",
+  "nonzero_bytes": 395
+ },
+ {
+  "block": 12,
+  "color": "0x00",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b012_c00_n160_m90.bin",
+  "nonzero_bytes": 396
+ },
+ {
+  "block": 12,
+  "color": "0x12",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b012_c12_n160_m90.bin",
+  "nonzero_bytes": 395
+ },
+ {
+  "block": 12,
+  "color": "0x11",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b012_c11_n160_m90.bin",
+  "nonzero_bytes": 398
+ },
+ {
+  "block": 13,
+  "color": "0x04",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b013_c04_n160_m90.bin",
+  "nonzero_bytes": 335
+ },
+ {
+  "block": 13,
+  "color": "0x00",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b013_c00_n160_m90.bin",
+  "nonzero_bytes": 336
+ },
+ {
+  "block": 13,
+  "color": "0x12",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b013_c12_n160_m90.bin",
+  "nonzero_bytes": 495
+ },
+ {
+  "block": 13,
+  "color": "0x11",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b013_c11_n160_m90.bin",
+  "nonzero_bytes": 498
+ },
+ {
+  "block": 14,
+  "color": "0x04",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b014_c04_n160_m90.bin",
+  "nonzero_bytes": 275
+ },
+ {
+  "block": 14,
+  "color": "0x00",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b014_c00_n160_m90.bin",
+  "nonzero_bytes": 276
+ },
+ {
+  "block": 14,
+  "color": "0x12",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b014_c12_n160_m90.bin",
+  "nonzero_bytes": 435
+ },
+ {
+  "block": 14,
+  "color": "0x11",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b014_c11_n160_m90.bin",
+  "nonzero_bytes": 438
+ },
+ {
+  "block": 15,
+  "color": "0x04",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b015_c04_n160_m90.bin",
+  "nonzero_bytes": 215
+ },
+ {
+  "block": 15,
+  "color": "0x00",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b015_c00_n160_m90.bin",
+  "nonzero_bytes": 216
+ },
+ {
+  "block": 15,
+  "color": "0x12",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b015_c12_n160_m90.bin",
+  "nonzero_bytes": 221
+ },
+ {
+  "block": 15,
+  "color": "0x11",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b015_c11_n160_m90.bin",
+  "nonzero_bytes": 224
+ },
+ {
+  "block": 16,
+  "color": "0x04",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b016_c04_n160_m90.bin",
+  "nonzero_bytes": 109
+ },
+ {
+  "block": 16,
+  "color": "0x00",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b016_c00_n160_m90.bin",
+  "nonzero_bytes": 107
+ },
+ {
+  "block": 16,
+  "color": "0x12",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b016_c12_n160_m90.bin",
+  "nonzero_bytes": 151
+ },
+ {
+  "block": 16,
+  "color": "0x11",
+  "n": 160,
+  "m": 90,
+  "xpos": 0,
+  "file": "b016_c11_n160_m90.bin",
+  "nonzero_bytes": 154
+ }
+]

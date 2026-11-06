@@ -1,0 +1,14 @@
+{
+  "rip_response": {
+    "result": 0,
+    "_elapsed_s": 1.005
+  },
+  "query_job": {
+    "end": {
+      "time": 1793947697
+    },
+    "result": 0,
+    "state": 2,
+    "_elapsed_s": 0.002
+  }
+}

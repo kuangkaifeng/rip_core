@@ -1,0 +1,414 @@
+{
+  "color_before": {
+    "cache": true,
+    "cacheNum": 0,
+    "embeddedICC": true,
+    "readTransparency": true,
+    "result": 0,
+    "transparencyToWhite": false,
+    "_elapsed_s": 0.012
+  },
+  "config_color_rt1_tw0": {
+    "cacheNum": 1,
+    "result": 0,
+    "_elapsed_s": 0.015
+  },
+  "config_color_rt0_tw0": {
+    "cacheNum": 1,
+    "result": 0,
+    "_elapsed_s": 0.003
+  },
+  "config_color_rt1_tw1": {
+    "cacheNum": 1,
+    "result": 0,
+    "_elapsed_s": 0.005
+  },
+  "config_color_rt0_tw1": {
+    "cacheNum": 1,
+    "result": 0,
+    "_elapsed_s": 0.003
+  },
+  "transparency_runs": [
+    {
+      "name": "tx_rt1_tw0",
+      "result": 0,
+      "size": 134505,
+      "sha_norm": "e415bfe1a1624e5e8b10d1c856952a21993cc5e8e6887dd52ef88b5e1e49cd91",
+      "job": {
+        "command": "rip",
+        "doc": {
+          "name": "D:/work/RIP核心分析/reference/inputs/alpha_checker_100.png"
+        },
+        "prs": "./A3-DTF-1390.prs",
+        "modeId": 2,
+        "range": [
+          [
+            1,
+            1
+          ]
+        ],
+        "output": {
+          "mode": "file",
+          "file": {
+            "name": "D:/work/RIP核心分析/reference/prn_samples/exp_a3_tx_rt1_tw0.prn",
+            "mode": 438
+          }
+        },
+        "rotate": 0,
+        "scale": [
+          100,
+          100
+        ],
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "view": {
+          "xdpi": 120,
+          "ydpi": 120
+        },
+        "color": {
+          "readTransparency": true,
+          "transparencyToWhite": false
+        },
+        "inputColorEditor": [
+          {
+            "mode": "full",
+            "invert": false,
+            "inkName": "W1"
+          }
+        ],
+        "inkIE": [
+          {
+            "mode": "invaginate",
+            "index": 4,
+            "dots": [
+              10,
+              10,
+              10,
+              10
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "tx_rt0_tw0",
+      "result": 0,
+      "size": 134505,
+      "sha_norm": "e415bfe1a1624e5e8b10d1c856952a21993cc5e8e6887dd52ef88b5e1e49cd91",
+      "job": {
+        "command": "rip",
+        "doc": {
+          "name": "D:/work/RIP核心分析/reference/inputs/alpha_checker_100.png"
+        },
+        "prs": "./A3-DTF-1390.prs",
+        "modeId": 2,
+        "range": [
+          [
+            1,
+            1
+          ]
+        ],
+        "output": {
+          "mode": "file",
+          "file": {
+            "name": "D:/work/RIP核心分析/reference/prn_samples/exp_a3_tx_rt0_tw0.prn",
+            "mode": 438
+          }
+        },
+        "rotate": 0,
+        "scale": [
+          100,
+          100
+        ],
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "view": {
+          "xdpi": 120,
+          "ydpi": 120
+        },
+        "color": {
+          "readTransparency": true,
+          "transparencyToWhite": false
+        },
+        "inputColorEditor": [
+          {
+            "mode": "full",
+            "invert": false,
+            "inkName": "W1"
+          }
+        ],
+        "inkIE": [
+          {
+            "mode": "invaginate",
+            "index": 4,
+            "dots": [
+              10,
+              10,
+              10,
+              10
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "tx_rt1_tw1",
+      "result": 0,
+      "size": 134505,
+      "sha_norm": "e415bfe1a1624e5e8b10d1c856952a21993cc5e8e6887dd52ef88b5e1e49cd91",
+      "job": {
+        "command": "rip",
+        "doc": {
+          "name": "D:/work/RIP核心分析/reference/inputs/alpha_checker_100.png"
+        },
+        "prs": "./A3-DTF-1390.prs",
+        "modeId": 2,
+        "range": [
+          [
+            1,
+            1
+          ]
+        ],
+        "output": {
+          "mode": "file",
+          "file": {
+            "name": "D:/work/RIP核心分析/reference/prn_samples/exp_a3_tx_rt1_tw1.prn",
+            "mode": 438
+          }
+        },
+        "rotate": 0,
+        "scale": [
+          100,
+          100
+        ],
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "view": {
+          "xdpi": 120,
+          "ydpi": 120
+        },
+        "color": {
+          "readTransparency": true,
+          "transparencyToWhite": false
+        },
+        "inputColorEditor": [
+          {
+            "mode": "full",
+            "invert": false,
+            "inkName": "W1"
+          }
+        ],
+        "inkIE": [
+          {
+            "mode": "invaginate",
+            "index": 4,
+            "dots": [
+              10,
+              10,
+              10,
+              10
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "tx_rt0_tw1",
+      "result": 0,
+      "size": 134505,
+      "sha_norm": "e415bfe1a1624e5e8b10d1c856952a21993cc5e8e6887dd52ef88b5e1e49cd91",
+      "job": {
+        "command": "rip",
+        "doc": {
+          "name": "D:/work/RIP核心分析/reference/inputs/alpha_checker_100.png"
+        },
+        "prs": "./A3-DTF-1390.prs",
+        "modeId": 2,
+        "range": [
+          [
+            1,
+            1
+          ]
+        ],
+        "output": {
+          "mode": "file",
+          "file": {
+            "name": "D:/work/RIP核心分析/reference/prn_samples/exp_a3_tx_rt0_tw1.prn",
+            "mode": 438
+          }
+        },
+        "rotate": 0,
+        "scale": [
+          100,
+          100
+        ],
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "view": {
+          "xdpi": 120,
+          "ydpi": 120
+        },
+        "color": {
+          "readTransparency": true,
+          "transparencyToWhite": false
+        },
+        "inputColorEditor": [
+          {
+            "mode": "full",
+            "invert": false,
+            "inkName": "W1"
+          }
+        ],
+        "inkIE": [
+          {
+            "mode": "invaginate",
+            "index": 4,
+            "dots": [
+              10,
+              10,
+              10,
+              10
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "tx_rt1_tw0",
+      "result": 0,
+      "size": 134505,
+      "sha_norm": "e415bfe1a1624e5e8b10d1c856952a21993cc5e8e6887dd52ef88b5e1e49cd91",
+      "job": {
+        "command": "rip",
+        "doc": {
+          "name": "D:/work/RIP核心分析/reference/inputs/alpha_checker_100.png"
+        },
+        "prs": "./A3-DTF-1390.prs",
+        "modeId": 2,
+        "range": [
+          [
+            1,
+            1
+          ]
+        ],
+        "output": {
+          "mode": "file",
+          "file": {
+            "name": "D:/work/RIP核心分析/reference/prn_samples/exp_a3_tx_rt1_tw0.prn",
+            "mode": 438
+          }
+        },
+        "rotate": 0,
+        "scale": [
+          100,
+          100
+        ],
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "view": {
+          "xdpi": 120,
+          "ydpi": 120
+        },
+        "color": {
+          "readTransparency": true,
+          "transparencyToWhite": false
+        },
+        "inputColorEditor": [
+          {
+            "mode": "full",
+            "invert": false,
+            "inkName": "W1"
+          }
+        ],
+        "inkIE": [
+          {
+            "mode": "invaginate",
+            "index": 4,
+            "dots": [
+              10,
+              10,
+              10,
+              10
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "config_color_restore": {
+    "cacheNum": 1,
+    "result": 0,
+    "_elapsed_s": 0.003
+  },
+  "color_after": {
+    "cache": true,
+    "cacheNum": 1,
+    "embeddedICC": true,
+    "readTransparency": true,
+    "result": 0,
+    "transparencyToWhite": false,
+    "_elapsed_s": 0.002
+  },
+  "errors": {
+    "missing_input_file": {
+      "result": 6,
+      "_elapsed_s": 0.002
+    },
+    "missing_prs": {
+      "result": 3,
+      "_elapsed_s": 0.004
+    },
+    "bad_modeId_99": {
+      "result": 2,
+      "_elapsed_s": 0.007
+    },
+    "bad_modeId_neg1": {
+      "result": 2,
+      "_elapsed_s": 0.003
+    },
+    "bad_output_dir": {
+      "result": 12,
+      "_elapsed_s": 0.007
+    },
+    "unknown_command": {
+      "result": 9,
+      "_elapsed_s": 0.004
+    },
+    "bad_json_type": {
+      "result": 9,
+      "_elapsed_s": 0.021
+    },
+    "no_command": {
+      "result": 9,
+      "_elapsed_s": 0.003
+    },
+    "prs_as_input_image": {
+      "result": 5,
+      "_elapsed_s": 0.003
+    },
+    "doc_type_pdf_on_png": {
+      "result": 7,
+      "_elapsed_s": 2.405
+    }
+  }
+}

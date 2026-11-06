@@ -1,0 +1,1086 @@
+{
+ "SRGB IEC61966-2.1.icc": {
+  "path": "D:\\Code\\kkf\\v1.1.2\\rip-studio\\3rdLib\\mtripSDK\\dist\\bin\\ICC Profile\\RGB\\SRGB IEC61966-2.1.icc",
+  "size": 3144,
+  "header": {
+   "size": 3144,
+   "cmm": "Lino",
+   "version_major": 2,
+   "version_minor": 16,
+   "version": "2.16.0.0",
+   "class": "mntr",
+   "colorspace": "RGB ",
+   "pcs": "XYZ ",
+   "datetime": [
+    1998,
+    2,
+    9,
+    6,
+    49,
+    0
+   ],
+   "platform": "MSFT",
+   "flags": 0,
+   "manufacturer": "IEC ",
+   "model": "sRGB",
+   "attributes": 0,
+   "intent": 0,
+   "illuminant": [
+    63190,
+    65536,
+    54061
+   ],
+   "creator": "HP  ",
+   "id": "00000000000000000000000000000000"
+  },
+  "tags": [
+   {
+    "sig": "cprt",
+    "type_": "text",
+    "off": 336,
+    "size": 51
+   },
+   {
+    "sig": "desc",
+    "type_": "desc",
+    "off": 388,
+    "size": 108
+   },
+   {
+    "sig": "wtpt",
+    "type_": "XYZ ",
+    "off": 496,
+    "size": 20
+   },
+   {
+    "sig": "bkpt",
+    "type_": "XYZ ",
+    "off": 516,
+    "size": 20
+   },
+   {
+    "sig": "rXYZ",
+    "type_": "XYZ ",
+    "off": 536,
+    "size": 20
+   },
+   {
+    "sig": "gXYZ",
+    "type_": "XYZ ",
+    "off": 556,
+    "size": 20
+   },
+   {
+    "sig": "bXYZ",
+    "type_": "XYZ ",
+    "off": 576,
+    "size": 20
+   },
+   {
+    "sig": "dmnd",
+    "type_": "desc",
+    "off": 596,
+    "size": 112
+   },
+   {
+    "sig": "dmdd",
+    "type_": "desc",
+    "off": 708,
+    "size": 136
+   },
+   {
+    "sig": "vued",
+    "type_": "desc",
+    "off": 844,
+    "size": 134
+   },
+   {
+    "sig": "view",
+    "type_": "view",
+    "off": 980,
+    "size": 36
+   },
+   {
+    "sig": "lumi",
+    "type_": "XYZ ",
+    "off": 1016,
+    "size": 20
+   },
+   {
+    "sig": "meas",
+    "type_": "meas",
+    "off": 1036,
+    "size": 36
+   },
+   {
+    "sig": "tech",
+    "type_": "sig ",
+    "off": 1072,
+    "size": 12
+   },
+   {
+    "sig": "rTRC",
+    "type_": "curv",
+    "off": 1084,
+    "size": 2060
+   },
+   {
+    "sig": "gTRC",
+    "type_": "curv",
+    "off": 1084,
+    "size": 2060
+   },
+   {
+    "sig": "bTRC",
+    "type_": "curv",
+    "off": 1084,
+    "size": 2060
+   }
+  ]
+ },
+ "CoatedFOGRA39.icc": {
+  "path": "D:\\Code\\kkf\\v1.1.2\\rip-studio\\3rdLib\\mtripSDK\\dist\\bin\\ICC Profile\\CMYK\\CoatedFOGRA39.icc",
+  "size": 654352,
+  "header": {
+   "size": 654352,
+   "cmm": "ADBE",
+   "version_major": 2,
+   "version_minor": 16,
+   "version": "2.16.0.0",
+   "class": "prtr",
+   "colorspace": "CMYK",
+   "pcs": "Lab ",
+   "datetime": [
+    2007,
+    5,
+    15,
+    16,
+    30,
+    3
+   ],
+   "platform": "APPL",
+   "flags": 0,
+   "manufacturer": "ADBE",
+   "model": "\u0000\u0000\u0000\u0000",
+   "attributes": 0,
+   "intent": 0,
+   "illuminant": [
+    63190,
+    65536,
+    54061
+   ],
+   "creator": "ADBE",
+   "id": "00000000000000000000000000000000"
+  },
+  "tags": [
+   {
+    "sig": "desc",
+    "type_": "desc",
+    "off": 300,
+    "size": 124
+   },
+   {
+    "sig": "cprt",
+    "type_": "text",
+    "off": 424,
+    "size": 43
+   },
+   {
+    "sig": "wtpt",
+    "type_": "XYZ ",
+    "off": 468,
+    "size": 20
+   },
+   {
+    "sig": "targ",
+    "type_": "text",
+    "off": 488,
+    "size": 24
+   },
+   {
+    "sig": "tech",
+    "type_": "sig ",
+    "off": 512,
+    "size": 12
+   },
+   {
+    "sig": "vued",
+    "type_": "desc",
+    "off": 524,
+    "size": 94
+   },
+   {
+    "sig": "view",
+    "type_": "view",
+    "off": 620,
+    "size": 36
+   },
+   {
+    "sig": "A2B0",
+    "type_": "mft2",
+    "off": 656,
+    "size": 89958
+   },
+   {
+    "sig": "A2B2",
+    "type_": "mft2",
+    "off": 656,
+    "size": 89958
+   },
+   {
+    "sig": "A2B1",
+    "type_": "mft2",
+    "off": 90616,
+    "size": 89958
+   },
+   {
+    "sig": "B2A0",
+    "type_": "mft1",
+    "off": 180576,
+    "size": 145588
+   },
+   {
+    "sig": "B2A1",
+    "type_": "mft1",
+    "off": 326164,
+    "size": 145588
+   },
+   {
+    "sig": "B2A2",
+    "type_": "mft1",
+    "off": 471752,
+    "size": 145588
+   },
+   {
+    "sig": "gamt",
+    "type_": "mft1",
+    "off": 617340,
+    "size": 37009
+   }
+  ]
+ },
+ "US Web Coated (SWOP) v2.icc": {
+  "path": "D:\\Code\\kkf\\v1.1.2\\rip-studio\\3rdLib\\mtripSDK\\dist\\bin\\ICC Profile\\CMYK\\US Web Coated (SWOP) v2.icc",
+  "size": 557168,
+  "header": {
+   "size": 557168,
+   "cmm": "ADBE",
+   "version_major": 2,
+   "version_minor": 16,
+   "version": "2.16.0.0",
+   "class": "prtr",
+   "colorspace": "CMYK",
+   "pcs": "Lab ",
+   "datetime": [
+    2000,
+    7,
+    26,
+    5,
+    41,
+    53
+   ],
+   "platform": "APPL",
+   "flags": 0,
+   "manufacturer": "ADBE",
+   "model": "\u0000\u0000\u0000\u0000",
+   "attributes": 0,
+   "intent": 0,
+   "illuminant": [
+    63190,
+    65536,
+    54061
+   ],
+   "creator": "ADBE",
+   "id": "00000000000000000000000000000000"
+  },
+  "tags": [
+   {
+    "sig": "desc",
+    "type_": "desc",
+    "off": 252,
+    "size": 116
+   },
+   {
+    "sig": "cprt",
+    "type_": "text",
+    "off": 368,
+    "size": 43
+   },
+   {
+    "sig": "wtpt",
+    "type_": "XYZ ",
+    "off": 412,
+    "size": 20
+   },
+   {
+    "sig": "A2B0",
+    "type_": "mft2",
+    "off": 432,
+    "size": 41478
+   },
+   {
+    "sig": "A2B2",
+    "type_": "mft2",
+    "off": 432,
+    "size": 41478
+   },
+   {
+    "sig": "A2B1",
+    "type_": "mft2",
+    "off": 41912,
+    "size": 41478
+   },
+   {
+    "sig": "B2A0",
+    "type_": "mft1",
+    "off": 83392,
+    "size": 145588
+   },
+   {
+    "sig": "B2A1",
+    "type_": "mft1",
+    "off": 228980,
+    "size": 145588
+   },
+   {
+    "sig": "B2A2",
+    "type_": "mft1",
+    "off": 374568,
+    "size": 145588
+   },
+   {
+    "sig": "gamt",
+    "type_": "mft1",
+    "off": 520156,
+    "size": 37009
+   }
+  ]
+ },
+ "v1440x720-A3-DTF-1390.icm": {
+  "path": "D:\\work\\RIP核心分析\\reference\\profiles\\source\\OUTPUT\\v1440x720-A3-DTF-1390.icm",
+  "size": 1904360,
+  "header": {
+   "size": 1904360,
+   "cmm": "MTCM",
+   "version_major": 4,
+   "version_minor": 48,
+   "version": "4.48.0.0",
+   "class": "prtr",
+   "colorspace": "CMYK",
+   "pcs": "Lab ",
+   "datetime": [
+    2025,
+    2,
+    19,
+    3,
+    4,
+    12
+   ],
+   "platform": "MSFT",
+   "flags": 0,
+   "manufacturer": "\u0000\u0000\u0000\u0000",
+   "model": "\u0000\u0000\u0000\u0000",
+   "attributes": 0,
+   "intent": 0,
+   "illuminant": [
+    63190,
+    65536,
+    54061
+   ],
+   "creator": "MTCM",
+   "id": "4d54020503040309000407436f6c6f72"
+  },
+  "tags": [
+   {
+    "sig": "desc",
+    "type_": "mluc",
+    "off": 252,
+    "size": 70
+   },
+   {
+    "sig": "cprt",
+    "type_": "mluc",
+    "off": 324,
+    "size": 62
+   },
+   {
+    "sig": "wtpt",
+    "type_": "XYZ ",
+    "off": 388,
+    "size": 20
+   },
+   {
+    "sig": "bkpt",
+    "type_": "XYZ ",
+    "off": 408,
+    "size": 20
+   },
+   {
+    "sig": "A2B1",
+    "type_": "mAB ",
+    "off": 428,
+    "size": 501292
+   },
+   {
+    "sig": "A2B0",
+    "type_": "mAB ",
+    "off": 501720,
+    "size": 501292
+   },
+   {
+    "sig": "A2B2",
+    "type_": "mAB ",
+    "off": 1003012,
+    "size": 501292
+   },
+   {
+    "sig": "B2A1",
+    "type_": "mBA ",
+    "off": 1504304,
+    "size": 125164
+   },
+   {
+    "sig": "B2A0",
+    "type_": "mBA ",
+    "off": 1629468,
+    "size": 149728
+   },
+   {
+    "sig": "B2A2",
+    "type_": "mBA ",
+    "off": 1779196,
+    "size": 125164
+   }
+  ]
+ },
+ "v1440x1400-A3-DTF-1390.icm": {
+  "path": "D:\\work\\RIP核心分析\\reference\\profiles\\source\\OUTPUT\\v1440x1400-A3-DTF-1390.icm",
+  "size": 1904360,
+  "header": {
+   "size": 1904360,
+   "cmm": "MTCM",
+   "version_major": 4,
+   "version_minor": 48,
+   "version": "4.48.0.0",
+   "class": "prtr",
+   "colorspace": "CMYK",
+   "pcs": "Lab ",
+   "datetime": [
+    2025,
+    2,
+    18,
+    10,
+    23,
+    50
+   ],
+   "platform": "MSFT",
+   "flags": 0,
+   "manufacturer": "\u0000\u0000\u0000\u0000",
+   "model": "\u0000\u0000\u0000\u0000",
+   "attributes": 0,
+   "intent": 0,
+   "illuminant": [
+    63190,
+    65536,
+    54061
+   ],
+   "creator": "MTCM",
+   "id": "4d54000302040709000407436f6c6f72"
+  },
+  "tags": [
+   {
+    "sig": "desc",
+    "type_": "mluc",
+    "off": 252,
+    "size": 72
+   },
+   {
+    "sig": "cprt",
+    "type_": "mluc",
+    "off": 324,
+    "size": 62
+   },
+   {
+    "sig": "wtpt",
+    "type_": "XYZ ",
+    "off": 388,
+    "size": 20
+   },
+   {
+    "sig": "bkpt",
+    "type_": "XYZ ",
+    "off": 408,
+    "size": 20
+   },
+   {
+    "sig": "A2B1",
+    "type_": "mAB ",
+    "off": 428,
+    "size": 501292
+   },
+   {
+    "sig": "A2B0",
+    "type_": "mAB ",
+    "off": 501720,
+    "size": 501292
+   },
+   {
+    "sig": "A2B2",
+    "type_": "mAB ",
+    "off": 1003012,
+    "size": 501292
+   },
+   {
+    "sig": "B2A1",
+    "type_": "mBA ",
+    "off": 1504304,
+    "size": 125164
+   },
+   {
+    "sig": "B2A0",
+    "type_": "mBA ",
+    "off": 1629468,
+    "size": 149728
+   },
+   {
+    "sig": "B2A2",
+    "type_": "mBA ",
+    "off": 1779196,
+    "size": 125164
+   }
+  ]
+ },
+ "v2880x1400-A3-DTF-1390.icm": {
+  "path": "D:\\work\\RIP核心分析\\reference\\profiles\\source\\OUTPUT\\v2880x1400-A3-DTF-1390.icm",
+  "size": 1904360,
+  "header": {
+   "size": 1904360,
+   "cmm": "MTCM",
+   "version_major": 4,
+   "version_minor": 48,
+   "version": "4.48.0.0",
+   "class": "prtr",
+   "colorspace": "CMYK",
+   "pcs": "Lab ",
+   "datetime": [
+    2025,
+    2,
+    19,
+    5,
+    25,
+    24
+   ],
+   "platform": "MSFT",
+   "flags": 0,
+   "manufacturer": "\u0000\u0000\u0000\u0000",
+   "model": "\u0000\u0000\u0000\u0000",
+   "attributes": 0,
+   "intent": 0,
+   "illuminant": [
+    63190,
+    65536,
+    54061
+   ],
+   "creator": "MTCM",
+   "id": "4d54040207030409000407436f6c6f72"
+  },
+  "tags": [
+   {
+    "sig": "desc",
+    "type_": "mluc",
+    "off": 252,
+    "size": 72
+   },
+   {
+    "sig": "cprt",
+    "type_": "mluc",
+    "off": 324,
+    "size": 62
+   },
+   {
+    "sig": "wtpt",
+    "type_": "XYZ ",
+    "off": 388,
+    "size": 20
+   },
+   {
+    "sig": "bkpt",
+    "type_": "XYZ ",
+    "off": 408,
+    "size": 20
+   },
+   {
+    "sig": "A2B1",
+    "type_": "mAB ",
+    "off": 428,
+    "size": 501292
+   },
+   {
+    "sig": "A2B0",
+    "type_": "mAB ",
+    "off": 501720,
+    "size": 501292
+   },
+   {
+    "sig": "A2B2",
+    "type_": "mAB ",
+    "off": 1003012,
+    "size": 501292
+   },
+   {
+    "sig": "B2A1",
+    "type_": "mBA ",
+    "off": 1504304,
+    "size": 125164
+   },
+   {
+    "sig": "B2A0",
+    "type_": "mBA ",
+    "off": 1629468,
+    "size": 149728
+   },
+   {
+    "sig": "B2A2",
+    "type_": "mBA ",
+    "off": 1779196,
+    "size": 125164
+   }
+  ]
+ },
+ "v720x720-dtf.icm": {
+  "path": "D:\\Code\\kkf\\v1.1.2\\rip-studio\\3rdLib\\mtripSDK\\dist\\bin\\ICC Profile\\OUTPUT\\v720x720-dtf.icm",
+  "size": 3633852,
+  "header": {
+   "size": 3633852,
+   "cmm": "\u0000\u0000\u0000\u0000",
+   "version_major": 4,
+   "version_minor": 64,
+   "version": "4.64.0.0",
+   "class": "prtr",
+   "colorspace": "CMYK",
+   "pcs": "Lab ",
+   "datetime": [
+    2026,
+    9,
+    8,
+    11,
+    38,
+    21
+   ],
+   "platform": "MSFT",
+   "flags": 131072,
+   "manufacturer": "\u0000\u0000\u0000\u0000",
+   "model": "\u0000\u0000\u0000\u0000",
+   "attributes": 0,
+   "intent": 0,
+   "illuminant": [
+    63190,
+    65536,
+    54061
+   ],
+   "creator": "XRCM",
+   "id": "2ea6eb624298106167ef4e2dffe93109"
+  },
+  "tags": [
+   {
+    "sig": "desc",
+    "type_": "mluc",
+    "off": 348,
+    "size": 106
+   },
+   {
+    "sig": "wtpt",
+    "type_": "XYZ ",
+    "off": 456,
+    "size": 20
+   },
+   {
+    "sig": "chad",
+    "type_": "sf32",
+    "off": 476,
+    "size": 44
+   },
+   {
+    "sig": "cprt",
+    "type_": "mluc",
+    "off": 520,
+    "size": 72
+   },
+   {
+    "sig": "A2B0",
+    "type_": "mAB ",
+    "off": 592,
+    "size": 534044
+   },
+   {
+    "sig": "A2B1",
+    "type_": "mAB ",
+    "off": 534636,
+    "size": 534044
+   },
+   {
+    "sig": "A2B2",
+    "type_": "mAB ",
+    "off": 1068680,
+    "size": 542232
+   },
+   {
+    "sig": "B2A0",
+    "type_": "mBA ",
+    "off": 1610912,
+    "size": 328600
+   },
+   {
+    "sig": "B2A1",
+    "type_": "mBA ",
+    "off": 1939512,
+    "size": 328600
+   },
+   {
+    "sig": "B2A2",
+    "type_": "mBA ",
+    "off": 2268112,
+    "size": 328600
+   },
+   {
+    "sig": "gamt",
+    "type_": "mBA ",
+    "off": 2596712,
+    "size": 88368
+   },
+   {
+    "sig": "gbd0",
+    "type_": "gbd ",
+    "off": 2685080,
+    "size": 122380
+   },
+   {
+    "sig": "gbd1",
+    "type_": "gbd ",
+    "off": 2807460,
+    "size": 122380
+   },
+   {
+    "sig": "gbd2",
+    "type_": "gbd ",
+    "off": 2929840,
+    "size": 122380
+   },
+   {
+    "sig": "gbd3",
+    "type_": "gbd ",
+    "off": 3052220,
+    "size": 122380
+   },
+   {
+    "sig": "view",
+    "type_": "view",
+    "off": 3174600,
+    "size": 36
+   },
+   {
+    "sig": "CxF ",
+    "type_": "ZXML",
+    "off": 3174636,
+    "size": 459142
+   },
+   {
+    "sig": "meta",
+    "type_": "dict",
+    "off": 3633780,
+    "size": 72
+   }
+  ]
+ },
+ "v720x1080-dtf.icm": {
+  "path": "D:\\Code\\kkf\\v1.1.2\\rip-studio\\3rdLib\\mtripSDK\\dist\\bin\\ICC Profile\\OUTPUT\\v720x1080-dtf.icm",
+  "size": 1904344,
+  "header": {
+   "size": 1904344,
+   "cmm": "MTCM",
+   "version_major": 4,
+   "version_minor": 48,
+   "version": "4.48.0.0",
+   "class": "prtr",
+   "colorspace": "CMYK",
+   "pcs": "Lab ",
+   "datetime": [
+    2026,
+    1,
+    22,
+    10,
+    45,
+    38
+   ],
+   "platform": "MSFT",
+   "flags": 0,
+   "manufacturer": "\u0000\u0000\u0000\u0000",
+   "model": "\u0000\u0000\u0000\u0000",
+   "attributes": 0,
+   "intent": 0,
+   "illuminant": [
+    63190,
+    65536,
+    54061
+   ],
+   "creator": "MTCM",
+   "id": "a2d5a1a24eefd5cbebbb16e29cf9e6a6"
+  },
+  "tags": [
+   {
+    "sig": "desc",
+    "type_": "mluc",
+    "off": 252,
+    "size": 54
+   },
+   {
+    "sig": "cprt",
+    "type_": "mluc",
+    "off": 308,
+    "size": 62
+   },
+   {
+    "sig": "wtpt",
+    "type_": "XYZ ",
+    "off": 372,
+    "size": 20
+   },
+   {
+    "sig": "bkpt",
+    "type_": "XYZ ",
+    "off": 392,
+    "size": 20
+   },
+   {
+    "sig": "A2B1",
+    "type_": "mAB ",
+    "off": 412,
+    "size": 501292
+   },
+   {
+    "sig": "A2B0",
+    "type_": "mAB ",
+    "off": 501704,
+    "size": 501292
+   },
+   {
+    "sig": "A2B2",
+    "type_": "mAB ",
+    "off": 1002996,
+    "size": 501292
+   },
+   {
+    "sig": "B2A1",
+    "type_": "mBA ",
+    "off": 1504288,
+    "size": 125164
+   },
+   {
+    "sig": "B2A0",
+    "type_": "mBA ",
+    "off": 1629452,
+    "size": 149728
+   },
+   {
+    "sig": "B2A2",
+    "type_": "mBA ",
+    "off": 1779180,
+    "size": 125164
+   }
+  ]
+ },
+ "v720x1440-dtf.icm": {
+  "path": "D:\\Code\\kkf\\v1.1.2\\rip-studio\\3rdLib\\mtripSDK\\dist\\bin\\ICC Profile\\OUTPUT\\v720x1440-dtf.icm",
+  "size": 1904344,
+  "header": {
+   "size": 1904344,
+   "cmm": "MTCM",
+   "version_major": 4,
+   "version_minor": 48,
+   "version": "4.48.0.0",
+   "class": "prtr",
+   "colorspace": "CMYK",
+   "pcs": "Lab ",
+   "datetime": [
+    2026,
+    1,
+    22,
+    9,
+    26,
+    38
+   ],
+   "platform": "MSFT",
+   "flags": 0,
+   "manufacturer": "\u0000\u0000\u0000\u0000",
+   "model": "\u0000\u0000\u0000\u0000",
+   "attributes": 0,
+   "intent": 0,
+   "illuminant": [
+    63190,
+    65536,
+    54061
+   ],
+   "creator": "MTCM",
+   "id": "bc32ffe14bb255017c7bcdf9ca08d3cd"
+  },
+  "tags": [
+   {
+    "sig": "desc",
+    "type_": "mluc",
+    "off": 252,
+    "size": 54
+   },
+   {
+    "sig": "cprt",
+    "type_": "mluc",
+    "off": 308,
+    "size": 62
+   },
+   {
+    "sig": "wtpt",
+    "type_": "XYZ ",
+    "off": 372,
+    "size": 20
+   },
+   {
+    "sig": "bkpt",
+    "type_": "XYZ ",
+    "off": 392,
+    "size": 20
+   },
+   {
+    "sig": "A2B1",
+    "type_": "mAB ",
+    "off": 412,
+    "size": 501292
+   },
+   {
+    "sig": "A2B0",
+    "type_": "mAB ",
+    "off": 501704,
+    "size": 501292
+   },
+   {
+    "sig": "A2B2",
+    "type_": "mAB ",
+    "off": 1002996,
+    "size": 501292
+   },
+   {
+    "sig": "B2A1",
+    "type_": "mBA ",
+    "off": 1504288,
+    "size": 125164
+   },
+   {
+    "sig": "B2A0",
+    "type_": "mBA ",
+    "off": 1629452,
+    "size": 149728
+   },
+   {
+    "sig": "B2A2",
+    "type_": "mBA ",
+    "off": 1779180,
+    "size": 125164
+   }
+  ]
+ },
+ "v720x2160-dtf.icm": {
+  "path": "D:\\Code\\kkf\\v1.1.2\\rip-studio\\3rdLib\\mtripSDK\\dist\\bin\\ICC Profile\\OUTPUT\\v720x2160-dtf.icm",
+  "size": 1904344,
+  "header": {
+   "size": 1904344,
+   "cmm": "MTCM",
+   "version_major": 4,
+   "version_minor": 48,
+   "version": "4.48.0.0",
+   "class": "prtr",
+   "colorspace": "CMYK",
+   "pcs": "Lab ",
+   "datetime": [
+    2026,
+    1,
+    23,
+    7,
+    18,
+    58
+   ],
+   "platform": "MSFT",
+   "flags": 0,
+   "manufacturer": "\u0000\u0000\u0000\u0000",
+   "model": "\u0000\u0000\u0000\u0000",
+   "attributes": 0,
+   "intent": 0,
+   "illuminant": [
+    63190,
+    65536,
+    54061
+   ],
+   "creator": "MTCM",
+   "id": "d1c7e4d0025c22cbf56a786a9034696e"
+  },
+  "tags": [
+   {
+    "sig": "desc",
+    "type_": "mluc",
+    "off": 252,
+    "size": 54
+   },
+   {
+    "sig": "cprt",
+    "type_": "mluc",
+    "off": 308,
+    "size": 62
+   },
+   {
+    "sig": "wtpt",
+    "type_": "XYZ ",
+    "off": 372,
+    "size": 20
+   },
+   {
+    "sig": "bkpt",
+    "type_": "XYZ ",
+    "off": 392,
+    "size": 20
+   },
+   {
+    "sig": "A2B1",
+    "type_": "mAB ",
+    "off": 412,
+    "size": 501292
+   },
+   {
+    "sig": "A2B0",
+    "type_": "mAB ",
+    "off": 501704,
+    "size": 501292
+   },
+   {
+    "sig": "A2B2",
+    "type_": "mAB ",
+    "off": 1002996,
+    "size": 501292
+   },
+   {
+    "sig": "B2A1",
+    "type_": "mBA ",
+    "off": 1504288,
+    "size": 125164
+   },
+   {
+    "sig": "B2A0",
+    "type_": "mBA ",
+    "off": 1629452,
+    "size": 149728
+   },
+   {
+    "sig": "B2A2",
+    "type_": "mBA ",
+    "off": 1779180,
+    "size": 125164
+   }
+  ]
+ }
+}

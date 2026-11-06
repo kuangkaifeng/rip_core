@@ -1,0 +1,59 @@
+{
+ "command": "rip",
+ "doc": {
+  "name": "D:/work/RIP\u6838\u5fc3\u5206\u6790/reference/inputs/print_debug_test22.jpg"
+ },
+ "prs": "D:/work/RIP\u6838\u5fc3\u5206\u6790/reference/prs/A3-DTF-1390.prs",
+ "modeId": 2,
+ "range": [
+  [
+   1,
+   1
+  ]
+ ],
+ "output": {
+  "mode": "file",
+  "file": {
+   "name": "D:/work/RIP\u6838\u5fc3\u5206\u6790/work/shared/print_debug/ours_test22_m2.prn",
+   "mode": 438
+  }
+ },
+ "rotate": 0,
+ "scale": [
+  100,
+  100
+ ],
+ "margin": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "view": {
+  "xdpi": 120,
+  "ydpi": 120
+ },
+ "color": {
+  "readTransparency": true,
+  "transparencyToWhite": false
+ },
+ "inkIE": [
+  {
+   "index": 4,
+   "mode": "invaginate",
+   "dots": [
+    10,
+    10,
+    10,
+    10
+   ]
+  }
+ ],
+ "inputColorEditor": [
+  {
+   "inkName": "W1",
+   "invert": false,
+   "mode": "full"
+  }
+ ]
+}

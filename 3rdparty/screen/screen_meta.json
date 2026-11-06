@@ -1,0 +1,52 @@
+{
+ "version": 6,
+ "size": 1024,
+ "tile_size": 1024,
+ "engine_rule": "level(v,x,y) = (v>=T1)+(v>=T2)+(v>=T3); thr_<ink>.bin = size*size*3 bytes [T1,T2,T3] uint8 raster order y*size+x; 0=never",
+ "coordinate_indexing": {
+  "type": "content-relative",
+  "tile_indexing": "D(x,y)=TILE[x%1024][y%1024]"
+ },
+ "channels": [
+  {
+   "ink": "C",
+   "file": "thr_C.bin",
+   "content_top_page_row": 640,
+   "source": "direct extraction from probe_scan_C###_176 (256 levels)"
+  },
+  {
+   "ink": "M",
+   "file": "thr_M.bin",
+   "content_top_page_row": 644,
+   "source": "direct extraction from probe_scan_M###_176 (256 levels)"
+  },
+  {
+   "ink": "Y",
+   "file": "thr_Y.bin",
+   "content_top_page_row": 644,
+   "source": "direct extraction from probe_scan_Y###_176 (256 levels)"
+  },
+  {
+   "ink": "K",
+   "file": "thr_K.bin",
+   "content_top_page_row": 640,
+   "source": "direct extraction from probe_scan_K###_176 (256 levels)"
+  }
+ ],
+ "decoder_convention": "ESC/P2 2bit MSB-first; prow = pos_k + 8*r - content_top; nonzero merge; identical to tools/validate/validate_e2e.py::decode_page",
+ "validation": {
+  "under_lead_decoder": {
+   "content_384": "C=100.0000%, M=99.9763%, Y=99.9769%, K=100.0000%",
+   "content_1056": "C/M/Y/K = 100.0000%",
+   "residual_note": "content=384 M/Y residuals are exactly the oracle never-printed row-383 pixels (weave gap), not screen errors"
+  }
+ },
+ "holes": {
+  "C": 0,
+  "M": 16,
+  "Y": 0,
+  "K": 16,
+  "note": "M/K 16 positions are never printed by oracle (obs=0 at all tones) => 0=never is correct; do not fill"
+ },
+ "compare_vs_lead_tile": "lead engine1024: 99.965-99.990%; this direct extraction better on all channels/contents"
+}

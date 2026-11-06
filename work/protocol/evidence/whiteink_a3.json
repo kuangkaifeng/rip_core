@@ -1,0 +1,1336 @@
+[
+  {
+    "case": "m3_base_C128",
+    "image": "cmyk_probe_C128_64.tif",
+    "mode": 3,
+    "ice": null,
+    "inkie": null,
+    "extra": null,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/print_debug_white_m3_base_C128.prn",
+    "job": "D:\\work\\RIP核心分析\\reference\\jobs\\print_debug_white_m3_base_C128.json",
+    "result": 0,
+    "error": null,
+    "size": 75131,
+    "codes": {
+      "blocks": 28,
+      "colors": {
+        "0x00": {
+          "ink": 0,
+          "records": 28,
+          "n": 96,
+          "m": 90
+        },
+        "0x01": {
+          "ink": 0,
+          "records": 28,
+          "n": 96,
+          "m": 90
+        },
+        "0x02": {
+          "ink": 147456,
+          "records": 28,
+          "n": 96,
+          "m": 90
+        },
+        "0x04": {
+          "ink": 0,
+          "records": 28,
+          "n": 96,
+          "m": 90
+        },
+        "0x11": {
+          "ink": 0,
+          "records": 28,
+          "n": 96,
+          "m": 90
+        },
+        "0x12": {
+          "ink": 0,
+          "records": 28,
+          "n": 96,
+          "m": 90
+        }
+      }
+    }
+  },
+  {
+    "case": "m3_base_M128",
+    "image": "cmyk_probe_M128_64.tif",
+    "mode": 3,
+    "ice": null,
+    "inkie": null,
+    "extra": null,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/print_debug_white_m3_base_M128.prn",
+    "job": "D:\\work\\RIP核心分析\\reference\\jobs\\print_debug_white_m3_base_M128.json",
+    "result": 0,
+    "error": null,
+    "size": 75043,
+    "codes": {
+      "blocks": 28,
+      "colors": {
+        "0x00": {
+          "ink": 0,
+          "records": 28,
+          "n": 96,
+          "m": 90
+        },
+        "0x01": {
+          "ink": 147455,
+          "records": 28,
+          "n": 96,
+          "m": 90
+        },
+        "0x02": {
+          "ink": 0,
+          "records": 28,
+          "n": 96,
+          "m": 90
+        },
+        "0x04": {
+          "ink": 0,
+          "records": 28,
+          "n": 96,
+          "m": 90
+        },
+        "0x11": {
+          "ink": 0,
+          "records": 28,
+          "n": 96,
+          "m": 90
+        },
+        "0x12": {
+          "ink": 0,
+          "records": 28,
+          "n": 96,
+          "m": 90
+        }
+      }
+    }
+  },
+  {
+    "case": "m3_base_Y128",
+    "image": "cmyk_probe_Y128_64.tif",
+    "mode": 3,
+    "ice": null,
+    "inkie": null,
+    "extra": null,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/print_debug_white_m3_base_Y128.prn",
+    "job": "D:\\work\\RIP核心分析\\reference\\jobs\\print_debug_white_m3_base_Y128.json",
+    "result": 0,
+    "error": null,
+    "size": 75034,
+    "codes": {
+      "blocks": 28,
+      "colors": {
+        "0x00": {
+          "ink": 0,
+          "records": 28,
+          "n": 96,
+          "m": 90
+        },
+        "0x01": {
+          "ink": 0,
+          "records": 28,
+          "n": 96,
+          "m": 90
+        },
+        "0x02": {
+          "ink": 0,
+          "records": 28,
+          "n": 96,
+          "m": 90
+        },
+        "0x04": {
+          "ink": 147456,
+          "records": 28,
+          "n": 96,
+          "m": 90
+        },
+        "0x11": {
+          "ink": 0,
+          "records": 28,
+          "n": 96,
+          "m": 90
+        },
+        "0x12": {
+          "ink": 0,
+          "records": 28,
+          "n": 96,
+          "m": 90
+        }
+      }
+    }
+  },
+  {
+    "case": "m3_base_K128",
+    "image": "cmyk_probe_K128_64.tif",
+    "mode": 3,
+    "ice": null,
+    "inkie": null,
+    "extra": null,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/print_debug_white_m3_base_K128.prn",
+    "job": "D:\\work\\RIP核心分析\\reference\\jobs\\print_debug_white_m3_base_K128.json",
+    "result": 0,
+    "error": null,
+    "size": 75131,
+    "codes": {
+      "blocks": 28,
+      "colors": {
+        "0x00": {
+          "ink": 147452,
+          "records": 28,
+          "n": 96,
+          "m": 90
+        },
+        "0x01": {
+          "ink": 0,
+          "records": 28,
+          "n": 96,
+          "m": 90
+        },
+        "0x02": {
+          "ink": 0,
+          "records": 28,
+          "n": 96,
+          "m": 90
+        },
+        "0x04": {
+          "ink": 0,
+          "records": 28,
+          "n": 96,
+          "m": 90
+        },
+        "0x11": {
+          "ink": 0,
+          "records": 28,
+          "n": 96,
+          "m": 90
+        },
+        "0x12": {
+          "ink": 0,
+          "records": 28,
+          "n": 96,
+          "m": 90
+        }
+      }
+    }
+  },
+  {
+    "case": "m3_iceW1full_black",
+    "image": "flat_black_100.png",
+    "mode": 3,
+    "ice": [
+      {
+        "mode": "full",
+        "invert": false,
+        "inkName": "W1"
+      }
+    ],
+    "inkie": null,
+    "extra": null,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/print_debug_white_m3_iceW1full_black.prn",
+    "job": "D:\\work\\RIP核心分析\\reference\\jobs\\print_debug_white_m3_iceW1full_black.json",
+    "result": 0,
+    "error": null,
+    "size": 398353,
+    "codes": {
+      "blocks": 33,
+      "colors": {
+        "0x00": {
+          "ink": 359994,
+          "records": 33,
+          "n": 152,
+          "m": 90
+        },
+        "0x01": {
+          "ink": 359992,
+          "records": 33,
+          "n": 152,
+          "m": 90
+        },
+        "0x02": {
+          "ink": 360000,
+          "records": 33,
+          "n": 152,
+          "m": 90
+        },
+        "0x04": {
+          "ink": 360000,
+          "records": 33,
+          "n": 152,
+          "m": 90
+        },
+        "0x11": {
+          "ink": 0,
+          "records": 33,
+          "n": 152,
+          "m": 90
+        },
+        "0x12": {
+          "ink": 359994,
+          "records": 33,
+          "n": 152,
+          "m": 90
+        }
+      }
+    }
+  },
+  {
+    "case": "m3_iceW2full_black",
+    "image": "flat_black_100.png",
+    "mode": 3,
+    "ice": [
+      {
+        "mode": "full",
+        "invert": false,
+        "inkName": "W2"
+      }
+    ],
+    "inkie": null,
+    "extra": null,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/print_debug_white_m3_iceW2full_black.prn",
+    "job": "D:\\work\\RIP核心分析\\reference\\jobs\\print_debug_white_m3_iceW2full_black.json",
+    "result": 0,
+    "error": null,
+    "size": 398539,
+    "codes": {
+      "blocks": 33,
+      "colors": {
+        "0x00": {
+          "ink": 359994,
+          "records": 33,
+          "n": 152,
+          "m": 90
+        },
+        "0x01": {
+          "ink": 359992,
+          "records": 33,
+          "n": 152,
+          "m": 90
+        },
+        "0x02": {
+          "ink": 360000,
+          "records": 33,
+          "n": 152,
+          "m": 90
+        },
+        "0x04": {
+          "ink": 360000,
+          "records": 33,
+          "n": 152,
+          "m": 90
+        },
+        "0x11": {
+          "ink": 359994,
+          "records": 33,
+          "n": 152,
+          "m": 90
+        },
+        "0x12": {
+          "ink": 0,
+          "records": 33,
+          "n": 152,
+          "m": 90
+        }
+      }
+    }
+  },
+  {
+    "case": "m3_iceW1full_alpha",
+    "image": "alpha_checker_100.png",
+    "mode": 3,
+    "ice": [
+      {
+        "mode": "full",
+        "invert": false,
+        "inkName": "W1"
+      }
+    ],
+    "inkie": null,
+    "extra": null,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/print_debug_white_m3_iceW1full_alpha.prn",
+    "job": "D:\\work\\RIP核心分析\\reference\\jobs\\print_debug_white_m3_iceW1full_alpha.json",
+    "result": 0,
+    "error": null,
+    "size": 210250,
+    "codes": {
+      "blocks": 33,
+      "colors": {
+        "0x00": {
+          "ink": 0,
+          "records": 33,
+          "n": 152,
+          "m": 90
+        },
+        "0x01": {
+          "ink": 179707,
+          "records": 33,
+          "n": 152,
+          "m": 90
+        },
+        "0x02": {
+          "ink": 0,
+          "records": 33,
+          "n": 152,
+          "m": 90
+        },
+        "0x04": {
+          "ink": 179712,
+          "records": 33,
+          "n": 152,
+          "m": 90
+        },
+        "0x11": {
+          "ink": 0,
+          "records": 33,
+          "n": 152,
+          "m": 90
+        },
+        "0x12": {
+          "ink": 359994,
+          "records": 33,
+          "n": 152,
+          "m": 90
+        }
+      }
+    }
+  },
+  {
+    "case": "m3_iceW1color_alpha",
+    "image": "alpha_checker_100.png",
+    "mode": 3,
+    "ice": [
+      {
+        "mode": "color",
+        "invert": false,
+        "inkName": "W1"
+      }
+    ],
+    "inkie": null,
+    "extra": null,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/print_debug_white_m3_iceW1color_alpha.prn",
+    "job": "D:\\work\\RIP核心分析\\reference\\jobs\\print_debug_white_m3_iceW1color_alpha.json",
+    "result": 0,
+    "error": null,
+    "size": 210250,
+    "codes": {
+      "blocks": 33,
+      "colors": {
+        "0x00": {
+          "ink": 0,
+          "records": 33,
+          "n": 152,
+          "m": 90
+        },
+        "0x01": {
+          "ink": 179707,
+          "records": 33,
+          "n": 152,
+          "m": 90
+        },
+        "0x02": {
+          "ink": 0,
+          "records": 33,
+          "n": 152,
+          "m": 90
+        },
+        "0x04": {
+          "ink": 179712,
+          "records": 33,
+          "n": 152,
+          "m": 90
+        },
+        "0x11": {
+          "ink": 0,
+          "records": 33,
+          "n": 152,
+          "m": 90
+        },
+        "0x12": {
+          "ink": 359994,
+          "records": 33,
+          "n": 152,
+          "m": 90
+        }
+      }
+    }
+  },
+  {
+    "case": "m3_golden_quad",
+    "image": "cmyk_quad_100.png",
+    "mode": 3,
+    "ice": [
+      {
+        "mode": "full",
+        "invert": false,
+        "inkName": "W1"
+      }
+    ],
+    "inkie": [
+      {
+        "mode": "invaginate",
+        "index": 4,
+        "dots": [
+          10,
+          10,
+          10,
+          10
+        ]
+      }
+    ],
+    "extra": null,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/print_debug_white_m3_golden_quad.prn",
+    "job": "D:\\work\\RIP核心分析\\reference\\jobs\\print_debug_white_m3_golden_quad.json",
+    "result": 0,
+    "error": null,
+    "size": 296214,
+    "codes": {
+      "blocks": 33,
+      "colors": {
+        "0x00": {
+          "ink": 89997,
+          "records": 33,
+          "n": 152,
+          "m": 90
+        },
+        "0x01": {
+          "ink": 179995,
+          "records": 33,
+          "n": 152,
+          "m": 90
+        },
+        "0x02": {
+          "ink": 241911,
+          "records": 33,
+          "n": 152,
+          "m": 90
+        },
+        "0x04": {
+          "ink": 241732,
+          "records": 33,
+          "n": 152,
+          "m": 90
+        },
+        "0x11": {
+          "ink": 0,
+          "records": 33,
+          "n": 152,
+          "m": 90
+        },
+        "0x12": {
+          "ink": 1156,
+          "records": 33,
+          "n": 152,
+          "m": 90
+        }
+      }
+    }
+  },
+  {
+    "case": "m3_base_quad",
+    "image": "cmyk_quad_100.png",
+    "mode": 3,
+    "ice": null,
+    "inkie": null,
+    "extra": null,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/print_debug_white_m3_base_quad.prn",
+    "job": "D:\\work\\RIP核心分析\\reference\\jobs\\print_debug_white_m3_base_quad.json",
+    "result": 0,
+    "error": null,
+    "size": 295941,
+    "codes": {
+      "blocks": 33,
+      "colors": {
+        "0x00": {
+          "ink": 89997,
+          "records": 33,
+          "n": 152,
+          "m": 90
+        },
+        "0x01": {
+          "ink": 179995,
+          "records": 33,
+          "n": 152,
+          "m": 90
+        },
+        "0x02": {
+          "ink": 241911,
+          "records": 33,
+          "n": 152,
+          "m": 90
+        },
+        "0x04": {
+          "ink": 241732,
+          "records": 33,
+          "n": 152,
+          "m": 90
+        },
+        "0x11": {
+          "ink": 0,
+          "records": 33,
+          "n": 152,
+          "m": 90
+        },
+        "0x12": {
+          "ink": 0,
+          "records": 33,
+          "n": 152,
+          "m": 90
+        }
+      }
+    }
+  },
+  {
+    "case": "m1_base_C128",
+    "image": "cmyk_probe_C128_64.tif",
+    "mode": 1,
+    "ice": null,
+    "inkie": null,
+    "extra": null,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/print_debug_white_m1_base_C128.prn",
+    "job": "D:\\work\\RIP核心分析\\reference\\jobs\\print_debug_white_m1_base_C128.json",
+    "result": 0,
+    "error": null,
+    "size": 41248,
+    "codes": {
+      "blocks": 15,
+      "colors": {
+        "0x00": {
+          "ink": 0,
+          "records": 15,
+          "n": 96,
+          "m": 90
+        },
+        "0x01": {
+          "ink": 0,
+          "records": 15,
+          "n": 96,
+          "m": 90
+        },
+        "0x02": {
+          "ink": 73728,
+          "records": 15,
+          "n": 96,
+          "m": 90
+        },
+        "0x04": {
+          "ink": 0,
+          "records": 15,
+          "n": 96,
+          "m": 90
+        },
+        "0x11": {
+          "ink": 0,
+          "records": 15,
+          "n": 96,
+          "m": 90
+        },
+        "0x12": {
+          "ink": 0,
+          "records": 15,
+          "n": 96,
+          "m": 90
+        }
+      }
+    }
+  },
+  {
+    "case": "m1_base_M128",
+    "image": "cmyk_probe_M128_64.tif",
+    "mode": 1,
+    "ice": null,
+    "inkie": null,
+    "extra": null,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/print_debug_white_m1_base_M128.prn",
+    "job": "D:\\work\\RIP核心分析\\reference\\jobs\\print_debug_white_m1_base_M128.json",
+    "result": 0,
+    "error": null,
+    "size": 41174,
+    "codes": {
+      "blocks": 15,
+      "colors": {
+        "0x00": {
+          "ink": 0,
+          "records": 15,
+          "n": 96,
+          "m": 90
+        },
+        "0x01": {
+          "ink": 73728,
+          "records": 15,
+          "n": 96,
+          "m": 90
+        },
+        "0x02": {
+          "ink": 0,
+          "records": 15,
+          "n": 96,
+          "m": 90
+        },
+        "0x04": {
+          "ink": 0,
+          "records": 15,
+          "n": 96,
+          "m": 90
+        },
+        "0x11": {
+          "ink": 0,
+          "records": 15,
+          "n": 96,
+          "m": 90
+        },
+        "0x12": {
+          "ink": 0,
+          "records": 15,
+          "n": 96,
+          "m": 90
+        }
+      }
+    }
+  },
+  {
+    "case": "m1_base_Y128",
+    "image": "cmyk_probe_Y128_64.tif",
+    "mode": 1,
+    "ice": null,
+    "inkie": null,
+    "extra": null,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/print_debug_white_m1_base_Y128.prn",
+    "job": "D:\\work\\RIP核心分析\\reference\\jobs\\print_debug_white_m1_base_Y128.json",
+    "result": 0,
+    "error": null,
+    "size": 41170,
+    "codes": {
+      "blocks": 15,
+      "colors": {
+        "0x00": {
+          "ink": 0,
+          "records": 15,
+          "n": 96,
+          "m": 90
+        },
+        "0x01": {
+          "ink": 0,
+          "records": 15,
+          "n": 96,
+          "m": 90
+        },
+        "0x02": {
+          "ink": 0,
+          "records": 15,
+          "n": 96,
+          "m": 90
+        },
+        "0x04": {
+          "ink": 73728,
+          "records": 15,
+          "n": 96,
+          "m": 90
+        },
+        "0x11": {
+          "ink": 0,
+          "records": 15,
+          "n": 96,
+          "m": 90
+        },
+        "0x12": {
+          "ink": 0,
+          "records": 15,
+          "n": 96,
+          "m": 90
+        }
+      }
+    }
+  },
+  {
+    "case": "m1_base_K128",
+    "image": "cmyk_probe_K128_64.tif",
+    "mode": 1,
+    "ice": null,
+    "inkie": null,
+    "extra": null,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/print_debug_white_m1_base_K128.prn",
+    "job": "D:\\work\\RIP核心分析\\reference\\jobs\\print_debug_white_m1_base_K128.json",
+    "result": 0,
+    "error": null,
+    "size": 41252,
+    "codes": {
+      "blocks": 15,
+      "colors": {
+        "0x00": {
+          "ink": 73725,
+          "records": 15,
+          "n": 96,
+          "m": 90
+        },
+        "0x01": {
+          "ink": 0,
+          "records": 15,
+          "n": 96,
+          "m": 90
+        },
+        "0x02": {
+          "ink": 0,
+          "records": 15,
+          "n": 96,
+          "m": 90
+        },
+        "0x04": {
+          "ink": 0,
+          "records": 15,
+          "n": 96,
+          "m": 90
+        },
+        "0x11": {
+          "ink": 0,
+          "records": 15,
+          "n": 96,
+          "m": 90
+        },
+        "0x12": {
+          "ink": 0,
+          "records": 15,
+          "n": 96,
+          "m": 90
+        }
+      }
+    }
+  },
+  {
+    "case": "m1_iceW1full_black",
+    "image": "flat_black_100.png",
+    "mode": 1,
+    "ice": [
+      {
+        "mode": "full",
+        "invert": false,
+        "inkName": "W1"
+      }
+    ],
+    "inkie": null,
+    "extra": null,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/print_debug_white_m1_iceW1full_black.prn",
+    "job": "D:\\work\\RIP核心分析\\reference\\jobs\\print_debug_white_m1_iceW1full_black.json",
+    "result": 0,
+    "error": null,
+    "size": 244150,
+    "codes": {
+      "blocks": 18,
+      "colors": {
+        "0x00": {
+          "ink": 179997,
+          "records": 18,
+          "n": 152,
+          "m": 90
+        },
+        "0x01": {
+          "ink": 179997,
+          "records": 18,
+          "n": 152,
+          "m": 90
+        },
+        "0x02": {
+          "ink": 180000,
+          "records": 18,
+          "n": 152,
+          "m": 90
+        },
+        "0x04": {
+          "ink": 180000,
+          "records": 18,
+          "n": 152,
+          "m": 90
+        },
+        "0x11": {
+          "ink": 0,
+          "records": 18,
+          "n": 152,
+          "m": 90
+        },
+        "0x12": {
+          "ink": 179997,
+          "records": 18,
+          "n": 152,
+          "m": 90
+        }
+      }
+    }
+  },
+  {
+    "case": "m2_iceW1full_black",
+    "image": "flat_black_100.png",
+    "mode": 2,
+    "ice": [
+      {
+        "mode": "full",
+        "invert": false,
+        "inkName": "W1"
+      }
+    ],
+    "inkie": null,
+    "extra": null,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/print_debug_white_m2_iceW1full_black.prn",
+    "job": "D:\\work\\RIP核心分析\\reference\\jobs\\print_debug_white_m2_iceW1full_black.json",
+    "result": 0,
+    "error": null,
+    "size": 321592,
+    "codes": {
+      "blocks": 16,
+      "colors": {
+        "0x00": {
+          "ink": 360000,
+          "records": 16,
+          "n": 152,
+          "m": 90
+        },
+        "0x04": {
+          "ink": 359994,
+          "records": 16,
+          "n": 152,
+          "m": 90
+        },
+        "0x11": {
+          "ink": 360000,
+          "records": 16,
+          "n": 152,
+          "m": 90
+        },
+        "0x12": {
+          "ink": 359992,
+          "records": 16,
+          "n": 152,
+          "m": 90
+        }
+      }
+    }
+  },
+  {
+    "case": "m2_iceW1color_alpha",
+    "image": "alpha_checker_100.png",
+    "mode": 2,
+    "ice": [
+      {
+        "mode": "color",
+        "invert": false,
+        "inkName": "W1"
+      }
+    ],
+    "inkie": null,
+    "extra": null,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/print_debug_white_m2_iceW1color_alpha.prn",
+    "job": "D:\\work\\RIP核心分析\\reference\\jobs\\print_debug_white_m2_iceW1color_alpha.json",
+    "result": 0,
+    "error": null,
+    "size": 134505,
+    "codes": {
+      "blocks": 16,
+      "colors": {
+        "0x00": {
+          "ink": 0,
+          "records": 16,
+          "n": 152,
+          "m": 90
+        },
+        "0x04": {
+          "ink": 0,
+          "records": 16,
+          "n": 152,
+          "m": 90
+        },
+        "0x11": {
+          "ink": 179712,
+          "records": 16,
+          "n": 152,
+          "m": 90
+        },
+        "0x12": {
+          "ink": 179707,
+          "records": 16,
+          "n": 152,
+          "m": 90
+        }
+      }
+    }
+  },
+  {
+    "case": "m2_whiteInk_full_quad",
+    "image": "cmyk_quad_100.png",
+    "mode": 2,
+    "ice": null,
+    "inkie": null,
+    "extra": {
+      "whiteInk": [
+        {
+          "mode": "full",
+          "density": "normal"
+        }
+      ]
+    },
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/print_debug_white_m2_whiteInk_full_quad.prn",
+    "job": "D:\\work\\RIP核心分析\\reference\\jobs\\print_debug_white_m2_whiteInk_full_quad.json",
+    "result": 0,
+    "error": null,
+    "size": 274262,
+    "codes": {
+      "blocks": 16,
+      "colors": {
+        "0x00": {
+          "ink": 179995,
+          "records": 16,
+          "n": 152,
+          "m": 90
+        },
+        "0x02": {
+          "ink": 89997,
+          "records": 16,
+          "n": 152,
+          "m": 90
+        },
+        "0x04": {
+          "ink": 241911,
+          "records": 16,
+          "n": 152,
+          "m": 90
+        },
+        "0x11": {
+          "ink": 360000,
+          "records": 16,
+          "n": 152,
+          "m": 90
+        },
+        "0x12": {
+          "ink": 241732,
+          "records": 16,
+          "n": 152,
+          "m": 90
+        }
+      }
+    }
+  },
+  {
+    "case": "m2_golden_quad",
+    "image": "cmyk_quad_100.png",
+    "mode": 2,
+    "ice": [
+      {
+        "mode": "full",
+        "invert": false,
+        "inkName": "W1"
+      }
+    ],
+    "inkie": [
+      {
+        "mode": "invaginate",
+        "index": 4,
+        "dots": [
+          10,
+          10,
+          10,
+          10
+        ]
+      }
+    ],
+    "extra": null,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/print_debug_white_m2_golden_quad.prn",
+    "job": "D:\\work\\RIP核心分析\\reference\\jobs\\print_debug_white_m2_golden_quad.json",
+    "result": 0,
+    "error": null,
+    "size": 244131,
+    "codes": {
+      "blocks": 16,
+      "colors": {
+        "0x00": {
+          "ink": 241911,
+          "records": 16,
+          "n": 152,
+          "m": 90
+        },
+        "0x04": {
+          "ink": 89997,
+          "records": 16,
+          "n": 152,
+          "m": 90
+        },
+        "0x11": {
+          "ink": 241732,
+          "records": 16,
+          "n": 152,
+          "m": 90
+        },
+        "0x12": {
+          "ink": 179995,
+          "records": 16,
+          "n": 152,
+          "m": 90
+        }
+      }
+    }
+  },
+  {
+    "case": "rt1_iceW1full_alpha_m3",
+    "image": "alpha_checker_100.png",
+    "mode": 3,
+    "ice": [
+      {
+        "mode": "full",
+        "invert": false,
+        "inkName": "W1"
+      }
+    ],
+    "extra": null,
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\print_debug_white_rt1_iceW1full_alpha_m3.prn",
+    "job": "D:\\work\\RIP核心分析\\reference\\jobs\\print_debug_white_rt1_iceW1full_alpha_m3.json",
+    "result": 0,
+    "size": 210250,
+    "codes": {
+      "0x00": {
+        "ink": 0,
+        "rec": 33
+      },
+      "0x01": {
+        "ink": 179707,
+        "rec": 33
+      },
+      "0x02": {
+        "ink": 0,
+        "rec": 33
+      },
+      "0x04": {
+        "ink": 179712,
+        "rec": 33
+      },
+      "0x11": {
+        "ink": 0,
+        "rec": 33
+      },
+      "0x12": {
+        "ink": 359994,
+        "rec": 33
+      }
+    }
+  },
+  {
+    "case": "rt1_iceW1color_alpha_m3",
+    "image": "alpha_checker_100.png",
+    "mode": 3,
+    "ice": [
+      {
+        "mode": "color",
+        "invert": false,
+        "inkName": "W1"
+      }
+    ],
+    "extra": null,
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\print_debug_white_rt1_iceW1color_alpha_m3.prn",
+    "job": "D:\\work\\RIP核心分析\\reference\\jobs\\print_debug_white_rt1_iceW1color_alpha_m3.json",
+    "result": 0,
+    "size": 204407,
+    "codes": {
+      "0x00": {
+        "ink": 0,
+        "rec": 33
+      },
+      "0x01": {
+        "ink": 179707,
+        "rec": 33
+      },
+      "0x02": {
+        "ink": 0,
+        "rec": 33
+      },
+      "0x04": {
+        "ink": 179712,
+        "rec": 33
+      },
+      "0x11": {
+        "ink": 0,
+        "rec": 33
+      },
+      "0x12": {
+        "ink": 179709,
+        "rec": 33
+      }
+    }
+  },
+  {
+    "case": "rt1_base_alpha_m3",
+    "image": "alpha_checker_100.png",
+    "mode": 3,
+    "ice": null,
+    "extra": null,
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\print_debug_white_rt1_base_alpha_m3.prn",
+    "job": "D:\\work\\RIP核心分析\\reference\\jobs\\print_debug_white_rt1_base_alpha_m3.json",
+    "result": 0,
+    "size": 185843,
+    "codes": {
+      "0x00": {
+        "ink": 0,
+        "rec": 33
+      },
+      "0x01": {
+        "ink": 179707,
+        "rec": 33
+      },
+      "0x02": {
+        "ink": 0,
+        "rec": 33
+      },
+      "0x04": {
+        "ink": 179712,
+        "rec": 33
+      },
+      "0x11": {
+        "ink": 0,
+        "rec": 33
+      },
+      "0x12": {
+        "ink": 0,
+        "rec": 33
+      }
+    }
+  },
+  {
+    "case": "rt1_iceW1full_alpha_m2",
+    "image": "alpha_checker_100.png",
+    "mode": 2,
+    "ice": [
+      {
+        "mode": "full",
+        "invert": false,
+        "inkName": "W1"
+      }
+    ],
+    "extra": null,
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\print_debug_white_rt1_iceW1full_alpha_m2.prn",
+    "job": "D:\\work\\RIP核心分析\\reference\\jobs\\print_debug_white_rt1_iceW1full_alpha_m2.json",
+    "result": 0,
+    "size": 134505,
+    "codes": {
+      "0x00": {
+        "ink": 0,
+        "rec": 16
+      },
+      "0x04": {
+        "ink": 0,
+        "rec": 16
+      },
+      "0x11": {
+        "ink": 179712,
+        "rec": 16
+      },
+      "0x12": {
+        "ink": 179707,
+        "rec": 16
+      }
+    }
+  },
+  {
+    "case": "rt1tw1_base_alpha_m3",
+    "image": "alpha_checker_100.png",
+    "mode": 3,
+    "ice": null,
+    "extra": null,
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\print_debug_white_rt1tw1_base_alpha_m3.prn",
+    "job": "D:\\work\\RIP核心分析\\reference\\jobs\\print_debug_white_rt1tw1_base_alpha_m3.json",
+    "result": 0,
+    "size": 185843,
+    "codes": {
+      "0x00": {
+        "ink": 0,
+        "rec": 33
+      },
+      "0x01": {
+        "ink": 179707,
+        "rec": 33
+      },
+      "0x02": {
+        "ink": 0,
+        "rec": 33
+      },
+      "0x04": {
+        "ink": 179712,
+        "rec": 33
+      },
+      "0x11": {
+        "ink": 0,
+        "rec": 33
+      },
+      "0x12": {
+        "ink": 0,
+        "rec": 33
+      }
+    }
+  },
+  {
+    "case": "rt1tw1_base_alpha_m2",
+    "image": "alpha_checker_100.png",
+    "mode": 2,
+    "ice": null,
+    "extra": null,
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\print_debug_white_rt1tw1_base_alpha_m2.prn",
+    "job": "D:\\work\\RIP核心分析\\reference\\jobs\\print_debug_white_rt1tw1_base_alpha_m2.json",
+    "result": 0,
+    "size": 134505,
+    "codes": {
+      "0x00": {
+        "ink": 0,
+        "rec": 16
+      },
+      "0x04": {
+        "ink": 0,
+        "rec": 16
+      },
+      "0x11": {
+        "ink": 179712,
+        "rec": 16
+      },
+      "0x12": {
+        "ink": 179707,
+        "rec": 16
+      }
+    }
+  },
+  {
+    "case": "rt1tw1_iceW1full_alpha_m3",
+    "image": "alpha_checker_100.png",
+    "mode": 3,
+    "ice": [
+      {
+        "mode": "full",
+        "invert": false,
+        "inkName": "W1"
+      }
+    ],
+    "extra": null,
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\print_debug_white_rt1tw1_iceW1full_alpha_m3.prn",
+    "job": "D:\\work\\RIP核心分析\\reference\\jobs\\print_debug_white_rt1tw1_iceW1full_alpha_m3.json",
+    "result": 0,
+    "size": 210250,
+    "codes": {
+      "0x00": {
+        "ink": 0,
+        "rec": 33
+      },
+      "0x01": {
+        "ink": 179707,
+        "rec": 33
+      },
+      "0x02": {
+        "ink": 0,
+        "rec": 33
+      },
+      "0x04": {
+        "ink": 179712,
+        "rec": 33
+      },
+      "0x11": {
+        "ink": 0,
+        "rec": 33
+      },
+      "0x12": {
+        "ink": 359994,
+        "rec": 33
+      }
+    }
+  }
+]

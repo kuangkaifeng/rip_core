@@ -1,0 +1,419 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "lcms2.lib"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DQT_QML_DEBUG /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "CMS_USE_CPP_API=0"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "D:/work/RIP\u6838\u5fc3\u5206\u6790/src/out/build/debug/lcms2_autogen/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/work/RIP\u6838\u5fc3\u5206\u6790/src/../3rdparty/lcms2/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "CMS_USE_CPP_API=0"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "D:/work/RIP\u6838\u5fc3\u5206\u6790/src/out/build/debug/lcms2_autogen/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/work/RIP\u6838\u5fc3\u5206\u6790/src/../3rdparty/lcms2/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "lcms2_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "lcms2_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "lcms2::@6890427a1f51a3e7e1df",
+	"name" : "lcms2",
+	"nameOnDisk" : "lcms2.lib",
+	"orderDependencies" : 
+	[
+		{
+			"id" : "Qt6::moc::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "lcms2_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "lcms2_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				27
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				28
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/debug/lcms2_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "D:/work/RIP\u6838\u5fc3\u5206\u6790/3rdparty/lcms2/src/cmsalpha.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "D:/work/RIP\u6838\u5fc3\u5206\u6790/3rdparty/lcms2/src/cmscam02.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "D:/work/RIP\u6838\u5fc3\u5206\u6790/3rdparty/lcms2/src/cmscgats.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "D:/work/RIP\u6838\u5fc3\u5206\u6790/3rdparty/lcms2/src/cmscnvrt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "D:/work/RIP\u6838\u5fc3\u5206\u6790/3rdparty/lcms2/src/cmserr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "D:/work/RIP\u6838\u5fc3\u5206\u6790/3rdparty/lcms2/src/cmsgamma.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "D:/work/RIP\u6838\u5fc3\u5206\u6790/3rdparty/lcms2/src/cmsgmt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "D:/work/RIP\u6838\u5fc3\u5206\u6790/3rdparty/lcms2/src/cmshalf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "D:/work/RIP\u6838\u5fc3\u5206\u6790/3rdparty/lcms2/src/cmsintrp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "D:/work/RIP\u6838\u5fc3\u5206\u6790/3rdparty/lcms2/src/cmsio0.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "D:/work/RIP\u6838\u5fc3\u5206\u6790/3rdparty/lcms2/src/cmsio1.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "D:/work/RIP\u6838\u5fc3\u5206\u6790/3rdparty/lcms2/src/cmslut.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "D:/work/RIP\u6838\u5fc3\u5206\u6790/3rdparty/lcms2/src/cmsmd5.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "D:/work/RIP\u6838\u5fc3\u5206\u6790/3rdparty/lcms2/src/cmsmtrx.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "D:/work/RIP\u6838\u5fc3\u5206\u6790/3rdparty/lcms2/src/cmsnamed.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "D:/work/RIP\u6838\u5fc3\u5206\u6790/3rdparty/lcms2/src/cmsopt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "D:/work/RIP\u6838\u5fc3\u5206\u6790/3rdparty/lcms2/src/cmspack.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "D:/work/RIP\u6838\u5fc3\u5206\u6790/3rdparty/lcms2/src/cmspcs.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "D:/work/RIP\u6838\u5fc3\u5206\u6790/3rdparty/lcms2/src/cmsplugin.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "D:/work/RIP\u6838\u5fc3\u5206\u6790/3rdparty/lcms2/src/cmsps2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "D:/work/RIP\u6838\u5fc3\u5206\u6790/3rdparty/lcms2/src/cmssamp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "D:/work/RIP\u6838\u5fc3\u5206\u6790/3rdparty/lcms2/src/cmssm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "D:/work/RIP\u6838\u5fc3\u5206\u6790/3rdparty/lcms2/src/cmstypes.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "D:/work/RIP\u6838\u5fc3\u5206\u6790/3rdparty/lcms2/src/cmsvirt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "D:/work/RIP\u6838\u5fc3\u5206\u6790/3rdparty/lcms2/src/cmswtpnt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "D:/work/RIP\u6838\u5fc3\u5206\u6790/3rdparty/lcms2/src/cmsxform.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/debug/lcms2_autogen/timestamp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/debug/lcms2_autogen/timestamp.rule",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

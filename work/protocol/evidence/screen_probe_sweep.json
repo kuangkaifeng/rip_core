@@ -1,0 +1,198 @@
+[
+  {
+    "v": 0,
+    "result": 0,
+    "size": 264,
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_sweep_C0_a3dtf1390_m2.prn"
+  },
+  {
+    "v": 16,
+    "result": 0,
+    "size": 49053,
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_sweep_C16_a3dtf1390_m2.prn",
+    "code": "0x00",
+    "ink": 27770,
+    "cov": 0.1883,
+    "pct": {
+      "1": 1.0
+    }
+  },
+  {
+    "v": 32,
+    "result": 0,
+    "size": 50930,
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_sweep_C32_a3dtf1390_m2.prn",
+    "code": "0x00",
+    "ink": 55486,
+    "cov": 0.3763,
+    "pct": {
+      "1": 1.0
+    }
+  },
+  {
+    "v": 48,
+    "result": 0,
+    "size": 51438,
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_sweep_C48_a3dtf1390_m2.prn",
+    "code": "0x00",
+    "ink": 83259,
+    "cov": 0.5646,
+    "pct": {
+      "1": 1.0
+    }
+  },
+  {
+    "v": 64,
+    "result": 0,
+    "size": 51526,
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_sweep_C64_a3dtf1390_m2.prn",
+    "code": "0x00",
+    "ink": 110993,
+    "cov": 0.7527,
+    "pct": {
+      "1": 1.0
+    }
+  },
+  {
+    "v": 80,
+    "result": 0,
+    "size": 41426,
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_sweep_C80_a3dtf1390_m2.prn",
+    "code": "0x00",
+    "ink": 138793,
+    "cov": 0.9413,
+    "pct": {
+      "1": 1.0
+    }
+  },
+  {
+    "v": 96,
+    "result": 0,
+    "size": 49724,
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_sweep_C96_a3dtf1390_m2.prn",
+    "code": "0x00",
+    "ink": 147456,
+    "cov": 1.0,
+    "pct": {
+      "1": 0.8705,
+      "2": 0.1295
+    }
+  },
+  {
+    "v": 112,
+    "result": 0,
+    "size": 51749,
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_sweep_C112_a3dtf1390_m2.prn",
+    "code": "0x00",
+    "ink": 147456,
+    "cov": 1.0,
+    "pct": {
+      "1": 0.6824,
+      "2": 0.3176
+    }
+  },
+  {
+    "v": 128,
+    "result": 0,
+    "size": 51804,
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_sweep_C128_a3dtf1390_m2.prn",
+    "code": "0x00",
+    "ink": 147456,
+    "cov": 1.0,
+    "pct": {
+      "1": 0.4941,
+      "2": 0.5059
+    }
+  },
+  {
+    "v": 144,
+    "result": 0,
+    "size": 51757,
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_sweep_C144_a3dtf1390_m2.prn",
+    "code": "0x00",
+    "ink": 147456,
+    "cov": 1.0,
+    "pct": {
+      "1": 0.306,
+      "2": 0.694
+    }
+  },
+  {
+    "v": 160,
+    "result": 0,
+    "size": 49042,
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_sweep_C160_a3dtf1390_m2.prn",
+    "code": "0x00",
+    "ink": 147456,
+    "cov": 1.0,
+    "pct": {
+      "1": 0.1176,
+      "2": 0.8824
+    }
+  },
+  {
+    "v": 176,
+    "result": 0,
+    "size": 43466,
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_sweep_C176_a3dtf1390_m2.prn",
+    "code": "0x00",
+    "ink": 147456,
+    "cov": 1.0,
+    "pct": {
+      "2": 0.9293,
+      "3": 0.0707
+    }
+  },
+  {
+    "v": 192,
+    "result": 0,
+    "size": 51702,
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_sweep_C192_a3dtf1390_m2.prn",
+    "code": "0x00",
+    "ink": 147456,
+    "cov": 1.0,
+    "pct": {
+      "2": 0.7412,
+      "3": 0.2588
+    }
+  },
+  {
+    "v": 208,
+    "result": 0,
+    "size": 51811,
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_sweep_C208_a3dtf1390_m2.prn",
+    "code": "0x00",
+    "ink": 147456,
+    "cov": 1.0,
+    "pct": {
+      "2": 0.553,
+      "3": 0.447
+    }
+  },
+  {
+    "v": 224,
+    "result": 0,
+    "size": 51777,
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_sweep_C224_a3dtf1390_m2.prn",
+    "code": "0x00",
+    "ink": 147456,
+    "cov": 1.0,
+    "pct": {
+      "2": 0.3648,
+      "3": 0.6352
+    }
+  },
+  {
+    "v": 240,
+    "result": 0,
+    "size": 51186,
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_sweep_C240_a3dtf1390_m2.prn",
+    "code": "0x00",
+    "ink": 147456,
+    "cov": 1.0,
+    "pct": {
+      "2": 0.1764,
+      "3": 0.8236
+    }
+  }
+]

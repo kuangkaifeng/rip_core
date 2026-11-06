@@ -1,0 +1,3095 @@
+
+# 蒙泰RIP模块开发文档
+
+version 2.55.0, 2026.6.2 by 姚诚成
+
+## 1.概述
+
+蒙泰RIP模块提供了对pdf, ps, eps, 图像文件的rip, 颜色处理，挂网和驱动输出功能。其中支持的图片格式为:
+
+bitmap
+
+jpeg
+
+Photoshop PSB
+
+Photoshop PSD
+
+png
+
+tiff(支持BigTIFF)
+
+webp
+
+自v1.12.0始, 开始支持imagePlugin, 从而客户可以支持其它图片格式或是私有格式图片.
+
+支持平台:
+
+Windows x86, Windows 10及以上版本
+
+Windows x64, Windows 10及以上版本
+
+Linux x64
+
+Linux arm64(不支持pdf,ps,eps)
+
+模块名称为mtrip, API接口函数为
+
+<<<PRE 0>>>
+const void* MainTopRip(const void *data, size_t *size);
+void MainTopRipCancel();
+void MainTopRipReleaseBuffer(const void *buf);
+void MainTopShutdown();
+
+<<<END PRE>>>
+
+ | API
+ | 说明
+
+ | MainTopRip
+ | 使用data传入json格式的配置数据, utf-8编码. size为data数据的字节数. 函数执行完毕，返回json格式的响应字符串指针，size为返回的数据字节数.
+
+ | MainTopRipCancel
+ | 取消MainTopRip正在处理的操作(扫描, rip)等, 等MainTopRip实际被取消后返回。
+
+ | MainTopRipReleaseBuffer
+ | 释放由MainTopRip返回的字符串空间. MainTopRip返回的合法字符串(不为nullptr时), 使用完毕必须经过释放.
+
+ | MainTopShutdown
+ | 在应用退出之前执行，用于清理蒙泰RIP模块使用的缓冲等数据。在执行完毕MainTopShutdown后，不要再执行任何蒙泰RIP模块API.
+
+MainTopRip主要支持如下几种操作命令:
+
+queryMode 用来查询当前打印机支持的模式
+
+queryFile 对文件基本信息进行查询
+
+rip 实际做rip输出
+
+query 查询信息
+
+config 配置
+
+preview 预览
+
+colorCorrection 校色信息
+
+job 作业操作
+
+支持的返回码:
+
+  成功
+
+  用户取消
+
+  输入参数错误
+
+  没有找到相应的prs
+
+  错误的prs文件
+
+  不支持的输入文件格式, 比如不是ps,eps,pdf,图像格式等
+
+  打开输入文件失败
+
+  解析输入文件失败: 输入文件错误
+
+  模块忙。ps,eps.pdf使用的解释器，只有一份实例(既用于扫描也用于实际rip), 图像格式的扫描和输出支持多实例。
+
+  不支持的命令
+
+  内存不足
+
+  图像驱动或输入插件加载失败
+
+  创建输出对象失败: 创建输出文件失败, 加载输出插件失败, 输出插件Start失败等
+
+  加载输出驱动失败
+
+  需要的组件加载失败, 可能是安装错误
+
+  图片数据或输入插件读取错误: 可能是图像文件内容错误
+
+  无ripServer加密锁或是非ripServer加密锁
+
+  加密锁已过期.
+
+  加密锁计时芯片损坏.
+
+  作业尺寸或精度需求超过了加密锁限制.
+
+  颜色模块失败，可能是需要的icc等找不到.
+
+  通过http访问时，成功启动了作业，但是在处理中.
+
+  输出失败，包括file,raw,plugin等方式的数据发送失败.
+
+  作业不存在(v1.8.0始)
+
+  插件不存在(v1.8.0始)
+
+  通过mtripNet代理访问错误. 比如连接服务器失败等. 返回信息中添加error字段描述错误原因.(v1.8.0始且使用mtripNet代理)
+
+  contone设置的参数目前不支持.
+
+  clip参数错误.
+
+v2.0.0版本起支持的错误码返回码如下(值从0x01000001开始)
+
+0x01000001. 输入失败，包括file,plugin等方式的数据读取失败.
+
+0x01000002. 输入插件加载错误.
+
+0x01000003. (v2.7.0始)图像变换模块创建失败.
+
+0x01000004. (v2.7.0始)图像变换失败, 可能是参数配置有误.
+
+0x01000005. (v2.20.0始)当前无校色数据, 查询或编辑校色时可能的返回.
+
+0x01000006. (v2.24.0始)缺少自定义输入范围.
+
+0x01000007. (v2.41.0始)自动排版失败.
+
+0x01000008. (v2.41.0始)加密锁不支持自动排版.
+
+0x01000009. (v2.42.0始)驱动不支持点类型统计功能.
+
+### 1.1 输出方式
+
+支持的数据输出方式, 指定多个时，按照file,raw,plugin的顺序选取第一个有效值:
+
+ | 属性
+ | 类型
+ | 说明
+
+ | file
+ | outputFile
+ | 文件类型的输出参数
+
+ | raw
+ | outputRaw
+ | raw类型的输出参数
+
+ | plugin
+ | outputPlugin
+ | 使用plugin类型的输出参数.
+
+ | pageFile
+ | outputPageFile
+ | 分页文件类型的输出参数
+
+文件类型的输出参数:
+
+ | 属性
+ | 类型
+ | 说明
+
+ | name
+ | string
+ | 输出文件名
+
+ | mode
+ | int
+ | 文件模式, Windows下忽略
+
+raw类型输出，为指定输出ip地址, 端口。输出时通过网络i按揭ip:端口, 然后不停的发送数据, 发送完毕或是中断时，断开连接.
+
+ | 属性
+ | 类型
+ | 说明
+
+ | ip
+ | string
+ | 指定输出ip
+
+ | port
+ | int
+ | 端口号
+
+ | timeout
+ | int
+ | 连接服务器超时, 以毫秒为单位。可缺失，表示1050
+
+plugin类型输出，客户自行提供输出插件进行输出.
+
+ | 属性
+ | 类型
+ | 最低版本
+ | 说明
+
+ | lib
+ | string
+ |
+ | 插件动态库路径.
+
+ | id
+ | int
+ | v1.12.0
+ | 插件id, 和lib互斥. 都存在情况下优先使用id.
+
+ | param
+ | string
+ |
+ | 传递给plugin.Start的param, 可以缺失.
+
+分页文件类型的输出参数:
+
+ | 属性
+ | 类型
+ | 说明
+
+ | name
+ | string
+ | 输出文件名. ripserver会在输出文件名后自动添加"-n"的后缀以表征输出的页码.
+
+ | mode
+ | int
+ | 文件模式, Windows下忽略
+
+每次输出, rip模块都会重新加载plugin动态库. 并在输出结束时释放. 为了防止频繁的加载操作，如果是连续输出情况下，客户程序可以先加载plugin模块，并在退出时释放，从而避免频繁的实际加载.
+
+v1.12.0及以后版本，连续多任务输出，可以使用regPlugin进行注册输出插件, 使用id来指定插件。在退出前使用unregPlugin来注销插件或是让mtrip来自己清理插件.
+
+### 1.2 实例说明
+
+对于pdf,ps,eps的解析和图片的解析有不同的实例限制.
+
+pdf,ps,eps只有一个共用解析器，后续的作业在前面作业没有完成扫描或是rip时，后续作业无法进入。实在要进入，将返回busy.
+
+图片解析使用各自的解析器, 无特殊实例限制，即使上一个pdf,ps,eps作业没有解析完毕或是上一个图片没有解析完毕，仍然可以解析下一个图片。
+
+### 1.3 输入方式
+
+在v2.2.0版本开始, 提供plugin插件方式。
+
+在v2.10.0版本开始, 合入v1.x中的imagePlugin输入方式。
+
+在v2.41.0版本开始, 支持autoLayout自动排版功能。
+
+几种输入方式是互斥的，以doc、imagePlugin、inputPlugin、autoLayout次生效。
+
+ | 属性
+ | 类型
+ | 说明
+
+ | doc
+ | doc / doc array
+ | 文件类型的输入参数, 与plugin、imagePlugin、autoLayout互斥. 当为doc类型数组时, 表示多文件输入, 该模式下暂不支持pdf、ps、eps文件.
+
+ | plugin
+ | inputPlugin
+ | 使用plugin类型的输入参数, 与doc、imagePlugin、autoLayout斥.
+
+ | imagePlugin
+ | imagePlugin
+ | 使用imagePlugin类型的输入参数, 与doc、plugin、autoLayout斥.
+
+ | autoLayout
+ | autoLayout
+ | 使用autoLayout类型的输入参数, 与doc、plugin、imagePlugi斥. 该模式下暂不支持pdf、ps、eps文件.
+
+ | view
+ | inputView
+ | 用于指定输入范围和dpi. imagePlugin为输入时, 该参数无效. 多文件输入时, 必须指定该参数.
+
+ | passOnTempSpot
+ | string array
+ | 用于指定需要临时传递的专色通道. 通道数据可以参与后续的扩缩、合并等运算, 并在挂网前清除.
+
+当用于preview指令中时, 只支持doc(且支持能是单图模式), view参数也会无效.
+
+输入的doc对象定义为:
+
+ | 属性
+ | 类型
+ | 最低版本
+ | 说明
+
+ | name
+ | string
+ |
+ | 文件名(包含路径)
+
+ | password
+ | string
+ |
+ | pdf密码, 有些pdf需要密码打开, 即使是pdf文件也可以缺失此属性，表示无需密码.
+
+ | type
+ | string
+ | v1.15.0
+ | 指定文件类型。缺失表示根据文件名判断(默认应该使用这个)。auto表示自动根据文件内容判断. 其它支持的类型为:pdf,eps,ps,tif,jpg,bmp,psd,psb,png,webp
+
+ | colored
+ | bool
+ | v1.21.0
+ | true表示输入文件已经进行了颜色处理，不需要额外的颜色处理了. 此时输入文件的颜色和输出颜色必须匹配。 此时缩放和边框设置仍然有效, 区域浓度调整无效.
+
+ | imageBufferSize
+ | int
+ | v2.13.0
+ | 用于定义文件读取的缓存大小, 可以缺省, 默认为4M.
+
+ | transform
+ | transform
+ | v2.24.0
+ | 定义映射图源 -> 目标图像的映射关系. 详见transform说明.
+
+ | inputExtraColorNameMap
+ | string array
+ | v2.24.0
+ | 指定输入的extra通道(包含spot或alpha通道)的墨水映射, 如[ "W1", "W2"], 则表征源输入数据前两个extra通道分别对应"W1"和"W2"墨水. 多文件模式下该参数有效.
+
+ | inputColorEditor
+ | inputColorEditor array
+ | v2.24.0
+ | 输入颜色编辑[可缺省], 可用于校色前添加新的专色通道. 多文件模式下该参数有效.
+
+ | contrastBrightness
+ | contrastBrightness
+ | v2.24.0
+ | 亮度对比度调节[可缺省], 对原始图像输入时的透明度对比进行调节, 参数配置参考contrastBrightness. 多文件模式下该参数有效.
+
+ | curve
+ | curve array
+ | v2.24.0
+ | 颜色曲线[可缺省], 对原始图像输入各通道提供gamma和线性映射. 多文件模式下该参数有效.
+
+ | transformBufferSize
+ | int
+ | v2.38.0
+ | 图像变换缓存大小[可缺省], 默认为4M.
+
+imagePlugin对象定义为:
+
+ | 属性
+ | 类型
+ | 说明
+
+ | id
+ | int
+ | 图片输入插件id
+
+ | param
+ | string
+ | 传递给imagePlugin.Start的param, 可以缺失.
+
+input插件类型的输入参数:
+
+ | 属性
+ | 类型
+ | 说明
+
+ | lib
+ | string
+ | 插件动态库路径.
+
+ | param
+ | string
+ | 传递给plugin.Start的param, 可以缺失.
+
+autoLayout类型的输入参数:
+
+ | 属性
+ | 类型
+ | 说明
+
+ | job
+ | autoLayoutJob array
+ | 需要自动排版的任务数组.
+
+ | paper
+ | autoLayoutPaper
+ | 纸张版面类型. 具体参考autoLayoutPaper的定义.
+
+ | intervalX
+ | double
+ | 排版横向间距, 单位mm, 默认为0.
+
+ | intervalY
+ | double
+ | 排版纵向间距, 单位mm, 默认为0.
+
+ | allowFlip
+ | bool
+ | 是否允许旋转, 默认为false.
+
+ | algorithm
+ | string
+ | 算法类型, 默认为saving省纸模式. 可以使用模式有： saving：省纸模式. 支持flip.
+ skyline：轮廓模式.
+ shelf：装箱模式. 支持flip.
+ shelfWaste：装箱废纸模式. 支持flip.
+ copiesTogether：优于找图模式. 支持flip.
+ guillotine：优于后期模式. 支持flip.
+ intelligent：智能模式. 依次按优于后期, 找图, 省料进行. 支持flip.
+ savingOffline：启用动遗传算法的省纸模式.
+ skylineOffline：启动遗传算法的轮廓模式.
+
+paper类型的输入参数:
+
+ | 属性
+ | 类型
+ | 说明
+
+ | width
+ | double
+ | 传入纸张宽度, 单位mm. 但是可能会由于太小而被增大.
+
+ | height
+ | double
+ | 传入纸张长度, 单位mm, 默认为0. 为0则不限制长度. 传出实际使用的长度.
+
+ | xdpi
+ | double
+ | 横向dpi
+
+ | ydpi
+ | double
+ | 纵向dpi
+
+自动排版参数中的job对象定义为:
+
+ | 属性
+ | 类型
+ | 说明
+
+ | name
+ | string
+ | 文件名(包含路径)
+
+ | copies
+ | int
+ | 文件自动排版份数.
+
+ | imageBufferSize
+ | int
+ | 用于定义文件读取的缓存大小, 可以缺省, 默认为4M.
+
+ | inputExtraColorNameMap
+ | string array
+ | 指定输入的extra通道(包含spot或alpha通道)的墨水映射, 如[ "W1", "W2"], 则表征源输入数据前两个extra通道分别对应"W1"和"W2"墨水. 多文件模式下该参数有效.
+
+ | inputColorEditor
+ | inputColorEditor array
+ | 输入颜色编辑[可缺省], 可用于校色前添加新的专色通道. 多文件模式下该参数有效.
+
+ | contrastBrightness
+ | contrastBrightness
+ | 亮度对比度调节[可缺省], 对原始图像输入时的透明度对比进行调节, 参数配置参考contrastBrightness. 多文件模式下该参数有效.
+
+ | curve
+ | curve array
+ | 颜色曲线[可缺省], 对原始图像输入各通道提供gamma和线性映射. 多文件模式下该参数有效.
+
+ | transformBufferSize
+ | int
+ | 图像变换缓存大小[可缺省], 默认为4M.
+
+转换矩阵, 用于定义从输入图源 -> 目标位置的映射关系, a b c d tx ty 形式表示, 以像素为单位, 其定义如下：
+
+ | 属性
+ | 类型
+ | 说明
+
+ | a
+ | double
+ | 对应sx就是视图宽放大或缩小的比例, 初始值1, 一倍大小.
+
+ | b
+ | double
+ | 旋转会用到, 初始值0.
+
+ | c
+ | double
+ | 旋转会用到, 初始值0.
+
+ | d
+ | double
+ | 对应sy就是视图高放大或缩小的比例, 初始值1, 一倍大小.
+
+ | tx
+ | double
+ | 视图x轴平移, 初始值0, 没有平移.
+
+ | ty
+ | double
+ | 视图y轴平移, 初始值0, 没有平移.
+
+其映射公式为 x' = ax + cy + tx, y' = bx + dy + ty. , 如平移x方向100像素, y方向150像素, 可定义为:
+
+inputView自定义输入视口, 其定义为：
+
+ | 属性
+ | 类型
+ | 说明
+
+ | left
+ | double
+ | 输入视口的left坐标值. 实际取整, 可以为负值.
+
+ | top
+ | double
+ | 输入视口的top坐标值. 实际取整, 可以为负值.
+
+ | right
+ | double
+ | 输入视口的right坐标值. 实际取整, 可以为负值.
+
+ | bottom
+ | double
+ | 输入视口的bottom坐标值. 实际取整, 可以为负值.
+
+ | xdpi
+ | double
+ | 输入视口x方向dpi.
+
+ | ydpi
+ | double
+ | 输入视口y方向dpi.
+
+原始图像的坐标范围从0起, 包含尾数. 如640 * 480像素72dpi的图像, 其原始输入视口定义为:
+
+### 1.4 作业进度通知
+
+v2.4.0版本中合并了作业进度功能, 作业进度可以通过查询方式进行获取. 或者通过注册进度通知插件进行侦听通知.
+
+当作业在rip时指定id时, 作业完毕后, 作业进度信息并不会立即删除, 会保留大致5分钟左右时间备查.
+
+可以注册多个不同的进度插件，进行多份通知。
+
+注意事项: 不保证所有的进度都会连续通知到, 特别是在作业比较小时. 比如收到5%的进度, 可能下个收到的通知就是99%, 再下一个收到的就是End succeedfully了. 规则是: 有一个待通知的项，比如进度5%, 在后面一个通知到达而前面的通知还没有发送出去时, 前面的通知废弃, 直接发送后面的通知.
+
+### 1.5 白墨通道定义
+
+v2.4.0版本开始, 支持挂网后白墨通道功能,
+
+建议使用inputColorEditor来生成自定义专色, 该标签不再维护, 后续可能废止.
+
+每个通道具体定义方式如下：
+
+ | 属性
+ | 类型
+ | 说明
+
+ | mode
+ | string
+ | 通道模式, 其可以的定义值如下：none：无, 通常不使用, 会忽略该通道数据
+full：全部, 全范围出墨
+color：填充底色, 有墨水的部分出白墨
+seperate：反铺：无墨水的地方出白墨
+spot：根据spotName标签指定专色通道出白墨
+
+ | spotName
+ | string
+ | 指定专色通道名称, 如"W1", 当mode标签为spot时有效.
+
+ | density
+ | string
+ | 指定输出的白墨墨量大小, 可指定为如下方式：normal：正常
+less：减墨量
+small：最小墨量
+more：增墨量
+most：最大墨量
+ownset：自定义墨量, 由densityValue标签指定具体墨量大小
+
+ | densityValue
+ | int
+ | 指定自定墨量大小, 范围[0, 100], 当density标签为ownset时有效.
+
+### 1.6 额外通道定义
+
+v2.11.0版本开始, 用于定义驱动以外的额外通道. 此处定义的通道会在挂网前生成.
+
+建议使用inputColorEditor来生成自定义专色, 该标签不再维护, 后续可能废止.
+
+每个通道具体定义方式如下：
+
+ | 属性
+ | 类型
+ | 说明
+
+ | mode
+ | string
+ | 通道模式, 其可以的定义值如下：full：全部, 全范围出墨
+color：彩色全铺, 有彩色的位置定义最大值
+smooth：彩色平滑, 以彩色计算灰度值定义
+
+ | invert
+ | string/int
+ | 数据是否取反, 可以是"true"/"false"的字符串定义，也可以是0,1(int类型). 可以缺省, 默认为0.
+
+ | inkName
+ | string
+ | 通道名称, 如"W1", 可以缺省, 会以一个默认名称定义通道.
+
+### 1.7 墨量控制定义
+
+v2.12.0版本开始, 墨量控制用于新增或调节通道的墨量相关参数, 即修改以prs文件为模版定义的部分驱动数据.
+
+具体相关定义如下：
+
+ | 属性
+ | 类型
+ | 说明
+
+ | mode
+ | string
+ | 模式, 其可以的定义值如下：edit：编辑相关通道, 使用index标签定义通道索引
+new：新增通道, 用于定义驱动未指定的通道
+
+ | index
+ | int
+ | 通道索引, 用于定义需要修订的通道索引号, 从0起, 当"mode"为"edit"时有效
+
+ | inkName
+ | string
+ | 墨水名称, 用于定义新增通道的墨水名称, 当"mode"为"new"时有效
+
+ | maxInk
+ | float
+ | 最大墨量, 取值范围[0.0, 100.0], 可缺省, edit模式下默认使用prs定义值, new模式默认为100.0
+
+ | singleGamma
+ | float
+ | 通道伽马值, 取值范围[-3.0, 3.0], 可缺省, edit模式下默认使用prs定义值, new模式默认为0.0
+
+ | linear
+ | float array
+ | 线性化曲线, 必须包含256个元素, 每个元素取值范围[0.0, 1.0], 可缺省, edit模式下使用prs中定义曲线, new模式下使用[ 0.0/255.0, 1.0/255.0, 2.0/255.0, ... , 254.0/255.0, 255.0/255.0, ]
+
+### 1.8 输入颜色编辑
+
+v2.14.0版本开始, 可用于在校色前定义新的专色通道, 每个通道定义方式和extraMap类似, 具体如下：
+
+ | 属性
+ | 类型
+ | 说明
+
+ | mode
+ | string
+ | 通道模式, 其可以的定义值如下：full：全铺. 全范围出墨
+color：彩色全铺. 输入有透明时, 输出透明; 无透明时全铺
+smooth：彩色平滑. 以彩色计算灰度值定义
+smoothNeg: 彩色反向平滑. 彩色平滑后取反
+white：白色全铺, 输出非透明区域白色
+whiteNeg：反白, 输出非透明区域彩色部分
+
+ | invert
+ | bool
+ | 数据是否取反, 可以缺省, 默认为false.
+
+ | inkName
+ | string
+ | 通道名称, 如"W1".
+
+ | whiteTole
+ | int
+ | 白墨容差. 可以缺省, 默认为0. 在white和whiteNeg模式下有意义上, 用于判定像素是否为白色. 单通道位深度(bits)8和16对应的取值范围分别为[0, 255]和[0, 65535]
+
+### 1.9 亮度对比度
+
+v2.17.0版本开始, 提供对输入亮度对比度进行调节, 参数定义如下：
+
+ | 属性
+ | 类型
+ | 说明
+
+ | alpha
+ | float
+ | 对比调节[可缺省], 取值范围为(0, +∞), 当取值为1.0时, 不改变, 远离1时效果越显著. 默认为1.0
+
+ | beta
+ | float
+ | 亮度调节[可缺省], 取值范围为(0, +∞), 当取值为1.0时, 不改变, 小于1.0时变亮, 大于1.0时变暗. 默认为1.0
+
+### 1.10 曲线校正
+
+v2.17.0版本开始, 可以对原始图像在输入时各个通道进行曲线校正, 参数定义如下：
+
+ | 属性
+ | 类型
+ | 说明
+
+ | index
+ | int
+ | 通道索引, 用于定义需要修订的通道索引号, 从0起.
+
+ | gamma
+ | float
+ | 伽马校正[可缺省], 范围(0, +∞), 默认为1.0.
+
+ | linear
+ | float array
+ | 线性化曲线[可缺省], 必须包含256个元素, 每个元素取值范围[0.0, 1.0], 默认使用[ 0.0/255.0, 1.0/255.0, 2.0/255.0, ... , 254.0/255.0, 255.0/255.0, ].
+
+### 1.11 自定义精度
+
+v2.18.0版本开始, 可以在rip时自定义精度, 其参数定义如下:
+
+ | 属性
+ | 类型
+ | 说明
+
+ | xdpi
+ | double
+ | x方向精度[可缺省]. 默认使用驱动中原始定义.
+
+ | ydpi
+ | double
+ | y方向精度[可缺省]. 默认使用驱动中原始定义.
+
+ | level
+ | int
+ | 输出数据级别[可缺省], 只能为2, 3, 4. 默认使用驱动中原始定义.
+
+### 1.12 内缩外扩
+
+v2.22.0版本开始, 支持通道的内缩外扩功能.
+
+ | 属性
+ | 类型
+ | 说明
+
+ | mode
+ | string
+ | 模式定义, 只能是以下几个值: invaginate: 内缩
+expand: 外扩
+
+ | index
+ | int
+ | 需要进行处理的通道索引号, 从0起. 索引包含驱动中定义的及inkLimit标签定义的墨水, 如prs中定义输出墨水为CMYKcm, inkLimit中新定义W1和W2, 则"index": 6会代表W1通道.
+
+ | dots
+ | double array
+ | 定义4个方向的内缩或外扩的毫米数, 必须包含4个元素,顺序为左上右下, 每个元素的取值范围[ 0.0, 10.0 ].
+
+### 1.13 通道数据复制
+
+v2.36.0版本开始, 支持通道数据功能. 参数具体定义如下：
+
+ | 属性
+ | 类型
+ | 说明
+
+ | srcIndex
+ | int
+ | 源数据通道索引, 从0起.
+
+ | destIndex
+ | int
+ | 目标数据通道索引, 从0起.
+
+ | linear
+ | float array
+ | 曲线, 用于定义数据复制时的线性映射关系. 可缺省, 缺省时直接复制源数据.
+
+### 1.14 通道合并
+
+v2.44.0版本开始, 支持通道合并功能.
+
+ | 属性
+ | 类型
+ | 说明
+
+ | mode
+ | string
+ | 合并时的运算模式, 定义为: and: 逻辑与
+or: 逻辑或
+not: 逻辑非
+
+ | srcIndices
+ | int array
+ | 输入通道索引数组, 从0起, 最多两个元素(逻辑非运算只会用到第0). 索引号为校色后的颜色顺序.
+
+ | destIndex
+ | int
+ | 输出通道索引, 从0起. 索引号为校色后的颜色顺序.
+
+## 2. 命令说明
+
+### 2.1 queryMode
+
+queryMode用于查询当前打印机支持的模式. 输入对象例子:
+
+ | 属性
+ | 类型
+ | 说明
+
+ | command
+ | string
+ | 固定为queryMode
+
+ | prs
+ | string
+ | 指定prs文件绝对路径.
+
+ | allowDuplicationOfName
+ | bool
+ | 允许重名。默认为false。false, ripServer会对重名的mode名称加一个或多个后缀'a'来避免重名。
+true, 不对重名mode进行特殊处理.
+
+ | locale
+ | string
+ | 本地语言. 默认为auto. auto 由系统定义.
+enu 英文.
+chs 中文简体.
+cht 中文繁体.
+
+ | inks
+ | bool
+ | 是否返回墨水数据. 默认为false.
+
+响应为:
+
+ | 属性
+ | 类型
+ | 说明
+
+ | result
+ | int
+ | 返回码
+
+ | modes
+ | mode array
+ | 支持的模式列表
+
+ | inks
+ | inks array
+ | 支持的墨水类型列表
+
+ | format
+ | string
+ | 驱动输出格式. 该字段可缺省, 例如TIFF.
+
+ | name
+ | string
+ | 打印机名称
+
+mode格式为:
+
+ | 属性
+ | 类型
+ | 说明
+
+ | name
+ | string
+ | 名称。有可能为空字符串，此时客户应该使用dpi,paper,ink的名称拼接作为实际的名称.
+
+ | id
+ | int
+ | 内部使用的id, 在rip时需指定此值来对模式进行指定.
+
+ | dpi
+ | string
+ | 精度名称
+
+ | paper
+ | string
+ | 纸张名称
+
+ | ink
+ | string
+ | 墨水名称
+
+ | colorCorrection
+ | bool
+ | 此模式是否已经校色(v1.10.0始)
+
+ | planes
+ | int
+ | 通道数
+
+inks格式为:
+
+ | 属性
+ | 类型
+ | 说明
+
+ | name
+ | string
+ | 墨水名称
+
+ | id
+ | int
+ | 内部使用的id, 一个编号. (和mode中的id不一致)
+
+ | colors
+ | string array
+ | 各个通道墨水名称列表
+
+ | planes
+ | int
+ | 通道数
+
+例子:
+
+### 2.2 queryFile
+
+queryFile完成对支持的文件: pdf, eps, ps, 支持的图片格式进行扫描，得到基本信息. 对于pdf, 可用扫描多页，其他只扫描一页.
+
+输入数据为:
+
+ | 属性
+ | 类型
+ | 说明
+
+ | command
+ | string
+ | 固定为queryFile
+
+ | doc
+ | doc
+ | 输入文件
+
+doc对象定义为:
+
+ | 属性
+ | 类型
+ | 最低版本
+ | 说明
+
+ | name
+ | string
+ |
+ | 文件名(包含路径)
+
+ | password
+ | string
+ |
+ | pdf密码, 有些pdf需要密码打开, 即使是pdf文件也可以缺失此属性，表示无需密码.
+
+ | type
+ | string
+ | 1.15.0
+ | 指定文件类型。缺失表示根据文件名判断(默认应该使用这个)。auto表示自动根据文件内容判断. 其它支持的类型为:pdf,eps,ps,tif,jpg,bmp,psd,psb,png,webp
+
+ | colored
+ | bool
+ | 1.21.0
+ | true表示输入文件已经进行了颜色处理，不需要额外的颜色处理了. 此时输入文件的颜色和输出颜色必须匹配，且只支持图片格式, 不支持pdf、ps、eps。 此时缩放和边框设置仍然有效, 区域浓度调整无效.
+
+例子:
+
+响应为:
+
+ | 属性
+ | 类型
+ | 说明
+
+ | result
+ | int
+ | 返回码
+
+ | pdf
+ | scanFileResultPdf array
+ | pdf的扫描结果, 当输入文件为pdf时返回这个数组，数组长度为页数.
+
+ | page
+ | scanFileResultPage
+ | ps,eps,图片的扫描结果
+
+scanFileResultPdf定义为
+
+ | 属性
+ | 类型
+ | 说明
+
+ | width
+ | number
+ | 宽度, 毫米为单位
+
+ | height
+ | number
+ | 高度, 毫米为单位
+
+scanFileResultPage定义为
+
+ | 属性
+ | 类型
+ | 说明
+
+ | width
+ | number
+ | 宽度, 毫米为单位
+
+ | height
+ | number
+ | 高度, 毫米为单位
+
+ | xdpi
+ | number
+ | 横向精度, 其中eps总为72.
+
+ | ydpi
+ | number
+ | 纵向精度, 其中eps总为72.
+
+ | color
+ | int
+ | 颜色类型. ps,eps总是返回rgb, 支持的颜色类型为:单色
+16色
+256色
+灰度
+rgb
+rgb+专色
+cmyk
+cmyk+专色
+LAB
+LAB+专色
+
+ | spot
+ | string array
+ | 专色名称
+
+ | hasTransparency
+ | bool
+ | 图片文件中是否存在透明层. 当时color.readTransparency=true时返回该字段信息.
+
+ | exif
+ | scanFileResultPageExif
+ | 图片EXIF信息. 当前仅在有有效EXIF方向时返回.
+
+exif对象定义为
+
+ | 属性
+ | 类型
+ | 说明
+
+ | orientation
+ | string
+ | 图片EXIF方向值, 取值范围"1"~"8".
+
+pdf返回例子
+
+image返回例子
+
+### 2.3 rip
+
+实际进行rip输出.
+
+输入数据为:
+
+ | 属性
+ | 类型
+ | 最低版本
+ | 说明
+
+ | command
+ | string
+ |
+ | 固定为rip
+
+ | input
+ | input
+ |
+ | 输入方式
+
+ | prs
+ | string
+ |
+ | 指定prs文件绝对路径.
+
+ | modeId
+ | int
+ |
+ | mode中的id, 指定输出精度, 墨水等.
+
+ | range
+ | array
+ |
+ | 指定输出页码范围. pdf, ps才有意义. 其他均为输出第一页. pdf,ps省略此值时，表示输出所有页. 每个元素为一个2个元素的数组, 其中第一个元素指定起始页码, 第二个元素指定结束页码. 起始页码为1, 指定范围同时包含起始页和结束页，即[start, end]
+
+ | output
+ | output
+ |
+ | 输出方式.
+
+ | scale
+ | float/float array
+ |
+ | 表示x方向和y方向缩放百分比, 100为不缩放, 如[100.0, 50.0], 表示横向不缩放, 纵向减小一半. 当两向取值相同时, 可以简化为float类型. 可以缺失, 使用默认值:[100, 100]
+
+ | margin
+ | float array
+ |
+ | 纸张额外多出的留空,以毫米为单位, 分别为左，上，右，下. 比如[5, 10, 15, 20]在一个210x297mm的输出图片上，将输出230x327mm, 其中左上右下留空分别为:5, 10, 15, 20. 可缺失，使用默认值[0, 0, 0, 0]
+
+ | id
+ | int
+ | v1.8.0
+ | v1.8.0开始支持.
+ 作业id. 指定id可以进行查询作业进度及进行进度通知. 作业id应该唯一, 指定0或缺失, 表示不使用作业进度.
+支持作业进度的id范围[1, 2147483647]. 推荐使用原子操作进行id的更新, id增长到最大值后，可以从1开始继续使用.
+
+ | imagePlugin
+ | imagePlugin
+ | v1.12.0
+ | 和doc互斥. 指定imagePlugin则使用image plugin来得到数据.
+
+ | density
+ | colorDensity array
+ | v1.17.0
+ | 区域颜色浓度调整
+
+ | contone
+ | contoneImage
+ | v1.17.0
+ | 指定输出连续调图像，而非实际输出prn, 此时颜色处理已经完毕，网点并未处理. 缺失表示不启用.
+指定contone时不支持margin设定。
+实现限制: 目前只支持CMYK和灰度模式输出.
+当设置了启用参数, 但是参数不支持或与当前的rip输出模式不匹配, 返回错误码26
+v1.45.0开始支持灰度输出
+
+ | clip
+ | ripClip
+ | v1.21.0
+ | 定义裁切区域. 只输出指定裁切区域的内容。裁切区域不能超出文档本身范围. 默认不包含此属性时，即为不进行裁切
+
+ | whiteInk
+ | whiteInkChannel array
+ | v2.4.0
+ | 白墨[可缺省], 用于定义挂网以后需要额外添加的通道, 或对已经通道数据进行修订.
+
+ | inputExtraColorNameMap
+ | string array
+ | v2.6.0
+ | 指定输入的extra通道(包含spot或alpha通道)的墨水映射, 如[ "W1", "W2"], 则表征源输入数据前两个extra通道分别对应"W1"和"W2"墨水. 多文件模式下此处参数失效, 需在doc中定义.
+
+ | maxInk
+ | float array
+ | v2.6.0
+ | 最大墨量调整[可缺省]用于调节墨水(必须在驱动中已经定义)的最大墨量, 范围[0.0, 1.0], 如：[ 1.0, 0.5, 0.8, 0.9 ], 依次定义4个通道的最大墨量值. v2.12.0以后建议由inkLimt标签替换.
+
+ | mirror
+ | bool array
+ | v2.7.0
+ | 表示水平和垂直方向是否做镜像变换. 可以缺失，使用默认值:[false, false], 均不镜像.
+
+ | rotate
+ | float
+ | v2.7.0
+ | 旋转变换角度值, 逆时针旋转.
+
+ | extraMap
+ | extraMapChannel array
+ | v2.11.0
+ | 额外通道[可缺省], 用于挂网前新增通道.
+
+ | inkLimit
+ | inkLimitChannel array
+ | v2.12.0
+ | 墨量控制, 用于修改或新增通道的最大墨量、伽马和线性化曲线等参数. 具体参考inkLimitChannel中的定义.
+
+ | inputColorEditor
+ | inputColorEditor array
+ | v2.14.0
+ | 输入颜色编辑[可缺省], 可用于校色前添加新的专色通道. 多文件模式下该参数有效.
+
+ | contrastBrightness
+ | contrastBrightness
+ | v2.17.0
+ | 亮度对比度调节[可缺省], 对原始图像输入时的透明度对比进行调节, 参数配置参考contrastBrightness. 多文件模式下该参数有效.
+
+ | curve
+ | curve array
+ | v2.17.0
+ | 颜色曲线[可缺省], 对原始图像输入各通道提供gamma和线性映射. 多文件模式下该参数有效.
+
+ | dpi
+ | customDpi
+ | v2.18.0
+ | 自定义精度[可缺省].
+
+ | inkIE
+ | inkIE array
+ | v2.22.0
+ | 内缩和外扩[可缺省]. 用于对指定通道数据进行内缩和外扩操作. 详见inkIE中的描述.
+
+ | colored
+ | bool
+ | v2.26.0
+ | true表示输入文件已经进行了颜色处理，不需要额外的颜色处理了. 此时输入文件的颜色和输出颜色必须匹配，且只支持图片格式, 不支持pdf、ps、eps。 此时缩放和边框设置仍然有效, 区域浓度调整无效. 如果在doc和此处同时定义了colored, 以此处有效.
+
+ | channelCopy
+ | channelCopy array
+ | v2.36.0
+ | 通道复制功能, 可缺省. 在校色后, 挂网前处理, 也可用于改变墨序. 具体参见channelCopy的定义.
+
+ | mtcount
+ | bool
+ | v2.38.0
+ | 是否进行半色调点类型统计. contone输出时改配置无效.
+
+ | combines
+ | combine array
+ | v2.44.0
+ | 通道合并[可缺省]. 用于合并指定通道的数据. 详见combine中的描述.
+
+ | linePlugin
+ | linePlugin
+ | v2.52.0
+ | 按行处理插件[可缺省]. 指定后在挂网后、输出前对每页行数据进行处理.
+
+区域颜色浓度调整元素定义如下
+
+ | 属性
+ | 类型
+ | 最低版本
+ | 说明
+
+ | name
+ | string
+ | v1.17.0
+ | 颜色名称: 支持C,M,Y,K,LC,LM,LY,LK,LLC,LLM,LLY,LLK,R,Gr,B,Or,W1,W2,W3,W4等
+
+ | ystart
+ | float
+ | v1.17.0
+ | 调整的起始位置, 单位: 毫米
+
+ | yend
+ | float
+ | v1.17.0
+ | 调整的结束位置, 单位: 毫米. 调整区域包含ystart, 不包含yend
+
+ | density
+ | float
+ | v1.17.0
+ | 调整值, 取值范围[-100, 100], 为减小或增加的百分比。比如-20为减少浓度20%, 0为不改变. 30为增加浓度30%
+
+输出连续调图像
+
+ | 属性
+ | 类型
+ | 最低版本
+ | 说明
+
+ | type
+ | string
+ | v1.17.0
+ | 目前支持tiff
+bigtiff
+
+ | bits
+ | int
+ | v1.17.0
+ | 目前支持8
+16
+
+ | compress
+ | bool
+ | v1.20.0
+ | 是否压缩. 默认为true
+
+rip裁切区域
+
+裁切区域包含left, top, 不包含right, bottom. 即left<=x<right, top<=y<bottom
+
+ | 属性
+ | 类型
+ | 最低版本
+ | 说明
+
+ | left
+ | float
+ | v1.21.0
+ | 指定裁切的左边界, 单位毫米. left >= 0
+
+ | top
+ | float
+ | v1.21.0
+ | 指定裁切的上边界, 单位毫米. ltop >= 0
+
+ | right
+ | float
+ | v1.21.0
+ | 指定裁切的右边界, 单位毫米. right <= width
+
+ | bottom
+ | float
+ | v1.21.0
+ | 指定裁切的下边界, 单位毫米. bottom <= height
+
+按行处理插件参数
+
+ | 属性
+ | 类型
+ | 最低版本
+ | 说明
+
+ | id
+ | int
+ | v2.52.0
+ | 按行处理插件id. 需通过config + regPlugin注册后获取.
+
+ | param
+ | string
+ | v2.52.0
+ | 传递给linePlugin.Start的param, utf-8编码, 可以缺失.
+
+例子:
+
+当输入方式为doc类型时, 为兼容过去版本, 也可以将该标签直接写到上一级.
+
+v2.24.0开始, 当输入方式为doc array类型时, 为多文件rip模式:
+
+在rip输出完毕或是中断后，函数返回. 响应为:
+
+ | 属性
+ | 类型
+ | 说明
+
+ | result
+ | int
+ | 返回码
+
+ | mtcount
+ | mtcountPage array
+ | 返回作业完成后各个通道点类型的统计数据. rip作业时配置mtcount为true时返回此项.
+
+mtcountPage类型定义, 只包含channelDots类型的数组.
+
+channelDots 类型定义如下:
+
+ | 属性
+ | 类型
+ | 说明
+
+ | volume
+ | int array
+ | 各个通道的点大小. 数组大小为3, 依次分别表示小、中、大点, 单位为pl, 为定点数 x / 100 为整数部分, x % 100为小数部分.
+
+ | dots
+ | int array
+ | 各个通道的点数量. 数组大小为3, 依次分别表示小、中、大点的个数.
+
+当配置mtcount参数为true时, 可能的输出如下：
+
+### 2.4 query
+
+查询模块信息.
+
+输入数据为:
+
+ | 属性
+ | 类型
+ | 说明
+
+ | command
+ | string
+ | 固定为query
+
+ | type
+ | string
+ | 查询类型, 支持version 查询版本信息
+info 查询当前工作状态
+job查询作业进度, 其输入信息见jobInput(v1.8.0及以上版本)
+color查询有关颜色的设置
+opt查询有关优化的设置
+docType查询文档类型, 其输入信息见docType
+buffer查询缓冲区设置, 输入信息见queryBuffer
+errorString查询errorString设置, 输入信息见queryResultString (v1.22.0开始)
+dongle查询当前加密锁状态, 输入信息见dongleInfo (v1.25.0开始)
+driverMtcount查询驱动是否支持统计功能, 其他输入内容参考driverMtcount中的描述(v2.42.0开启)
+adobe查询pdf、ps、eps文件解析时的相关参数
+
+version的响应信息为
+
+ | 属性
+ | 类型
+ | 说明
+
+ | result
+ | int
+ | 返回码
+
+ | version
+ | string
+ | x.y.z格式的版本信息
+
+ | os
+ | string
+ | 宿主OS信息
+
+ | speciality
+ | string
+ | 专用版本信息. 测试版本返回"testing"
+
+ | dongle
+ | bool
+ | 是否识别到了有效加密锁
+
+info的响应信息为
+
+ | 属性
+ | 类型
+ | 说明
+
+ | result
+ | int
+ | 返回码
+
+ | busy
+ | bool
+ | pdf,ps,eps模块是否正在工作
+
+ | count
+ | int
+ | 正在工作的个数, 包括pdf,ps,eps及图片作业.
+
+job的输入信息为
+
+ | 属性
+ | 类型
+ | 说明
+
+ | command
+ | string
+ | 固定为query
+
+ | type
+ | string
+ | 固定为job
+
+ | id
+ | int
+ | 指定作业id.
+
+job的响应信息为
+
+ | 属性
+ | 类型
+ | 说明
+
+ | result
+ | int
+ | 返回码, 成功时后续的字段有意义.
+
+ | state
+ | int
+ | 主页状态, 支持预处理进行中
+RIP进行中
+成功完成
+失败
+
+ | process
+ | process
+ | 状态为1时的进度
+
+ | end
+ | jobEnd
+ | 状态为2,3时的附加信息
+
+RIP进度
+
+ | 属性
+ | 类型
+ | 说明
+
+ | page
+ | int
+ | 正在处理的页序, 从0开始
+
+ | progress
+ | int
+ | 进度. 单位1/10000
+
+作业结束的附加信息
+
+ | 属性
+ | 类型
+ | 说明
+
+ | time
+ | string
+ | 作业终止时间.
+
+color的响应信息为
+
+ | 属性
+ | 类型
+ | 说明
+
+ | result
+ | int
+ | 返回码
+
+ | embeddedICC
+ | bool
+ | 是否使用图片嵌入ICC
+
+ | cache
+ | bool
+ | 是否启用cache
+
+ | cacheNum
+ | int
+ | 当前cache数量
+
+ | transparencyToWhite
+ | bool
+ | 图片非透明区域输出白墨专色.
+
+ | readTransparency
+ | bool
+ | 是否读取图片文件中的透明层数据.
+
+opt的响应信息为
+
+ | 属性
+ | 类型
+ | 说明
+
+ | result
+ | int
+ | 返回码
+
+ | halftone
+ | int
+ | 挂网使用的线程数， 有效值范围[1, 32]
+
+ | halftoneBufferMaxSize
+ | int
+ | 多线程挂网最大内存.
+
+ | halftoneBufferMaxLines
+ | int
+ | 多线程挂网最大缓冲行数.
+
+ | interpretation
+ | bool
+ | 图片解析程序单独线程.
+
+ | threadBufferMaxSize
+ | int
+ | 多线程缓冲最大内存.
+
+ | threadBufferMaxLines
+ | int
+ | 多线程缓冲最大行数.
+
+ | multiImageBlockMaxSize
+ | int
+ | 多图作业时, 单块缓冲最大内存. 默认为67108864(64M). 取值范围为1M到512M
+
+ | multiImageBlockMaxLines
+ | int
+ | 多图作业时, 单块缓冲最大行数, 默认为1024, 取值范围为[8, 2048].
+
+ | multiImageBlockThreads
+ | int
+ | 多图作业时, 单块线程数, 默认为1, 取值范围[1, 10].
+
+ | halftoneCache
+ | bool
+ | 是否开启了网点缓冲.
+
+ | useImageLocalCache
+ | bool
+ | 是否开启本地缓存优化. 开启后会使用到本地临时目录进行临时存储.
+
+ | localCacheDir
+ | string
+ | 本地缓存目录. 为空时使用系统默认临时目录; 非空时使用指定目录. (v2.49.0始)
+
+docType的输入信息为
+
+ | 属性
+ | 类型
+ | 说明
+
+ | command
+ | string
+ | 固定为query
+
+ | type
+ | string
+ | 固定为docType
+
+ | name
+ | string
+ | 文件名(包含路径)
+
+docType的响应信息为
+
+ | 属性
+ | 类型
+ | 说明
+
+ | result
+ | int
+ | 返回码, 成功时后续的字段有意义.
+
+ | type
+ | string
+ | 文件类型。unknown,pdf,eps,ps,tif,jpg,bmp,psd,psb,png,webp. 其中unknown为未知文件类型.
+
+buffer输入信息为
+
+ | 属性
+ | 类型
+ | 说明
+
+ | command
+ | string
+ | 固定为query
+
+ | type
+ | string
+ | 固定为buffer
+
+buffer的响应信息为
+
+ | 属性
+ | 类型
+ | 最低版本
+ | 说明
+
+ | result
+ | int
+ |
+ | 返回码, 成功时后续的字段有意义.
+
+ | output
+ | bool
+ |
+ | 是否使用输出缓冲区
+
+ | bitsReverseOrder
+ | bool
+ | 1.27.0
+ | prn数据byte内的bit顺序是否从0..7
+
+resutlString输入信息为
+
+ | 属性
+ | 类型
+ | 说明
+
+ | command
+ | string
+ | 固定为query
+
+ | type
+ | string
+ | 固定为errorString
+
+errorString的响应信息为
+
+ | 属性
+ | 类型
+ | 说明
+
+ | result
+ | int
+ | 返回码, 成功时后续的字段有意义.
+
+ | setting
+ | int
+ | 返回码对应字符串设置.
+除0外, 返回result的地方都会有errorString返回.关闭(默认)
+根据mtrip.dll或libmtrip.so所在环境判断语言
+英语
+简体中文
+
+dongle输入参数
+
+ | 属性
+ | 类型
+ | 说明
+
+ | command
+ | string
+ | 固定为query
+
+ | type
+ | string
+ | 固定为dongle
+
+dongle的响应信息为
+
+ | 属性
+ | 类型
+ | 最低版本
+ | 说明
+
+ | result
+ | int
+ |
+ | 返回码, 成功时后续的字段有意义.
+
+ | online
+ | bool
+ |
+ | 是否检测到加密锁.
+
+ | sn
+ | string
+ | 1.27.0
+ | 加密锁号
+
+driverMtcount的输入信息为
+
+ | 属性
+ | 类型
+ | 说明
+
+ | command
+ | string
+ | 固定为query
+
+ | type
+ | string
+ | 固定为driverMtcount
+
+ | prs
+ | string
+ | 驱动prs文件名(包含路径)
+
+driverMtcount的响应信息为
+
+ | 属性
+ | 类型
+ | 说明
+
+ | result
+ | int
+ | 返回码, 成功时后续的字段有意义.
+
+ | maxChannels
+ | int
+ | 驱动支持的最大通道数.
+
+### 2.5 config
+
+对SDK进行配置. 注意: 所有的配置均为临时设置，mtrip没有提供持久性存储保存这些设置. 动态库被重新加载后，所有设置恢复为默认值.
+
+ | 属性
+ | 类型
+ | 说明
+
+ | command
+ | string
+ | 固定为config
+
+ | type
+ | string
+ | 配置类型, 支持regJobProgressPlugin 注册作业进度插件(v1.12.0后可使用regPlugin代替)
+unregJobProgressPlugin 注销作业进度插件. 一般情况下不需要使用, 在进程退出时会自动清理.(v1.12.0后可使用unregPlugin代替)
+regPlugin注册插件(v1.12.0开始)
+unregPlugin注销插件, 一般情况下不需要使用, 在进程退出时会自动清理.(v1.12.0开始)
+color颜色设置
+opt优化设置. 一般情况下不需要调整，除非内存非常少，需要减少内存消耗等情况.
+buffer缓冲区设置(v1.20.0开始)
+errorString返回码对应字符串设置(v1.22.0开始)
+adobe配置pdf、ps、eps文件作业时相关参数
+driverInstall用于导入驱动包
+driverExport用于导出驱动包
+
+regJobProgressPlugin的输入信息
+
+ | 属性
+ | 类型
+ | 说明
+
+ | command
+ | string
+ | 固定为config
+
+ | type
+ | string
+ | 固定为regJobProgressPlugin
+
+ | lib
+ | string
+ | 插件动态库路径.
+
+regJobProgressPlugin的返回信息
+
+ | 属性
+ | 类型
+ | 说明
+
+ | result
+ | int
+ | 返回码
+
+ | id
+ | int
+ | 插件id, 0为失败.
+
+unregJobProgressPlugin的输入信息
+
+ | 属性
+ | 类型
+ | 说明
+
+ | command
+ | string
+ | 固定为config
+
+ | type
+ | string
+ | 固定为unregJobProgressPlugin
+
+ | id
+ | int
+ | regJobProgressPlugin返回的插件id
+
+unregJobProgressPlugin的返回信息
+
+ | 属性
+ | 类型
+ | 说明
+
+ | result
+ | int
+ | 返回码
+
+regPlugin扩展了regJobProcessPlugin的工作, 并可以使用新的格式来替代regJobProcessPlugin, 输入信息:
+
+ | 属性
+ | 类型
+ | 说明
+
+ | command
+ | string
+ | 固定为config
+
+ | type
+ | string
+ | 固定为regPlugin
+
+ | pluginType
+ | int
+ | 插件类型,支持jobProgress, 作业进度插件
+output, 输出插件
+image, 图像输入插件
+line, 按行处理插件
+
+说明: linePlugin请使用pluginType=4.
+
+ | lib
+ | string
+ | 插件动态库路径.
+
+regPlugin的返回信息
+
+ | 属性
+ | 类型
+ | 说明
+
+ | result
+ | int
+ | 返回码
+
+ | id
+ | int
+ | 插件id, 0为失败.
+
+unregPlugin的输入信息
+
+ | 属性
+ | 类型
+ | 说明
+
+ | command
+ | string
+ | 固定为config
+
+ | type
+ | string
+ | 固定为unregPlugin
+
+ | id
+ | int
+ | regPlugin返回的插件id
+
+unregPlugin的返回信息
+
+ | 属性
+ | 类型
+ | 说明
+
+ | result
+ | int
+ | 返回码
+
+color输入信息
+
+ | 属性
+ | 类型
+ | 说明
+
+ | command
+ | string
+ | 固定为config
+
+ | type
+ | string
+ | 固定为color
+
+ | embeddedICC
+ | bool
+ | 是否使用图片嵌入ICC. 默认为true
+
+ | cache
+ | bool
+ | 是否启用cache来加快速度, 默认为true. 在校色流程中，必须设置为false来使得动态的颜色调整得以生效。
+
+ | transparencyToWhite
+ | bool
+ | 是否图片非透明区域输出白墨专色. 默认为false.
+
+ | readTransparency
+ | bool
+ | 是否读取图片文件中的透明层数据. 默认为false.
+
+color的返回信息
+
+ | 属性
+ | 类型
+ | 说明
+
+ | result
+ | int
+ | 返回码
+
+ | cacheNum
+ | int
+ | 当前cache数量
+
+opt的输入信息如下. 注意. 除command, type参数外, 其它参数都可以省略。当省略了相关参数时, 表示不修改相应配置.
+
+ | 属性
+ | 类型
+ | 说明
+
+ | command
+ | string
+ | 固定为config
+
+ | type
+ | string
+ | 固定为opt
+
+ | halftone
+ | int
+ | 挂网使用的线程数， 有效值范围[1, 32]. 指定1为不使用多线程, 指定其它值使用颜色数和指定值的较小者. 默认为32.
+
+ | halftoneBufferMaxSize
+ | int
+ | 多线程挂网最大内存, 默认为268435456(256M). 取值范围为1M到512M
+
+ | halftoneBufferMaxLines
+ | int
+ | 多线程挂网最大缓冲行数, 默认为256. 取值范围[2, 512]. 在halftone>1时，根据halftoneBufferMaxSize计算可以使用的缓冲行数, 如果行数>halftoneBufferMaxLines, 则使用halftoneBufferMaxLines.
+
+ | interpretation
+ | bool
+ | 图片解析程序使用单独线程. 默认为true
+
+ | threadBufferMaxSize
+ | int
+ | 多线程缓冲最大内存. 默认为268435456(256M). 取值范围为1M到512M
+
+ | threadBufferMaxLines
+ | int
+ | 多线程缓冲最大行数, 默认为1024, 取值范围为[8, 2048]. 内部多线程缓冲的内存行数. 在启用多线程时, 根据threadBufferMaxSize计算可以使用的缓冲行数. 如果行数>threadBufferMaxLines, 则使用threadBufferMaxLines.
+
+ | multiImageBlockMaxSize
+ | int
+ | 多图作业时, 单块缓冲最大内存. 默认为67108864(64M). 取值范围为1M到512M
+
+ | multiImageBlockMaxLines
+ | int
+ | 多图作业时, 单块缓冲最大行数, 默认为1024, 取值范围为[8, 2048]. 内部多线程缓冲的内存行数. 在启用多线程时, 根据multiImageBlockMaxSiz计算可以使用的缓冲行数. 如果行数>multiImageBlockMaxLines, 则使用multiImageBlockMaxLines.
+
+ | multiImageBlockThreads
+ | int
+ | 多图作业时, 单块线程数, 默认为1, 取值范围[1, 10]. 可以认为是可能同步作业的图像个数.
+
+ | halftoneCache
+ | bool
+ | 网点缓冲. 默认开启，关闭将大大降低作业启动速度.
+
+ | useImageLocalCache
+ | bool
+ | 图片本地缓存优化. 默认关闭, 开启后会使用本地临时目录进行缓存存储
+
+ | localCacheDir
+ | string
+ | 本地缓存目录[可缺省]. 默认空字符串(使用系统默认临时目录); 非空时使用指定目录. (v2.49.0始)
+
+opt的返回信息
+
+ | 属性
+ | 类型
+ | 说明
+
+ | result
+ | int
+ | 返回码
+
+buffer的输入信息
+
+ | 属性
+ | 类型
+ | 最低版本
+ | 说明
+
+ | command
+ | string
+ |
+ | 固定为config
+
+ | type
+ | string
+ |
+ | 固定为buffer
+
+ | output
+ | bool
+ |
+ | prn数据发送出去时是否使用缓冲区， 默认为true. 除非特定目的，否则请不要设置为false, 会频繁的进行发送请求从而降低效率.
+
+ | bitsReverseOrder
+ | bool
+ | 1.27.0
+ | true: prn数据byte内的bit顺序从0..7. 默认为false.
+
+buffer的返回信息
+
+ | 属性
+ | 类型
+ | 说明
+
+ | result
+ | int
+ | 返回码
+
+errorString的输入信息
+
+ | 属性
+ | 类型
+ | 说明
+
+ | command
+ | string
+ | 固定为config
+
+ | type
+ | string
+ | 固定为errorString
+
+ | setting
+ | int
+ | 对错误字符串设置.
+除0外, 所有返回result且result不为0的地方都会有error字符串返回.关闭
+根据mtrip.dll或libmtrip.so所在环境判断语言
+英语
+简体中文
+
+errorString的返回信息
+
+ | 属性
+ | 类型
+ | 说明
+
+ | result
+ | int
+ | 返回码
+
+adobe的输入信息
+
+ | 属性
+ | 类型
+ | 说明
+
+ | command
+ | string
+ | 固定为config
+
+ | type
+ | string
+ | 固定为adobe
+
+ | overprintInPDF
+ | bool
+ | pdf文件作业时是否进行通道混合. 默认为true. 如果需要独立输出pdf中的专色或在校色时开启了去杂色功能, 需要配置该参数为false.
+
+ | cmmCIE
+ | int
+ | cie颜色处理配置, 可以定义为以下值：0: 默认值, 不适用自定义cie
+1: 只有deviceN下使用cie
+2: 所有情况都使用自定义cie
+
+ | resolution
+ | cpsiResolution
+ | 解析pdf、ps、eps文件时的分辨率.
+
+ | ignoreEmbeddedRGBProfileInPDF
+ | bool
+ | 默认为true, pdf文件作业时是否忽略内嵌RGB ICC Profile
+
+ | ignoreEmbeddedCMYKProfileInPDF
+ | bool
+ | 默认为true, pdf文件作业时是否忽略内嵌CMYK ICC Profile
+
+ | ignoreEmbeddedGrayProfileInPDF
+ | bool
+ | 默认为true, pdf文件作业时是否忽略内嵌Gray ICC Profile
+
+ | tolerance
+ | cpsiTolerance
+ | 解析pdf、ps、eps文件时的容差.
+
+pdf、ps、eps文件解析时的分辨率resolution:
+
+ | 属性
+ | 类型
+ | 说明
+
+ | type
+ | string
+ | 可以配置为：auto 以最终的产物的输出分辨率作为解析时的分辨率. 此为默认选项
+custom 由用户自定义.
+low 使用300 * 300 dpi
+medium 使用600 * 600 dpi
+high 使用1200 * 1200 dpi
+
+ | xdpi
+ | float
+ | x方向dpi配置, 当adobe.type定义为custom时有效.
+
+ | ydpi
+ | float
+ | y方向dpi配置, 当adobe.type定义为custom时有效.
+
+pdf、ps、eps文件解析时的容差tolerance:
+
+ | 属性
+ | 类型
+ | 说明
+
+ | c
+ | float
+ | cyan青色容差. 默认为0, 取值范围[0.0, 1.0].
+
+ | m
+ | float
+ | magenta洋红色容差. 默认为0, 取值范围[0.0, 1.0].
+
+ | y
+ | float
+ | yellow黄色容差. 默认为0, 取值范围[0.0, 1.0].
+
+ | k
+ | float
+ | black黑色容差. 默认为0, 取值范围[0.0, 1.0].
+
+adobe的返回信息
+
+ | 属性
+ | 类型
+ | 说明
+
+ | result
+ | int
+ | 返回码
+
+driverInstall的输入信息
+
+ | 属性
+ | 类型
+ | 说明
+
+ | command
+ | string
+ | 固定为config
+
+ | type
+ | string
+ | 固定为driverInstall
+
+ | name
+ | string
+ | 驱动包文件路径
+
+ | prsOutputDir
+ | string
+ | 驱动包导入后, prs文件的存放目录. 可缺省, 默认放置到当前ripServer的dist/bin目录中.
+
+driverInstall的返回信息
+
+ | 属性
+ | 类型
+ | 说明
+
+ | result
+ | int
+ | 返回码
+
+driverExport的输入信息
+
+ | 属性
+ | 类型
+ | 说明
+
+ | command
+ | string
+ | 固定为config
+
+ | type
+ | string
+ | 固定为driverExport
+
+ | prs
+ | string
+ | 需要打包的prs驱动文件路径
+
+ | output
+ | string
+ | 驱动包的导出保存路径
+
+ | targetArch
+ | string
+ | 目标架构(可缺省), 用于交叉打包. 仅支持x64、x86、arm64.
+
+ | originWpk
+ | string
+ | 原始wpk文件路径(可缺省). 缺省时默认在dist/bin中寻找<prs前缀>origin.wpk，其中<prs前缀>为prs文件名去掉扩展名后的名称.
+
+ | password
+ | string
+ | 解包originWpk的密码(可缺省). 通常缺省该参数.
+
+driverExport的返回信息
+
+ | 属性
+ | 类型
+ | 说明
+
+ | result
+ | int
+ | 返回码
+
+### 2.6 preview
+
+生成图片数据, 通常用于预览, 现生成的数据格式为tif.
+
+输入数据为:
+
+ | 属性
+ | 类型
+ | 说明
+
+ | command
+ | string
+ | 固定为preview
+
+ | input
+ | input
+ | 输入方式.
+
+ | resolution
+ | int array
+ | 分辨率数组, 必须包含2个元素, 如[1280, 720]表示输出1280*720pixel
+
+ | output
+ | output
+ | 输出方式.
+
+ | range
+ | array
+ | 指定输出页码范围. pdf, ps才有意义. 其他均为输出第一页. 格式于rip指令中的range定义一致, 但是此处只能配置为单页, 如[ [2, 2] ]等.
+
+例子:
+
+### 2.7 colorCorrection
+
+用于查询和修改驱动中的校色信息.
+
+输入数据为:
+
+ | 属性
+ | 类型
+ | 说明
+
+ | command
+ | string
+ | 固定为colorCorrection
+
+ | prs
+ | string
+ | 指定prs文件绝对路径.
+
+ | modeId
+ | int
+ | 指定要进行操作的modeId.
+
+ | query
+ | string array/colorCorrectionQuery
+ | 与modify互斥, 用于查询校色信息. 其值可以是：channelMax: 最大墨量
+iccPath: 驱动中定义的icc文件路径
+pure: 去杂色信息
+dotGain：墨点增益, 浓淡控制
+gamma：墨量gamma变化
+
+v2.35.0开始, query还可以以对象类型进行定义, 具体参考query的说明.
+
+ | modify
+ | colorCorrectionModify array/colorCorrectionModify2
+ | 与query互斥, 用于修改校色信息. 具体参考modify.
+v2.35.0开始, modify还可以定义为modify2类型, 具体参考其说明.
+
+ | saveAs
+ | string
+ | modify时, 用于指定保存prs文件保存路径[可缺省], 默认保存到原路径.
+
+修改驱动校色信息时, modify类型定义如下:
+
+ | 属性
+ | 类型
+ | 说明
+
+ | inkName
+ | string
+ | 要编辑的墨水名称, 和iccPath、pure标签互斥.
+
+ | channelMax
+ | double
+ | 当定义了inkName时有效, 用于定义通道最大墨量, 取值范围[0, 100]
+
+ | iccPath
+ | string
+ | 定义修改哪一个icc参照路径. 和inkName、pure标签互斥. 其值可以为:srcRgb 输入的rgb参照
+srcCmyk 输入的cmyk参照
+destCmyk 输出的cmyk参照
+
+ | path
+ | string
+ | 当定义了iccPath时有效, 用于给出icc文件路径
+
+ | pure
+ | pure
+ | 用于修改去杂色信息. 和iccPath、 inkName互斥.
+
+ | dotGain
+ | double
+ | 墨点增益, 浓淡控制. 取值范围[1.0, 5.0]
+
+ | gamma
+ | double array
+ | 墨量gamma变化. 每个元素取值范围[-3.0, 3.0], 对应各个通道的gamma值, 次序通常为kcmy+专色, 如果特殊驱动也可能有不同墨序
+
+修改校色信息的例子:
+
+查询校色信息的例子:
+
+返回内容定义如下:
+
+ | 属性
+ | 类型
+ | 说明
+
+ | result
+ | int
+ | 返回码
+
+ | colorCorrection
+ | colorCorrectionItem array
+ | query校色时会返回该内容
+
+ | iccPath
+ | iccPath
+ | query校色icc路径时会返回该内容
+
+ | pure
+ | pure
+ | query去杂色信息
+
+colorCorrection校色项定义如下:
+
+ | 属性
+ | 类型
+ | 说明
+
+ | inkName
+ | string
+ | 要编辑的墨水名称
+
+ | channelMax
+ | double
+ | 通道最大墨量
+
+iccPath对象定义如下:
+
+ | 属性
+ | 类型
+ | 说明
+
+ | srcCmykPath
+ | string
+ | 输入的cmyk参照
+
+ | srcRgbPath
+ | string
+ | 输入的rgb参照
+
+ | destCmykPath
+ | string
+ | 输出的cmyk参照
+
+pure去杂色信息定义如下, 当被定义在modify标签数组中时, 每个元素均可缺省(对其不做修改)：
+
+ | 属性
+ | 类型
+ | 说明
+
+ | off
+ | bool
+ | 是否关闭去杂色功能.
+
+ | c
+ | bool
+ | 去除C通道杂色.
+
+ | m
+ | bool
+ | 去除M通道杂色.
+
+ | y
+ | bool
+ | 去除Y通道杂色.
+
+ | k
+ | bool
+ | 去除K通道杂色.
+
+ | r
+ | bool
+ | red(m + y)去杂色.
+
+ | g
+ | bool
+ | green(c + y)去杂色.
+
+ | b
+ | bool
+ | blue(c + m)去杂色.
+
+ | forcePure
+ | bool
+ | 是否开启强制纯色模式.
+
+ | tole
+ | int
+ | 容差, 取值范围[ 0, 10 ].
+
+v2.35.0开始modify和query可以以对象的形式提供, 新的相关功能也会在其中添加, 返回信息和其具体定义如下：
+
+query的定义如下:
+
+ | 属性
+ | 类型
+ | 说明
+
+ | header
+ | colorCorrectionQueryHeader
+ | 需要查询的校色头相关信息, 具体参考queryHeader中的定义.
+
+ | mcm
+ | colorCorrectionQueryMcm
+ | 需要查询的校色ICC相关配置信息, 具体参考queryMcm中的定义.
+
+queryHeader的定义如下:
+
+ | 属性
+ | 类型
+ | 说明
+
+ | channelMax
+ | bool
+ | 是否查询最大墨量, 可缺省为false.
+
+ | sepLightType
+ | bool
+ | 是否查询浅色配置, 可缺省为false.
+
+ | kcmyGamma
+ | bool
+ | 是否查询通道Gamma, 可缺省为false.
+
+ | dotGain
+ | bool
+ | 是否查询墨点浓度, 可缺省为false.
+
+ | remapTbl
+ | bool
+ | 是否查询线性曲线, 可缺省为false.
+
+queryMcm的定义如下:
+
+ | 属性
+ | 类型
+ | 说明
+
+ | pure
+ | bool
+ | 是否查询纯色相关信息, 可缺省为false.
+
+ | srcCmykPath
+ | bool
+ | 是否查询输入cmyk icc路径, 可缺省为false.
+
+ | srcRgbPath
+ | bool
+ | 是否查询输入rgb icc路径, 可缺省为false.
+
+ | destCmykPath
+ | bool
+ | 是否查询输出cmyk icc路径, 可缺省为false.
+
+新的colorCorrection.query接口, 返回内容定义如下:
+
+ | 属性
+ | 类型
+ | 说明
+
+ | result
+ | int
+ | 返回码
+
+ | header
+ | colorCorrectionQueryHeaderRet
+ | 参考queryHeaderRet相关定义.
+
+ | mcm
+ | colorCorrectionQueryMcmRet
+ | 参考queryMcmRet相关定义.
+
+queryHeaderRet的定义如下:
+
+ | 属性
+ | 类型
+ | 说明
+
+ | channelMax
+ | double array
+ | 当query.header.channelMax=true时返回, 每个元素取值[0, 100], 目前最多返回8个通道(不包含浅色), 4色墨序为kcmy
+
+ | sepLightType
+ | int
+ | 当query.header.sepLightType=true时返回, 目前的返回值应该为:2：不使用ICC分浅色
+3：使用ICC分色
+
+ | kcmyGamma
+ | double array
+ | 当query.header.kcmyGamma=true时返回, 每个元素取值[-3, +3], 目前最多返回8个通道(不包含浅色), 4色墨序为kcmy
+
+ | dotGain
+ | double
+ | 当query.header.dotGain=true时返回, 墨点增益取值范围[1.0, 5.0]
+
+ | remapTbl
+ | double[256] array
+ | 当query.header.remapTbl=true时返回, 每个元素为256个double类型的数组, 数组中每个元素取值为[0, 1], 目前最多返回8个通道(不包含浅色), 4色墨序为kcmy
+
+queryMcmRet的定义如下:
+
+ | 属性
+ | 类型
+ | 说明
+
+ | pure
+ | pure
+ | 当query.mcm.pure=true时返回, 其具体定义和之前的pure一致.
+
+ | srcCmykPath
+ | string
+ | 输入的cmyk参照
+
+ | srcRgbPath
+ | string
+ | 输入的rgb参照
+
+ | destCmykPath
+ | string
+ | 输出的cmyk参照
+
+新的query接口例子如下：
+
+返回结果示例：
+
+modify2的定义, 和query返回内容的header以及mcm类似, 具体如下：
+
+ | 属性
+ | 类型
+ | 说明
+
+ | header
+ | colorCorrectionModifyHeader
+ | 和queryHeaderRet定义类似, 具体参考modifyHeader
+
+ | mcm
+ | colorCorrectionModifyMcm
+ | 和queryMcmRet定义类似, 具体参考modifyMcm
+
+modifyHeader如下：
+
+ | 属性
+ | 类型
+ | 说明
+
+ | channelMax
+ | double array
+ | 修改各通道最大墨量, 可缺省. 每个元素取值[0, 100], 目前最多包含8个通道(不包含浅色), 4色墨序为kcmy
+
+ | sepLightType
+ | int
+ | 修改浅色处理类型配置, 可缺省. 目前可以修改值为：2：不使用ICC分浅色
+3：使用ICC分色
+
+ | kcmyGamma
+ | double array
+ | 修改各个通道的Gamma值, 可缺省. 每个元素取值[-3, +3], 目前最多返回8个通道(不包含浅色), 4色墨序为kcmy
+
+ | dotGain
+ | double
+ | 修改墨点增益, 可缺省. 取值范围[1.0, 5.0]
+
+ | remapTbl
+ | double[256] array
+ | 修改该各个通道线性化曲线, 可缺省. 每个元素为256个double类型的数组, 数组中每个元素取值为[0, 1], 目前最多返回8个通道(不包含浅色), 4色墨序为kcmy.
+例如：[ [0, 1, 1, ... 1 ], [1, 1, ... , 1 ]], 包含两个256double数组, 则修改k、c通道曲线.
+
+modifyMcm的定义如下:
+
+ | 属性
+ | 类型
+ | 说明
+
+ | pure
+ | pure
+ | 纯色相关对象数据
+
+ | srcCmykPath
+ | string
+ | 输入的cmyk参照
+
+ | srcRgbPath
+ | string
+ | 输入的rgb参照
+
+ | destCmykPath
+ | string
+ | 输出的cmyk参照
+
+返回内容如下, 简单返回操作结果:
+
+ | 属性
+ | 类型
+ | 说明
+
+ | result
+ | int
+ | 返回码
+
+新的colorCorrection.modify接口例子如下：
+
+### 2.8 job
+
+对作业进行操作.
+
+ | 属性
+ | 类型
+ | 说明
+
+ | command
+ | string
+ | 固定为job
+
+ | type
+ | string
+ | 配置类型, 支持cancel 取消指定作业列表
+
+cancel的输入信息
+
+ | 属性
+ | 类型
+ | 说明
+
+ | command
+ | string
+ | 固定为job
+
+ | type
+ | string
+ | 固定为cancel
+
+ | ids
+ | int array
+ | 需要取消的做了id数组
+
+cancel的返回信息
+
+ | 属性
+ | 类型
+ | 说明
+
+ | result
+ | int
+ | 返回码
+
+ | jobs
+ | cancelJobItemResult array
+ | 每个作业cancel的结果
+
+mode格式为:
+
+ | 属性
+ | 类型
+ | 说明
+
+ | result
+ | int
+ | 返回码
+
+ | id
+ | int
+ | 作业id
+
+## 3. SDK文件说明
+
+SDK目录如下:
+
+ | 目录
+ | 说明
+
+ | dist
+ | 存放安装文件
+
+ | dist.Adobe
+ | 模块需要的其他文件目录
+
+ | dist.driver
+ | 模块需要的其他文件目录
+
+ | dist.bin
+ | 组件dll所在目录
+
+ | sdk
+ | sdk所在目录
+
+ | sdk.apps
+ | 开发辅助工具
+
+ | sdk.doc
+ | 文档
+
+ | sdk.include
+ | c/c++头文件
+
+ | sdk.lib
+ | lib文件
+
+ | sdk.examples
+ | demo, 命令行下生成test.exe, 输入json文件, 执行相应的命令.
+
+ | sdk.plugin
+ | 插件示例代码目录
+
+ | sdk.plugin.output
+ | outputPlugin示例代码
+
+ | sdk.plugin.input
+ | inputPlugin示例代码
+
+ | sdk.plugin.image
+ | 图像输入插件示例代码
+
+ | sdk.plugin.jobProgress
+ | 作业进度插件示例代码
+
+ | sdk.plugin.line
+ | linePlugin示例代码
+
+## 4. 开发辅助工具
+
+### 4.1 mtripNet
+
+mtripNet提供了通过网络间接访问SDK的方法. 使用时需要放置mtripNet.exe和mtripNet.json到dist/bin目录。
+
+mtripNet当前支持两种访问协议: http和grpc, 配置文件为mtripNet.json, 例子:
+
+ | 属性
+ | 类型
+ | 说明
+
+ | service.http.active
+ | bool
+ | 是否启用http服务
+
+ | service.http.port
+ | int
+ | http服务端口
+
+ | service.grpc.active
+ | bool
+ | 是否启用grpc服务
+
+ | service.grpc.port
+ | int
+ | grpc服务端口
+
+ | netjob.cache
+ | string
+ | 远程作业的本地缓冲区位置
+
+ | mtripConfig
+ | config数组
+ | 在mtripNet启动时对每个配置项进行执行. 由于mtripNet并不打印成功时的消息, 依赖返回值的配置项请不要在此处进行执行.
+
+#### 4.1.1 http服务
+
+ | Endpoint
+ | 访问方式
+ | 说明
+
+ | /mtrip/v1/jobs
+ | POST
+ | 提供MainTopRip功能, 需要提供相应的json数据作为数据内容.
+
+ | /mtrip/v1/cancel
+ | POST
+ | 提供MainTopCancel功能
+
+ | /mtrip/v1/version
+ | GET
+ | 返回query.version响应信息
+
+ | /mtrip/v1/status
+ | GET
+ | 返回query.info响应信息
+
+ | /mtrip/v1/jobs/progress
+ | GET
+ | 作业进度SSE通知. 格式为"data: " + JSON字符串, 格式
+
+浏览器SSE示例:
+
+cURL RIP作业示例:
+
+cURL SSE示例:
+
+#### 4.1.2 grpc服务
+
+proto文件如下:
+
+<<<PRE 1>>>
+syntax = "proto3";
+
+package riprpc;
+
+service Mtrip {
+  rpc MaintopRip(MaintopRipRequest) returns (MaintopRipResponse) {}
+  rpc MaintopRipCancel(MaintopRipCancelRequest) returns (MaintopRipCancelResponse) {}
+  rpc MaintopRipJobProgress(MaintopRipJobProgressRequest) returns (stream MaintopRipJobProgressReponse) {}
+}
+
+message MaintopRipRequest {
+  bytes data = 1;
+}
+
+message MaintopRipResponse {
+  bytes response = 1;
+  string error = 2;
+}
+
+message MaintopRipCancelRequest {
+}
+
+message MaintopRipCancelResponse {
+  string error = 1;
+}
+
+message MaintopRipJobProgressRequest {
+}
+
+message MaintopRipJobProgressReponse {
+  bytes data = 1;
+}
+
+<<<END PRE>>>
+
+MaintopRipRequest.data存储json数据.
+
+MaintopRipResonse.response存储返回的json数据.
+
+MaintopRipJobProgressReponse.data返回作业进度json数据. 例子:
+
+MaintopRipJobProgressReponse.data包含的json数据说明:
+
+ | 属性
+ | 类型
+ | 说明
+
+ | jobID
+ | int
+ | 作业id
+
+ | state
+ | int
+ | 作业状态作业准备中
+作业输出中
+作业成功结束
+作业失败
+
+ | process
+ | process
+ | 在state=2时有效.
+
+ | process.page
+ | int
+ | 输出页序, 从0开始
+
+ | process.progress
+ | int
+ | 进度万分比
+
+ | end
+ | end
+ | 在state=2或state=3时有效.
+
+ | end.end
+ | int64
+ | 作业结束时间, unix UTC.
+
+#### 4.1.3 远程作业
+
+mtripNet v1.1.0支持远程作业. 远程作业在处理时会被mtripNet下载到本地缓冲, 交给mtrip进行处理, 结束后删除本地缓冲. mtripNet会对doc进行一定的扩展, 这些扩展只在mtripNet中有效, 在mtripNet传递给mtrip时, 不包含这些扩展.
+
+支持的网络协议为:
+
+http
+
+ftp
+
+ssh
+
+mtripNet.json中新增配置
+
+ | 属性
+ | 类型
+ | 说明
+
+ | service.netjob.cache
+ | string
+ | 设置本地缓冲路径. 默认为"./cache"
+
+##### 4.1.3.1 http
+
+对doc进行了扩展, 增加属性net.http, 定义为
+
+ | 属性
+ | 类型
+ | 说明
+
+ | uri
+ | string
+ | 比如https://wwww.example.com:4095/sss333sdff
+
+doc.name不再有意义. 如果没有指定doc.type, 将默认使用doc.type="auto"
+
+例子
+
+##### 4.1.3.2 ftp
+
+对doc进行了扩展, 增加属性net.ftp, 定义为
+
+ | 属性
+ | 类型
+ | 说明
+
+ | address
+ | string
+ | 包含port, 比如"ftp.example.com:21"
+
+ | user
+ | string
+ | 用户名
+
+ | password
+ | string
+ | 密码
+
+ | file
+ | string
+ | 文件名, 比如"/test/test.jpg"
+
+doc.name不再有意义. 如果没有指定doc.type, 将使用后缀进行判断
+
+例子
+
+##### 4.1.3.2 ssh
+
+对doc进行了扩展, 增加属性net.ssh. 支持密码访问和rsa访问两种方式. 定义为
+
+ | 属性
+ | 类型
+ | 说明
+
+ | address
+ | string
+ | 包含port, 比如"example.com:22"
+
+ | hostKey
+ | string
+ | host key, 可缺失. 缺失表示不验证host key.
+
+ | user
+ | string
+ | 用户名
+
+ | password
+ | string
+ | 密码
+
+ | keyFile
+ | string
+ | RSA文件名. 和password只能存在一个. 使用keyFile时, mtripNet必须能访问到此keyFile
+
+ | file
+ | string
+ | 文件名, 比如"/test/test.jpg"
+
+doc.name不再有意义. 如果没有指定doc.type, 将使用后缀进行判断
+
+例子
+
+hostKey比如 "example.com,13.229.188.59 ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ=="
+
+### 4.2 mtripNetProxy
+
+mtripNet的代理动态库，用于和mtripNet连接并可发送作业到mtripNet. 在开发阶段，由于mtrip.dll禁止了调试，可以手动修改mtripNetProxy.dll名称为mtrip.dll, 从而在调试状态运行。
+
+mtripNetProxy.dll不依赖于开发包的其它可执行文件，其使用HTTP或GRPC与mtripNet进行通信。
+
+除标准的MainTopRip, MainTopRipCancel, MainTopRipReleaseBuffer导出函数外, mtripNetProxy.dll额外提供了两个新的函数:
+
+<<<PRE 2>>>
+typedef void (* progressProc)(MainTopJobProgress *p);
+void MainTopSetHostPort(const char *hostName, int port, int protocol);
+int MainTopSetJobProgressCallback(progressProc callbak);
+
+<<<END PRE>>>
+
+其中MainTopSetHostPort用于修改默认的连接地址、方式. 默认hostName为localhost, port为8089, 使用HTTP方式连接. protocol支持0: HTTP; 1: GRPC
+
+MainTopSetJobProgressCallback用于注册一个作业进度通知回调。可以不使用，从而不使用回调. 返回值0表示失败, 其他值成功.
+
+## 5. 组件历史
+
+详见maintop-rip-module-releases.html

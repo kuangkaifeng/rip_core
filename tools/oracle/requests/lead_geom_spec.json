@@ -1,0 +1,21 @@
+{
+  "note": "lead request: geometry/color reference set for T2/T3/T4 implementation (safe fields only). template=base (no extra channels); A3-DTF-1390.prs via relative path; H13 via abs path",
+  "jobs": [
+    {"stem": "geom_flat_black_100_m2", "image": "reference/inputs/flat_black_100.png", "machine": "a3dtf1390", "mode": 2},
+    {"stem": "geom_flat_white_100_m2", "image": "reference/inputs/flat_white_100.png", "machine": "a3dtf1390", "mode": 2},
+    {"stem": "geom_cmyk_quad_100_m2", "image": "reference/inputs/cmyk_quad_100.png", "machine": "a3dtf1390", "mode": 2},
+    {"stem": "geom_rgb_quad_100_m2", "image": "reference/inputs/rgb_quad_100.png", "machine": "a3dtf1390", "mode": 2},
+    {"stem": "geom_lines_1px_100_m2", "image": "reference/inputs/lines_1px_100.png", "machine": "a3dtf1390", "mode": 2},
+    {"stem": "geom_flat_black_100_m3", "image": "reference/inputs/flat_black_100.png", "machine": "a3dtf1390", "mode": 3},
+    {"stem": "geom_flat_white_100_m3", "image": "reference/inputs/flat_white_100.png", "machine": "a3dtf1390", "mode": 3},
+    {"stem": "geom_cmyk_quad_100_m3", "image": "reference/inputs/cmyk_quad_100.png", "machine": "a3dtf1390", "mode": 3},
+    {"stem": "geom_rgb_quad_100_m3", "image": "reference/inputs/rgb_quad_100.png", "machine": "a3dtf1390", "mode": 3},
+    {"stem": "geom_lines_1px_100_m3", "image": "reference/inputs/lines_1px_100.png", "machine": "a3dtf1390", "mode": 3},
+    {"stem": "geomh_flat_black_100_m0", "image": "reference/inputs/flat_black_100.png", "machine": "h13xp600", "mode": 0},
+    {"stem": "geomh_flat_white_100_m0", "image": "reference/inputs/flat_white_100.png", "machine": "h13xp600", "mode": 0},
+    {"stem": "geomh_cmyk_quad_100_m0", "image": "reference/inputs/cmyk_quad_100.png", "machine": "h13xp600", "mode": 0},
+    {"stem": "geomh_rgb_quad_100_m0", "image": "reference/inputs/rgb_quad_100.png", "machine": "h13xp600", "mode": 0},
+    {"stem": "geomh_lines_1px_100_m0", "image": "reference/inputs/lines_1px_100.png", "machine": "h13xp600", "mode": 0},
+    {"stem": "geom_flat_black_720_m2", "image": "reference/inputs/flat_black_720.png", "machine": "a3dtf1390", "mode": 2}
+  ]
+}

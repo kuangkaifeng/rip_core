@@ -1,0 +1,921 @@
+[
+  {
+    "name": "m2_mirror_h_bool",
+    "stem": "exp_a3dtf1390_m2_mirror_h_bool",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "image": "cmyk_quad_100",
+    "variant": "base",
+    "params": {
+      "mirror": [
+        true,
+        false
+      ]
+    },
+    "result": 0,
+    "error": null,
+    "elapsed_s": 1.23,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_a3dtf1390_m2_mirror_h_bool.prn",
+    "features": {
+      "size": 242378,
+      "sha256": "bf885f93eefa380d85bfd1f2d851c8f4e2e2148b0036385832e08ae9b003e8e5",
+      "sha256_norm": "d966ba4d4fdd3ac63d26b80e378d76153daf6cfd6cbd2191ba794000ac7eab99",
+      "format": "esc-p2 (parser unavailable: ModuleNotFoundError(\"No module named 'parse_prn'\"))"
+    },
+    "server_healthy_after": true
+  },
+  {
+    "name": "m2_mirror_v_bool",
+    "stem": "exp_a3dtf1390_m2_mirror_v_bool",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "image": "cmyk_quad_100",
+    "variant": "base",
+    "params": {
+      "mirror": [
+        false,
+        true
+      ]
+    },
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.049,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_a3dtf1390_m2_mirror_v_bool.prn",
+    "features": {
+      "size": 244126,
+      "sha256": "ee4700f871aa354feecd2d33a26059a75543cf7dd9020fceb4240603404aaa5e",
+      "sha256_norm": "194758a810cd27b98dd0e75dafcb5dd4904e6f6100c0837e1f1988a477c93b47",
+      "format": "esc-p2 (parser unavailable: ModuleNotFoundError(\"No module named 'parse_prn'\"))"
+    },
+    "server_healthy_after": true
+  },
+  {
+    "name": "m2_mirror_hv_bool",
+    "stem": "exp_a3dtf1390_m2_mirror_hv_bool",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "image": "cmyk_quad_100",
+    "variant": "base",
+    "params": {
+      "mirror": [
+        true,
+        true
+      ]
+    },
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.024,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_a3dtf1390_m2_mirror_hv_bool.prn",
+    "features": {
+      "size": 242602,
+      "sha256": "9b98021bc362ad85794263cfce6cde01fb1d1a6ed3c0ff41bb9ddd6f3a343b16",
+      "sha256_norm": "26db6c227bc40fac065f466655e1aa7cc2ed3342d6dfaae31a97156c9de15602",
+      "format": "esc-p2 (parser unavailable: ModuleNotFoundError(\"No module named 'parse_prn'\"))"
+    },
+    "server_healthy_after": true
+  },
+  {
+    "name": "dpi72img_no_view",
+    "stem": "exp_a3dtf1390_dpi72img_no_view",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "image": "cmyk_quad_100_dpi72",
+    "variant": "base",
+    "params": {},
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.03,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_a3dtf1390_dpi72img_no_view.prn",
+    "features": {
+      "size": 651059,
+      "sha256": "7a9931b66ab3c0d8ebae42b2c7a6ed36599751863e8fee3fdd83f95f5df9c159",
+      "sha256_norm": "a66f00de21024992301b320ceff679023c5a486c0fdccedd36a7fbc0c0bc7190",
+      "format": "esc-p2 (parser unavailable: ModuleNotFoundError(\"No module named 'parse_prn'\"))"
+    },
+    "server_healthy_after": true
+  },
+  {
+    "name": "dpi72img_view120",
+    "stem": "exp_a3dtf1390_dpi72img_view120",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "image": "cmyk_quad_100_dpi72",
+    "variant": "base",
+    "params": {
+      "dpi": [
+        120,
+        120
+      ]
+    },
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.028,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_a3dtf1390_dpi72img_view120.prn",
+    "features": {
+      "size": 651059,
+      "sha256": "7a9931b66ab3c0d8ebae42b2c7a6ed36599751863e8fee3fdd83f95f5df9c159",
+      "sha256_norm": "a66f00de21024992301b320ceff679023c5a486c0fdccedd36a7fbc0c0bc7190",
+      "format": "esc-p2 (parser unavailable: ModuleNotFoundError(\"No module named 'parse_prn'\"))"
+    },
+    "server_healthy_after": true
+  },
+  {
+    "name": "dpi72img_view72",
+    "stem": "exp_a3dtf1390_dpi72img_view72",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "image": "cmyk_quad_100_dpi72",
+    "variant": "base",
+    "params": {
+      "dpi": [
+        72,
+        72
+      ]
+    },
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.04,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_a3dtf1390_dpi72img_view72.prn",
+    "features": {
+      "size": 651059,
+      "sha256": "7a9931b66ab3c0d8ebae42b2c7a6ed36599751863e8fee3fdd83f95f5df9c159",
+      "sha256_norm": "a66f00de21024992301b320ceff679023c5a486c0fdccedd36a7fbc0c0bc7190",
+      "format": "esc-p2 (parser unavailable: ModuleNotFoundError(\"No module named 'parse_prn'\"))"
+    },
+    "server_healthy_after": true
+  },
+  {
+    "name": "dpi300img_view120",
+    "stem": "exp_a3dtf1390_dpi300img_view120",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "image": "cmyk_quad_100_dpi300",
+    "variant": "base",
+    "params": {
+      "dpi": [
+        120,
+        120
+      ]
+    },
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.019,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_a3dtf1390_dpi300img_view120.prn",
+    "features": {
+      "size": 48265,
+      "sha256": "3c3adbc20c94f6ee66f95fd4de197a38bb0fac540efbe30d4d2439d0c9d530ec",
+      "sha256_norm": "f9761354cc06ed0482b32d40e904f405abfe458308cb33106735322c1c2a7977",
+      "format": "esc-p2 (parser unavailable: ModuleNotFoundError(\"No module named 'parse_prn'\"))"
+    },
+    "server_healthy_after": true
+  },
+  {
+    "name": "dpi300img_no_view",
+    "stem": "exp_a3dtf1390_dpi300img_no_view",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "image": "cmyk_quad_100_dpi300",
+    "variant": "base",
+    "params": {},
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.021,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_a3dtf1390_dpi300img_no_view.prn",
+    "features": {
+      "size": 48265,
+      "sha256": "3c3adbc20c94f6ee66f95fd4de197a38bb0fac540efbe30d4d2439d0c9d530ec",
+      "sha256_norm": "f9761354cc06ed0482b32d40e904f405abfe458308cb33106735322c1c2a7977",
+      "format": "esc-p2 (parser unavailable: ModuleNotFoundError(\"No module named 'parse_prn'\"))"
+    },
+    "server_healthy_after": true
+  },
+  {
+    "name": "m2_golden",
+    "stem": "exp_a3dtf1390_m2_golden",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "image": "cmyk_quad_100",
+    "variant": "golden",
+    "params": {},
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.268,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_a3dtf1390_m2_golden.prn",
+    "features": {
+      "size": 244131,
+      "sha256": "5445b6fb2a87fc7c4a5812e5705d7d9f6c9414c26dea9a5974cbf71bac93d365",
+      "sha256_norm": "3899621b6740b974120f327816dda6a3a6dc9eaa0db3da5fa6de467adfedeeb3",
+      "format": "esc-p2 (parser unavailable: ModuleNotFoundError(\"No module named 'parse_prn'\"))"
+    },
+    "server_healthy_after": true
+  },
+  {
+    "name": "m2_golden_inkIE_inv10",
+    "stem": "exp_a3dtf1390_m2_golden_inkIE_inv10",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "image": "cmyk_quad_100",
+    "variant": "golden",
+    "params": {
+      "inkie": [
+        {
+          "mode": "invaginate",
+          "index": 4,
+          "dots": [
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      ]
+    },
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.063,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_a3dtf1390_m2_golden_inkIE_inv10.prn",
+    "features": {
+      "size": 244131,
+      "sha256": "5445b6fb2a87fc7c4a5812e5705d7d9f6c9414c26dea9a5974cbf71bac93d365",
+      "sha256_norm": "3899621b6740b974120f327816dda6a3a6dc9eaa0db3da5fa6de467adfedeeb3",
+      "format": "esc-p2 (parser unavailable: ModuleNotFoundError(\"No module named 'parse_prn'\"))"
+    },
+    "server_healthy_after": true
+  },
+  {
+    "name": "m2_golden_inkIE_exp10",
+    "stem": "exp_a3dtf1390_m2_golden_inkIE_exp10",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "image": "cmyk_quad_100",
+    "variant": "golden",
+    "params": {
+      "inkie": [
+        {
+          "mode": "expand",
+          "index": 4,
+          "dots": [
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      ]
+    },
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.065,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_a3dtf1390_m2_golden_inkIE_exp10.prn",
+    "features": {
+      "size": 244131,
+      "sha256": "5445b6fb2a87fc7c4a5812e5705d7d9f6c9414c26dea9a5974cbf71bac93d365",
+      "sha256_norm": "3899621b6740b974120f327816dda6a3a6dc9eaa0db3da5fa6de467adfedeeb3",
+      "format": "esc-p2 (parser unavailable: ModuleNotFoundError(\"No module named 'parse_prn'\"))"
+    },
+    "server_healthy_after": true
+  },
+  {
+    "name": "m3_golden",
+    "stem": "exp_a3dtf1390_m3_golden",
+    "machine": "a3dtf1390",
+    "mode": 3,
+    "image": "cmyk_quad_100",
+    "variant": "golden",
+    "params": {},
+    "result": 0,
+    "error": null,
+    "elapsed_s": 1.129,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_a3dtf1390_m3_golden.prn",
+    "features": {
+      "size": 296214,
+      "sha256": "0af09bcc6c21a4b1efba7655ec798cb648a3ea4c4b5b28135fedbe9e95763d53",
+      "sha256_norm": "31d583404376b7bd57ea7fb90e90fdbd71774dafd80501a1ed38aca033ec6f3f",
+      "format": "esc-p2 (parser unavailable: ModuleNotFoundError(\"No module named 'parse_prn'\"))"
+    },
+    "server_healthy_after": true
+  },
+  {
+    "name": "m3_golden_inkIE_inv5",
+    "stem": "exp_a3dtf1390_m3_golden_inkIE_inv5",
+    "machine": "a3dtf1390",
+    "mode": 3,
+    "image": "cmyk_quad_100",
+    "variant": "golden",
+    "params": {
+      "inkie": [
+        {
+          "mode": "invaginate",
+          "index": 4,
+          "dots": [
+            5,
+            5,
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.075,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_a3dtf1390_m3_golden_inkIE_inv5.prn",
+    "features": {
+      "size": 304151,
+      "sha256": "2297363e4d3764b0742c9e9f0976caea5beeab575ea6918cfa8d82f16459c2b3",
+      "sha256_norm": "78118e7b025407d9921e7929f0326bfcaf0fc26da9cebecca9a09032ac5d493e",
+      "format": "esc-p2 (parser unavailable: ModuleNotFoundError(\"No module named 'parse_prn'\"))"
+    },
+    "server_healthy_after": true
+  },
+  {
+    "name": "m3_golden_inkIE_exp10",
+    "stem": "exp_a3dtf1390_m3_golden_inkIE_exp10",
+    "machine": "a3dtf1390",
+    "mode": 3,
+    "image": "cmyk_quad_100",
+    "variant": "golden",
+    "params": {
+      "inkie": [
+        {
+          "mode": "expand",
+          "index": 4,
+          "dots": [
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      ]
+    },
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.077,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_a3dtf1390_m3_golden_inkIE_exp10.prn",
+    "features": {
+      "size": 320348,
+      "sha256": "8c84813f12a6db42060b22768b6c7f030cc5373639e9a90e4728c13b2d4aa2ea",
+      "sha256_norm": "53095dca4ebc3cba6728e657a5215f8789ea3e81996df9299bcddf4b48eb50c4",
+      "format": "esc-p2 (parser unavailable: ModuleNotFoundError(\"No module named 'parse_prn'\"))"
+    },
+    "server_healthy_after": true
+  },
+  {
+    "name": "m3_golden_inkIE_W2_inv10",
+    "stem": "exp_a3dtf1390_m3_golden_inkIE_W2_inv10",
+    "machine": "a3dtf1390",
+    "mode": 3,
+    "image": "cmyk_quad_100",
+    "variant": "golden",
+    "params": {
+      "inkie": [
+        {
+          "mode": "invaginate",
+          "index": 5,
+          "dots": [
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      ]
+    },
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.061,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_a3dtf1390_m3_golden_inkIE_W2_inv10.prn",
+    "features": {
+      "size": 320348,
+      "sha256": "8c84813f12a6db42060b22768b6c7f030cc5373639e9a90e4728c13b2d4aa2ea",
+      "sha256_norm": "53095dca4ebc3cba6728e657a5215f8789ea3e81996df9299bcddf4b48eb50c4",
+      "format": "esc-p2 (parser unavailable: ModuleNotFoundError(\"No module named 'parse_prn'\"))"
+    },
+    "server_healthy_after": true
+  },
+  {
+    "name": "ice_color",
+    "stem": "exp_a3dtf1390_ice_color",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "image": "cmyk_quad_100",
+    "variant": "base",
+    "params": {
+      "ice": [
+        {
+          "mode": "color",
+          "invert": false,
+          "inkName": "W1"
+        }
+      ]
+    },
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.051,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_a3dtf1390_ice_color.prn",
+    "features": {
+      "size": 244131,
+      "sha256": "a4dcb4de1a10872d68bf41b78e902c155042faafe7f1f8e0dadfcbb077c3e8f4",
+      "sha256_norm": "3899621b6740b974120f327816dda6a3a6dc9eaa0db3da5fa6de467adfedeeb3",
+      "format": "esc-p2 (parser unavailable: ModuleNotFoundError(\"No module named 'parse_prn'\"))"
+    },
+    "server_healthy_after": true
+  },
+  {
+    "name": "ice_smooth",
+    "stem": "exp_a3dtf1390_ice_smooth",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "image": "cmyk_quad_100",
+    "variant": "base",
+    "params": {
+      "ice": [
+        {
+          "mode": "smooth",
+          "invert": false,
+          "inkName": "W1"
+        }
+      ]
+    },
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.051,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_a3dtf1390_ice_smooth.prn",
+    "features": {
+      "size": 244131,
+      "sha256": "a4dcb4de1a10872d68bf41b78e902c155042faafe7f1f8e0dadfcbb077c3e8f4",
+      "sha256_norm": "3899621b6740b974120f327816dda6a3a6dc9eaa0db3da5fa6de467adfedeeb3",
+      "format": "esc-p2 (parser unavailable: ModuleNotFoundError(\"No module named 'parse_prn'\"))"
+    },
+    "server_healthy_after": true
+  },
+  {
+    "name": "ice_smoothNeg",
+    "stem": "exp_a3dtf1390_ice_smoothNeg",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "image": "cmyk_quad_100",
+    "variant": "base",
+    "params": {
+      "ice": [
+        {
+          "mode": "smoothNeg",
+          "invert": false,
+          "inkName": "W1"
+        }
+      ]
+    },
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.049,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_a3dtf1390_ice_smoothNeg.prn",
+    "features": {
+      "size": 244131,
+      "sha256": "b0f924f84c8e9bd5de87bd49eca4b021b0a77b87190e56e92b705c5d2ca1d3a7",
+      "sha256_norm": "3899621b6740b974120f327816dda6a3a6dc9eaa0db3da5fa6de467adfedeeb3",
+      "format": "esc-p2 (parser unavailable: ModuleNotFoundError(\"No module named 'parse_prn'\"))"
+    },
+    "server_healthy_after": true
+  },
+  {
+    "name": "ice_white",
+    "stem": "exp_a3dtf1390_ice_white",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "image": "cmyk_quad_100",
+    "variant": "base",
+    "params": {
+      "ice": [
+        {
+          "mode": "white",
+          "invert": false,
+          "inkName": "W1"
+        }
+      ]
+    },
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.051,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_a3dtf1390_ice_white.prn",
+    "features": {
+      "size": 244131,
+      "sha256": "b0f924f84c8e9bd5de87bd49eca4b021b0a77b87190e56e92b705c5d2ca1d3a7",
+      "sha256_norm": "3899621b6740b974120f327816dda6a3a6dc9eaa0db3da5fa6de467adfedeeb3",
+      "format": "esc-p2 (parser unavailable: ModuleNotFoundError(\"No module named 'parse_prn'\"))"
+    },
+    "server_healthy_after": true
+  },
+  {
+    "name": "ice_whiteNeg",
+    "stem": "exp_a3dtf1390_ice_whiteNeg",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "image": "cmyk_quad_100",
+    "variant": "base",
+    "params": {
+      "ice": [
+        {
+          "mode": "whiteNeg",
+          "invert": false,
+          "inkName": "W1"
+        }
+      ]
+    },
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.05,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_a3dtf1390_ice_whiteNeg.prn",
+    "features": {
+      "size": 244131,
+      "sha256": "b0f924f84c8e9bd5de87bd49eca4b021b0a77b87190e56e92b705c5d2ca1d3a7",
+      "sha256_norm": "3899621b6740b974120f327816dda6a3a6dc9eaa0db3da5fa6de467adfedeeb3",
+      "format": "esc-p2 (parser unavailable: ModuleNotFoundError(\"No module named 'parse_prn'\"))"
+    },
+    "server_healthy_after": true
+  },
+  {
+    "name": "ice_full_invert",
+    "stem": "exp_a3dtf1390_ice_full_invert",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "image": "cmyk_quad_100",
+    "variant": "base",
+    "params": {
+      "ice": [
+        {
+          "mode": "full",
+          "invert": true,
+          "inkName": "W1"
+        }
+      ]
+    },
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.05,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_a3dtf1390_ice_full_invert.prn",
+    "features": {
+      "size": 244131,
+      "sha256": "b0f924f84c8e9bd5de87bd49eca4b021b0a77b87190e56e92b705c5d2ca1d3a7",
+      "sha256_norm": "3899621b6740b974120f327816dda6a3a6dc9eaa0db3da5fa6de467adfedeeb3",
+      "format": "esc-p2 (parser unavailable: ModuleNotFoundError(\"No module named 'parse_prn'\"))"
+    },
+    "server_healthy_after": true
+  },
+  {
+    "name": "ice_cmykw1w2",
+    "stem": "exp_a3dtf1390_ice_cmykw1w2",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "image": "cmyk_quad_100",
+    "variant": "base",
+    "params": {
+      "ice": [
+        {
+          "mode": "full",
+          "invert": false,
+          "inkName": "CMYKW1W2"
+        }
+      ]
+    },
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.273,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_a3dtf1390_ice_cmykw1w2.prn",
+    "features": {
+      "size": 244131,
+      "sha256": "b0f924f84c8e9bd5de87bd49eca4b021b0a77b87190e56e92b705c5d2ca1d3a7",
+      "sha256_norm": "3899621b6740b974120f327816dda6a3a6dc9eaa0db3da5fa6de467adfedeeb3",
+      "format": "esc-p2 (parser unavailable: ModuleNotFoundError(\"No module named 'parse_prn'\"))"
+    },
+    "server_healthy_after": true
+  },
+  {
+    "name": "whiteInk_full_normal",
+    "stem": "exp_a3dtf1390_whiteInk_full_normal",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "image": "cmyk_quad_100",
+    "variant": "base",
+    "params": {
+      "extra": {
+        "whiteInk": [
+          {
+            "mode": "full",
+            "density": "normal"
+          }
+        ]
+      }
+    },
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.023,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_a3dtf1390_whiteInk_full_normal.prn",
+    "features": {
+      "size": 274262,
+      "sha256": "05878503c68c4049e87c5dc9e03cae111bf456a1320095e896868c77b48a5c1d",
+      "sha256_norm": "4706144b4683ff9b6d0f7f822cab8434be0273dca09a98113d3c78854e75ec79",
+      "format": "esc-p2 (parser unavailable: ModuleNotFoundError(\"No module named 'parse_prn'\"))"
+    },
+    "server_healthy_after": true
+  },
+  {
+    "name": "whiteInk_sep_ownset90",
+    "stem": "exp_a3dtf1390_whiteInk_sep_ownset90",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "image": "cmyk_quad_100",
+    "variant": "base",
+    "params": {
+      "extra": {
+        "whiteInk": [
+          {
+            "mode": "seperate",
+            "density": "ownset",
+            "densityValue": 90
+          }
+        ]
+      }
+    },
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.026,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_a3dtf1390_whiteInk_sep_ownset90.prn",
+    "features": {
+      "size": 250195,
+      "sha256": "2b23eb6c650bb68aee88f062b931722dd04822c33e7e88aeac0ae025303c0328",
+      "sha256_norm": "0951f75bbea227e0968c816ff6441832b1daa9383d37a77b72fd3c4971818d21",
+      "format": "esc-p2 (parser unavailable: ModuleNotFoundError(\"No module named 'parse_prn'\"))"
+    },
+    "server_healthy_after": true
+  },
+  {
+    "name": "whiteInk_color_more",
+    "stem": "exp_a3dtf1390_whiteInk_color_more",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "image": "cmyk_quad_100",
+    "variant": "base",
+    "params": {
+      "extra": {
+        "whiteInk": [
+          {
+            "mode": "color",
+            "density": "more"
+          }
+        ]
+      }
+    },
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.043,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_a3dtf1390_whiteInk_color_more.prn",
+    "features": {
+      "size": 274268,
+      "sha256": "3238227d77205ade2bcf84f6ce035de6faf7f1357acbaf36a7bf17d45f9485a1",
+      "sha256_norm": "aa252251f9a1f2ff4e05d4e59017967dca7f25860593a4e33a9a03983cb9edc9",
+      "format": "esc-p2 (parser unavailable: ModuleNotFoundError(\"No module named 'parse_prn'\"))"
+    },
+    "server_healthy_after": true
+  },
+  {
+    "name": "alpha_rt1_tw0",
+    "stem": "exp_a3dtf1390_alpha_rt1_tw0",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "image": "alpha_checker_100",
+    "variant": "golden",
+    "params": {
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": false
+      }
+    },
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.049,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_a3dtf1390_alpha_rt1_tw0.prn",
+    "features": {
+      "size": 134505,
+      "sha256": "5dde29477c77a3affc58bbcf5761ea95784295ee2da93975bc205e9de8e0d120",
+      "sha256_norm": "e415bfe1a1624e5e8b10d1c856952a21993cc5e8e6887dd52ef88b5e1e49cd91",
+      "format": "esc-p2 (parser unavailable: ModuleNotFoundError(\"No module named 'parse_prn'\"))"
+    },
+    "server_healthy_after": true
+  },
+  {
+    "name": "alpha_rt0_tw0",
+    "stem": "exp_a3dtf1390_alpha_rt0_tw0",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "image": "alpha_checker_100",
+    "variant": "golden",
+    "params": {
+      "color": {
+        "readTransparency": false,
+        "transparencyToWhite": false
+      }
+    },
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.074,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_a3dtf1390_alpha_rt0_tw0.prn",
+    "features": {
+      "size": 134505,
+      "sha256": "5dde29477c77a3affc58bbcf5761ea95784295ee2da93975bc205e9de8e0d120",
+      "sha256_norm": "e415bfe1a1624e5e8b10d1c856952a21993cc5e8e6887dd52ef88b5e1e49cd91",
+      "format": "esc-p2 (parser unavailable: ModuleNotFoundError(\"No module named 'parse_prn'\"))"
+    },
+    "server_healthy_after": true
+  },
+  {
+    "name": "alpha_rt1_tw1",
+    "stem": "exp_a3dtf1390_alpha_rt1_tw1",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "image": "alpha_checker_100",
+    "variant": "golden",
+    "params": {
+      "color": {
+        "readTransparency": true,
+        "transparencyToWhite": true
+      }
+    },
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.051,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_a3dtf1390_alpha_rt1_tw1.prn",
+    "features": {
+      "size": 134505,
+      "sha256": "5dde29477c77a3affc58bbcf5761ea95784295ee2da93975bc205e9de8e0d120",
+      "sha256_norm": "e415bfe1a1624e5e8b10d1c856952a21993cc5e8e6887dd52ef88b5e1e49cd91",
+      "format": "esc-p2 (parser unavailable: ModuleNotFoundError(\"No module named 'parse_prn'\"))"
+    },
+    "server_healthy_after": true
+  },
+  {
+    "name": "alpha_rt0_tw1",
+    "stem": "exp_a3dtf1390_alpha_rt0_tw1",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "image": "alpha_checker_100",
+    "variant": "golden",
+    "params": {
+      "color": {
+        "readTransparency": false,
+        "transparencyToWhite": true
+      }
+    },
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.057,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_a3dtf1390_alpha_rt0_tw1.prn",
+    "features": {
+      "size": 134505,
+      "sha256": "5dde29477c77a3affc58bbcf5761ea95784295ee2da93975bc205e9de8e0d120",
+      "sha256_norm": "e415bfe1a1624e5e8b10d1c856952a21993cc5e8e6887dd52ef88b5e1e49cd91",
+      "format": "esc-p2 (parser unavailable: ModuleNotFoundError(\"No module named 'parse_prn'\"))"
+    },
+    "server_healthy_after": true
+  },
+  {
+    "name": "h13_rot180",
+    "stem": "exp_h13xp600_h13_rot180",
+    "machine": "h13xp600",
+    "mode": 0,
+    "image": "cmyk_quad_100",
+    "variant": "base",
+    "params": {
+      "rotate": 180
+    },
+    "result": 0,
+    "error": null,
+    "elapsed_s": 1.631,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_h13xp600_h13_rot180.prn",
+    "features": {
+      "size": 456048,
+      "sha256": "ca1417ef19d8b15bd8fa9ab42dae30d010c4da3f65c79d56563190a2253e04e6",
+      "sha256_norm": "ca1417ef19d8b15bd8fa9ab42dae30d010c4da3f65c79d56563190a2253e04e6",
+      "format": "hssf-0x5555"
+    },
+    "server_healthy_after": true
+  },
+  {
+    "name": "h13_scale50",
+    "stem": "exp_h13xp600_h13_scale50",
+    "machine": "h13xp600",
+    "mode": 0,
+    "image": "cmyk_quad_100",
+    "variant": "base",
+    "params": {
+      "scale": [
+        50,
+        50
+      ]
+    },
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.016,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_h13xp600_h13_scale50.prn",
+    "features": {
+      "size": 120048,
+      "sha256": "ca7fb5c4556b84175c24fd4494525712622dcdb9e14616912e87a8cac68d1c50",
+      "sha256_norm": "ca7fb5c4556b84175c24fd4494525712622dcdb9e14616912e87a8cac68d1c50",
+      "format": "hssf-0x5555"
+    },
+    "server_healthy_after": true
+  },
+  {
+    "name": "h13_golden",
+    "stem": "exp_h13xp600_h13_golden",
+    "machine": "h13xp600",
+    "mode": 0,
+    "image": "cmyk_quad_100",
+    "variant": "golden",
+    "params": {},
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.087,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_h13xp600_h13_golden.prn",
+    "features": {
+      "size": 456048,
+      "sha256": "88435c195fd6b10c5b521d7d8afb6a1aed1db9bdbb217beece0f7b8bee9f7af1",
+      "sha256_norm": "88435c195fd6b10c5b521d7d8afb6a1aed1db9bdbb217beece0f7b8bee9f7af1",
+      "format": "hssf-0x5555"
+    },
+    "server_healthy_after": true
+  },
+  {
+    "name": "h13_golden_inkIE_inv10",
+    "stem": "exp_h13xp600_h13_golden_inkIE_inv10",
+    "machine": "h13xp600",
+    "mode": 0,
+    "image": "cmyk_quad_100",
+    "variant": "golden",
+    "params": {
+      "inkie": [
+        {
+          "mode": "invaginate",
+          "index": 4,
+          "dots": [
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      ]
+    },
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.056,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_h13xp600_h13_golden_inkIE_inv10.prn",
+    "features": {
+      "size": 456048,
+      "sha256": "88435c195fd6b10c5b521d7d8afb6a1aed1db9bdbb217beece0f7b8bee9f7af1",
+      "sha256_norm": "88435c195fd6b10c5b521d7d8afb6a1aed1db9bdbb217beece0f7b8bee9f7af1",
+      "format": "hssf-0x5555"
+    },
+    "server_healthy_after": true
+  },
+  {
+    "name": "doctype_auto",
+    "stem": "exp_a3dtf1390_doctype_auto",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "image": "cmyk_quad_100",
+    "variant": "base",
+    "params": {},
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.047,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_a3dtf1390_doctype_auto.prn",
+    "features": {
+      "size": 244131,
+      "sha256": "c27a7bc9251bd67fb810e0de1f0484891cdd292a1b921fc70a6b36277bcc7887",
+      "sha256_norm": "3899621b6740b974120f327816dda6a3a6dc9eaa0db3da5fa6de467adfedeeb3",
+      "format": "esc-p2 (parser unavailable: ModuleNotFoundError(\"No module named 'parse_prn'\"))"
+    },
+    "server_healthy_after": true
+  },
+  {
+    "name": "no_range_no_color_no_view",
+    "stem": "exp_a3dtf1390_no_range_no_color_no_view",
+    "machine": "a3dtf1390",
+    "mode": 2,
+    "image": "cmyk_quad_100",
+    "variant": "base",
+    "params": {},
+    "result": 0,
+    "error": null,
+    "elapsed_s": 0.024,
+    "prn": "D:/work/RIP核心分析/reference/prn_samples/exp_a3dtf1390_no_range_no_color_no_view.prn",
+    "features": {
+      "size": 244131,
+      "sha256": "c27a7bc9251bd67fb810e0de1f0484891cdd292a1b921fc70a6b36277bcc7887",
+      "sha256_norm": "3899621b6740b974120f327816dda6a3a6dc9eaa0db3da5fa6de467adfedeeb3",
+      "format": "esc-p2 (parser unavailable: ModuleNotFoundError(\"No module named 'parse_prn'\"))"
+    },
+    "server_healthy_after": true
+  }
+]

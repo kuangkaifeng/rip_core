@@ -1,0 +1,153 @@
+{
+ "A3-DTF-1390": {
+  "size": 140586,
+  "version": 3,
+  "module": "MtDummy.pdv",
+  "records": [
+   {
+    "lut_start": 49296,
+    "paths": [
+     "SRGB IEC61966-2.1.icc",
+     "CoatedFOGRA39.icc",
+     "commnew.mcm",
+     "v1440x1400-A3-DTF-1390.icm",
+     "SRGB IEC61966-2.1.icc",
+     "CoatedFOGRA39.icc",
+     "commnew.mcm",
+     "v1440x1400-A3-DTF-1390.icm"
+    ]
+   },
+   {
+    "lut_start": 85528,
+    "paths": [
+     "SRGB IEC61966-2.1.icc",
+     "CoatedFOGRA39.icc",
+     "commnew.mcm",
+     "v1440x720-A3-DTF-1390.icm",
+     "SRGB IEC61966-2.1.icc",
+     "CoatedFOGRA39.icc",
+     "commnew.mcm",
+     "v1440x720-A3-DTF-1390.icm"
+    ]
+   },
+   {
+    "lut_start": 121676,
+    "paths": [
+     "SRGB IEC61966-2.1.icc",
+     "CoatedFOGRA39.icc",
+     "commnew.mcm",
+     "v2880x1400-A3-DTF-1390.icm",
+     "SRGB IEC61966-2.1.icc",
+     "CoatedFOGRA39.icc",
+     "commnew.mcm",
+     "v2880x1400-A3-DTF-1390.icm"
+    ]
+   }
+  ]
+ },
+ "H13 XP600": {
+  "size": 157762,
+  "version": 4,
+  "module": "MtDummy.pdv",
+  "records": [
+   {
+    "lut_start": 30363,
+    "paths": [
+     "SRGB IEC61966-2.1.icc",
+     "US Web Coated (SWOP) v2.icc",
+     "commnew.mcm",
+     "v720x720-dtf.icm",
+     "SRGB IEC61966-2.1.icc",
+     "US Web Coated (SWOP) v2.icc",
+     "commnew.mcm",
+     "v720x720-dtf.icm"
+    ]
+   },
+   {
+    "lut_start": 66415,
+    "paths": [
+     "SRGB IEC61966-2.1.icc",
+     "US Web Coated (SWOP) v2.icc",
+     "commnew.mcm",
+     "v720x1080-dtf.icm",
+     "SRGB IEC61966-2.1.icc",
+     "US Web Coated (SWOP) v2.icc",
+     "commnew.mcm",
+     "v720x1080-dtf.icm"
+    ]
+   },
+   {
+    "lut_start": 102467,
+    "paths": [
+     "SRGB IEC61966-2.1.icc",
+     "US Web Coated (SWOP) v2.icc",
+     "commnew.mcm",
+     "v720x1440-dtf.icm",
+     "SRGB IEC61966-2.1.icc",
+     "US Web Coated (SWOP) v2.icc",
+     "commnew.mcm",
+     "v720x1440-dtf.icm"
+    ]
+   },
+   {
+    "lut_start": 138519,
+    "paths": [
+     "SRGB IEC61966-2.1.icc",
+     "US Web Coated (SWOP) v2.icc",
+     "commnew.mcm",
+     "v720x2160-dtf.icm",
+     "SRGB IEC61966-2.1.icc",
+     "US Web Coated (SWOP) v2.icc",
+     "commnew.mcm",
+     "v720x2160-dtf.icm"
+    ]
+   }
+  ]
+ },
+ "H13 XP600_myicc": {
+  "size": 141282,
+  "version": 4,
+  "module": "MtDummy.pdv",
+  "records": [
+   {
+    "lut_start": 30383,
+    "paths": [
+     "SRGB IEC61966-2.1.icc",
+     "US Web Coated (SWOP) v2.icc",
+     "commnew.mcm",
+     "v720x1080-dtf.icm",
+     "SRGB IEC61966-2.1.icc",
+     "US Web Coated (SWOP) v2.icc",
+     "commnew.mcm",
+     "v720x1080-dtf.icm"
+    ]
+   },
+   {
+    "lut_start": 66435,
+    "paths": [
+     "SRGB IEC61966-2.1.icc",
+     "US Web Coated (SWOP) v2.icc",
+     "commnew.mcm",
+     "v720x1440-dtf.icm",
+     "SRGB IEC61966-2.1.icc",
+     "US Web Coated (SWOP) v2.icc",
+     "commnew.mcm",
+     "v720x1440-dtf.icm"
+    ]
+   },
+   {
+    "lut_start": 102487,
+    "paths": [
+     "SRGB IEC61966-2.1.icc",
+     "US Web Coated (SWOP) v2.icc",
+     "commnew.mcm",
+     "v720x2160-dtf.icm",
+     "SRGB IEC61966-2.1.icc",
+     "US Web Coated (SWOP) v2.icc",
+     "commnew.mcm",
+     "v720x2160-dtf.icm"
+    ]
+   }
+  ]
+ }
+}

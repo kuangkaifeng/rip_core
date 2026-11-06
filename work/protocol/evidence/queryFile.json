@@ -1,0 +1,98 @@
+{
+  "flat_black_100.png": {
+    "page": {
+      "color": 4,
+      "hasTransparency": false,
+      "height": 21.1685,
+      "width": 21.1685,
+      "xdpi": 119.99,
+      "ydpi": 119.99
+    },
+    "result": 0,
+    "_elapsed_s": 0.028
+  },
+  "flat_white_100.png": {
+    "page": {
+      "color": 4,
+      "hasTransparency": false,
+      "height": 21.1685,
+      "width": 21.1685,
+      "xdpi": 119.99,
+      "ydpi": 119.99
+    },
+    "result": 0,
+    "_elapsed_s": 0.022
+  },
+  "cmyk_quad_100.png": {
+    "page": {
+      "color": 4,
+      "hasTransparency": false,
+      "height": 21.1685,
+      "width": 21.1685,
+      "xdpi": 119.99,
+      "ydpi": 119.99
+    },
+    "result": 0,
+    "_elapsed_s": 0.02
+  },
+  "alpha_checker_100.png": {
+    "page": {
+      "color": 4,
+      "hasTransparency": true,
+      "height": 21.1685,
+      "width": 21.1685,
+      "xdpi": 119.99,
+      "ydpi": 119.99
+    },
+    "result": 0,
+    "_elapsed_s": 0.018
+  },
+  "alpha_grad_100.png": {
+    "page": {
+      "color": 4,
+      "hasTransparency": true,
+      "height": 21.1685,
+      "width": 21.1685,
+      "xdpi": 119.99,
+      "ydpi": 119.99
+    },
+    "result": 0,
+    "_elapsed_s": 0.018
+  },
+  "checker_1px_100.png": {
+    "page": {
+      "color": 4,
+      "hasTransparency": false,
+      "height": 21.1685,
+      "width": 21.1685,
+      "xdpi": 119.99,
+      "ydpi": 119.99
+    },
+    "result": 0,
+    "_elapsed_s": 0.016
+  },
+  "cmyk_quad_720.png": {
+    "page": {
+      "color": 4,
+      "hasTransparency": false,
+      "height": 152.413,
+      "width": 152.413,
+      "xdpi": 119.99,
+      "ydpi": 119.99
+    },
+    "result": 0,
+    "_elapsed_s": 0.016
+  },
+  "flat_black_64.png": {
+    "page": {
+      "color": 4,
+      "hasTransparency": false,
+      "height": 13.5478,
+      "width": 13.5478,
+      "xdpi": 119.99,
+      "ydpi": 119.99
+    },
+    "result": 0,
+    "_elapsed_s": 0.006
+  }
+}

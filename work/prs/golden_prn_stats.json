@@ -1,0 +1,155 @@
+{
+ "prn": "D:\\Code\\kkf\\v1.1.2\\rip-studio\\bin\\bin\\temp\\data\\1793946733280.prn",
+ "prologue": [
+  {
+   "offset": 135,
+   "name": "ESC @ (reset)",
+   "letter": "@",
+   "payload": "",
+   "raw": "1b 40",
+   "length": 2
+  },
+  {
+   "offset": 137,
+   "name": "ESC(G) select-graphics-mode",
+   "letter": "47",
+   "payload": "01",
+   "raw": "1b 28 47 01 00 01",
+   "length": 6
+  },
+  {
+   "offset": 143,
+   "name": "ESC(U) set-unit",
+   "letter": "55",
+   "payload": "04 04 04 40 0b",
+   "raw": "1b 28 55 05 00 04 04 04 40 0b",
+   "length": 10
+  },
+  {
+   "offset": 153,
+   "name": "ESC U (print direction)",
+   "letter": "U",
+   "payload": "00",
+   "raw": "1b 55 00",
+   "length": 3
+  },
+  {
+   "offset": 156,
+   "name": "ESC(i) set-microweave",
+   "letter": "69",
+   "payload": "00",
+   "raw": "1b 28 69 01 00 00",
+   "length": 6
+  },
+  {
+   "offset": 162,
+   "name": "ESC(K) set-color-mode",
+   "letter": "4B",
+   "payload": "00 02",
+   "raw": "1b 28 4b 02 00 00 02",
+   "length": 7
+  },
+  {
+   "offset": 169,
+   "name": "ESC(e) set-ink/dot-size",
+   "letter": "65",
+   "payload": "00 21",
+   "raw": "1b 28 65 02 00 00 21",
+   "length": 7
+  },
+  {
+   "offset": 176,
+   "name": "ESC(D) set-raster-resolution",
+   "letter": "44",
+   "payload": "a0 05 10 02",
+   "raw": "1b 28 44 04 00 a0 05 10 02",
+   "length": 9
+  },
+  {
+   "offset": 185,
+   "name": "ESC(c) set-page-format",
+   "letter": "63",
+   "payload": "d5 fd ff ff 7f 11 00 00",
+   "raw": "1b 28 63 08 00 d5 fd ff ff 7f 11 00 00",
+   "length": 13
+  },
+  {
+   "offset": 198,
+   "name": "ESC(S) set-page/paper-size",
+   "letter": "53",
+   "payload": "d4 10 00 00 29 0d 00 00",
+   "raw": "1b 28 53 08 00 d4 10 00 00 29 0d 00 00",
+   "length": 13
+  },
+  {
+   "offset": 211,
+   "name": "ESC(m) set-print-method",
+   "letter": "6D",
+   "payload": "41",
+   "raw": "1b 28 6d 01 00 41",
+   "length": 6
+  },
+  {
+   "offset": 217,
+   "name": "ESC(V) set-absolute-vertical-position",
+   "letter": "56",
+   "payload": "00 00 00 00",
+   "raw": "1b 28 56 04 00 00 00 00 00",
+   "length": 9
+  },
+  {
+   "offset": 226,
+   "name": "ESC(v) set-relative-vertical-position",
+   "letter": "76",
+   "payload": "96 00 00 00",
+   "raw": "1b 28 76 04 00 96 00 00 00",
+   "length": 9
+  }
+ ],
+ "stats": {
+  "0x00": {
+   "mean": 0.1575096056941295,
+   "n": 19051200,
+   "hist": [
+    17673263,
+    559067,
+    14930,
+    803940
+   ],
+   "meanfrac": 0.05250320189804317
+  },
+  "0x04": {
+   "mean": 0.020235680692029898,
+   "n": 19051200,
+   "hist": [
+    18665686,
+    385514,
+    0,
+    0
+   ],
+   "meanfrac": 0.0067452268973432995
+  },
+  "0x11": {
+   "mean": 0.27313171873687747,
+   "n": 19051200,
+   "hist": [
+    17064002,
+    359953,
+    38201,
+    1589044
+   ],
+   "meanfrac": 0.09104390624562582
+  },
+  "0x12": {
+   "mean": 0.3905081044763584,
+   "n": 19051200,
+   "hist": [
+    16514427,
+    60117,
+    50437,
+    2426219
+   ],
+   "meanfrac": 0.13016936815878613
+  }
+ }
+}

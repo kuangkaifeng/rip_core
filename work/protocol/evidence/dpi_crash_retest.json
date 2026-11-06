@@ -1,0 +1,55 @@
+{
+  "started": "2026-11-06 15:02:12",
+  "health_before": true,
+  "job": {
+    "command": "rip",
+    "doc": {
+      "name": "D:/work/RIP核心分析/reference/inputs/flat_black_100.png"
+    },
+    "prs": "./A3-DTF-1390.prs",
+    "modeId": 2,
+    "range": [
+      [
+        1,
+        1
+      ]
+    ],
+    "output": {
+      "mode": "file",
+      "file": {
+        "name": "D:/work/RIP核心分析/reference/prn_samples/exp_a3dtf1390_dpi_300_retest.prn",
+        "mode": 438
+      }
+    },
+    "rotate": 0,
+    "scale": [
+      100,
+      100
+    ],
+    "margin": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "view": {
+      "xdpi": 120,
+      "ydpi": 120
+    },
+    "color": {
+      "readTransparency": true,
+      "transparencyToWhite": false
+    },
+    "dpi": {
+      "xdpi": 300,
+      "ydpi": 300
+    }
+  },
+  "job_json": "D:\\work\\RIP核心分析\\reference\\jobs\\exp_a3dtf1390_dpi_300_retest.json",
+  "exception": "ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)",
+  "elapsed_s": 0.563,
+  "health_after": false,
+  "prn_exists": true,
+  "prn_size": 0,
+  "finished": "2026-11-06 15:02:17"
+}

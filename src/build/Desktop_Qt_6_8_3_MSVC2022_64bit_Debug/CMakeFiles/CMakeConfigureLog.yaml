@@ -1,0 +1,162 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/software/qt6/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/software/qt6/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/software/qt6/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/software/qt6/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: D:/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36260 for x64
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      CMakeCCompilerId.c
+      Microsoft (R) Incremental Linker Version 14.51.36260.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCCompilerId.exe 
+      CMakeCCompilerId.obj 
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/work/RIP核心分析/src/build/Desktop_Qt_6_8_3_MSVC2022_64bit_Debug/CMakeFiles/3.30.5/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/software/qt6/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "D:/software/qt6/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "D:/software/qt6/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        注意: 包含文件:  D:\\work\\RIP核心分析\\src\\build\\Desktop_Qt_6_8_3_MSVC2022_64bit_Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "注意: 包含文件:  "
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/software/qt6/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/software/qt6/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/software/qt6/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: D:/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36260 for x64
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.51.36260.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/work/RIP核心分析/src/build/Desktop_Qt_6_8_3_MSVC2022_64bit_Debug/CMakeFiles/3.30.5/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/software/qt6/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "D:/software/qt6/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "D:/software/qt6/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        注意: 包含文件:  D:\\work\\RIP核心分析\\src\\build\\Desktop_Qt_6_8_3_MSVC2022_64bit_Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "注意: 包含文件:  "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/software/qt6/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "D:/software/qt6/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/work/RIP\u6838\u5fc3\u5206\u6790/src/build/Desktop_Qt_6_8_3_MSVC2022_64bit_Debug/CMakeFiles/CMakeScratch/TryCompile-tp4bxp"
+      binary: "D:/work/RIP\u6838\u5fc3\u5206\u6790/src/build/Desktop_Qt_6_8_3_MSVC2022_64bit_Debug/CMakeFiles/CMakeScratch/TryCompile-tp4bxp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/work/RIP核心分析/src/build/Desktop_Qt_6_8_3_MSVC2022_64bit_Debug/CMakeFiles/CMakeScratch/TryCompile-tp4bxp'
+        
+        Run Build Command(s): D:/software/qt6/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 jom -f Makefile /nologo cmTC_213d0\\fast
+        jom: parallel job execution disabled for Makefile
+        	D:\\software\\qt6\\Tools\\QtCreator\\bin\\jom\\jom.exe  -f CMakeFiles\\cmTC_213d0.dir\\build.make /nologo -L CMakeFiles\\cmTC_213d0.dir\\build
+        Building C object CMakeFiles/cmTC_213d0.dir/CMakeCCompilerABI.c.obj
+        	D:\\software\\qt6\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_213d0.dir\\CMakeCCompilerABI.c.obj.d --working-dir=D:\\work\\RIP?鲉?????\\src\\build\\Desktop_Qt_6_8_3_MSVC2022_64bit_Debug\\CMakeFiles\\CMakeScratch\\TryCompile-tp4bxp --filter-prefix="扅鶓??: ???畱??劘?  " -- "D:\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\cl.exe" @C:\\Users\\28174\\AppData\\Local\\Temp\\CMakeCCompilerABI.c.obj.40928.16.jom
+        jom: D:\\work\\RIP????\\src\\build\\Desktop_Qt_6_8_3_MSVC2022_64bit_Debug\\CMakeFiles\\CMakeScratch\\TryCompile-tp4bxp\\CMakeFiles\\cmTC_213d0.dir\\build.make [CMakeFiles\\cmTC_213d0.dir\\CMakeCCompilerABI.c.obj] Error 2
+        jom: D:\\work\\RIP????\\src\\build\\Desktop_Qt_6_8_3_MSVC2022_64bit_Debug\\CMakeFiles\\CMakeScratch\\TryCompile-tp4bxp\\Makefile [cmTC_213d0\\fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/software/qt6/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:7 (project)"
+    checks:
+      - "Check for working C compiler: D:/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/cl.exe"
+    directories:
+      source: "D:/work/RIP\u6838\u5fc3\u5206\u6790/src/build/Desktop_Qt_6_8_3_MSVC2022_64bit_Debug/CMakeFiles/CMakeScratch/TryCompile-8vbc7h"
+      binary: "D:/work/RIP\u6838\u5fc3\u5206\u6790/src/build/Desktop_Qt_6_8_3_MSVC2022_64bit_Debug/CMakeFiles/CMakeScratch/TryCompile-8vbc7h"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/work/RIP核心分析/src/build/Desktop_Qt_6_8_3_MSVC2022_64bit_Debug/CMakeFiles/CMakeScratch/TryCompile-8vbc7h'
+        
+        Run Build Command(s): D:/software/qt6/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 jom -f Makefile /nologo cmTC_4888b\\fast
+        jom: parallel job execution disabled for Makefile
+        	D:\\software\\qt6\\Tools\\QtCreator\\bin\\jom\\jom.exe  -f CMakeFiles\\cmTC_4888b.dir\\build.make /nologo -L CMakeFiles\\cmTC_4888b.dir\\build
+        Building C object CMakeFiles/cmTC_4888b.dir/testCCompiler.c.obj
+        	D:\\software\\qt6\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_4888b.dir\\testCCompiler.c.obj.d --working-dir=D:\\work\\RIP?鲉?????\\src\\build\\Desktop_Qt_6_8_3_MSVC2022_64bit_Debug\\CMakeFiles\\CMakeScratch\\TryCompile-8vbc7h --filter-prefix="扅鶓??: ???畱??劘?  " -- "D:\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\cl.exe" @C:\\Users\\28174\\AppData\\Local\\Temp\\testCCompiler.c.obj.39904.0.jom
+        jom: D:\\work\\RIP????\\src\\build\\Desktop_Qt_6_8_3_MSVC2022_64bit_Debug\\CMakeFiles\\CMakeScratch\\TryCompile-8vbc7h\\CMakeFiles\\cmTC_4888b.dir\\build.make [CMakeFiles\\cmTC_4888b.dir\\testCCompiler.c.obj] Error 2
+        jom: D:\\work\\RIP????\\src\\build\\Desktop_Qt_6_8_3_MSVC2022_64bit_Debug\\CMakeFiles\\CMakeScratch\\TryCompile-8vbc7h\\Makefile [cmTC_4888b\\fast] Error 2
+        
+      exitCode: 2
+...

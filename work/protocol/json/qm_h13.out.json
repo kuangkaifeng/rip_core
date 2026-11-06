@@ -1,0 +1,42 @@
+{
+  "modes": [
+    {
+      "colorCorrection": true,
+      "dpi": "V720x720 dpi",
+      "id": 0,
+      "ink": "CMYKW1",
+      "name": "mode-0",
+      "paper": "DTF",
+      "planes": 5
+    },
+    {
+      "colorCorrection": true,
+      "dpi": "V720x1080 dpi",
+      "id": 1,
+      "ink": "CMYKW1",
+      "name": "mode-1",
+      "paper": "DTF",
+      "planes": 5
+    },
+    {
+      "colorCorrection": true,
+      "dpi": "V720x1440 dpi",
+      "id": 2,
+      "ink": "CMYKW1",
+      "name": "mode-2",
+      "paper": "DTF",
+      "planes": 5
+    },
+    {
+      "colorCorrection": true,
+      "dpi": "V720x2160 dpi",
+      "id": 3,
+      "ink": "CMYKW1",
+      "name": "mode-3",
+      "paper": "DTF",
+      "planes": 5
+    }
+  ],
+  "name": "MTF Better Print Ripserver Driver",
+  "result": 0
+}

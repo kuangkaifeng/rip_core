@@ -1,0 +1,19 @@
+{
+  "note": "requested by escp2-analyst (T2) for geometry / color-code mapping; template = golden sample job (A3-DTF-1390.prs, modeId=2 unless stated, W1 full + inkIE invaginate 10/10/10/10)",
+  "jobs": [
+    {"stem": "geomh_mode2", "image": "D:/work/RIP核心分析/work/escp2/probes/geomh.png", "machine": "a3dtf1390", "mode": 2, "variant": "golden"},
+    {"stem": "geomv_mode2", "image": "D:/work/RIP核心分析/work/escp2/probes/geomv.png", "machine": "a3dtf1390", "mode": 2, "variant": "golden"},
+    {"stem": "small64_mode2", "image": "D:/work/RIP核心分析/work/escp2/probes/small64.png", "machine": "a3dtf1390", "mode": 2, "variant": "golden"},
+    {"stem": "geomh_mode0", "image": "D:/work/RIP核心分析/work/escp2/probes/geomh.png", "machine": "a3dtf1390", "mode": 0, "variant": "golden"},
+    {"stem": "geomh_mode1", "image": "D:/work/RIP核心分析/work/escp2/probes/geomh.png", "machine": "a3dtf1390", "mode": 1, "variant": "golden"},
+    {"stem": "geomh_mode3", "image": "D:/work/RIP核心分析/work/escp2/probes/geomh.png", "machine": "a3dtf1390", "mode": 3, "variant": "golden"},
+    {"stem": "col_K_mode2", "image": "D:/work/RIP核心分析/work/escp2/probes/col_K.png", "machine": "a3dtf1390", "mode": 2, "variant": "golden"},
+    {"stem": "col_W_mode2", "image": "D:/work/RIP核心分析/work/escp2/probes/col_W.png", "machine": "a3dtf1390", "mode": 2, "variant": "golden"},
+    {"stem": "col_C_mode2", "image": "D:/work/RIP核心分析/work/escp2/probes/col_C.png", "machine": "a3dtf1390", "mode": 2, "variant": "golden"},
+    {"stem": "col_M_mode2", "image": "D:/work/RIP核心分析/work/escp2/probes/col_M.png", "machine": "a3dtf1390", "mode": 2, "variant": "golden"},
+    {"stem": "col_Y_mode2", "image": "D:/work/RIP核心分析/work/escp2/probes/col_Y.png", "machine": "a3dtf1390", "mode": 2, "variant": "golden"},
+    {"stem": "col_R_mode2", "image": "D:/work/RIP核心分析/work/escp2/probes/col_R.png", "machine": "a3dtf1390", "mode": 2, "variant": "golden"},
+    {"stem": "col_G_mode2", "image": "D:/work/RIP核心分析/work/escp2/probes/col_G.png", "machine": "a3dtf1390", "mode": 2, "variant": "golden"},
+    {"stem": "col_B_mode2", "image": "D:/work/RIP核心分析/work/escp2/probes/col_B.png", "machine": "a3dtf1390", "mode": 2, "variant": "golden"}
+  ]
+}

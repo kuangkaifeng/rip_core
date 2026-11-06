@@ -1,0 +1,653 @@
+{
+  "queryMode": {
+    "a3dtf1390": {
+      "inks": [
+        {
+          "colors": [
+            "K",
+            "C",
+            "M",
+            "Y"
+          ],
+          "id": 0,
+          "name": "CMYK",
+          "planes": 4
+        },
+        {
+          "colors": [
+            "K",
+            "C",
+            "M",
+            "Y",
+            "W1",
+            "W2"
+          ],
+          "id": 1,
+          "name": "CMYKW1W2",
+          "planes": 6
+        }
+      ],
+      "modes": [
+        {
+          "colorCorrection": false,
+          "dpi": "v720x360dpi",
+          "id": 0,
+          "ink": "CMYK",
+          "name": "mode-0",
+          "paper": "A3-DTF-1390",
+          "planes": 4
+        },
+        {
+          "colorCorrection": false,
+          "dpi": "v720x360dpi",
+          "id": 1,
+          "ink": "CMYKW1W2",
+          "name": "mode-1",
+          "paper": "A3-DTF-1390",
+          "planes": 6
+        },
+        {
+          "colorCorrection": false,
+          "dpi": "v720x720dpi",
+          "id": 2,
+          "ink": "CMYK",
+          "name": "mode-2",
+          "paper": "A3-DTF-1390",
+          "planes": 4
+        },
+        {
+          "colorCorrection": false,
+          "dpi": "v720x720dpi",
+          "id": 3,
+          "ink": "CMYKW1W2",
+          "name": "mode-3",
+          "paper": "A3-DTF-1390",
+          "planes": 6
+        },
+        {
+          "colorCorrection": false,
+          "dpi": "v1440x720dpi",
+          "id": 4,
+          "ink": "CMYK",
+          "name": "mode-4",
+          "paper": "A3-DTF-1390",
+          "planes": 4
+        },
+        {
+          "colorCorrection": true,
+          "dpi": "v1440x720dpi",
+          "id": 5,
+          "ink": "CMYKW1W2",
+          "name": "mode-5",
+          "paper": "A3-DTF-1390",
+          "planes": 6
+        },
+        {
+          "colorCorrection": false,
+          "dpi": "v1440x1440dpi",
+          "id": 6,
+          "ink": "CMYK",
+          "name": "mode-6",
+          "paper": "A3-DTF-1390",
+          "planes": 4
+        },
+        {
+          "colorCorrection": true,
+          "dpi": "v1440x1440dpi",
+          "id": 7,
+          "ink": "CMYKW1W2",
+          "name": "mode-7",
+          "paper": "A3-DTF-1390",
+          "planes": 6
+        },
+        {
+          "colorCorrection": false,
+          "dpi": "v2880x1440dpi",
+          "id": 8,
+          "ink": "CMYK",
+          "name": "mode-8",
+          "paper": "A3-DTF-1390",
+          "planes": 4
+        },
+        {
+          "colorCorrection": true,
+          "dpi": "v2880x1440dpi",
+          "id": 9,
+          "ink": "CMYKW1W2",
+          "name": "mode-9",
+          "paper": "A3-DTF-1390",
+          "planes": 6
+        },
+        {
+          "colorCorrection": false,
+          "dpi": "v720x360dpi",
+          "id": 10,
+          "ink": "CMYK",
+          "name": "mode-10",
+          "paper": "普通纸-2",
+          "planes": 4
+        },
+        {
+          "colorCorrection": false,
+          "dpi": "v720x360dpi",
+          "id": 11,
+          "ink": "CMYKW1W2",
+          "name": "mode-11",
+          "paper": "普通纸-2",
+          "planes": 6
+        },
+        {
+          "colorCorrection": false,
+          "dpi": "v720x720dpi",
+          "id": 12,
+          "ink": "CMYK",
+          "name": "mode-12",
+          "paper": "普通纸-2",
+          "planes": 4
+        },
+        {
+          "colorCorrection": false,
+          "dpi": "v720x720dpi",
+          "id": 13,
+          "ink": "CMYKW1W2",
+          "name": "mode-13",
+          "paper": "普通纸-2",
+          "planes": 6
+        },
+        {
+          "colorCorrection": false,
+          "dpi": "v1440x720dpi",
+          "id": 14,
+          "ink": "CMYK",
+          "name": "mode-14",
+          "paper": "普通纸-2",
+          "planes": 4
+        },
+        {
+          "colorCorrection": false,
+          "dpi": "v1440x720dpi",
+          "id": 15,
+          "ink": "CMYKW1W2",
+          "name": "mode-15",
+          "paper": "普通纸-2",
+          "planes": 6
+        },
+        {
+          "colorCorrection": false,
+          "dpi": "v1440x1440dpi",
+          "id": 16,
+          "ink": "CMYK",
+          "name": "mode-16",
+          "paper": "普通纸-2",
+          "planes": 4
+        },
+        {
+          "colorCorrection": false,
+          "dpi": "v1440x1440dpi",
+          "id": 17,
+          "ink": "CMYKW1W2",
+          "name": "mode-17",
+          "paper": "普通纸-2",
+          "planes": 6
+        },
+        {
+          "colorCorrection": false,
+          "dpi": "v2880x1440dpi",
+          "id": 18,
+          "ink": "CMYK",
+          "name": "mode-18",
+          "paper": "普通纸-2",
+          "planes": 4
+        },
+        {
+          "colorCorrection": false,
+          "dpi": "v2880x1440dpi",
+          "id": 19,
+          "ink": "CMYKW1W2",
+          "name": "mode-19",
+          "paper": "普通纸-2",
+          "planes": 6
+        },
+        {
+          "colorCorrection": false,
+          "dpi": "v720x360dpi",
+          "id": 20,
+          "ink": "CMYK",
+          "name": "mode-20",
+          "paper": "普通纸-3",
+          "planes": 4
+        },
+        {
+          "colorCorrection": false,
+          "dpi": "v720x360dpi",
+          "id": 21,
+          "ink": "CMYKW1W2",
+          "name": "mode-21",
+          "paper": "普通纸-3",
+          "planes": 6
+        },
+        {
+          "colorCorrection": false,
+          "dpi": "v720x720dpi",
+          "id": 22,
+          "ink": "CMYK",
+          "name": "mode-22",
+          "paper": "普通纸-3",
+          "planes": 4
+        },
+        {
+          "colorCorrection": false,
+          "dpi": "v720x720dpi",
+          "id": 23,
+          "ink": "CMYKW1W2",
+          "name": "mode-23",
+          "paper": "普通纸-3",
+          "planes": 6
+        },
+        {
+          "colorCorrection": false,
+          "dpi": "v1440x720dpi",
+          "id": 24,
+          "ink": "CMYK",
+          "name": "mode-24",
+          "paper": "普通纸-3",
+          "planes": 4
+        },
+        {
+          "colorCorrection": false,
+          "dpi": "v1440x720dpi",
+          "id": 25,
+          "ink": "CMYKW1W2",
+          "name": "mode-25",
+          "paper": "普通纸-3",
+          "planes": 6
+        },
+        {
+          "colorCorrection": false,
+          "dpi": "v1440x1440dpi",
+          "id": 26,
+          "ink": "CMYK",
+          "name": "mode-26",
+          "paper": "普通纸-3",
+          "planes": 4
+        },
+        {
+          "colorCorrection": false,
+          "dpi": "v1440x1440dpi",
+          "id": 27,
+          "ink": "CMYKW1W2",
+          "name": "mode-27",
+          "paper": "普通纸-3",
+          "planes": 6
+        },
+        {
+          "colorCorrection": false,
+          "dpi": "v2880x1440dpi",
+          "id": 28,
+          "ink": "CMYK",
+          "name": "mode-28",
+          "paper": "普通纸-3",
+          "planes": 4
+        },
+        {
+          "colorCorrection": false,
+          "dpi": "v2880x1440dpi",
+          "id": 29,
+          "ink": "CMYKW1W2",
+          "name": "mode-29",
+          "paper": "普通纸-3",
+          "planes": 6
+        }
+      ],
+      "name": "A3-DTF-1390",
+      "result": 0,
+      "_elapsed_s": 0.015
+    },
+    "h13xp600": {
+      "inks": [
+        {
+          "colors": [
+            "K",
+            "C",
+            "M",
+            "Y"
+          ],
+          "id": 0,
+          "name": "CMYK",
+          "planes": 4
+        },
+        {
+          "colors": [
+            "K",
+            "C",
+            "M",
+            "Y",
+            "W1"
+          ],
+          "id": 1,
+          "name": "CMYKW1",
+          "planes": 5
+        }
+      ],
+      "modes": [
+        {
+          "colorCorrection": true,
+          "dpi": "V720x720 dpi",
+          "id": 0,
+          "ink": "CMYKW1",
+          "name": "mode-0",
+          "paper": "DTF",
+          "planes": 5
+        },
+        {
+          "colorCorrection": true,
+          "dpi": "V720x1080 dpi",
+          "id": 1,
+          "ink": "CMYKW1",
+          "name": "mode-1",
+          "paper": "DTF",
+          "planes": 5
+        },
+        {
+          "colorCorrection": true,
+          "dpi": "V720x1440 dpi",
+          "id": 2,
+          "ink": "CMYKW1",
+          "name": "mode-2",
+          "paper": "DTF",
+          "planes": 5
+        },
+        {
+          "colorCorrection": true,
+          "dpi": "V720x2160 dpi",
+          "id": 3,
+          "ink": "CMYKW1",
+          "name": "mode-3",
+          "paper": "DTF",
+          "planes": 5
+        }
+      ],
+      "name": "MTF Better Print Ripserver Driver",
+      "result": 0,
+      "_elapsed_s": 0.008
+    }
+  },
+  "queryFile": {
+    "flat_black_100.png": {
+      "page": {
+        "color": 4,
+        "hasTransparency": false,
+        "height": 21.1685,
+        "width": 21.1685,
+        "xdpi": 119.99,
+        "ydpi": 119.99
+      },
+      "result": 0,
+      "_elapsed_s": 0.028
+    },
+    "flat_white_100.png": {
+      "page": {
+        "color": 4,
+        "hasTransparency": false,
+        "height": 21.1685,
+        "width": 21.1685,
+        "xdpi": 119.99,
+        "ydpi": 119.99
+      },
+      "result": 0,
+      "_elapsed_s": 0.022
+    },
+    "cmyk_quad_100.png": {
+      "page": {
+        "color": 4,
+        "hasTransparency": false,
+        "height": 21.1685,
+        "width": 21.1685,
+        "xdpi": 119.99,
+        "ydpi": 119.99
+      },
+      "result": 0,
+      "_elapsed_s": 0.02
+    },
+    "alpha_checker_100.png": {
+      "page": {
+        "color": 4,
+        "hasTransparency": true,
+        "height": 21.1685,
+        "width": 21.1685,
+        "xdpi": 119.99,
+        "ydpi": 119.99
+      },
+      "result": 0,
+      "_elapsed_s": 0.018
+    },
+    "alpha_grad_100.png": {
+      "page": {
+        "color": 4,
+        "hasTransparency": true,
+        "height": 21.1685,
+        "width": 21.1685,
+        "xdpi": 119.99,
+        "ydpi": 119.99
+      },
+      "result": 0,
+      "_elapsed_s": 0.018
+    },
+    "checker_1px_100.png": {
+      "page": {
+        "color": 4,
+        "hasTransparency": false,
+        "height": 21.1685,
+        "width": 21.1685,
+        "xdpi": 119.99,
+        "ydpi": 119.99
+      },
+      "result": 0,
+      "_elapsed_s": 0.016
+    },
+    "cmyk_quad_720.png": {
+      "page": {
+        "color": 4,
+        "hasTransparency": false,
+        "height": 152.413,
+        "width": 152.413,
+        "xdpi": 119.99,
+        "ydpi": 119.99
+      },
+      "result": 0,
+      "_elapsed_s": 0.016
+    },
+    "flat_black_64.png": {
+      "page": {
+        "color": 4,
+        "hasTransparency": false,
+        "height": 13.5478,
+        "width": 13.5478,
+        "xdpi": 119.99,
+        "ydpi": 119.99
+      },
+      "result": 0,
+      "_elapsed_s": 0.006
+    }
+  },
+  "determinism": {
+    "det_a3dtf1390_m0_none_1": {
+      "result": 0,
+      "size": 191242,
+      "sha256": "e8eb9cfad3b5c754e3714bb5fcfe39cdcb1830d69bd4d762724c0889bf6298b7",
+      "elapsed": 1.039
+    },
+    "det_a3dtf1390_m0_none_2": {
+      "result": 0,
+      "size": 191242,
+      "sha256": "be028222a5916b9f6bd6f09b872ae9a6dbb203964baadbb599eb38f79690b94c",
+      "elapsed": 0.995
+    },
+    "a3dtf1390_m0_none_diff": {
+      "len_a": 191242,
+      "len_b": 191242,
+      "n_ranges": 1,
+      "ranges": [
+        [
+          51,
+          52
+        ]
+      ],
+      "total_diff": 1
+    },
+    "det_a3dtf1390_m2_golden_1": {
+      "result": 0,
+      "size": 321592,
+      "sha256": "4d241748f245f42ed980fc58a4ed84a26cce8d420e3560c7d7891104be217619",
+      "elapsed": 1.017
+    },
+    "det_a3dtf1390_m2_golden_2": {
+      "result": 0,
+      "size": 321592,
+      "sha256": "7f212f64d19f55e6a4337dac61921358360241c6f156096dbe7d7ffcc19a9cbe",
+      "elapsed": 1.051
+    },
+    "a3dtf1390_m2_golden_diff": {
+      "len_a": 321592,
+      "len_b": 321592,
+      "n_ranges": 1,
+      "ranges": [
+        [
+          51,
+          52
+        ]
+      ],
+      "total_diff": 1
+    },
+    "det_h13xp600_m0_none_1": {
+      "result": 0,
+      "size": 456048,
+      "sha256": "782e8606fab1f5f62e46d179dcd04306098bb1ba6fdc86fe5765c470353a19ba",
+      "elapsed": 1.45
+    },
+    "det_h13xp600_m0_none_2": {
+      "result": 0,
+      "size": 456048,
+      "sha256": "782e8606fab1f5f62e46d179dcd04306098bb1ba6fdc86fe5765c470353a19ba",
+      "elapsed": 1.427
+    },
+    "h13xp600_m0_none_diff": {
+      "len_a": 456048,
+      "len_b": 456048,
+      "n_ranges": 0,
+      "ranges": [],
+      "total_diff": 0
+    },
+    "det_h13xp600_m1_golden_1": {
+      "result": 0,
+      "size": 684048,
+      "sha256": "e291f50dc3380c77e3933b8cedd064c045dae6abc49d94cdca2e2109966d3ae7",
+      "elapsed": 1.562
+    },
+    "det_h13xp600_m1_golden_2": {
+      "result": 0,
+      "size": 684048,
+      "sha256": "e291f50dc3380c77e3933b8cedd064c045dae6abc49d94cdca2e2109966d3ae7",
+      "elapsed": 1.413
+    },
+    "h13xp600_m1_golden_diff": {
+      "len_a": 684048,
+      "len_b": 684048,
+      "n_ranges": 0,
+      "ranges": [],
+      "total_diff": 0
+    }
+  },
+  "jobid": {
+    "rip_response": {
+      "result": 0,
+      "_elapsed_s": 1.005
+    },
+    "query_job": {
+      "end": {
+        "time": 1793947697
+      },
+      "result": 0,
+      "state": 2,
+      "_elapsed_s": 0.002
+    }
+  },
+  "config": {
+    "color_before": {
+      "cache": false,
+      "cacheNum": 0,
+      "embeddedICC": true,
+      "readTransparency": true,
+      "result": 0,
+      "transparencyToWhite": false,
+      "_elapsed_s": 0.014
+    },
+    "set_cache_off": {
+      "cacheNum": 0,
+      "result": 0,
+      "_elapsed_s": 0.016
+    },
+    "color_after": {
+      "cache": false,
+      "cacheNum": 0,
+      "embeddedICC": true,
+      "readTransparency": true,
+      "result": 0,
+      "transparencyToWhite": false,
+      "_elapsed_s": 0.002
+    },
+    "errorString_off": {
+      "result": 0,
+      "_elapsed_s": 0.003
+    },
+    "err_when_off": {
+      "result": 6,
+      "_elapsed_s": 0.002
+    },
+    "errorString_on": {
+      "result": 0,
+      "_elapsed_s": 0.025
+    },
+    "err_when_on": {
+      "result": 6,
+      "error": "打开输入文件失败",
+      "_elapsed_s": 0.003
+    },
+    "buffer": {
+      "bitsReverseOrder": false,
+      "output": true,
+      "result": 0,
+      "_elapsed_s": 0.027
+    },
+    "opt": {
+      "halftone": 32,
+      "halftoneBufferMaxLines": 256,
+      "halftoneBufferMaxSize": 268435456,
+      "halftoneCache": true,
+      "interpretation": true,
+      "localCacheDir": "",
+      "multiImageBlockMaxLines": 1024,
+      "multiImageBlockMaxSize": 67108864,
+      "multiImageBlockThreads": 1,
+      "result": 0,
+      "threadBufferMaxLines": 1024,
+      "threadBufferMaxSize": 268435456,
+      "useImageLocalCache": false,
+      "_elapsed_s": 0.003
+    },
+    "color_restore": {
+      "cacheNum": 0,
+      "result": 0,
+      "_elapsed_s": 0.003
+    },
+    "color_after_restore": {
+      "cache": false,
+      "cacheNum": 0,
+      "embeddedICC": true,
+      "readTransparency": true,
+      "result": 0,
+      "transparencyToWhite": false,
+      "_elapsed_s": 0.025
+    }
+  }
+}

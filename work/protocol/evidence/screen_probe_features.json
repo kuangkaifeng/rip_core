@@ -1,0 +1,3837 @@
+[
+  {
+    "stem": "probe_screen_acceptance_test",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_acceptance_test.prn",
+    "features": {
+      "size": 91952,
+      "sha256": "0cdb1232d8251a8d4dc374c15c582f43c24e4089553e75e623389797c7bc5521",
+      "sha256_norm": "37b6582bccf22d6f7ab8489efb1ce18b5c921f61facf957d7863bdd34740250b",
+      "format": "esc/p2",
+      "blocks": 16,
+      "colors": {
+        "0x00": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 67547,
+          "total_px": 875520,
+          "hist": {
+            "1": 22436,
+            "2": 22451,
+            "3": 22660
+          },
+          "coverage": 0.077151
+        },
+        "0x04": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 67555,
+          "total_px": 875520,
+          "hist": {
+            "1": 22459,
+            "2": 22434,
+            "3": 22662
+          },
+          "coverage": 0.07716
+        },
+        "0x11": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 67561,
+          "total_px": 875520,
+          "hist": {
+            "1": 22454,
+            "2": 22441,
+            "3": 22666
+          },
+          "coverage": 0.077167
+        },
+        "0x12": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 67544,
+          "total_px": 875520,
+          "hist": {
+            "1": 22443,
+            "2": 22446,
+            "3": 22655
+          },
+          "coverage": 0.077147
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_cmyk_full4_100_a3dtf1390_m0",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_cmyk_full4_100_a3dtf1390_m0.prn",
+    "features": {
+      "size": 104410,
+      "sha256": "c52fda74c52adc7f98ee143c7df4c3c42efbbe636c4f83b85c4e7367c5a1fbb4",
+      "sha256_norm": "431c33f5e9333235f07a31a4408e839eeeecd317b3b9eae55ae3d453ed5579a0",
+      "format": "esc/p2",
+      "blocks": 9,
+      "colors": {
+        "0x00": {
+          "records": 9,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 180000,
+          "total_px": 492480,
+          "hist": {
+            "1": 0,
+            "2": 4,
+            "3": 179996
+          },
+          "coverage": 0.365497
+        },
+        "0x04": {
+          "records": 9,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179997,
+          "total_px": 492480,
+          "hist": {
+            "1": 0,
+            "2": 1,
+            "3": 179996
+          },
+          "coverage": 0.365491
+        },
+        "0x11": {
+          "records": 9,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 180000,
+          "total_px": 492480,
+          "hist": {
+            "1": 0,
+            "2": 2,
+            "3": 179998
+          },
+          "coverage": 0.365497
+        },
+        "0x12": {
+          "records": 9,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179997,
+          "total_px": 492480,
+          "hist": {
+            "1": 0,
+            "2": 3,
+            "3": 179994
+          },
+          "coverage": 0.365491
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_cmyk_full4_100_a3dtf1390_m2",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_cmyk_full4_100_a3dtf1390_m2.prn",
+    "features": {
+      "size": 120754,
+      "sha256": "5c18fbd1c84e5a2075dc7d9e397c12face389722b25ad73b653e0fddafd3e415",
+      "sha256_norm": "ec1038b03f8eace70d10aaedc2f14e8b7ce171dbd2670f329a6802833f9b299b",
+      "format": "esc/p2",
+      "blocks": 16,
+      "colors": {
+        "0x00": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 360000,
+          "total_px": 875520,
+          "hist": {
+            "1": 0,
+            "2": 8,
+            "3": 359992
+          },
+          "coverage": 0.411184
+        },
+        "0x04": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 359994,
+          "total_px": 875520,
+          "hist": {
+            "1": 0,
+            "2": 4,
+            "3": 359990
+          },
+          "coverage": 0.411177
+        },
+        "0x11": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 360000,
+          "total_px": 875520,
+          "hist": {
+            "1": 0,
+            "2": 5,
+            "3": 359995
+          },
+          "coverage": 0.411184
+        },
+        "0x12": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 359992,
+          "total_px": 875520,
+          "hist": {
+            "1": 0,
+            "2": 5,
+            "3": 359987
+          },
+          "coverage": 0.411175
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_cmyk_full4_100_h13xp600_m0",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_cmyk_full4_100_h13xp600_m0.prn",
+    "features": {
+      "size": 456048,
+      "sha256": "782e8606fab1f5f62e46d179dcd04306098bb1ba6fdc86fe5765c470353a19ba",
+      "sha256_norm": "782e8606fab1f5f62e46d179dcd04306098bb1ba6fdc86fe5765c470353a19ba",
+      "format": "hssf-0x5555"
+    }
+  },
+  {
+    "stem": "probe_screen_cmyk_full_100_a3dtf1390_m0",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_cmyk_full_100_a3dtf1390_m0.prn",
+    "features": {
+      "size": 36680,
+      "sha256": "2cd891c74811f87fe0d80dc5a74ed680bbf524b2599ab0461920ee61708b5613",
+      "sha256_norm": "b4d28f86fb5d19db9c2a9579f600bfac71701f4142bea60dc5fce63b96a729ad",
+      "format": "esc/p2",
+      "blocks": 9,
+      "colors": {
+        "0x00": {
+          "records": 9,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 492480,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x04": {
+          "records": 9,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 179997,
+          "total_px": 492480,
+          "hist": {
+            "1": 0,
+            "2": 1,
+            "3": 179996
+          },
+          "coverage": 0.365491
+        },
+        "0x11": {
+          "records": 9,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 492480,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x12": {
+          "records": 9,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 492480,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_cmyk_full_100_a3dtf1390_m2",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_cmyk_full_100_a3dtf1390_m2.prn",
+    "features": {
+      "size": 48576,
+      "sha256": "d9512aecddaba6591eab283b65780f550698ba2645f010b8418f70b811c678f7",
+      "sha256_norm": "6d344e86b7e52f027563f2fe9432951aff53f1d4c2f25f97a3e461cb66f387fc",
+      "format": "esc/p2",
+      "blocks": 16,
+      "colors": {
+        "0x00": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 875520,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x04": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 359994,
+          "total_px": 875520,
+          "hist": {
+            "1": 0,
+            "2": 4,
+            "3": 359990
+          },
+          "coverage": 0.411177
+        },
+        "0x11": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 875520,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x12": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 875520,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_cmyk_full_100_h13xp600_m0",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_cmyk_full_100_h13xp600_m0.prn",
+    "features": {
+      "size": 456048,
+      "sha256": "9215396201ebb4e6d77e21ab94377387896f13cb2cc3b3aadce9c26eb9f9aac9",
+      "sha256_norm": "9215396201ebb4e6d77e21ab94377387896f13cb2cc3b3aadce9c26eb9f9aac9",
+      "format": "hssf-0x5555"
+    }
+  },
+  {
+    "stem": "probe_screen_cmyk_patch20_100_a3dtf1390_m0",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_cmyk_patch20_100_a3dtf1390_m0.prn",
+    "features": {
+      "size": 52840,
+      "sha256": "6f6a7f9ff98efecb5895fca7f7d14c967b775a8078806a2a368d4829478375b7",
+      "sha256_norm": "c0a89cf07afe3662d420f57409e9355840a8d30633b7a7e14f24335c45a109dd",
+      "format": "esc/p2",
+      "blocks": 9,
+      "colors": {
+        "0x00": {
+          "records": 9,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 33768,
+          "total_px": 492480,
+          "hist": {
+            "1": 11217,
+            "2": 11218,
+            "3": 11333
+          },
+          "coverage": 0.068567
+        },
+        "0x04": {
+          "records": 9,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 33782,
+          "total_px": 492480,
+          "hist": {
+            "1": 11231,
+            "2": 11222,
+            "3": 11329
+          },
+          "coverage": 0.068596
+        },
+        "0x11": {
+          "records": 9,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 33785,
+          "total_px": 492480,
+          "hist": {
+            "1": 11216,
+            "2": 11240,
+            "3": 11329
+          },
+          "coverage": 0.068602
+        },
+        "0x12": {
+          "records": 9,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 33776,
+          "total_px": 492480,
+          "hist": {
+            "1": 11229,
+            "2": 11213,
+            "3": 11334
+          },
+          "coverage": 0.068583
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_cmyk_patch20_100_a3dtf1390_m2",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_cmyk_patch20_100_a3dtf1390_m2.prn",
+    "features": {
+      "size": 91952,
+      "sha256": "6222d5ec94a60181d6b75cd525827f5c7a3f89823c977100c5c7b371e9bda9ab",
+      "sha256_norm": "37b6582bccf22d6f7ab8489efb1ce18b5c921f61facf957d7863bdd34740250b",
+      "format": "esc/p2",
+      "blocks": 16,
+      "colors": {
+        "0x00": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 67547,
+          "total_px": 875520,
+          "hist": {
+            "1": 22436,
+            "2": 22451,
+            "3": 22660
+          },
+          "coverage": 0.077151
+        },
+        "0x04": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 67555,
+          "total_px": 875520,
+          "hist": {
+            "1": 22459,
+            "2": 22434,
+            "3": 22662
+          },
+          "coverage": 0.07716
+        },
+        "0x11": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 67561,
+          "total_px": 875520,
+          "hist": {
+            "1": 22454,
+            "2": 22441,
+            "3": 22666
+          },
+          "coverage": 0.077167
+        },
+        "0x12": {
+          "records": 16,
+          "n": [
+            152
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 67544,
+          "total_px": 875520,
+          "hist": {
+            "1": 22443,
+            "2": 22446,
+            "3": 22655
+          },
+          "coverage": 0.077147
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_cmyk_patch20_100_h13xp600_m0",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_cmyk_patch20_100_h13xp600_m0.prn",
+    "features": {
+      "size": 456048,
+      "sha256": "c48316c24bc5f97a615851690d8c46a032f39032d7f2b780fd08f07ceaa96f1e",
+      "sha256_norm": "c48316c24bc5f97a615851690d8c46a032f39032d7f2b780fd08f07ceaa96f1e",
+      "format": "hssf-0x5555"
+    }
+  },
+  {
+    "stem": "probe_screen_cmyk_ramp16_160_a3dtf1390_m0",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_cmyk_ramp16_160_a3dtf1390_m0.prn",
+    "features": {
+      "size": 135024,
+      "sha256": "93a5454150e1f7a817cce0ad59787f6ac365da95bb3280d229642ea61f5a112c",
+      "sha256_norm": "4add884bbe85e8557fadb003685428f59360f77c1977d3cee29f57efb8f77ede",
+      "format": "esc/p2",
+      "blocks": 11,
+      "colors": {
+        "0x00": {
+          "records": 11,
+          "n": [
+            240
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 93616,
+          "total_px": 950400,
+          "hist": {
+            "1": 36030,
+            "2": 35985,
+            "3": 21601
+          },
+          "coverage": 0.098502
+        },
+        "0x04": {
+          "records": 11,
+          "n": [
+            240
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 93608,
+          "total_px": 950400,
+          "hist": {
+            "1": 36001,
+            "2": 35998,
+            "3": 21609
+          },
+          "coverage": 0.098493
+        },
+        "0x11": {
+          "records": 11,
+          "n": [
+            240
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 93607,
+          "total_px": 950400,
+          "hist": {
+            "1": 36016,
+            "2": 35987,
+            "3": 21604
+          },
+          "coverage": 0.098492
+        },
+        "0x12": {
+          "records": 11,
+          "n": [
+            240
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 93582,
+          "total_px": 950400,
+          "hist": {
+            "1": 35982,
+            "2": 35994,
+            "3": 21606
+          },
+          "coverage": 0.098466
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_cmyk_ramp16_160_a3dtf1390_m2",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_cmyk_ramp16_160_a3dtf1390_m2.prn",
+    "features": {
+      "size": 238884,
+      "sha256": "b5cf3f24a44cb29c89e7cb8846a2ff4955f5f8615fa3c33d93f7bc656ad93aa3",
+      "sha256_norm": "b8b6dd1bcc2236fb9bf4df533557816b4c5def4986cf086f21ca6aa6d0e4a5ee",
+      "format": "esc/p2",
+      "blocks": 21,
+      "colors": {
+        "0x00": {
+          "records": 21,
+          "n": [
+            240
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 187222,
+          "total_px": 1814400,
+          "hist": {
+            "1": 72040,
+            "2": 71984,
+            "3": 43198
+          },
+          "coverage": 0.103187
+        },
+        "0x04": {
+          "records": 21,
+          "n": [
+            240
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 187208,
+          "total_px": 1814400,
+          "hist": {
+            "1": 71999,
+            "2": 72016,
+            "3": 43193
+          },
+          "coverage": 0.103179
+        },
+        "0x11": {
+          "records": 21,
+          "n": [
+            240
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 187193,
+          "total_px": 1814400,
+          "hist": {
+            "1": 71997,
+            "2": 72013,
+            "3": 43183
+          },
+          "coverage": 0.103171
+        },
+        "0x12": {
+          "records": 21,
+          "n": [
+            240
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 187206,
+          "total_px": 1814400,
+          "hist": {
+            "1": 71987,
+            "2": 72020,
+            "3": 43199
+          },
+          "coverage": 0.103178
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_cmyk_ramp16_160_h13xp600_m0",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_cmyk_ramp16_160_h13xp600_m0.prn",
+    "features": {
+      "size": 1152048,
+      "sha256": "3259385f951fe6983a24caaff83236424e8bf362e941a5d4643e9aefea53a2ce",
+      "sha256_norm": "3259385f951fe6983a24caaff83236424e8bf362e941a5d4643e9aefea53a2ce",
+      "format": "hssf-0x5555"
+    }
+  },
+  {
+    "stem": "probe_screen_cmyk_white_100_a3dtf1390_m0",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_cmyk_white_100_a3dtf1390_m0.prn",
+    "features": {
+      "size": 264,
+      "sha256": "3101ebd4ff5fa6362e7b4bb19b2a37bba836be8d183f252d572552aa36fa0a07",
+      "sha256_norm": "61513266cdfb716af22a44e69cc6098ad651f26e598cf0cd3ad2233d2f07240d",
+      "format": "esc/p2",
+      "blocks": 0,
+      "colors": {}
+    }
+  },
+  {
+    "stem": "probe_screen_cmyk_white_100_a3dtf1390_m2",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_cmyk_white_100_a3dtf1390_m2.prn",
+    "features": {
+      "size": 264,
+      "sha256": "a7b38b19e3b1c99b65f43cc5dbaed53e9ae7db884bd32e792b1b2317a84d6531",
+      "sha256_norm": "2a8a4fe4b5bf125d9b48e28c36386dcf6310887e00be9deedb62513328eb4db2",
+      "format": "esc/p2",
+      "blocks": 0,
+      "colors": {}
+    }
+  },
+  {
+    "stem": "probe_screen_cmyk_white_100_h13xp600_m0",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_cmyk_white_100_h13xp600_m0.prn",
+    "features": {
+      "size": 456048,
+      "sha256": "556720de2827238ab06562016237d82a5ae39806b5533fb4c8355495dcb6f791",
+      "sha256_norm": "556720de2827238ab06562016237d82a5ae39806b5533fb4c8355495dcb6f791",
+      "format": "hssf-0x5555"
+    }
+  },
+  {
+    "stem": "probe_screen_probe_C0_a3dtf1390_m0",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_probe_C0_a3dtf1390_m0.prn",
+    "features": {
+      "size": 264,
+      "sha256": "b40d8f724001dac0290f52728aeafae625fad30cd48f0ab447079d440c3cfe08",
+      "sha256_norm": "84f59de6a1039166a0aec099bdddfeb077a0a1e5bdb98715527f6010363f16db",
+      "format": "esc/p2",
+      "blocks": 0,
+      "colors": {}
+    }
+  },
+  {
+    "stem": "probe_screen_probe_C0_a3dtf1390_m2",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_probe_C0_a3dtf1390_m2.prn",
+    "features": {
+      "size": 264,
+      "sha256": "d08019c08bda81d5b6a58ad8cb62eeca45dcd25daf0ceb9d04c43584ec6c2157",
+      "sha256_norm": "387fde6e005a8a83b17e3d33eb0a19451fd0ef22548261e132d702e15edfabdc",
+      "format": "esc/p2",
+      "blocks": 0,
+      "colors": {}
+    }
+  },
+  {
+    "stem": "probe_screen_probe_C128_a3dtf1390_m0",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_probe_C128_a3dtf1390_m0.prn",
+    "features": {
+      "size": 28667,
+      "sha256": "b36891887c57aa690dda827eeefd8d3654103e18456e2ca12b2951b2d2d1b9d8",
+      "sha256_norm": "b11708bcadddd10ee92acc986ecc5fffd2753bf63ab4df849e94ea15dfce41b9",
+      "format": "esc/p2",
+      "blocks": 7,
+      "colors": {
+        "0x00": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 73728,
+          "total_px": 241920,
+          "hist": {
+            "1": 36416,
+            "2": 37312,
+            "3": 0
+          },
+          "coverage": 0.304762
+        },
+        "0x04": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x11": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x12": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_probe_C128_a3dtf1390_m2",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_probe_C128_a3dtf1390_m2.prn",
+    "features": {
+      "size": 51804,
+      "sha256": "1779e3d81fe22120e28f9f17e7b024f65388717f7e274de6db3684719913e436",
+      "sha256_norm": "73f90953af405122a135c7841f3941bd13d7c49e38886994ef0cb12ee018bd52",
+      "format": "esc/p2",
+      "blocks": 13,
+      "colors": {
+        "0x00": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 147456,
+          "total_px": 449280,
+          "hist": {
+            "1": 72865,
+            "2": 74591,
+            "3": 0
+          },
+          "coverage": 0.328205
+        },
+        "0x04": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x11": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x12": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_probe_C192_a3dtf1390_m0",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_probe_C192_a3dtf1390_m0.prn",
+    "features": {
+      "size": 28621,
+      "sha256": "c939fc3802255d0052e82560f0e8fc41370eddfcf4831f35eaa205e3af2a4037",
+      "sha256_norm": "c6f7fbd405c1571ad5981ded20c1d19c2652676c56d71e1c47fe756ea9c1d619",
+      "format": "esc/p2",
+      "blocks": 7,
+      "colors": {
+        "0x00": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 73728,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 54653,
+            "3": 19075
+          },
+          "coverage": 0.304762
+        },
+        "0x04": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x11": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x12": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_probe_C192_a3dtf1390_m2",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_probe_C192_a3dtf1390_m2.prn",
+    "features": {
+      "size": 51702,
+      "sha256": "cb6392f154a1a3c5a5f5f303d4df3a02701aa2a442affb08d2d64d60143362e5",
+      "sha256_norm": "182b8c8eaae25f48fce969761de053723028c6ee7543ecfe1e04d601ecfebee6",
+      "format": "esc/p2",
+      "blocks": 13,
+      "colors": {
+        "0x00": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 147456,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 109301,
+            "3": 38155
+          },
+          "coverage": 0.328205
+        },
+        "0x04": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x11": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x12": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_probe_C255_a3dtf1390_m0",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_probe_C255_a3dtf1390_m0.prn",
+    "features": {
+      "size": 14949,
+      "sha256": "9c82b6f34e6b4a1e328d4bf73f05b0ff5431d7973146256d1df314502625c894",
+      "sha256_norm": "ed04730001e34f2631472819afe6a76e26f614ec010e2a4af1bfbec12a585790",
+      "format": "esc/p2",
+      "blocks": 7,
+      "colors": {
+        "0x00": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 73728,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 3,
+            "3": 73725
+          },
+          "coverage": 0.304762
+        },
+        "0x04": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x11": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x12": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_probe_C255_a3dtf1390_m2",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_probe_C255_a3dtf1390_m2.prn",
+    "features": {
+      "size": 19985,
+      "sha256": "dc325f21fc3286b1d3f7783999fa25feb528d34777ca759c33e631da06f4b915",
+      "sha256_norm": "2cbbb58e107668071077736a4255ff9b13ed7f6abe4be5fc8b6f67a26f588134",
+      "format": "esc/p2",
+      "blocks": 13,
+      "colors": {
+        "0x00": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 147456,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 4,
+            "3": 147452
+          },
+          "coverage": 0.328205
+        },
+        "0x04": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x11": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x12": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_probe_C64_a3dtf1390_m0",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_probe_C64_a3dtf1390_m0.prn",
+    "features": {
+      "size": 28459,
+      "sha256": "460beb83ade8231ca15b78b9ac457905c1187284bc6e3815c9b5732fba3e4178",
+      "sha256_norm": "ccafb42460e2bceacd942ac961039eb2057d46030932d70c220845b96a5ed5a3",
+      "format": "esc/p2",
+      "blocks": 7,
+      "colors": {
+        "0x00": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 55508,
+          "total_px": 241920,
+          "hist": {
+            "1": 55508,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.229448
+        },
+        "0x04": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x11": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x12": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_probe_C64_a3dtf1390_m2",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_probe_C64_a3dtf1390_m2.prn",
+    "features": {
+      "size": 51526,
+      "sha256": "586325d256dff6bd51ece25cae6e53209528b87cdc4a314a413cfc0ffa26d9b2",
+      "sha256_norm": "9c3b04a17ff86ad8abf68b5059a837d574f57409acd1fdf0d11e6fb838b7316e",
+      "format": "esc/p2",
+      "blocks": 13,
+      "colors": {
+        "0x00": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 110993,
+          "total_px": 449280,
+          "hist": {
+            "1": 110993,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.247046
+        },
+        "0x04": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x11": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x12": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_probe_K0_a3dtf1390_m0",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_probe_K0_a3dtf1390_m0.prn",
+    "features": {
+      "size": 264,
+      "sha256": "8637b73cb42c3471decfe73b22085dbe209a958a3cd7ec57140fb7bf930b98bf",
+      "sha256_norm": "84f59de6a1039166a0aec099bdddfeb077a0a1e5bdb98715527f6010363f16db",
+      "format": "esc/p2",
+      "blocks": 0,
+      "colors": {}
+    }
+  },
+  {
+    "stem": "probe_screen_probe_K0_a3dtf1390_m2",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_probe_K0_a3dtf1390_m2.prn",
+    "features": {
+      "size": 264,
+      "sha256": "360a28b79131994ec419c000113c19ffeca7971ab31a578e1b2556ed4403c232",
+      "sha256_norm": "387fde6e005a8a83b17e3d33eb0a19451fd0ef22548261e132d702e15edfabdc",
+      "format": "esc/p2",
+      "blocks": 0,
+      "colors": {}
+    }
+  },
+  {
+    "stem": "probe_screen_probe_K128_a3dtf1390_m0",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_probe_K128_a3dtf1390_m0.prn",
+    "features": {
+      "size": 28673,
+      "sha256": "3a0f47a48a0a1a180e55a97e64b8a6055ac1b43e61a9ba730caad7bd1d9c1222",
+      "sha256_norm": "f852c8a4fc00d3d2c5bcc3136ae7c27742533a891af9cd4dd15dbed48d4dbcee",
+      "format": "esc/p2",
+      "blocks": 7,
+      "colors": {
+        "0x00": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x04": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 73725,
+          "total_px": 241920,
+          "hist": {
+            "1": 36438,
+            "2": 37287,
+            "3": 0
+          },
+          "coverage": 0.30475
+        },
+        "0x11": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x12": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_probe_K128_a3dtf1390_m2",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_probe_K128_a3dtf1390_m2.prn",
+    "features": {
+      "size": 51776,
+      "sha256": "034655fad90a03f915253be740efbf76aec0e5f2a6463d0f8fed7134b382e24f",
+      "sha256_norm": "329448af4e7a98425bc8a3485d8c5c8cc0afba7976496b0d9f27aa43288fd3ff",
+      "format": "esc/p2",
+      "blocks": 13,
+      "colors": {
+        "0x00": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x04": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 147452,
+          "total_px": 449280,
+          "hist": {
+            "1": 72882,
+            "2": 74570,
+            "3": 0
+          },
+          "coverage": 0.328196
+        },
+        "0x11": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x12": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_probe_K192_a3dtf1390_m0",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_probe_K192_a3dtf1390_m0.prn",
+    "features": {
+      "size": 28637,
+      "sha256": "607a18b8c37e570a13b1d4fb9319635705d35abfe2711d5783d7b858c2f3c2dc",
+      "sha256_norm": "a04fa0602dd0c96d7758e84282096346596a546706e35f084bf5ebb0c2cffd82",
+      "format": "esc/p2",
+      "blocks": 7,
+      "colors": {
+        "0x00": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x04": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 73725,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 54634,
+            "3": 19091
+          },
+          "coverage": 0.30475
+        },
+        "0x11": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x12": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_probe_K192_a3dtf1390_m2",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_probe_K192_a3dtf1390_m2.prn",
+    "features": {
+      "size": 51680,
+      "sha256": "864e228ad6c8e96d68dacb377e930e413c84075dd60f5f55a6e26fdc6a7056bc",
+      "sha256_norm": "789bb355e560838babb5d6c8f4c6b090817af0550b404e0bfa74e24beb9eebb8",
+      "format": "esc/p2",
+      "blocks": 13,
+      "colors": {
+        "0x00": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x04": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 147452,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 109283,
+            "3": 38169
+          },
+          "coverage": 0.328196
+        },
+        "0x11": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x12": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_probe_K255_a3dtf1390_m0",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_probe_K255_a3dtf1390_m0.prn",
+    "features": {
+      "size": 14967,
+      "sha256": "bad4494406567c17695336e5b45cc44f7e2926ad15c82fd4bc5d92f30dd8ea4c",
+      "sha256_norm": "a69a1e9bb6ea842bf53f6fc2104108d629b52201aad51441f0553cbff2a5c646",
+      "format": "esc/p2",
+      "blocks": 7,
+      "colors": {
+        "0x00": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x04": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 73725,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 73725
+          },
+          "coverage": 0.30475
+        },
+        "0x11": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x12": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_probe_K255_a3dtf1390_m2",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_probe_K255_a3dtf1390_m2.prn",
+    "features": {
+      "size": 19854,
+      "sha256": "caeefdb2ece75fac065e3a920acecd26507a2f3e14d902241e8d3ba1ae384741",
+      "sha256_norm": "21cc5b183ee1eafed1c12240c53e8de936987ba1aa8be95e6b4fec4b9ab7d6ba",
+      "format": "esc/p2",
+      "blocks": 13,
+      "colors": {
+        "0x00": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x04": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 147452,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 1,
+            "3": 147451
+          },
+          "coverage": 0.328196
+        },
+        "0x11": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x12": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_probe_K64_a3dtf1390_m0",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_probe_K64_a3dtf1390_m0.prn",
+    "features": {
+      "size": 28449,
+      "sha256": "99e8484971f9538a52fb105cd4a7214f4c6bcc7a0310106ef810e8639e554eea",
+      "sha256_norm": "2a44c5346b26602896d302586619d23458d3cde327eec678cfd8b98af37720b3",
+      "format": "esc/p2",
+      "blocks": 7,
+      "colors": {
+        "0x00": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x04": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 55512,
+          "total_px": 241920,
+          "hist": {
+            "1": 55512,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.229464
+        },
+        "0x11": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x12": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_probe_K64_a3dtf1390_m2",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_probe_K64_a3dtf1390_m2.prn",
+    "features": {
+      "size": 51464,
+      "sha256": "ed258a45d50f6fc953ddbb149756c52249f7a82b7ca71b50b910a0cc2176b630",
+      "sha256_norm": "1feb15e4a739aec82159cbc7361916bf28b7c44cab253f82427d86478d76ed49",
+      "format": "esc/p2",
+      "blocks": 13,
+      "colors": {
+        "0x00": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x04": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 111047,
+          "total_px": 449280,
+          "hist": {
+            "1": 111047,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.247167
+        },
+        "0x11": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x12": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_probe_M0_a3dtf1390_m0",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_probe_M0_a3dtf1390_m0.prn",
+    "features": {
+      "size": 264,
+      "sha256": "b40d8f724001dac0290f52728aeafae625fad30cd48f0ab447079d440c3cfe08",
+      "sha256_norm": "84f59de6a1039166a0aec099bdddfeb077a0a1e5bdb98715527f6010363f16db",
+      "format": "esc/p2",
+      "blocks": 0,
+      "colors": {}
+    }
+  },
+  {
+    "stem": "probe_screen_probe_M0_a3dtf1390_m2",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_probe_M0_a3dtf1390_m2.prn",
+    "features": {
+      "size": 264,
+      "sha256": "d08019c08bda81d5b6a58ad8cb62eeca45dcd25daf0ceb9d04c43584ec6c2157",
+      "sha256_norm": "387fde6e005a8a83b17e3d33eb0a19451fd0ef22548261e132d702e15edfabdc",
+      "format": "esc/p2",
+      "blocks": 0,
+      "colors": {}
+    }
+  },
+  {
+    "stem": "probe_screen_probe_M128_a3dtf1390_m0",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_probe_M128_a3dtf1390_m0.prn",
+    "features": {
+      "size": 28549,
+      "sha256": "2e3cf67cfd5bdca9be4a637820d393afe77546351a77601347e3d4a0d6ac2f0d",
+      "sha256_norm": "70ad01ac3e836e0043435d7ffb4f48f38b9f42ce69dd66418c8d0e1d128d37cb",
+      "format": "esc/p2",
+      "blocks": 7,
+      "colors": {
+        "0x00": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x04": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x11": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x12": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 73728,
+          "total_px": 241920,
+          "hist": {
+            "1": 36454,
+            "2": 37274,
+            "3": 0
+          },
+          "coverage": 0.304762
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_probe_M128_a3dtf1390_m2",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_probe_M128_a3dtf1390_m2.prn",
+    "features": {
+      "size": 51722,
+      "sha256": "8f49adcc9f9efd8d0761813f7ab7482e67b37b1834b8dd46f4f6ed1a3b9590ca",
+      "sha256_norm": "0162cf97a155fbf3095d128cb3c54ff2bddcd6432bf29ef1443cea3ea3af1044",
+      "format": "esc/p2",
+      "blocks": 13,
+      "colors": {
+        "0x00": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x04": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x11": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x12": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 147420,
+          "total_px": 449280,
+          "hist": {
+            "1": 72844,
+            "2": 74576,
+            "3": 0
+          },
+          "coverage": 0.328125
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_probe_M192_a3dtf1390_m0",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_probe_M192_a3dtf1390_m0.prn",
+    "features": {
+      "size": 28490,
+      "sha256": "6b80b0a93841fe6e4e105c94d27fd3087172e94426951b8919d7c427ecf33972",
+      "sha256_norm": "2aa255747b98f223999c6948cdb76d90c01dae7623ce0692ee3fde8536f5b365",
+      "format": "esc/p2",
+      "blocks": 7,
+      "colors": {
+        "0x00": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x04": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x11": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x12": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 73728,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 54646,
+            "3": 19082
+          },
+          "coverage": 0.304762
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_probe_M192_a3dtf1390_m2",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_probe_M192_a3dtf1390_m2.prn",
+    "features": {
+      "size": 51606,
+      "sha256": "f06681344b6aefca08a47ab138d56fee76e568e74a700ffaeac94a2e6952c35d",
+      "sha256_norm": "b5010d6b99fd0bec4d8713d45ceb83be635f2d4f0a021cf19e29695feba088fe",
+      "format": "esc/p2",
+      "blocks": 13,
+      "colors": {
+        "0x00": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x04": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x11": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x12": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 147420,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 109276,
+            "3": 38144
+          },
+          "coverage": 0.328125
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_probe_M255_a3dtf1390_m0",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_probe_M255_a3dtf1390_m0.prn",
+    "features": {
+      "size": 14691,
+      "sha256": "4430e0a67bd2ce3453d218b071e64cf12f543aae2c04606d20fcb2e7bc819f70",
+      "sha256_norm": "4872434420cb9c84748920534f4b00373470e678089b8f8b789a8550b952ec29",
+      "format": "esc/p2",
+      "blocks": 7,
+      "colors": {
+        "0x00": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x04": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x11": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x12": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 73728,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 1,
+            "3": 73727
+          },
+          "coverage": 0.304762
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_probe_M255_a3dtf1390_m2",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_probe_M255_a3dtf1390_m2.prn",
+    "features": {
+      "size": 19899,
+      "sha256": "f9f309faa9c76bfb5383d17955e8336c8b033af1b0fe7657765a69e4bac69365",
+      "sha256_norm": "6df0e5843edc7775f6979f2b6f22b5a8729c3c42cf55160b1ef17d68de24d314",
+      "format": "esc/p2",
+      "blocks": 13,
+      "colors": {
+        "0x00": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x04": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x11": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x12": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 147420,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 3,
+            "3": 147417
+          },
+          "coverage": 0.328125
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_probe_M64_a3dtf1390_m0",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_probe_M64_a3dtf1390_m0.prn",
+    "features": {
+      "size": 28346,
+      "sha256": "3d6580f4450c2c37be924f33546710c74ee1701a99e261e1f5b9f1ae9319596f",
+      "sha256_norm": "6ed51fe7f6da6ab614006df0ff33136ff5b35cc46093c03598c13304175f1c12",
+      "format": "esc/p2",
+      "blocks": 7,
+      "colors": {
+        "0x00": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x04": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x11": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x12": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 55497,
+          "total_px": 241920,
+          "hist": {
+            "1": 55497,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.229402
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_probe_M64_a3dtf1390_m2",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_probe_M64_a3dtf1390_m2.prn",
+    "features": {
+      "size": 51409,
+      "sha256": "e01fda1fe30c4318282cce2feeb56c98192f2f31bd378e2bff3205a3cc5ca07b",
+      "sha256_norm": "3b68e733a14b5da0b420923d0c46d35dd27b0ce6d71ed3313b71f55697246d58",
+      "format": "esc/p2",
+      "blocks": 13,
+      "colors": {
+        "0x00": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x04": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x11": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x12": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 110990,
+          "total_px": 449280,
+          "hist": {
+            "1": 110990,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.24704
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_probe_Y0_a3dtf1390_m0",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_probe_Y0_a3dtf1390_m0.prn",
+    "features": {
+      "size": 264,
+      "sha256": "8637b73cb42c3471decfe73b22085dbe209a958a3cd7ec57140fb7bf930b98bf",
+      "sha256_norm": "84f59de6a1039166a0aec099bdddfeb077a0a1e5bdb98715527f6010363f16db",
+      "format": "esc/p2",
+      "blocks": 0,
+      "colors": {}
+    }
+  },
+  {
+    "stem": "probe_screen_probe_Y0_a3dtf1390_m2",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_probe_Y0_a3dtf1390_m2.prn",
+    "features": {
+      "size": 264,
+      "sha256": "360a28b79131994ec419c000113c19ffeca7971ab31a578e1b2556ed4403c232",
+      "sha256_norm": "387fde6e005a8a83b17e3d33eb0a19451fd0ef22548261e132d702e15edfabdc",
+      "format": "esc/p2",
+      "blocks": 0,
+      "colors": {}
+    }
+  },
+  {
+    "stem": "probe_screen_probe_Y128_a3dtf1390_m0",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_probe_Y128_a3dtf1390_m0.prn",
+    "features": {
+      "size": 28560,
+      "sha256": "b44cf096cf2aeaa01eba93397fcb363230b65c3b7ecbc34364fbb97a3cb4f381",
+      "sha256_norm": "42807e1343cc5360ed5ce9938e65f0b328541bf599ef866d19b686e6fb2c4d53",
+      "format": "esc/p2",
+      "blocks": 7,
+      "colors": {
+        "0x00": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x04": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x11": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 73728,
+          "total_px": 241920,
+          "hist": {
+            "1": 36423,
+            "2": 37305,
+            "3": 0
+          },
+          "coverage": 0.304762
+        },
+        "0x12": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_probe_Y128_a3dtf1390_m2",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_probe_Y128_a3dtf1390_m2.prn",
+    "features": {
+      "size": 51686,
+      "sha256": "f22cfba6373e8ca5473eef9f8e0f00350519f12d7cc89f58303582b43df9e5cd",
+      "sha256_norm": "0f4268c4e94bae4dd31f4eeb20f5eb57138094f4c4509b120ab549a086558dc5",
+      "format": "esc/p2",
+      "blocks": 13,
+      "colors": {
+        "0x00": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x04": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x11": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 147422,
+          "total_px": 449280,
+          "hist": {
+            "1": 72833,
+            "2": 74589,
+            "3": 0
+          },
+          "coverage": 0.328129
+        },
+        "0x12": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_probe_Y192_a3dtf1390_m0",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_probe_Y192_a3dtf1390_m0.prn",
+    "features": {
+      "size": 28519,
+      "sha256": "de74156bf4fa187ac17f80a7ad9d826b1a171f9fee0bf70a386535056ea60ff1",
+      "sha256_norm": "2baf760cde6cc75f940814dc3bde97c573beff30f8540ea60ab36804dc1959ad",
+      "format": "esc/p2",
+      "blocks": 7,
+      "colors": {
+        "0x00": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x04": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x11": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 73728,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 54627,
+            "3": 19101
+          },
+          "coverage": 0.304762
+        },
+        "0x12": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_probe_Y192_a3dtf1390_m2",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_probe_Y192_a3dtf1390_m2.prn",
+    "features": {
+      "size": 51592,
+      "sha256": "dc944fb44306671fa626483502dd1288c777ef727d7768bda11b27fd6328f946",
+      "sha256_norm": "b3f1a918045e22ddf0d62af6be4f17b262548d0e61e17f39ebd3528c3e0b8d8c",
+      "format": "esc/p2",
+      "blocks": 13,
+      "colors": {
+        "0x00": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x04": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x11": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 147422,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 109258,
+            "3": 38164
+          },
+          "coverage": 0.328129
+        },
+        "0x12": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_probe_Y255_a3dtf1390_m0",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_probe_Y255_a3dtf1390_m0.prn",
+    "features": {
+      "size": 14733,
+      "sha256": "d2e97cfced387ad7a5938ef3495845f6c7a456d527e9c446b6bf2dfb113f0acd",
+      "sha256_norm": "766bbe77c3eea6172203d5378ab9dd8c853f521a822d00a372c02a47559fb0e9",
+      "format": "esc/p2",
+      "blocks": 7,
+      "colors": {
+        "0x00": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x04": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x11": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 73728,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 1,
+            "3": 73727
+          },
+          "coverage": 0.304762
+        },
+        "0x12": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_probe_Y255_a3dtf1390_m2",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_probe_Y255_a3dtf1390_m2.prn",
+    "features": {
+      "size": 19830,
+      "sha256": "23bc5d4e461ed900bed7d4262c29a966c66bb71069b7d0b6ede6848227d1f6ba",
+      "sha256_norm": "837092df5844684b4f4a5db389476b741ab7a8f13ea895e190b1155b0fc21161",
+      "format": "esc/p2",
+      "blocks": 13,
+      "colors": {
+        "0x00": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x04": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x11": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 147422,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 2,
+            "3": 147420
+          },
+          "coverage": 0.328129
+        },
+        "0x12": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_probe_Y64_a3dtf1390_m0",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_probe_Y64_a3dtf1390_m0.prn",
+    "features": {
+      "size": 28381,
+      "sha256": "866d78bc21e60ba5a21ab8757c39b4d57494d186dbe65c3304d6663bfbb7b6d0",
+      "sha256_norm": "cd03edb1c9023f2dda9a24d86793c94d11830f2ab164a1b0968a4fafc6d7ff72",
+      "format": "esc/p2",
+      "blocks": 7,
+      "colors": {
+        "0x00": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x04": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x11": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 55521,
+          "total_px": 241920,
+          "hist": {
+            "1": 55521,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.229501
+        },
+        "0x12": {
+          "records": 7,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 241920,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_probe_Y64_a3dtf1390_m2",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_probe_Y64_a3dtf1390_m2.prn",
+    "features": {
+      "size": 51377,
+      "sha256": "09fa9226a10a64d6a5947b2d26746f626681075afa3a3a495fd38cc4a7bf9a33",
+      "sha256_norm": "206e17f26de0bf6f45063a7b949fd7ce749a08496722561867818bb2fce8bcd5",
+      "format": "esc/p2",
+      "blocks": 13,
+      "colors": {
+        "0x00": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x04": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        },
+        "0x11": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 111006,
+          "total_px": 449280,
+          "hist": {
+            "1": 111006,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.247075
+        },
+        "0x12": {
+          "records": 13,
+          "n": [
+            96
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 0,
+          "total_px": 449280,
+          "hist": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "coverage": 0.0
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_rgb_gray16_160_a3dtf1390_m0",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_rgb_gray16_160_a3dtf1390_m0.prn",
+    "features": {
+      "size": 448635,
+      "sha256": "0b1db8bfbfbe825bba87b62b0fe37a0f4886ac76e511471c5024dbeb3ad863bf",
+      "sha256_norm": "233cd05ea79d2e2f58ad77780c97d6e874aeeaf265115e0c868e2f1c38f1cc2d",
+      "format": "esc/p2",
+      "blocks": 11,
+      "colors": {
+        "0x00": {
+          "records": 11,
+          "n": [
+            240
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 368534,
+          "total_px": 950400,
+          "hist": {
+            "1": 139755,
+            "2": 211360,
+            "3": 17419
+          },
+          "coverage": 0.387767
+        },
+        "0x04": {
+          "records": 11,
+          "n": [
+            240
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 203961,
+          "total_px": 950400,
+          "hist": {
+            "1": 82586,
+            "2": 75857,
+            "3": 45518
+          },
+          "coverage": 0.214605
+        },
+        "0x11": {
+          "records": 11,
+          "n": [
+            240
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 356402,
+          "total_px": 950400,
+          "hist": {
+            "1": 168128,
+            "2": 188086,
+            "3": 188
+          },
+          "coverage": 0.375002
+        },
+        "0x12": {
+          "records": 11,
+          "n": [
+            240
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 355288,
+          "total_px": 950400,
+          "hist": {
+            "1": 164000,
+            "2": 189034,
+            "3": 2254
+          },
+          "coverage": 0.37383
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_rgb_gray16_160_a3dtf1390_m2",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_rgb_gray16_160_a3dtf1390_m2.prn",
+    "features": {
+      "size": 796602,
+      "sha256": "035bd94d6f2165fc0cbd9b3d4469727e9c6251c7a3c273f4c94c6fae848291da",
+      "sha256_norm": "396d95147e120052d4d0b18cc28a51cf439adeb50519c086641a8f4be399381d",
+      "format": "esc/p2",
+      "blocks": 21,
+      "colors": {
+        "0x00": {
+          "records": 21,
+          "n": [
+            240
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 737078,
+          "total_px": 1814400,
+          "hist": {
+            "1": 279457,
+            "2": 422792,
+            "3": 34829
+          },
+          "coverage": 0.406238
+        },
+        "0x04": {
+          "records": 21,
+          "n": [
+            240
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 407924,
+          "total_px": 1814400,
+          "hist": {
+            "1": 165153,
+            "2": 151700,
+            "3": 91071
+          },
+          "coverage": 0.224826
+        },
+        "0x11": {
+          "records": 21,
+          "n": [
+            240
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 712821,
+          "total_px": 1814400,
+          "hist": {
+            "1": 336298,
+            "2": 376145,
+            "3": 378
+          },
+          "coverage": 0.392869
+        },
+        "0x12": {
+          "records": 21,
+          "n": [
+            240
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 710569,
+          "total_px": 1814400,
+          "hist": {
+            "1": 327992,
+            "2": 378040,
+            "3": 4537
+          },
+          "coverage": 0.391628
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_rgb_gray16_160_h13xp600_m0",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_rgb_gray16_160_h13xp600_m0.prn",
+    "features": {
+      "size": 1152048,
+      "sha256": "f31152f36bf2d2fac06c22bc7e3f32704d84b94fecf1da88efd8bff13bce3551",
+      "sha256_norm": "f31152f36bf2d2fac06c22bc7e3f32704d84b94fecf1da88efd8bff13bce3551",
+      "format": "hssf-0x5555"
+    }
+  },
+  {
+    "stem": "probe_screen_rgb_ramps16_160_a3dtf1390_m0",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_rgb_ramps16_160_a3dtf1390_m0.prn",
+    "features": {
+      "size": 398492,
+      "sha256": "b8f32dcfe5d6f07dc05e71974fbb3d496e5482e3df9e68caa9b9e908538f9b10",
+      "sha256_norm": "5ebb237813dba94dc83d2b89db3aa92ae06335c3c6c45c3b8edc415c30a5168e",
+      "format": "esc/p2",
+      "blocks": 11,
+      "colors": {
+        "0x00": {
+          "records": 11,
+          "n": [
+            240
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 405445,
+          "total_px": 950400,
+          "hist": {
+            "1": 63157,
+            "2": 96892,
+            "3": 245396
+          },
+          "coverage": 0.426605
+        },
+        "0x04": {
+          "records": 11,
+          "n": [
+            240
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 250795,
+          "total_px": 950400,
+          "hist": {
+            "1": 96788,
+            "2": 99612,
+            "3": 54395
+          },
+          "coverage": 0.263884
+        },
+        "0x11": {
+          "records": 11,
+          "n": [
+            240
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 380232,
+          "total_px": 950400,
+          "hist": {
+            "1": 45082,
+            "2": 107462,
+            "3": 227688
+          },
+          "coverage": 0.400076
+        },
+        "0x12": {
+          "records": 11,
+          "n": [
+            240
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 391068,
+          "total_px": 950400,
+          "hist": {
+            "1": 48386,
+            "2": 124165,
+            "3": 218517
+          },
+          "coverage": 0.411477
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_rgb_ramps16_160_a3dtf1390_m2",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_rgb_ramps16_160_a3dtf1390_m2.prn",
+    "features": {
+      "size": 674316,
+      "sha256": "ba3006f4cd4668302b7eefc7db802792e6f5a7a831aa7c80babe3d4d7a65d554",
+      "sha256_norm": "12085d8a2d07fe7f32de50c9b37df888da21c2b5bec352fc738837bdff629f35",
+      "format": "esc/p2",
+      "blocks": 21,
+      "colors": {
+        "0x00": {
+          "records": 21,
+          "n": [
+            240
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 810883,
+          "total_px": 1814400,
+          "hist": {
+            "1": 126316,
+            "2": 193822,
+            "3": 490745
+          },
+          "coverage": 0.446915
+        },
+        "0x04": {
+          "records": 21,
+          "n": [
+            240
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 501566,
+          "total_px": 1814400,
+          "hist": {
+            "1": 193576,
+            "2": 199207,
+            "3": 108783
+          },
+          "coverage": 0.276436
+        },
+        "0x11": {
+          "records": 21,
+          "n": [
+            240
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 760463,
+          "total_px": 1814400,
+          "hist": {
+            "1": 90172,
+            "2": 214895,
+            "3": 455396
+          },
+          "coverage": 0.419126
+        },
+        "0x12": {
+          "records": 21,
+          "n": [
+            240
+          ],
+          "m": [
+            90
+          ],
+          "ink_px": 782173,
+          "total_px": 1814400,
+          "hist": {
+            "1": 96836,
+            "2": 248278,
+            "3": 437059
+          },
+          "coverage": 0.431092
+        }
+      }
+    }
+  },
+  {
+    "stem": "probe_screen_rgb_ramps16_160_h13xp600_m0",
+    "prn": "D:\\work\\RIP核心分析\\reference\\prn_samples\\probe_screen_rgb_ramps16_160_h13xp600_m0.prn",
+    "features": {
+      "size": 1152048,
+      "sha256": "0c2f58bca767dc0fce5903da230d2d00c161d4f6d211e4a8c874dae61b7f8436",
+      "sha256_norm": "0c2f58bca767dc0fce5903da230d2d00c161d4f6d211e4a8c874dae61b7f8436",
+      "format": "hssf-0x5555"
+    }
+  }
+]
